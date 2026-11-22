@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-02",
+  "question": "When the biggest open AI models need huge machines, who can really use them?",
+  "reflection": "Clever engineering that makes large models cheaper to run can widen who gets to build with AI, not only the richest labs.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "How Moonshot engineered a 2.8T behemoth to run in production", "link": ""}
+  ],
+  "one_line": "The largest open-weight model so far shows that making AI practical now depends as much on engineering tricks as on size.",
+  "top_stories": [
+    {
+      "title": "A record-size open model",
+      "what": "Moonshot AI released the weights of Kimi K3, reported at 2.8 trillion parameters, with only a small share of them used for each word it produces.",
+      "why": "Open models near the top tier give organisations an option they can host themselves instead of renting from a few labs.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["open models", "frontier"]
+    },
+    {
+      "title": "Shrinking the memory bill",
+      "what": "The model mixes a fast attention method with a compressed one and was trained to work in very low number precision, so it needs far less memory than its size suggests.",
+      "why": "Lower running costs decide whether long-document analysis is affordable for research projects.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["infrastructure", "efficiency"]
+    },
+    {
+      "title": "Strong at office-style tasks",
+      "what": "An independent ranking reportedly puts it third overall and near the top on agent tasks that look like everyday knowledge work.",
+      "why": "Benchmarks on realistic office tasks are more useful for clients than abstract test scores.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["benchmarks"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Open models of this class could be hosted in Saudi data centres, which supports national goals on keeping sensitive data in the Kingdom, if the hardware is available."}
+  ],
+  "idea": {
+    "title": "Self-hosted model readiness check",
+    "pitch": "A short assessment that tells an organisation whether an open model on its own servers could replace a paid AI service for one task.",
+    "fit": "Government digital services, culture sector",
+    "first_step": "Pick one task, such as summarising Arabic reports, and list the data rules it must follow."
+  },
+  "idea_kids": {
+    "title": "Pack the suitcase",
+    "pitch": "A puzzle activity where children fit many items into a small suitcase by folding and grouping, showing how engineers squeeze big things into small spaces.",
+    "age": "6 to 10",
+    "first_step": "Cut out paper shapes of different sizes and a box outline they must all fit inside."
+  },
+  "watchlist": [
+    {"name": "Moonshot AI", "sector": "Frontier models", "note": "Now holds the largest open-weight model released so far."},
+    {"name": "Unsloth", "sector": "AI infrastructure and chips", "note": "Compressed the model to a much smaller size for cheaper hardware."}
+  ],
+  "tool": null,
+  "verify": [
+    "Kimi K3 reportedly rivals leading closed models from major labs and ranks third on an independent index."
+  ],
+  "entities": [
+    {"name": "Moonshot AI", "type": "company", "sector": "Frontier models", "url": "https://www.moonshot.ai", "note": "Released the Kimi K3 open-weight model."},
+    {"name": "Kimi K3", "type": "model", "sector": "Frontier models", "url": "", "note": "A very large mixture-of-experts model with a long context window."},
+    {"name": "Unsloth", "type": "company", "sector": "AI infrastructure and chips", "url": "https://unsloth.ai", "note": "Made heavily compressed versions of the model."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Its compressed attention method is reused in the model."}
+  ],
+  "terms": [
+    {"term": "Mixture of experts", "definition": "A model design where only a few specialised parts switch on for each piece of input, saving computing power.", "audience": "builder"},
+    {"term": "Open-weight model", "definition": "An AI model whose trained settings are published so anyone can download and run it.", "audience": "lay"},
+    {"term": "Quantization", "definition": "Storing a model's numbers with less detail so it uses less memory and runs faster.", "audience": "builder"},
+    {"term": "KV cache", "definition": "Memory a model keeps of earlier words so it does not have to reprocess them.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Open models reach top-tier size and rely on shared research to stay usable.", "audience": ["builder", "decision"], "entities": ["Moonshot AI", "DeepSeek", "Unsloth"]},
+    {"industry": "AI infrastructure and chips", "concept": "Long-context efficiency", "summary": "New attention designs keep memory use low when models read very long inputs.", "audience": ["builder"], "entities": ["Moonshot AI"]}
+  ]
+}

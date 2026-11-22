@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-03",
+  "question": "If retraining a model matters more than making it bigger, what should organisations pay attention to?",
+  "reflection": "When better teaching beats bigger size, careful method can matter more than raw resources, for machines and for people.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "DeepSeek V4-Flash beats V4-Pro on 9 benchmarks, same size", "link": ""}
+  ],
+  "one_line": "Labs are getting large gains from retraining models they already have, so training method is becoming the main advantage.",
+  "top_stories": [
+    {
+      "title": "Retrained small model beats its big sibling",
+      "what": "DeepSeek says a retrained version of its lighter model now scores higher than its larger preview model on all nine agent tests it reported.",
+      "why": "Cheaper models that do agent work well lower the cost of automating research tasks.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["models", "agents"]
+    },
+    {
+      "title": "A model that codes for ten days",
+      "what": "Alibaba released Qwen3.8-Max, which it says ran more than ten days of unsupervised coding and handles text, images and video in one model.",
+      "why": "Agents that run for days raise new questions about checking work and assigning responsibility.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["agents", "long-running"]
+    },
+    {
+      "title": "Faster reading of PDF files",
+      "what": "Firecrawl released a free tool that checks in a fraction of a second whether a PDF already contains text, and skips slow image reading when it does.",
+      "why": "Large document reviews in research projects could run much faster and cheaper.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["documents", "open source"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Many Saudi archives mix scanned and digital PDFs, so tools that sort them quickly could speed up digitisation projects in the culture sector."}
+  ],
+  "idea": {
+    "title": "Archive triage service",
+    "pitch": "Sort a large document archive into ready-to-read and needs-scanning piles before any AI analysis, cutting time and cost.",
+    "fit": "Culture sector, government services",
+    "first_step": "Run the free PDF checker on a sample of 100 archive files and record how many need image reading."
+  },
+  "idea_kids": {
+    "title": "Practice makes better",
+    "pitch": "A classroom activity where children repeat a paper plane design three times, changing one thing each time, and track how far it flies.",
+    "age": "8 to 12",
+    "first_step": "Prepare a simple chart with three rounds and a column for what was changed."
+  },
+  "watchlist": [
+    {"name": "DeepSeek", "sector": "Frontier models", "note": "Showing that retraining can lift a smaller model past a larger one."},
+    {"name": "Alibaba", "sector": "Frontier models", "note": "Plans to release open weights for its new models soon."},
+    {"name": "Firecrawl", "sector": "Data and analytics", "note": "Open tools that prepare web and document content for AI."}
+  ],
+  "tool": {"name": "pdf-inspector", "use": "Quickly tells whether a PDF has real text or needs image reading, then converts it to clean text.", "link": ""},
+  "verify": [
+    "Qwen3.8-Max reportedly coded on its own for more than ten days and shipped production code."
+  ],
+  "entities": [
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Released a retrained V4-Flash model with stronger agent scores."},
+    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Released the Qwen3.8-Max model through its cloud."},
+    {"name": "Firecrawl", "type": "company", "sector": "Data and analytics", "url": "https://www.firecrawl.dev", "note": "Released a free tool for sorting and reading PDFs."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Its top model was used as a comparison point."}
+  ],
+  "terms": [
+    {"term": "Post-training", "definition": "Extra training after a model's first build that shapes how well it follows instructions and does tasks.", "audience": "lay"},
+    {"term": "OCR", "definition": "Software that reads text from images, such as scanned pages.", "audience": "lay"},
+    {"term": "Benchmark", "definition": "A standard test used to compare how well different AI systems perform.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Retrained smaller models match bigger ones at lower cost.", "audience": ["decision", "builder"], "entities": ["DeepSeek"]},
+    {"industry": "Agents and automation", "concept": "Long-running agents", "summary": "Models that keep working on one goal for days without help.", "audience": ["decision", "builder"], "entities": ["Alibaba"]},
+    {"industry": "Data and analytics", "concept": "Document processing for AI", "summary": "Turning PDFs and office files into clean text that AI can read.", "audience": ["builder"], "entities": ["Firecrawl"]}
+  ]
+}

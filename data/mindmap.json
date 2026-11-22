@@ -174,7 +174,8 @@
      "days": [
       "2026-11-08",
       "2026-10-11",
-      "2026-09-13"
+      "2026-09-13",
+      "2026-08-02"
      ],
      "children": [
       {
@@ -187,6 +188,10 @@
       },
       {
        "name": "ETH Zurich",
+       "kind": "entity"
+      },
+      {
+       "name": "Moonshot AI",
        "kind": "entity"
       },
       {
@@ -213,7 +218,9 @@
       "2026-10-16",
       "2026-10-07",
       "2026-09-07",
-      "2026-08-27"
+      "2026-08-27",
+      "2026-08-05",
+      "2026-08-02"
      ],
      "children": [
       {
@@ -225,7 +232,19 @@
        "kind": "entity"
       },
       {
+       "name": "Cursor",
+       "kind": "entity"
+      },
+      {
+       "name": "DeepSeek",
+       "kind": "entity"
+      },
+      {
        "name": "Hugging Face",
+       "kind": "entity"
+      },
+      {
+       "name": "Liquid AI",
        "kind": "entity"
       },
       {
@@ -237,11 +256,19 @@
        "kind": "entity"
       },
       {
+       "name": "Moonshot AI",
+       "kind": "entity"
+      },
+      {
        "name": "NVIDIA",
        "kind": "entity"
       },
       {
        "name": "Nvidia",
+       "kind": "entity"
+      },
+      {
+       "name": "Unsloth",
        "kind": "entity"
       },
       {
@@ -487,9 +514,14 @@
       "2026-11-08",
       "2026-10-09",
       "2026-10-01",
-      "2026-08-21"
+      "2026-08-21",
+      "2026-08-03"
      ],
      "children": [
+      {
+       "name": "Alibaba",
+       "kind": "entity"
+      },
       {
        "name": "Cursor",
        "kind": "entity"
@@ -525,11 +557,16 @@
       "2026-10-11",
       "2026-10-04",
       "2026-09-20",
-      "2026-08-18"
+      "2026-08-18",
+      "2026-08-01"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Greptile",
        "kind": "entity"
       },
       {
@@ -598,7 +635,8 @@
      ],
      "days": [
       "2026-11-20",
-      "2026-09-25"
+      "2026-09-25",
+      "2026-08-04"
      ],
      "children": [
       {
@@ -880,6 +918,24 @@
      ]
     },
     {
+     "name": "On-device AI",
+     "kind": "concept",
+     "summary": "Capable models that run privately on phones and laptops.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-08-05"
+     ],
+     "children": [
+      {
+       "name": "Liquid AI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Public trust in AI",
      "kind": "concept",
      "summary": "Many people use AI daily while remaining worried about it.",
@@ -922,6 +978,23 @@
       },
       {
        "name": "TypeSafe AI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Document processing for AI",
+     "kind": "concept",
+     "summary": "Turning PDFs and office files into clean text that AI can read.",
+     "audience": [
+      "builder"
+     ],
+     "days": [
+      "2026-08-03"
+     ],
+     "children": [
+      {
+       "name": "Firecrawl",
        "kind": "entity"
       }
      ]
@@ -1002,11 +1075,16 @@
      "days": [
       "2026-11-10",
       "2026-09-28",
-      "2026-08-18"
+      "2026-08-18",
+      "2026-08-01"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Greptile",
        "kind": "entity"
       },
       {
@@ -1064,7 +1142,8 @@
       "2026-09-06",
       "2026-09-02",
       "2026-08-24",
-      "2026-08-17"
+      "2026-08-17",
+      "2026-08-03"
      ],
      "children": [
       {
@@ -1771,6 +1850,24 @@
      ]
     },
     {
+     "name": "Content safety filters",
+     "kind": "concept",
+     "summary": "Small models that screen inputs and outputs for unsafe content.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-08-05"
+     ],
+     "children": [
+      {
+       "name": "Mistral AI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Cross-lab safety cooperation",
      "kind": "concept",
      "summary": "Competing AI labs talk directly about shared safety measures.",
@@ -1892,7 +1989,8 @@
       "2026-11-09",
       "2026-09-30",
       "2026-09-22",
-      "2026-08-31"
+      "2026-08-31",
+      "2026-08-04"
      ],
      "children": [
       {
@@ -1901,6 +1999,10 @@
       },
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Google",
        "kind": "entity"
       },
       {
@@ -2098,7 +2200,8 @@
       "2026-09-28",
       "2026-09-24",
       "2026-09-09",
-      "2026-09-07"
+      "2026-09-07",
+      "2026-08-04"
      ],
      "children": [
       {

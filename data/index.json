@@ -1130,5 +1130,70 @@
   "newsletters": [
    "AlphaSignal"
   ]
+ },
+ {
+  "date": "2026-08-05",
+  "question": "If capable AI can run on a phone without the internet, what changes for privacy and access?",
+  "one_line": "Labs are giving away more of their core tools, and small models are getting good enough to run useful agents on a phone.",
+  "titles": [
+   "Agent model that runs on a phone",
+   "Cursor shares a faster training component",
+   "Small open safety checker"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-04",
+  "question": "If AI can solve math problems that people could not solve for years, how should we check its answers?",
+  "one_line": "An unreleased model reportedly solved ten open math problems with proofs a computer can check, at a very low cost.",
+  "titles": [
+   "AI solves open math problems",
+   "Voice assistant that thinks while talking",
+   "Training away feelings also hurts moral reasoning"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-03",
+  "question": "If retraining a model matters more than making it bigger, what should organisations pay attention to?",
+  "one_line": "Labs are getting large gains from retraining models they already have, so training method is becoming the main advantage.",
+  "titles": [
+   "Retrained small model beats its big sibling",
+   "A model that codes for ten days",
+   "Faster reading of PDF files"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-02",
+  "question": "When the biggest open AI models need huge machines, who can really use them?",
+  "one_line": "The largest open-weight model so far shows that making AI practical now depends as much on engineering tricks as on size.",
+  "titles": [
+   "A record-size open model",
+   "Shrinking the memory bill",
+   "Strong at office-style tasks"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-01",
+  "question": "If AI writes code faster than people can check it, how do we know the code really works?",
+  "one_line": "AI code review is moving from reading code and guessing about bugs to actually running the code and showing evidence.",
+  "titles": [
+   "Code review that runs the code",
+   "Small helper agents for each problem",
+   "Faster shipping claims"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
  }
 ]

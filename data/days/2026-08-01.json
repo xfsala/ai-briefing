@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-01",
+  "question": "If AI writes code faster than people can check it, how do we know the code really works?",
+  "reflection": "Tools that show clear proof of what works and what breaks can help people trust their own judgement instead of guessing.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "The missing layer in AI coding: runtime validation", "link": ""}
+  ],
+  "one_line": "AI code review is moving from reading code and guessing about bugs to actually running the code and showing evidence.",
+  "top_stories": [
+    {
+      "title": "Code review that runs the code",
+      "what": "Greptile launched a feature that starts each proposed change in a sealed test space, tries to trigger suspected bugs, and attaches screenshots and logs to the review.",
+      "why": "Evidence of failure is easier for busy teams to act on than a vague warning, which is a lesson for any evaluation work.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["coding", "agents"]
+    },
+    {
+      "title": "Small helper agents for each problem",
+      "what": "Instead of one agent doing everything, a lead reviewer sends a separate helper to test each suspected issue, so no single agent gets overloaded.",
+      "why": "Splitting work into narrow tasks is a useful design pattern for research pipelines too.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents"]
+    },
+    {
+      "title": "Faster shipping claims",
+      "what": "The company says teams using it merge changes up to four times faster and catch three times more serious bugs than with text-only review.",
+      "why": "Vendor numbers like these should be tested locally before anyone repeats them in a business case.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["coding", "productivity"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "The option to run such tools inside an organisation's own private cloud matters for Saudi entities that must keep code and data inside the Kingdom."}
+  ],
+  "idea": {
+    "title": "Proof-first quality checks",
+    "pitch": "Apply the same idea to survey and dashboard projects: every automated check must attach the exact failing record, not just a warning.",
+    "fit": "Consultancy, government digital services",
+    "first_step": "List the five most common data errors in a recent project and write a test that shows each one."
+  },
+  "idea_kids": {
+    "title": "Bug hunters club",
+    "pitch": "A card game where children follow simple instruction cards to move a toy across a grid, then find and fix the card that sends it the wrong way.",
+    "age": "7 to 11",
+    "first_step": "Draw a 5 by 5 grid and write ten move cards, with one hidden mistake."
+  },
+  "watchlist": [
+    {"name": "Greptile", "sector": "Agents and automation", "note": "Pushing AI code review toward running code and showing proof."}
+  ],
+  "tool": {"name": "Greptile CLI", "use": "Runs a codebase-aware review in the terminal before code is shared.", "link": ""},
+  "verify": [
+    "Teams reportedly merge pull requests up to four times faster and catch three times more serious bugs with runtime validation."
+  ],
+  "entities": [
+    {"name": "Greptile", "type": "company", "sector": "Agents and automation", "url": "https://www.greptile.com", "note": "Launched a runtime validation layer for AI code review."},
+    {"name": "Brex", "type": "company", "sector": "Business and markets", "url": "https://www.brex.com", "note": "Named as a customer that reportedly shipped features faster with the tool."}
+  ],
+  "terms": [
+    {"term": "Sandbox", "definition": "A closed area on a computer where software can run without reaching the rest of the system.", "audience": "lay"},
+    {"term": "Pull request", "definition": "A proposed change to shared code that others review before it is accepted.", "audience": "lay"},
+    {"term": "Subagent", "definition": "A smaller AI agent that a main agent sends to handle one narrow part of a task.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Frontier models", "concept": "AI-built software", "summary": "Checking AI-written code by running it, not only reading it.", "audience": ["builder", "decision"], "entities": ["Greptile"]},
+    {"industry": "Agents and automation", "concept": "Multi-model agent design", "summary": "A lead agent hands narrow checks to separate helper agents.", "audience": ["builder"], "entities": ["Greptile"]}
+  ]
+}

@@ -194,9 +194,10 @@
  {
   "id": "benchmark",
   "term": "Benchmark",
-  "definition": "A standard set of tasks used to compare how well different AI systems perform.",
+  "definition": "A standard test used to compare how well different AI systems perform.",
   "audience": "lay",
   "days": [
+   "2026-08-03",
    "2026-09-08",
    "2026-09-25"
   ]
@@ -416,9 +417,10 @@
  {
   "id": "diffusion-language-model",
   "term": "Diffusion language model",
-  "definition": "A model that drafts a whole block of text at once and improves it over several rounds, instead of writing word by word.",
+  "definition": "A text model that refines a whole passage at once over several rounds instead of writing word by word.",
   "audience": "builder",
   "days": [
+   "2026-08-05",
    "2026-10-18"
   ]
  },
@@ -506,9 +508,10 @@
  {
   "id": "fine-tuning",
   "term": "Fine-tuning",
-  "definition": "Further training an existing model on a smaller, focused set of examples so it gets better at one kind of task.",
+  "definition": "Extra training of an existing model on your own examples so it fits a specific task.",
   "audience": "builder",
   "days": [
+   "2026-08-04",
    "2026-09-06",
    "2026-11-09"
   ]
@@ -516,9 +519,10 @@
  {
   "id": "formal-verification",
   "term": "Formal verification",
-  "definition": "Writing a proof or program in a strict language so a computer can check every step is correct.",
-  "audience": "builder",
+  "definition": "Using a computer to check, step by step, that a proof or program is fully correct.",
+  "audience": "lay",
   "days": [
+   "2026-08-04",
    "2026-09-07",
    "2026-09-09",
    "2026-10-07",
@@ -529,9 +533,10 @@
  {
   "id": "full-duplex-voice",
   "term": "Full-duplex voice",
-  "definition": "A voice system that can listen and speak at the same time, like a real conversation.",
-  "audience": "builder",
+  "definition": "A voice system that can listen and speak at the same time, like a person in conversation.",
+  "audience": "lay",
   "days": [
+   "2026-08-04",
    "2026-10-13"
   ]
  },
@@ -614,9 +619,10 @@
  {
   "id": "kv-cache",
   "term": "KV cache",
-  "definition": "The stored working memory a model keeps about earlier words, so it does not reread everything for each new word.",
+  "definition": "Memory a model keeps of earlier words so it does not have to reprocess them.",
   "audience": "builder",
   "days": [
+   "2026-08-02",
    "2026-09-13",
    "2026-10-11"
   ]
@@ -684,9 +690,11 @@
  {
   "id": "mixture-of-experts",
   "term": "Mixture of experts",
-  "definition": "A model design where only a small set of specialised parts works on each request, which saves computing power.",
+  "definition": "A model design where only a few specialised parts switch on for each piece of input, saving computing power.",
   "audience": "builder",
   "days": [
+   "2026-08-02",
+   "2026-08-05",
    "2026-08-27",
    "2026-09-11",
    "2026-10-05",
@@ -750,11 +758,30 @@
   ]
  },
  {
+  "id": "ocr",
+  "term": "OCR",
+  "definition": "Software that reads text from images, such as scanned pages.",
+  "audience": "lay",
+  "days": [
+   "2026-08-03"
+  ]
+ },
+ {
+  "id": "on-device-ai",
+  "term": "On-device AI",
+  "definition": "AI that runs directly on a phone or laptop instead of on remote servers.",
+  "audience": "lay",
+  "days": [
+   "2026-08-05"
+  ]
+ },
+ {
   "id": "open-weight-model",
   "term": "Open-weight model",
   "definition": "An AI model whose trained settings are published so anyone can download and run it.",
-  "audience": "decision",
+  "audience": "lay",
   "days": [
+   "2026-08-02",
    "2026-08-27",
    "2026-09-07",
    "2026-09-16",
@@ -804,9 +831,10 @@
  {
   "id": "post-training",
   "term": "Post-training",
-  "definition": "Extra training given to a finished model to improve how it behaves or performs on tasks.",
-  "audience": "builder",
+  "definition": "Extra training after a model's first build that shapes how well it follows instructions and does tasks.",
+  "audience": "lay",
   "days": [
+   "2026-08-03",
    "2026-08-17"
   ]
  },
@@ -897,6 +925,24 @@
   "days": [
    "2026-09-17",
    "2026-10-06"
+  ]
+ },
+ {
+  "id": "pull-request",
+  "term": "Pull request",
+  "definition": "A proposed change to shared code that others review before it is accepted.",
+  "audience": "lay",
+  "days": [
+   "2026-08-01"
+  ]
+ },
+ {
+  "id": "quantization",
+  "term": "Quantization",
+  "definition": "Storing a model's numbers with less detail so it uses less memory and runs faster.",
+  "audience": "builder",
+  "days": [
+   "2026-08-02"
   ]
  },
  {
@@ -1016,6 +1062,7 @@
   "definition": "A closed area on a computer where software can run without reaching the rest of the system.",
   "audience": "lay",
   "days": [
+   "2026-08-01",
    "2026-08-16",
    "2026-08-19",
    "2026-09-03",
@@ -1107,9 +1154,10 @@
  {
   "id": "subagent",
   "term": "Subagent",
-  "definition": "A helper agent that a main agent starts to handle one part of a larger task.",
+  "definition": "A smaller AI agent that a main agent sends to handle one narrow part of a task.",
   "audience": "builder",
   "days": [
+   "2026-08-01",
    "2026-08-21",
    "2026-10-08"
   ]

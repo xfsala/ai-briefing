@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-05",
+  "question": "If capable AI can run on a phone without the internet, what changes for privacy and access?",
+  "reflection": "Small models that run on everyday devices could bring useful AI to places with weak connections while keeping personal data close to home.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Cursor MoE Kernel, Liquid AI On-Device 2.6B Agent, Mistral 3B Safe", "link": ""}
+  ],
+  "one_line": "Labs are giving away more of their core tools, and small models are getting good enough to run useful agents on a phone.",
+  "top_stories": [
+    {
+      "title": "Agent model that runs on a phone",
+      "what": "Liquid AI released a small open model that it says plans steps and uses tools well while fitting in under 2.5 GB of memory on a device.",
+      "why": "On-device AI lets field researchers work with sensitive data without sending it to the cloud.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["on-device", "privacy"]
+    },
+    {
+      "title": "Cursor shares a faster training component",
+      "what": "Cursor released free code that it says makes a key part of training large models more than twice as fast as public options.",
+      "why": "Cheaper training lowers the barrier for regional labs building their own models.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["infrastructure", "open source"]
+    },
+    {
+      "title": "Small open safety checker",
+      "what": "Mistral released a small open model for screening unsafe content that it says beats models seven times its size.",
+      "why": "A cheap local filter helps organisations add safety checks to chat services they host themselves.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["safety", "open source"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "On-device models suit Saudi health and government services that must keep personal data local, though Arabic performance still needs testing."}
+  ],
+  "idea": {
+    "title": "Offline field interview assistant",
+    "pitch": "A phone app that helps researchers take structured notes and summaries during field interviews, running fully on the device.",
+    "fit": "Health, labour market, culture sector",
+    "first_step": "Test the small model on three anonymised Arabic interview transcripts and rate the summaries."
+  },
+  "idea_kids": {
+    "title": "My helper in a box",
+    "pitch": "A craft kit where children build a cardboard helper robot and decide which secrets it keeps inside the box and never shares.",
+    "age": "5 to 9",
+    "first_step": "Design a simple box template and a set of picture cards for things to keep private."
+  },
+  "watchlist": [
+    {"name": "Liquid AI", "sector": "Frontier models", "note": "Pushing small agent models that run on devices."},
+    {"name": "Cursor", "sector": "Agents and automation", "note": "Coding tool company now sharing its training code."},
+    {"name": "Mistral AI", "sector": "Safety, security and governance", "note": "Released a compact open safety model."}
+  ],
+  "tool": null,
+  "verify": [
+    "The 2.6-billion-parameter model reportedly beats a model four times larger on tool use tests."
+  ],
+  "entities": [
+    {"name": "Liquid AI", "type": "company", "sector": "Frontier models", "url": "https://www.liquid.ai", "note": "Released a small on-device agent model."},
+    {"name": "Cursor", "type": "company", "sector": "Agents and automation", "url": "https://cursor.com", "note": "Open-sourced a faster training component."},
+    {"name": "Mistral AI", "type": "company", "sector": "Frontier models", "url": "https://mistral.ai", "note": "Released a small open safety model."},
+    {"name": "Nous Research", "type": "organisation", "sector": "Agents and automation", "url": "https://nousresearch.com", "note": "Shipped a large update to its open agent with live voice and agent-to-agent links."},
+    {"name": "Google", "type": "company", "sector": "Frontier models", "url": "https://about.google", "note": "Released a fast diffusion-based text model."}
+  ],
+  "terms": [
+    {"term": "On-device AI", "definition": "AI that runs directly on a phone or laptop instead of on remote servers.", "audience": "lay"},
+    {"term": "Mixture of experts", "definition": "A model design where only a few specialised parts switch on for each piece of input, saving computing power.", "audience": "builder"},
+    {"term": "Diffusion language model", "definition": "A text model that refines a whole passage at once over several rounds instead of writing word by word.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Labs sharing training code and small models openly.", "audience": ["builder"], "entities": ["Cursor", "Mistral AI", "Liquid AI"]},
+    {"industry": "Consumer and media", "concept": "On-device AI", "summary": "Capable models that run privately on phones and laptops.", "audience": ["lay", "decision"], "entities": ["Liquid AI"]},
+    {"industry": "Safety, security and governance", "concept": "Content safety filters", "summary": "Small models that screen inputs and outputs for unsafe content.", "audience": ["builder", "decision"], "entities": ["Mistral AI"]}
+  ]
+}

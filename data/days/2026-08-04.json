@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-04",
+  "question": "If AI can solve math problems that people could not solve for years, how should we check its answers?",
+  "reflection": "Machine-checked proofs could let people explore harder questions together, as long as humans still understand what has been proved.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "OpenAI Astra solves 10 unsolved math proofs for $2,000 total", "link": ""}
+  ],
+  "one_line": "An unreleased model reportedly solved ten open math problems with proofs a computer can check, at a very low cost.",
+  "top_stories": [
+    {
+      "title": "AI solves open math problems",
+      "what": "OpenAI says its next model, Astra, solved ten long-open math problems and wrote each proof in a language that a computer can verify, for about 2,000 dollars of compute.",
+      "why": "Checkable results are a model for how AI findings in any field could be made trustworthy.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["science", "math"]
+    },
+    {
+      "title": "Voice assistant that thinks while talking",
+      "what": "OpenAI rebuilt ChatGPT Voice so it can listen and speak at the same time and pass hard questions to a stronger model in the background.",
+      "why": "More natural voice talk could make AI interviews and phone surveys feel closer to human ones, which needs careful ethics.",
+      "action": "Watch",
+      "audience": ["lay", "builder"],
+      "tags": ["voice", "interfaces"]
+    },
+    {
+      "title": "Training away feelings also hurts moral reasoning",
+      "what": "A reported Google study found that training a model to deny having inner experiences also weakened its moral judgement.",
+      "why": "Safety training can have side effects, so behaviour should be tested broadly after any change.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["safety", "values"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Full-duplex voice in Arabic dialects would matter for Saudi customer services, but current reports do not say how well it handles them."}
+  ],
+  "idea": {
+    "title": "Voice survey pilot with consent rules",
+    "pitch": "Test whether a natural-sounding AI voice changes answers in short phone surveys compared with a human caller, with clear disclosure.",
+    "fit": "Labour-market agency, health",
+    "first_step": "Draft a one-paragraph disclosure script and a five-question test survey."
+  },
+  "idea_kids": {
+    "title": "Proof detectives",
+    "pitch": "A puzzle book where children check each step of a simple number trick and mark the step that is wrong.",
+    "age": "9 to 13",
+    "first_step": "Write five short number tricks, each with one deliberate mistake."
+  },
+  "watchlist": [
+    {"name": "OpenAI", "sector": "Frontier models", "note": "Previewed a math-focused model and a new voice system."},
+    {"name": "Google", "sector": "Frontier models", "note": "Research on side effects of safety training."},
+    {"name": "Unsloth", "sector": "AI infrastructure and chips", "note": "Made a new 27-billion-parameter open model run on one consumer graphics card."}
+  ],
+  "tool": {"name": "Qwen3.8-27B with Unsloth", "use": "Run and fine-tune a capable open model on a single strong desktop graphics card.", "link": ""},
+  "verify": [
+    "Astra reportedly resolved a group theory question open since 1999 for about 200 dollars per problem.",
+    "Suppressing claims of inner experience reportedly reduces a model's moral reasoning."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Announced Astra math results and a rebuilt voice system."},
+    {"name": "Google", "type": "company", "sector": "Frontier models", "url": "https://about.google", "note": "Published research on safety training side effects."},
+    {"name": "Unsloth", "type": "company", "sector": "AI infrastructure and chips", "url": "https://unsloth.ai", "note": "Supported a new open model on modest hardware from day one."},
+    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Released Qwen3.8-27B as open weights."}
+  ],
+  "terms": [
+    {"term": "Formal verification", "definition": "Using a computer to check, step by step, that a proof or program is fully correct.", "audience": "lay"},
+    {"term": "Full-duplex voice", "definition": "A voice system that can listen and speak at the same time, like a person in conversation.", "audience": "lay"},
+    {"term": "Fine-tuning", "definition": "Extra training of an existing model on your own examples so it fits a specific task.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "AI producing new math results with proofs a computer can check.", "audience": ["lay", "decision"], "entities": ["OpenAI"]},
+    {"industry": "Agents and automation", "concept": "Voice agents", "summary": "Voice assistants that talk and reason at the same time.", "audience": ["lay", "builder"], "entities": ["OpenAI"]},
+    {"industry": "Safety, security and governance", "concept": "Model bias and values", "summary": "Changing one trait in training can shift a model's moral judgement.", "audience": ["decision"], "entities": ["Google"]}
+  ]
+}

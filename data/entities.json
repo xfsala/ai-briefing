@@ -51,6 +51,8 @@
   "url": "https://www.alibabagroup.com",
   "note": "Chinese group behind the open Qwen model family.",
   "days": [
+   "2026-08-03",
+   "2026-08-04",
    "2026-08-17",
    "2026-08-27",
    "2026-09-06",
@@ -145,6 +147,7 @@
   "url": "https://www.anthropic.com",
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
+   "2026-08-03",
    "2026-08-16",
    "2026-08-18",
    "2026-08-19",
@@ -289,6 +292,7 @@
   "url": "https://www.brex.com",
   "note": "Released an open proxy that screens agent network traffic.",
   "days": [
+   "2026-08-01",
    "2026-08-16"
   ]
  },
@@ -384,11 +388,12 @@
  {
   "id": "cursor",
   "name": "Cursor",
-  "type": "product",
+  "type": "company",
   "sector": "Developer tools",
   "url": "https://cursor.com",
   "note": "AI code editor that has added its own code-hosting service.",
   "days": [
+   "2026-08-05",
    "2026-08-21",
    "2026-09-01",
    "2026-09-04",
@@ -459,6 +464,8 @@
   "url": "https://www.deepseek.com",
   "note": "Chinese AI lab known for low-cost open models.",
   "days": [
+   "2026-08-02",
+   "2026-08-03",
    "2026-08-21",
    "2026-08-24",
    "2026-08-25",
@@ -558,6 +565,17 @@
   "note": "Launched a robot training dataset.",
   "days": [
    "2026-08-27"
+  ]
+ },
+ {
+  "id": "firecrawl",
+  "name": "Firecrawl",
+  "type": "company",
+  "sector": "Data and analytics",
+  "url": "https://www.firecrawl.dev",
+  "note": "Released a free tool for sorting and reading PDFs.",
+  "days": [
+   "2026-08-03"
   ]
  },
  {
@@ -664,6 +682,8 @@
   "url": "https://about.google",
   "note": "Designs its own TPU chips for AI work.",
   "days": [
+   "2026-08-04",
+   "2026-08-05",
    "2026-08-19",
    "2026-08-23",
    "2026-08-28",
@@ -716,6 +736,17 @@
    "2026-11-11",
    "2026-11-12",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "greptile",
+  "name": "Greptile",
+  "type": "company",
+  "sector": "Agents and automation",
+  "url": "https://www.greptile.com",
+  "note": "Launched a runtime validation layer for AI code review.",
+  "days": [
+   "2026-08-01"
   ]
  },
  {
@@ -816,6 +847,17 @@
   ]
  },
  {
+  "id": "kimi-k3",
+  "name": "Kimi K3",
+  "type": "model",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "A very large mixture-of-experts model with a long context window.",
+  "days": [
+   "2026-08-02"
+  ]
+ },
+ {
   "id": "kumo",
   "name": "Kumo",
   "type": "company",
@@ -867,6 +909,7 @@
   "url": "https://www.liquid.ai",
   "note": "Builds small, efficient models, including the d1.2 decision models.",
   "days": [
+   "2026-08-05",
    "2026-10-14",
    "2026-10-29",
    "2026-11-17"
@@ -1006,6 +1049,7 @@
   "url": "https://mistral.ai",
   "note": "French AI lab, maker of the Timestral forecasting models.",
   "days": [
+   "2026-08-05",
    "2026-09-09",
    "2026-09-16",
    "2026-10-07",
@@ -1031,6 +1075,7 @@
   "url": "https://www.moonshot.ai",
   "note": "Chinese lab behind the Kimi assistant.",
   "days": [
+   "2026-08-02",
    "2026-10-26",
    "2026-10-30",
    "2026-11-05",
@@ -1040,11 +1085,12 @@
  {
   "id": "nous-research",
   "name": "Nous Research",
-  "type": "company",
+  "type": "organisation",
   "sector": "Open-source agents",
   "url": "https://nousresearch.com",
   "note": "Maker of the open-source Hermes models and the Hermes Enterprise agent.",
   "days": [
+   "2026-08-05",
    "2026-08-17",
    "2026-08-18",
    "2026-09-02",
@@ -1121,6 +1167,7 @@
   "url": "https://openai.com",
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
+   "2026-08-04",
    "2026-08-18",
    "2026-08-19",
    "2026-08-21",
@@ -1617,6 +1664,18 @@
   "note": "Performed AI-assisted brain tumour surgery.",
   "days": [
    "2026-08-28"
+  ]
+ },
+ {
+  "id": "unsloth",
+  "name": "Unsloth",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://unsloth.ai",
+  "note": "Supported a new open model on modest hardware from day one.",
+  "days": [
+   "2026-08-02",
+   "2026-08-04"
   ]
  },
  {
