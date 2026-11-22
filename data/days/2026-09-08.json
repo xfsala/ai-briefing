@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-08",
+  "question": "When AI companies pay for the books they learned from, how do we decide who should be paid?",
+  "reflection": "Fair payment to the people whose work trained AI could make the technology a shared project instead of a quiet taking.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Jensen Huang: \"AGI Has Arrived\"", "link": "https://briefing.forwardfuture.ai/p/agents-go-rogue-anthropic-s-517b-bet-copyright-fight"},
+    {"newsletter": "AlphaSignal", "subject": "Meta AIRA3 beats 4,000 Kaggle teams, takes Gold at 8th place", "link": ""}
+  ],
+  "one_line": "AI labs are locking in huge computing budgets and building research agents, while the bills for training data and public patience come due.",
+  "top_stories": [
+    {
+      "title": "Anthropic reportedly signs half a trillion dollars of compute",
+      "what": "An analysis by The Information estimates Anthropic agreed computing contracts worth about $517 billion in 11 months, far above figures it earlier shared with investors.",
+      "why": "Commitments this large show how much AI depends on power and data centres, which shapes where countries can compete.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["infrastructure", "markets"]
+    },
+    {
+      "title": "Authors and publishers dispute AI settlement money",
+      "what": "Anthropic's $1.5 billion copyright settlement could pay about $3,000 per book, but authors and publishers are filing competing claims where rights records are unclear.",
+      "why": "Clear records of who owns creative work will decide who benefits from AI licensing, a live issue for culture-sector bodies.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["copyright", "culture"]
+    },
+    {
+      "title": "Meta's research agent places in the top ten on Kaggle",
+      "what": "Meta's AIRA3, a group of agents sharing notes through a common forum, reportedly placed 8th of about 4,000 teams in a challenge to improve a model's reasoning.",
+      "why": "Agents that run experiments on their own could speed up applied research, but their findings will still need human review.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "research"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi or regional link today."}
+  ],
+  "idea": {
+    "title": "Rights registry readiness check",
+    "pitch": "Help a cultural body audit how well it records who owns each book, image or recording, so creators can claim AI licensing income.",
+    "fit": "Culture sector",
+    "first_step": "Sample fifty catalogue items and note how many have clear, current rights-holder records."
+  },
+  "idea_kids": {
+    "title": "Whose story is it?",
+    "pitch": "A classroom activity where children write and illustrate short stories, then practise giving credit when a friend borrows their ideas.",
+    "age": "7 to 11",
+    "first_step": "Prepare a simple credit card template with spaces for the story title, author and helper names."
+  },
+  "watchlist": [
+    {"name": "NVIDIA", "sector": "AI infrastructure and chips", "note": "Its CEO's claim that AGI has arrived will fuel debate on what the term means."},
+    {"name": "Artificial Analysis", "sector": "Data and analytics", "note": "Updated its benchmark with harder real business workflow tests."},
+    {"name": "AMD", "sector": "AI infrastructure and chips", "note": "New workstation aims to run trillion-parameter models locally."}
+  ],
+  "tool": null,
+  "verify": [
+    "NVIDIA's CEO says \"AGI has arrived\" with OpenAI's Astra model.",
+    "Anthropic's compute contracts reportedly total about $517 billion; these are estimates, not company figures.",
+    "Only 20% of Americans reportedly support new data-centre construction."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Reported compute deals and a book copyright settlement."},
+    {"name": "Meta", "type": "company", "sector": "Science and research", "url": "https://about.meta.com", "note": "Built the AIRA3 autonomous research agent."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Ran the Kaggle challenge; its CEO made the AGI claim."},
+    {"name": "AMD", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.amd.com", "note": "Unveiled a high-memory AI workstation."},
+    {"name": "Artificial Analysis", "type": "organisation", "sector": "Data and analytics", "url": "", "note": "Independent AI benchmarking group."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Its Astra model is at the centre of the AGI claim."}
+  ],
+  "terms": [
+    {"term": "Fair use", "definition": "A legal idea, mainly in US law, that allows limited use of copyrighted work without permission in some cases.", "audience": "lay"},
+    {"term": "Artificial general intelligence (AGI)", "definition": "A loosely defined term for AI that can do most mental tasks as well as a person; experts disagree on how to test for it.", "audience": "lay"},
+    {"term": "Benchmark", "definition": "A standard set of tasks used to compare how well different AI systems perform.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "AI infrastructure and chips", "concept": "Data-centre power and cost", "summary": "Labs commit hundreds of billions to future computing capacity.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Consumer and media", "concept": "Creator compensation for AI training", "summary": "Settlements raise the question of who is paid when books train AI.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "Science and research", "concept": "AI-accelerated AI research", "summary": "Teams of agents run experiments to improve other models.", "audience": ["builder", "decision"], "entities": ["Meta", "NVIDIA"]},
+    {"industry": "Policy and geopolitics", "concept": "Data-centre backlash", "summary": "Voters push back on data centres over power and water costs.", "audience": ["decision"], "entities": []}
+  ]
+}

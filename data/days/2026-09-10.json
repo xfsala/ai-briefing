@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-10",
+  "question": "If AI makes the economy bigger, how do we make sure ordinary workers share in the gains?",
+  "reflection": "Planning for several possible futures now gives societies time to protect workers and spread new wealth more fairly.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "China's AI copying allegations just got bigger", "link": "https://briefing.forwardfuture.ai/p/china-s-ai-copy-fight-ai-safety-race-apple-s-ai-strategy"},
+    {"newsletter": "AlphaSignal", "subject": "OpenAI cuts image latency 50% while Anthropic maps your job's AI risk", "link": ""}
+  ],
+  "one_line": "Debate is sharpening over who benefits from AI: workers or capital, US labs or their rivals, speed or safety.",
+  "top_stories": [
+    {
+      "title": "Anthropic maps three futures for jobs and wages",
+      "what": "Anthropic released an interactive tool with modest, substantial and extreme scenarios for AI's effect on the US economy by 2030, treating each job as a bundle of tasks.",
+      "why": "Task-based scenarios are a practical template for labour-market agencies planning skills and income policy.",
+      "action": "Try",
+      "audience": ["decision", "lay"],
+      "tags": ["work", "economy"]
+    },
+    {
+      "title": "US agencies accuse Chinese labs of copying models",
+      "what": "The FBI, NSA and CISA say six Chinese AI firms, including DeepSeek and Alibaba, used distillation at industrial scale to learn from American models; China rejects the claims.",
+      "why": "Where learning ends and copying begins will shape which models organisations can safely buy and build on.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["geopolitics", "models"]
+    },
+    {
+      "title": "Insiders warn the AI race is moving too fast",
+      "what": "OpenAI's chief scientist says no lab has solved alignment well enough to scale at full speed, and a researcher resigned from Anthropic over the pace toward self-improving systems.",
+      "why": "Public trust in AI depends on visible safety work, which matters to any government rolling out AI services.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["safety", "governance"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi or regional link today."}
+  ],
+  "idea": {
+    "title": "Simulated users before real trials",
+    "pitch": "Amazon reportedly predicts A/B test winners with AI-simulated users; test whether this could pre-screen behavioural nudges before field trials, while keeping real trials as the final check.",
+    "fit": "Government services, consultancy",
+    "first_step": "Pick two past nudge trials with known results and see whether simulated users rank the options the same way."
+  },
+  "idea_kids": {
+    "title": "Jobs of tomorrow board game",
+    "pitch": "Children move through a town where each job card shows tasks that machines help with and tasks that need people, then design a new job.",
+    "age": "9 to 13",
+    "first_step": "Write fifteen job cards from local life, such as baker, nurse and teacher, each with three tasks."
+  },
+  "watchlist": [
+    {"name": "Amazon", "sector": "Data and analytics", "note": "Its tool reportedly predicts A/B test winners with 75 to 90% accuracy."},
+    {"name": "Apple", "sector": "Consumer and media", "note": "Betting on running more AI on the phone itself for privacy."},
+    {"name": "DeepSeek", "sector": "Frontier models", "note": "Named in the US distillation accusations."}
+  ],
+  "tool": {"name": "Anthropic economic scenarios tool", "use": "Interactive model to explore how AI could change jobs, wages and growth under different assumptions.", "link": ""},
+  "verify": [
+    "In Anthropic's extreme scenario, knowledge-worker unemployment reportedly reaches 17.9% and labour's share of GDP falls from 60% to 45%.",
+    "US agencies say Chinese firms extracted billions of tokens from American models since late 2024."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Published economic scenarios; a researcher resigned over safety."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Its chief scientist warned on alignment; released new image models."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Accused of large-scale distillation."},
+    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Also named in the US accusations."},
+    {"name": "Amazon", "type": "company", "sector": "Data and analytics", "url": "https://www.amazon.com", "note": "Built a tool that simulates users for A/B tests."},
+    {"name": "Apple", "type": "company", "sector": "Consumer and media", "url": "https://www.apple.com", "note": "Positions the iPhone as a personal AI hub."}
+  ],
+  "terms": [
+    {"term": "Distillation", "definition": "Training a smaller model on the answers of a stronger one so it learns to behave similarly.", "audience": "lay"},
+    {"term": "Labour share", "definition": "The part of a country's total income that goes to workers as wages, rather than to owners of capital.", "audience": "decision"},
+    {"term": "A/B test", "definition": "An experiment that shows two versions of something to different groups to see which works better.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Work and workforce", "concept": "AI labour disruption", "summary": "Scenario tools show AI could grow the economy while lowering workers' share.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "Policy and geopolitics", "concept": "Model distillation disputes", "summary": "US agencies accuse Chinese labs of learning from American models without permission.", "audience": ["decision"], "entities": ["DeepSeek", "Alibaba"]},
+    {"industry": "Safety, security and governance", "concept": "Recursive self-improvement risk", "summary": "Lab insiders warn the race toward self-improving AI outpaces safety work.", "audience": ["decision", "lay"], "entities": ["OpenAI", "Anthropic"]}
+  ]
+}

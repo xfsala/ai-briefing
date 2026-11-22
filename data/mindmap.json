@@ -107,7 +107,8 @@
       "2026-10-29",
       "2026-10-22",
       "2026-10-14",
-      "2026-09-17"
+      "2026-09-17",
+      "2026-09-08"
      ],
      "children": [
       {
@@ -196,9 +197,14 @@
       "2026-11-13",
       "2026-10-30",
       "2026-10-16",
-      "2026-10-07"
+      "2026-10-07",
+      "2026-09-07"
      ],
      "children": [
+      {
+       "name": "AT&T",
+       "kind": "entity"
+      },
       {
        "name": "Hugging Face",
        "kind": "entity"
@@ -240,7 +246,8 @@
       "2026-11-05",
       "2026-10-20",
       "2026-10-14",
-      "2026-10-12"
+      "2026-10-12",
+      "2026-09-09"
      ],
      "children": [
       {
@@ -249,6 +256,10 @@
       },
       {
        "name": "Google DeepMind",
+       "kind": "entity"
+      },
+      {
+       "name": "Pew Research Center",
        "kind": "entity"
       },
       {
@@ -289,11 +300,20 @@
      ],
      "days": [
       "2026-11-04",
+      "2026-09-07",
       "2026-09-01"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Google DeepMind",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
        "kind": "entity"
       },
       {
@@ -707,6 +727,24 @@
      ]
     },
     {
+     "name": "Creator compensation for AI training",
+     "kind": "concept",
+     "summary": "Settlements raise the question of who is paid when books train AI.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-09-08"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Data-for-discount offers",
      "kind": "concept",
      "summary": "AI providers lower prices for users who allow their data to train models.",
@@ -920,12 +958,17 @@
       "2026-09-30",
       "2026-09-23",
       "2026-09-20",
+      "2026-09-11",
       "2026-09-06",
       "2026-09-02"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "DeepSeek",
        "kind": "entity"
       },
       {
@@ -1053,7 +1096,8 @@
      ],
      "days": [
       "2026-10-08",
-      "2026-09-21"
+      "2026-09-21",
+      "2026-09-11"
      ],
      "children": [
       {
@@ -1184,6 +1228,7 @@
      "days": [
       "2026-11-09",
       "2026-09-23",
+      "2026-09-08",
       "2026-09-03"
      ],
      "children": [
@@ -1233,9 +1278,14 @@
      "days": [
       "2026-10-30",
       "2026-10-14",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-09-10"
      ],
      "children": [
+      {
+       "name": "Alibaba",
+       "kind": "entity"
+      },
       {
        "name": "Anthropic",
        "kind": "entity"
@@ -1413,7 +1463,8 @@
       "2026-10-20",
       "2026-10-12",
       "2026-10-02",
-      "2026-09-23"
+      "2026-09-23",
+      "2026-09-09"
      ],
      "children": [
       {
@@ -1453,6 +1504,24 @@
       },
       {
        "name": "UK AI Security Institute",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "AI misuse disclosure",
+     "kind": "concept",
+     "summary": "Labs publish case reports on how people tried to use models for harm and how they were stopped.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-09-11"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
        "kind": "entity"
       }
      ]
@@ -1762,11 +1831,16 @@
       "lay"
      ],
      "days": [
-      "2026-11-03"
+      "2026-11-03",
+      "2026-09-10"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -1810,7 +1884,8 @@
      ],
      "days": [
       "2026-11-06",
-      "2026-10-04"
+      "2026-10-04",
+      "2026-09-08"
      ],
      "children": [
       {
@@ -1831,6 +1906,10 @@
       },
       {
        "name": "Microsoft",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
        "kind": "entity"
       },
       {
@@ -1855,7 +1934,9 @@
       "2026-10-06",
       "2026-09-29",
       "2026-09-28",
-      "2026-09-24"
+      "2026-09-24",
+      "2026-09-09",
+      "2026-09-07"
      ],
      "children": [
       {
@@ -1931,9 +2012,15 @@
       "2026-10-27",
       "2026-10-01",
       "2026-09-21",
+      "2026-09-10",
+      "2026-09-07",
       "2026-09-02"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "Federal Reserve",
        "kind": "entity"
@@ -1944,6 +2031,10 @@
       },
       {
        "name": "Pew Research Center",
+       "kind": "entity"
+      },
+      {
+       "name": "The Economist",
        "kind": "entity"
       }
      ]

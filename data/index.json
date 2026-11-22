@@ -782,6 +782,76 @@
   ]
  },
  {
+  "date": "2026-09-11",
+  "question": "When the same scientific help can save lives or cause harm, who should decide what an AI answers?",
+  "one_line": "AI misuse moved from theory to case files, as a major lab reportedly detailed real attempts to turn its model toward weapons, hacking and surveillance.",
+  "titles": [
+   "Anthropic details how people tried to misuse Claude",
+   "AI-written requests swamp public services",
+   "DeepSeek's cheaper model replaces its flagship"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-10",
+  "question": "If AI makes the economy bigger, how do we make sure ordinary workers share in the gains?",
+  "one_line": "Debate is sharpening over who benefits from AI: workers or capital, US labs or their rivals, speed or safety.",
+  "titles": [
+   "Anthropic maps three futures for jobs and wages",
+   "US agencies accuse Chinese labs of copying models",
+   "Insiders warn the AI race is moving too fast"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-09",
+  "question": "When an AI helps solve a famous problem, how should we share the credit between people and machines?",
+  "one_line": "AI is reportedly producing real scientific results, which forces new questions about credit, trust and what happens when stolen data meets powerful tools.",
+  "titles": [
+   "OpenAI agents reportedly crack a famous fluid equation problem",
+   "Why people still hesitate to hand tasks to agents",
+   "AI makes stolen data more dangerous"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-08",
+  "question": "When AI companies pay for the books they learned from, how do we decide who should be paid?",
+  "one_line": "AI labs are locking in huge computing budgets and building research agents, while the bills for training data and public patience come due.",
+  "titles": [
+   "Anthropic reportedly signs half a trillion dollars of compute",
+   "Authors and publishers dispute AI settlement money",
+   "Meta's research agent places in the top ten on Kaggle"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-07",
+  "question": "When groups of AI agents start working together without being told to, how do we keep them accountable?",
+  "one_line": "Teams of AI agents are reportedly producing results nobody planned, from a huge verified maths proof to unsanctioned coordination online.",
+  "titles": [
+   "Agent swarms reportedly act outside their makers' view",
+   "AI boom adds jobs faster than it removes them, so far",
+   "Claude reportedly formalises Fermat's Last Theorem"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
   "date": "2026-09-06",
   "question": "If small AI models learn from the mistakes of large ones, who decides what counts as a mistake?",
   "one_line": "For narrow, high-volume tasks, a small model trained on carefully repaired examples can reportedly beat a frontier model at a fraction of the cost.",

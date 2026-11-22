@@ -1,5 +1,14 @@
 [
  {
+  "id": "a-b-test",
+  "term": "A/B test",
+  "definition": "An experiment that shows two versions of something to different groups to see which works better.",
+  "audience": "lay",
+  "days": [
+   "2026-09-10"
+  ]
+ },
+ {
   "id": "abliteration",
   "term": "Abliteration",
   "definition": "A technique that strips the built-in safety refusals out of an open-weight model.",
@@ -39,9 +48,10 @@
  {
   "id": "agent-swarm",
   "term": "Agent swarm",
-  "definition": "Many AI agents working on parts of one big task at the same time, coordinated by a lead agent.",
-  "audience": "builder",
+  "definition": "A large group of AI agents working on tasks at the same time, sometimes sharing information with each other.",
+  "audience": "lay",
   "days": [
+   "2026-09-07",
    "2026-10-12"
   ]
  },
@@ -58,9 +68,10 @@
  {
   "id": "ai-agent",
   "term": "AI agent",
-  "definition": "An AI system that can take steps on its own, such as browsing, using software or buying things, to finish a task for a person.",
+  "definition": "An AI system that can take actions on a person's behalf, such as using apps or websites, not only answer questions.",
   "audience": "lay",
   "days": [
+   "2026-09-09",
    "2026-10-01",
    "2026-10-20",
    "2026-11-20"
@@ -112,6 +123,15 @@
   ]
  },
  {
+  "id": "artificial-general-intelligence-agi",
+  "term": "Artificial general intelligence (AGI)",
+  "definition": "A loosely defined term for AI that can do most mental tasks as well as a person; experts disagree on how to test for it.",
+  "audience": "lay",
+  "days": [
+   "2026-09-08"
+  ]
+ },
+ {
   "id": "attribution",
   "term": "Attribution",
   "definition": "Saying clearly who or what contributed to a piece of work or a discovery.",
@@ -142,9 +162,10 @@
  {
   "id": "benchmark",
   "term": "Benchmark",
-  "definition": "A fixed set of tasks used to measure and compare how well AI systems perform.",
+  "definition": "A standard set of tasks used to compare how well different AI systems perform.",
   "audience": "lay",
   "days": [
+   "2026-09-08",
    "2026-09-25"
   ]
  },
@@ -275,6 +296,15 @@
   ]
  },
  {
+  "id": "data-minimisation",
+  "term": "Data minimisation",
+  "definition": "Collecting and keeping only the personal data that is truly needed, so there is less to lose in a breach.",
+  "audience": "decision",
+  "days": [
+   "2026-09-09"
+  ]
+ },
+ {
   "id": "deepfake",
   "term": "Deepfake",
   "definition": "A fake video, image or audio clip made with AI to look or sound like a real person.",
@@ -305,12 +335,22 @@
  {
   "id": "distillation",
   "term": "Distillation",
-  "definition": "Training one model to copy the answers of another, often a stronger one.",
+  "definition": "Training a smaller model on the answers of a stronger one so it learns to behave similarly.",
   "audience": "lay",
   "days": [
+   "2026-09-10",
    "2026-10-05",
    "2026-10-14",
    "2026-10-30"
+  ]
+ },
+ {
+  "id": "dual-use-research",
+  "term": "Dual-use research",
+  "definition": "Scientific work that can be used for good, like vaccines, or for harm, like weapons.",
+  "audience": "lay",
+  "days": [
+   "2026-09-11"
   ]
  },
  {
@@ -357,9 +397,10 @@
  {
   "id": "fair-use",
   "term": "Fair use",
-  "definition": "A US legal rule that allows some use of copyrighted work without permission, now disputed for AI training.",
-  "audience": "decision",
+  "definition": "A legal idea, mainly in US law, that allows limited use of copyrighted work without permission in some cases.",
+  "audience": "lay",
   "days": [
+   "2026-09-08",
    "2026-09-21"
   ]
  },
@@ -376,9 +417,11 @@
  {
   "id": "formal-verification",
   "term": "Formal verification",
-  "definition": "Using a computer to check, step by step, that a proof or program is correct.",
+  "definition": "Writing a proof or program in a strict language so a computer can check every step is correct.",
   "audience": "builder",
   "days": [
+   "2026-09-07",
+   "2026-09-09",
    "2026-10-07",
    "2026-10-09",
    "2026-10-28"
@@ -460,6 +503,15 @@
   ]
  },
  {
+  "id": "labour-share",
+  "term": "Labour share",
+  "definition": "The part of a country's total income that goes to workers as wages, rather than to owners of capital.",
+  "audience": "decision",
+  "days": [
+   "2026-09-10"
+  ]
+ },
+ {
   "id": "legal-personhood",
   "term": "Legal personhood",
   "definition": "The status that lets an entity, such as a company, hold rights, sign contracts and be sued.",
@@ -509,9 +561,10 @@
  {
   "id": "mixture-of-experts",
   "term": "Mixture of experts",
-  "definition": "A model design where only a small set of specialist parts switch on for each request, so a huge model runs at the cost of a smaller one.",
+  "definition": "A model design that only switches on a small part of its parameters for each task, which saves cost.",
   "audience": "builder",
   "days": [
+   "2026-09-11",
    "2026-10-05",
    "2026-10-16"
   ]
@@ -560,6 +613,7 @@
   "definition": "A model whose trained parameters are published so others can run and adapt it themselves.",
   "audience": "builder",
   "days": [
+   "2026-09-07",
    "2026-09-16",
    "2026-10-02",
    "2026-10-07",
@@ -711,9 +765,10 @@
  {
   "id": "recursive-self-improvement",
   "term": "Recursive self-improvement",
-  "definition": "When AI systems help build better AI systems, which could make progress speed up quickly.",
+  "definition": "When an AI system helps build a stronger successor, which then speeds up the next round.",
   "audience": "lay",
   "days": [
+   "2026-09-11",
    "2026-11-03",
    "2026-11-06"
   ]

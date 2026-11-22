@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-09",
+  "question": "When an AI helps solve a famous problem, how should we share the credit between people and machines?",
+  "reflection": "If machines help us find answers faster, our shared rules for checking and crediting work become even more valuable.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "AI is changing what happens after a breach", "link": "https://briefing.forwardfuture.ai/p/ai-math-risks-cybersecurity-threats-openai-s-credit-fight"},
+    {"newsletter": "AlphaSignal", "subject": "OpenAI's 10,000 agents solved a 90-year math problem in 88hrs", "link": ""}
+  ],
+  "one_line": "AI is reportedly producing real scientific results, which forces new questions about credit, trust and what happens when stolen data meets powerful tools.",
+  "top_stories": [
+    {
+      "title": "OpenAI agents reportedly crack a famous fluid equation problem",
+      "what": "OpenAI says 10,000 agents on an unreleased model showed in 88 hours that the Navier-Stokes equations can break down, with the proof checked in Lean, while an NYU mathematician disputes how credit was handled.",
+      "why": "Research bodies will need clear rules on who gets credit and who is responsible when AI contributes to discovery.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["science", "research ethics"]
+    },
+    {
+      "title": "Why people still hesitate to hand tasks to agents",
+      "what": "A Forward Future essay argues that most adults now use chatbots, but agents ask for much more: account access, permissions, supervision and trust.",
+      "why": "The barrier is delegation and trust, not awareness, which is a behavioural design problem for any digital service adding agents.",
+      "action": "Pitch",
+      "audience": ["decision", "builder"],
+      "tags": ["agents", "adoption"]
+    },
+    {
+      "title": "AI makes stolen data more dangerous",
+      "what": "US reports allege Chinese hackers used AI to search and sort data taken in a breach, turning a large dump into targeted intelligence.",
+      "why": "Agencies that hold personal records should collect less, limit access and plan for faster misuse after any breach.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["security", "data"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi or regional link today."}
+  ],
+  "idea": {
+    "title": "Delegation readiness study",
+    "pitch": "Measure what makes citizens willing to let an AI agent complete a government task for them, such as booking or renewing a document.",
+    "fit": "Government digital services",
+    "first_step": "Draft three task scenarios with different permission levels and test them with ten users in short interviews."
+  },
+  "idea_kids": {
+    "title": "Proof detectives",
+    "pitch": "A puzzle workshop where children check each step of a short logic chain and mark which step is weak, learning that answers need reasons.",
+    "age": "10 to 14",
+    "first_step": "Write six simple logic chains, two of them with one hidden faulty step."
+  },
+  "watchlist": [
+    {"name": "Mistral AI", "sector": "Frontier models", "note": "Raised about $3.5 billion and lets customers choose where data is processed."},
+    {"name": "ElevenLabs", "sector": "Consumer and media", "note": "Hired a finance chief while considering a 2028 listing."},
+    {"name": "Google DeepMind", "sector": "Healthcare and life sciences", "note": "Mapped the predicted effects of all possible single DNA changes."}
+  ],
+  "tool": {"name": "Trae", "use": "ByteDance's AI coding editor built on VS Code, handy for small prototypes and edits across several files.", "link": ""},
+  "verify": [
+    "OpenAI reportedly proved the Navier-Stokes equations can break down using 10,000 agents in 88 hours.",
+    "Pew Research reportedly found 60% of US adults used AI chatbots in 2026."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Claims a major maths result and released ChatGPT Images 2.5."},
+    {"name": "Mistral AI", "type": "company", "sector": "Frontier models", "url": "https://mistral.ai", "note": "Closed a record European funding round."},
+    {"name": "ElevenLabs", "type": "company", "sector": "Consumer and media", "url": "https://elevenlabs.io", "note": "Voice AI firm preparing for a possible listing."},
+    {"name": "Google DeepMind", "type": "company", "sector": "Healthcare and life sciences", "url": "https://deepmind.google", "note": "Released a map of predicted DNA mutation effects."},
+    {"name": "Pew Research Center", "type": "organisation", "sector": "Consumer and media", "url": "https://www.pewresearch.org", "note": "Tracks how many adults use AI chatbots."},
+    {"name": "ByteDance", "type": "company", "sector": "Consumer and media", "url": "https://www.bytedance.com", "note": "Maker of the Trae coding tool."}
+  ],
+  "terms": [
+    {"term": "Formal verification", "definition": "Writing a proof or program in a strict language so a computer can check every step is correct.", "audience": "builder"},
+    {"term": "Data minimisation", "definition": "Collecting and keeping only the personal data that is truly needed, so there is less to lose in a breach.", "audience": "decision"},
+    {"term": "AI agent", "definition": "An AI system that can take actions on a person's behalf, such as using apps or websites, not only answer questions.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "Large teams of agents reportedly solve open mathematical problems, raising credit disputes.", "audience": ["decision", "lay"], "entities": ["OpenAI"]},
+    {"industry": "Agents and automation", "concept": "Agent adoption gap", "summary": "People use chatbots widely but hesitate to delegate real tasks to agents.", "audience": ["decision", "lay"], "entities": ["Pew Research Center"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "Attackers use AI to turn stolen data into targeted intelligence.", "audience": ["decision"], "entities": []}
+  ]
+}
