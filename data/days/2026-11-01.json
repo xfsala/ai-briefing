@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-01",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Why Specialized Foundation Models Could Reshape the AI Stack", "link": ""}
+  ],
+  "one_line": "Small models trained for one job, like forecasting or reading tables, are becoming a cheap alternative to asking a giant chatbot to do everything.",
+  "top_stories": [
+    {
+      "title": "Mistral releases a tiny forecasting model",
+      "what": "Mistral launched Timestral, a family of small models (the largest has 209 million parameters) that predict future numbers such as sales or energy use from past data without any retraining.",
+      "why": "Forecasting demand for services, visitors or staff no longer needs a custom machine-learning project, which lowers the bar for evidence-based planning work.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["forecasting", "open models"]
+    },
+    {
+      "title": "Foundation models spread beyond language",
+      "what": "AlphaSignal points to a wave of pretrained models built for tables, linked databases and structured decisions, including TabPFN and Kumo's relational model.",
+      "why": "Survey and administrative datasets are mostly tables, so these models could give quick predictions from the data clients already hold.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["data", "tabular"]
+    },
+    {
+      "title": "The AI stack becomes a team of models",
+      "what": "The newsletter sketches agents where a reasoning model plans and explains, specialist models produce the numbers, and ordinary code enforces the rules.",
+      "why": "Splitting work this way makes AI systems easier to audit and cheaper to run, both selling points for public-sector clients.",
+      "action": "Pitch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "architecture"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Small models that run on ordinary CPUs suit organisations that must keep data inside the Kingdom and cannot send it to large overseas AI services."}
+  ],
+  "idea": {
+    "title": "Zero-shot demand forecast pilot",
+    "pitch": "Use a pretrained forecasting model on a client's historical visitor or service-request data and compare its accuracy with the forecasts they make today.",
+    "fit": "Culture sector, government services",
+    "first_step": "Ask one client for two years of daily attendance or request counts and run a 30-day forecast."
+  },
+  "watchlist": [
+    {"name": "Mistral AI", "sector": "Frontier models", "note": "French lab now shipping small specialist models, not only chat models."},
+    {"name": "Prior Labs", "sector": "Data and analytics", "note": "Maker of TabPFN, a pretrained model that predicts from tables."},
+    {"name": "Kumo", "sector": "Data and analytics", "note": "Builds a model that predicts outcomes across linked database tables."}
+  ],
+  "tool": {"name": "Timestral", "use": "Quick forecasts from time-series data such as daily sales or visits, with a range of likely outcomes.", "link": ""},
+  "verify": [
+    "Mistral says Timestral leads three public forecasting benchmarks among pretrained models used without retraining.",
+    "Reports that Kumo's relational model beat supervised baselines on 41 tasks."
+  ],
+  "entities": [
+    {"name": "Mistral AI", "type": "company", "sector": "Frontier models", "url": "https://mistral.ai", "note": "French AI lab, maker of the Timestral forecasting models."},
+    {"name": "Prior Labs", "type": "company", "sector": "Data and analytics", "url": "https://priorlabs.ai", "note": "Developer of the TabPFN tabular foundation model."},
+    {"name": "Kumo", "type": "company", "sector": "Data and analytics", "url": "https://kumo.ai", "note": "Builds foundation models for relational databases."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "Tabular foundation model", "definition": "A pretrained AI model that makes predictions from spreadsheet-style data, using example rows instead of being trained from scratch.", "audience": "builder"},
+    {"term": "Zero-shot forecasting", "definition": "Predicting future values from past data with a ready-made model, without training it on your own data first.", "audience": "builder"},
+    {"term": "Time series", "definition": "A sequence of numbers recorded over time, such as daily sales or hourly electricity use.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Data and analytics", "concept": "Specialised foundation models", "summary": "Small pretrained models built for one data task, such as forecasting or table prediction.", "audience": ["builder", "decision"], "entities": ["Mistral AI", "Prior Labs", "Kumo"]},
+    {"industry": "Agents and automation", "concept": "Multi-model agent design", "summary": "Agents that combine a reasoning model, specialist models and plain code, each doing what it does best.", "audience": ["builder"], "entities": ["Mistral AI"]}
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-03",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "My AI Works While I'm Not Looking", "link": "https://briefing.forwardfuture.ai/p/ai-server-shortages-openai-s-policy-push-china-s-moon-race"},
+    {"newsletter": "AlphaSignal", "subject": "Anthropic pays $500K/yr for safety research, no ML needed", "link": ""}
+  ],
+  "one_line": "Anthropic says AI that speeds up its own development may be close, and it is recruiting people from outside machine learning to help keep it safe.",
+  "top_stories": [
+    {
+      "title": "Anthropic flags self-improving AI as near",
+      "what": "In an updated IPO filing, Anthropic said it may be nearing the point where AI meaningfully accelerates the building of better AI, and it opened a well-paid safety residency for technical people without machine-learning backgrounds.",
+      "why": "Safety research is widening to other disciplines, which creates openings for behavioural and social scientists to study oversight and human control.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["safety", "research"]
+    },
+    {
+      "title": "AI servers squeeze ordinary electronics",
+      "what": "Circuit-board factories are reportedly prioritising AI server boards, so PC makers fear late deliveries and one supplier cites laminate prices many times higher than in July.",
+      "why": "Hardware budgets for labs, offices and medical devices may rise or slip, which matters for any project that depends on buying equipment.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["hardware", "supply chain"]
+    },
+    {
+      "title": "OpenAI prepares a policy push",
+      "what": "OpenAI plans to propose speed limits for the most powerful systems, community agreements for data centres and worker support after the US midterm elections, according to Axios.",
+      "why": "Ideas such as local benefit agreements for data centres may shape how other countries, including Gulf states, negotiate with AI firms.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["policy", "data centres"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "South Korea proposed a large 2027 budget for chips, data centres and its own national model, a useful benchmark for how Saudi Arabia's sovereign AI spending compares with other mid-sized tech powers."}
+  ],
+  "idea": {
+    "title": "Community benefit framework for data centres",
+    "pitch": "Design a survey and deliberation method to learn what local communities expect in return for hosting large data centres, from jobs to water and power guarantees.",
+    "fit": "Government services, energy and municipal planning",
+    "first_step": "List the main data-centre sites announced in the region and the communities near them."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Warned of near self-improving AI and launched a cross-disciplinary safety residency."},
+    {"name": "OpenAI", "sector": "Frontier models", "note": "Merging ChatGPT's chat and work modes and planning a US policy campaign."},
+    {"name": "Hugging Face", "sector": "Science and research", "note": "Released Carbon-X, an open model that reads DNA and text together."}
+  ],
+  "tool": {"name": "Claude Message Threads", "use": "API feature in beta that keeps long conversations on the server, so apps send only new messages and get faster replies.", "link": ""},
+  "verify": [
+    "Anthropic's filing suggests recursive self-improvement may be close; this is a company warning, not an independent finding.",
+    "Some new circuit-board orders may not ship until late 2028, according to one manufacturer."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; flagged self-improvement risk and opened a safety residency."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT; planning a post-election policy agenda."},
+    {"name": "Hugging Face", "type": "company", "sector": "Science and research", "url": "https://huggingface.co", "note": "Open AI platform whose biology team released Carbon-X."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "Recursive self-improvement", "definition": "When AI systems help build better AI systems, which could make progress speed up quickly.", "audience": "lay"},
+    {"term": "Sovereign AI", "definition": "AI models, data and computing that a country owns and controls itself rather than relying on foreign providers.", "audience": "decision"},
+    {"term": "Scalable oversight", "definition": "Methods that let humans keep checking and correcting AI systems even as those systems become more capable than the people supervising them.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Recursive self-improvement risk", "summary": "Concern that AI speeding up AI research could outpace safety work.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "AI infrastructure and chips", "concept": "AI hardware supply squeeze", "summary": "AI data centres soaking up memory, chips and boards, raising prices for other electronics.", "audience": ["decision"], "entities": []},
+    {"industry": "Policy and geopolitics", "concept": "Data centre community deals", "summary": "Agreements on local benefits and limits for communities that host AI data centres.", "audience": ["decision"], "entities": ["OpenAI"]},
+    {"industry": "Policy and geopolitics", "concept": "Data residency and sovereign AI", "summary": "Keeping data and AI processing inside national borders and under national rules.", "audience": ["decision"], "entities": []}
+  ]
+}

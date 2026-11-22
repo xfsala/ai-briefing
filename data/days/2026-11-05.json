@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-05",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "The Grok Bot workflows worth stealing", "link": "https://briefing.forwardfuture.ai/p/china-s-ai-labs-openai-s-security-failures-spacex-s-ai-cloud"},
+    {"newsletter": "AlphaSignal", "subject": "Claude Code cuts subagent costs 99%, 6% more prompts", "link": ""}
+  ],
+  "one_line": "Shopping agents are barely being used by real customers, a reminder that convenient technology still has to beat habits that already work.",
+  "top_stories": [
+    {
+      "title": "Almost nobody lets agents book their rides",
+      "what": "Uber says AI agents booked only four rides and a few hundred food orders in a week when it handled hundreds of millions of trips and orders.",
+      "why": "Adoption is a behaviour problem, not a technology one: when the existing app already takes seconds, agents offer little gain, which is useful evidence for any digital service roadmap.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["agents", "adoption", "behavioural science"]
+    },
+    {
+      "title": "China builds round-the-clock robot labs",
+      "what": "China is linking scientific data, AI models, computing and robotic labs that run experiments nonstop, with an early focus on drugs, materials and solar cells.",
+      "why": "National research infrastructure of this kind shows how state planning can speed up applied science, a model worth comparing with Gulf research strategies.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["science", "policy"]
+    },
+    {
+      "title": "Proof of which model answered",
+      "what": "Anthropic released FlashProve, an open-source prototype that produces a cryptographic proof that an answer came from a specific model, without revealing the model itself.",
+      "why": "Buyers of AI services could one day check that a vendor did not quietly swap in a cheaper model, which supports fairer public procurement.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["governance", "trust"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi research bodies investing in AI for science can learn from China's approach of joining data, compute and automated labs into one national system rather than funding them separately."},
+    {"text": "Model verification tools could support procurement rules for government AI services, letting agencies confirm they receive the model they paid for."}
+  ],
+  "idea": {
+    "title": "Why citizens skip the agent",
+    "pitch": "Study why people choose or avoid AI agents for routine government or commercial tasks, measuring time saved, trust and the effort of switching habits.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Pick one high-volume online service and map how long each step takes today with and without an assistant."
+  },
+  "watchlist": [
+    {"name": "Uber", "sector": "Consumer and media", "note": "Shared rare hard numbers on how little customers use AI agents to book."},
+    {"name": "XtalPi", "sector": "Science and research", "note": "Runs automated labs for most of the world's largest drug makers."},
+    {"name": "SpaceX", "sector": "AI infrastructure and chips", "note": "Reportedly building data-centre capacity at a pace that rivals the biggest clouds."}
+  ],
+  "tool": {"name": "Kimi K3.1 Pro", "use": "Very large open-weight model with long context, available through hosted platforms for teams that want an open alternative to closed models.", "link": ""},
+  "verify": [
+    "SemiAnalysis estimates SpaceX could reach about 13 gigawatts of data-centre capacity in 2027.",
+    "Claude Code's update reportedly cuts the cost of background agent status updates by 99%."
+  ],
+  "entities": [
+    {"name": "Uber", "type": "company", "sector": "Consumer and media", "url": "https://www.uber.com", "note": "Ride and delivery platform reporting very low agent bookings."},
+    {"name": "XtalPi", "type": "company", "sector": "Science and research", "url": "", "note": "Chinese firm running AI-driven robotic labs for drugs and materials."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; released the FlashProve model-verification prototype."},
+    {"name": "SpaceX", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.spacex.com", "note": "Space company expanding into large AI data centres."},
+    {"name": "Moonshot AI", "type": "company", "sector": "Frontier models", "url": "", "note": "Chinese lab behind the Kimi open-weight models."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "Self-driving lab", "definition": "A laboratory where AI plans experiments and robots run them, so tests can continue day and night with little human help.", "audience": "lay"},
+    {"term": "Cryptographic proof", "definition": "A mathematical check that confirms something is true, such as which model produced an answer, without revealing the secret details behind it.", "audience": "decision"},
+    {"term": "Open-weight model", "definition": "An AI model whose internal numbers are published, so anyone can download, run and adapt it.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent adoption gap", "summary": "Consumers rarely use AI agents for tasks that existing apps already make quick.", "audience": ["decision", "lay"], "entities": ["Uber"]},
+    {"industry": "Science and research", "concept": "Automated science labs", "summary": "AI and robots running experiments around the clock to speed up applied research.", "audience": ["decision", "lay"], "entities": ["XtalPi"]},
+    {"industry": "Safety, security and governance", "concept": "Model identity verification", "summary": "Proving which AI model produced an output so customers can trust what they are buying.", "audience": ["decision", "builder"], "entities": ["Anthropic"]}
+  ]
+}
