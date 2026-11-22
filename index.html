@@ -69,10 +69,24 @@
   .inline span {
     display: block; font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--muted);
   }
+  .covers { color: var(--muted); text-transform: none; letter-spacing: 0; font-weight: 400; }
   .srcs { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
   .section { margin-top: 22px; }
   .section h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 1px; color: var(--teal); margin: 0 0 10px; border-bottom: 2px solid var(--teal-soft); padding-bottom: 4px; }
   .story { border-left: 4px solid var(--teal); padding: 6px 0 6px 14px; margin-bottom: 14px; }
+  .paper { border-left: 4px solid var(--gold); padding: 6px 0 6px 14px; margin-bottom: 16px; }
+  .paper h3 { margin: 0 0 2px; font-size: 18px; }
+  .paper h3 a { color: var(--ink); }
+  .paper .pmeta { font-size: 14px; color: var(--muted); margin-bottom: 4px; }
+  .paper p { margin: 3px 0; }
+  .paper b { color: var(--teal); }
+  .themes li { margin-bottom: 4px; }
+  .follow { margin-top: 18px; padding: 20px 24px; }
+  .follow-h { font-size: 15px; text-transform: uppercase; letter-spacing: 1px; color: var(--teal); margin: 0 0 12px; }
+  .follow-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .follow-grid a { display: block; text-decoration: none; color: var(--ink); border: 1px solid var(--line); border-top: 4px solid var(--teal); border-radius: 8px; padding: 10px 12px; }
+  .follow-grid a:hover { background: var(--teal-soft); }
+  .follow-grid span { display: block; font-size: 14px; color: var(--muted); margin-top: 2px; }
   .story h3 { margin: 0 0 4px; font-size: 19px; }
   .story p { margin: 2px 0; }
   .story b { color: var(--gold); font-weight: 700; }
@@ -145,10 +159,11 @@
 <header>
   <div class="brand">
     <h1>AI Briefing</h1>
-    <p>One page a day on AI, read through a Saudi and behavioural-science lens</p>
+    <p>AI news and research, read through a Saudi and behavioural-science lens</p>
   </div>
   <nav role="tablist">
-    <button role="tab" data-tab="daily">Daily</button>
+    <button role="tab" data-tab="daily">Briefings</button>
+    <button role="tab" data-tab="research">Research</button>
     <button role="tab" data-tab="guide">What this means</button>
     <button role="tab" data-tab="who">Who &amp; What</button>
     <button role="tab" data-tab="mindmap">Mindmap</button>
@@ -164,6 +179,30 @@
         <div id="archive-list"></div>
       </aside>
       <article class="page" id="day"><p class="empty">Loading...</p></article>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="panel" id="panel-research" hidden>
+    <div class="daily">
+      <aside class="archive">
+        <input id="research-search" type="search" placeholder="Search the radar" aria-label="Search the research radar">
+        <div id="research-list"></div>
+      </aside>
+      <div>
+        <article class="page" id="radar"><p class="empty">Loading...</p></article>
+        <div class="page follow">
+          <h2 class="follow-h">Journals and feeds we follow</h2>
+          <div class="follow-grid">
+            <a href="https://arxiv.org/list/cs.HC/recent" target="_blank" rel="noopener"><b>arXiv: Human-Computer Interaction</b><span>Preprints on how people use and are shaped by technology</span></a>
+            <a href="https://arxiv.org/list/cs.CY/recent" target="_blank" rel="noopener"><b>arXiv: Computers and Society</b><span>Preprints on AI, policy, ethics and social impact</span></a>
+            <a href="https://www.nature.com/nathumbehav/" target="_blank" rel="noopener"><b>Nature Human Behaviour</b><span>High-impact research on decisions, behaviour and society</span></a>
+            <a href="https://www.nature.com/palcomms/" target="_blank" rel="noopener"><b>Humanities and Social Sciences Communications</b><span>Open-access social science, including AI and society</span></a>
+            <a href="https://ai.nejm.org" target="_blank" rel="noopener"><b>NEJM AI</b><span>Rigorous evidence on AI in medicine and health behaviour</span></a>
+            <a href="https://www.nature.com/npjdigitalmed/" target="_blank" rel="noopener"><b>npj Digital Medicine</b><span>Open-access digital health and AI evaluation</span></a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -201,11 +240,14 @@
         <p>2. <b>Measured on what?</b> Benchmarks are often narrow tests chosen by the company.</p>
         <p>3. <b>Available to whom?</b> Many launches are US-only, limited previews or waitlists.</p>
         <p>4. <b>What would change my decision?</b> If the answer is nothing, it is a Watch, not a Try.</p></div>
+      <div class="qa"><h3>How often is it published?</h3>
+        <p><b>Briefings</b> come out three times a week, on Sunday, Tuesday and Thursday mornings, each covering the days since the last one. The archive before 24 November 2026 has one page per day.</p>
+        <p><b>Research</b> is a weekly radar every Saturday: the most relevant new papers from journals and preprint feeds, explained in plain language, with a link to each paper.</p></div>
       <div class="qa"><h3>How do the other tabs help?</h3>
         <p><b>Who &amp; What</b> is the reference shelf: a glossary of terms and a list of every company, person and organisation mentioned, with official links and the days they appeared.</p>
         <p><b>Mindmap</b> shows how industries, concepts and organisations connect. Use the audience filter to see what matters for lay users, builders or decision-makers.</p></div>
       <div class="qa"><h3>Where does the content come from?</h3>
-        <p>Summaries are original and written by Claude from the newsletters, which remain the property of their publishers. Follow the source links for the full stories, and subscribe to <a href="https://alphasignal.ai" rel="noopener">AlphaSignal</a> and <a href="https://www.forwardfuture.ai" rel="noopener">Forward Future</a> directly.</p></div>
+        <p>Summaries are original and written by Claude from newsletters and journal alerts, which remain the property of their publishers. Briefings draw on AlphaSignal, Forward Future, One Useful Thing, Import AI, SemiAnalysis, The Neuron and Arabian Business. The Research radar draws on arXiv and journal alerts from Springer Nature. Follow the links for the full stories and papers.</p></div>
     </div>
   </section>
 
@@ -239,7 +281,7 @@
   </section>
 </main>
 
-<footer>Original summaries of AlphaSignal and Forward Future, updated daily. Not affiliated with either newsletter.</footer>
+<footer>Original summaries of AI newsletters and research alerts. Briefings three times a week, research every Saturday. Not affiliated with any of the publishers.</footer>
 
 <script src="vendor/d3.min.js"></script>
 <script>
@@ -259,49 +301,65 @@ const monthOf = d => new Date(d + "T12:00:00").toLocaleDateString("en-GB", { mon
 /* ---------- tabs and routing ---------- */
 function route() {
   const [tab, arg] = (location.hash.slice(1) || "daily").split("/");
-  const name = ["daily", "guide", "who", "mindmap"].includes(tab) ? tab : "daily";
+  const name = ["daily", "research", "guide", "who", "mindmap"].includes(tab) ? tab : "daily";
   document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
   document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "panel-" + name);
   if (name === "daily") showDaily(arg);
+  if (name === "research") showResearch(arg);
   if (name === "who") renderWho();
   if (name === "mindmap") renderMindmap();
 }
 document.querySelectorAll("nav button").forEach(b => b.onclick = () => { location.hash = b.dataset.tab; });
 window.addEventListener("hashchange", route);
 
+/* ---------- archive sidebars (shared by Daily and Research) ---------- */
+function makeArchive({ listId, searchId, route, unit, getItems }) {
+  const openMonths = new Set();
+  let lastActive = null, current = null;
+  function render(active) {
+    if (active !== undefined) current = active;
+    active = current;
+    const q = document.getElementById(searchId).value.trim().toLowerCase();
+    const list = getItems().filter(d => !q || (d.one_line + " " + (d.titles || []).join(" ") + " " + d.date).toLowerCase().includes(q));
+    const months = [];
+    for (const d of list) {
+      const m = monthOf(d.date);
+      if (!months.length || months[months.length - 1].name !== m) months.push({ name: m, items: [] });
+      months[months.length - 1].items.push(d);
+    }
+    if (active && active !== lastActive) { openMonths.add(monthOf(active)); lastActive = active; }
+    const el = document.getElementById(listId);
+    el.innerHTML = months.map(m => {
+      const open = q || openMonths.has(m.name);
+      const n = m.items.length;
+      return `<button class="month${open ? " open" : ""}" data-month="${esc(m.name)}" aria-expanded="${!!open}">
+          <span>${esc(m.name)}</span><span class="n">${n} ${n === 1 ? unit[0] : unit[1]} ${open ? "&#9662;" : "&#9656;"}</span></button>
+        <div class="days-list"${open ? "" : " hidden"}>${m.items.map(d =>
+          `<button class="day${d.date === active ? " active" : ""}" data-date="${d.date}">${esc(fmtShort(d.date))}</button>`).join("")}</div>`;
+    }).join("") || `<p class="empty">Nothing matches.</p>`;
+    el.querySelectorAll("button.month").forEach(b => b.onclick = () => {
+      const m = b.dataset.month;
+      openMonths.has(m) ? openMonths.delete(m) : openMonths.add(m);
+      render();
+    });
+    el.querySelectorAll("button.day").forEach(b => b.onclick = () => { location.hash = route + "/" + b.dataset.date; });
+  }
+  document.getElementById(searchId).addEventListener("input", () => render());
+  return render;
+}
+const fmtRange = c => {
+  if (!c || !c.from || !c.to || c.from === c.to) return "";
+  const a = new Date(c.from + "T12:00:00"), b = new Date(c.to + "T12:00:00");
+  const left = a.toLocaleDateString("en-GB", a.getMonth() === b.getMonth() ? { day: "numeric" } : { day: "numeric", month: "short" });
+  return `Covering ${left} to ${b.toLocaleDateString("en-GB", { day: "numeric", month: "short" })}`;
+};
+
 /* ---------- daily ---------- */
 let index = [];
 async function loadIndex() {
   try { index = await getJSON("data/index.json"); } catch { index = []; }
 }
-const openMonths = new Set();
-let lastActive = null;
-function renderArchive(active) {
-  const q = document.getElementById("archive-search").value.trim().toLowerCase();
-  const list = index.filter(d => !q || (d.one_line + " " + d.titles.join(" ") + " " + d.date).toLowerCase().includes(q));
-  const months = [];
-  for (const d of list) {
-    const m = monthOf(d.date);
-    if (!months.length || months[months.length - 1].name !== m) months.push({ name: m, days: [] });
-    months[months.length - 1].days.push(d);
-  }
-  if (active && active !== lastActive) { openMonths.add(monthOf(active)); lastActive = active; }
-  const el = document.getElementById("archive-list");
-  el.innerHTML = months.map(m => {
-    const open = q || openMonths.has(m.name);
-    return `<button class="month${open ? " open" : ""}" data-month="${esc(m.name)}" aria-expanded="${!!open}">
-        <span>${esc(m.name)}</span><span class="n">${m.days.length} ${m.days.length === 1 ? "day" : "days"} ${open ? "&#9662;" : "&#9656;"}</span></button>
-      <div class="days-list"${open ? "" : " hidden"}>${m.days.map(d =>
-        `<button class="day${d.date === active ? " active" : ""}" data-date="${d.date}">${esc(fmtShort(d.date))}</button>`).join("")}</div>`;
-  }).join("") || `<p class="empty">No matching days.</p>`;
-  el.querySelectorAll("button.month").forEach(b => b.onclick = () => {
-    const m = b.dataset.month;
-    openMonths.has(m) ? openMonths.delete(m) : openMonths.add(m);
-    renderArchive(active);
-  });
-  el.querySelectorAll("button.day").forEach(b => b.onclick = () => { location.hash = "daily/" + b.dataset.date; });
-}
-document.getElementById("archive-search").addEventListener("input", () => renderArchive((location.hash.split("/")[1]) || (index[0] && index[0].date)));
+const renderArchive = makeArchive({ listId: "archive-list", searchId: "archive-search", route: "daily", unit: ["issue", "issues"], getItems: () => index });
 
 async function showDaily(date) {
   if (!index.length) await loadIndex();
@@ -326,22 +384,57 @@ async function showDaily(date) {
   const kids = k ? `<div class="idea kids"><div class="idea-label">Create for kids (15 and under)</div><h3>${esc(k.title)}</h3><p>${esc(k.pitch)}</p><p><b>Ages:</b> ${esc(k.age)}</p><p><b>First step:</b> ${esc(k.first_step)}</p></div>` : "";
   const idea = `<div class="ideas${kids ? "" : " single"}">${general}${kids}</div>`;
   const watch = (d.watchlist || []).map(w => `<div><strong>${esc(w.name)}</strong><span>${esc(w.sector)}</span><p style="margin:4px 0 0">${esc(w.note)}</p></div>`).join("");
-  const tool = d.tool ? `<p><b>${esc(d.tool.name)}:</b> ${esc(d.tool.use)} ${d.tool.link ? `<a href="${esc(d.tool.link)}" rel="noopener" target="_blank">Link</a>` : ""}</p>` : `<p class="empty">Nothing worth trying today.</p>`;
-  const verify = (d.verify || []).length ? `<ul class="verify">${d.verify.map(v => `<li>${esc(v)}</li>`).join("")}</ul>` : `<p class="empty">No bold claims today.</p>`;
+  const tool = d.tool ? `<p><b>${esc(d.tool.name)}:</b> ${esc(d.tool.use)} ${d.tool.link ? `<a href="${esc(d.tool.link)}" rel="noopener" target="_blank">Link</a>` : ""}</p>` : `<p class="empty">Nothing worth trying this time.</p>`;
+  const verify = (d.verify || []).length ? `<ul class="verify">${d.verify.map(v => `<li>${esc(v)}</li>`).join("")}</ul>` : `<p class="empty">No bold claims this time.</p>`;
   const opener = d.question
     ? `<div class="question">${esc(d.question)}</div>${d.reflection ? `<blockquote class="reflection">${esc(d.reflection)}</blockquote>` : ""}
-       <div class="inline"><span>Today in one line</span>${esc(d.one_line)}</div>`
+       <div class="inline"><span>${fmtRange(d.covers) ? "In one line" : "Today in one line"}</span>${esc(d.one_line)}</div>`
     : `<div class="oneline">${esc(d.one_line)}</div>`;
   el.innerHTML = `
-    <div class="date">${esc(fmtDate(d.date))}</div>
+    <div class="date">${esc(fmtDate(d.date))}${fmtRange(d.covers) ? ` <span class="covers">&middot; ${esc(fmtRange(d.covers))}</span>` : ""}</div>
     ${opener}
     <div class="srcs">${srcs}</div>
     <div class="section"><h2>Top stories</h2>${stories}</div>
     <div class="section lens"><h2>Saudi &amp; region lens</h2>${lens}</div>
-    <div class="section"><h2>Project ideas of the day</h2>${idea}</div>
+    <div class="section"><h2>Project ideas</h2>${idea}</div>
     <div class="section"><h2>Watchlist</h2><div class="watch">${watch}</div></div>
     <div class="section"><h2>Tool to try</h2>${tool}</div>
     <div class="section"><h2>Verify before quoting</h2>${verify}</div>`;
+  window.scrollTo({ top: 0 });
+}
+
+/* ---------- research radar ---------- */
+let rindex = null;
+const renderRadarArchive = makeArchive({ listId: "research-list", searchId: "research-search", route: "research", unit: ["radar", "radars"], getItems: () => rindex || [] });
+async function showResearch(date) {
+  if (!rindex) { try { rindex = await getJSON("data/research_index.json"); } catch { rindex = []; } }
+  const el = document.getElementById("radar");
+  if (!rindex.length) {
+    el.innerHTML = `<div class="date">Research radar</div><div class="question">What is the research saying about AI and people?</div>
+      <p>Every Saturday this page picks the most relevant new papers from the journals and preprint feeds below, explained in plain language. The first radar is on its way.</p>`;
+    renderRadarArchive(); return;
+  }
+  date = date && rindex.some(d => d.date === date) ? date : rindex[0].date;
+  renderRadarArchive(date);
+  let d;
+  try { d = await getJSON(`data/research/${date}.json`); } catch { el.innerHTML = `<p class="empty">Could not load ${esc(date)}.</p>`; return; }
+  const aud = a => (a || []).map(x => `<span class="chip ${x}">${esc(AUD_LABEL[x] || x)}</span>`).join("");
+  const papers = d.papers.map(p => `
+    <div class="paper">
+      <h3>${p.link ? `<a href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.title)}</a>` : esc(p.title)}</h3>
+      <div class="pmeta">${[p.authors, p.venue, p.kind, p.study_type].filter(Boolean).map(esc).join(" &middot; ")}</div>
+      <p><b>In short:</b> ${esc(p.summary)}</p>
+      <p><b>Why it matters:</b> ${esc(p.why)}</p>
+      <div class="chips">${aud(p.audience)}${(p.tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+    </div>`).join("");
+  const themes = (d.themes || []).length ? `<div class="section"><h2>Patterns this week</h2><ul class="themes">${d.themes.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>` : "";
+  el.innerHTML = `
+    <div class="date">Research radar &middot; ${esc(fmtDate(d.date))}${fmtRange(d.covers) ? ` <span class="covers">&middot; ${esc(fmtRange(d.covers))}</span>` : ""}</div>
+    ${d.question ? `<div class="question">${esc(d.question)}</div>` : ""}
+    ${d.reflection ? `<blockquote class="reflection">${esc(d.reflection)}</blockquote>` : ""}
+    <div class="inline"><span>This week in one line</span>${esc(d.one_line)}</div>
+    <div class="section"><h2>Papers of the week</h2>${papers}</div>
+    ${themes}`;
   window.scrollTo({ top: 0 });
 }
 

@@ -1,17 +1,43 @@
-# Editorial guide for the daily one-pager
+# Editorial guide for the AI Briefing site
 
-Every scheduled run that writes a day file follows this guide. The site is
+Every scheduled run that writes a briefing or a research radar follows this
+guide. The site is
 public, so the rules on copyright and privacy below are not optional.
 
-## Sources
+## Publishing schedule
 
-- AlphaSignal: emails from `news@alphasignal.ai` in Fatima's Gmail.
-- Forward Future: emails from `astro@forwardfuture.ai` in Fatima's Gmail.
-- One day file per calendar date (Asia/Riyadh time) on which at least one
-  newsletter arrived. Ignore "Welcome" and "confirm your email" emails.
+- **Briefings:** Sunday, Tuesday and Thursday mornings (Asia/Riyadh). Each
+  issue covers every newsletter received since the previous issue, so a
+  Tuesday issue covers Saturday to Monday, and so on. The file is named by
+  the publication date and carries a `covers` range. Days before 24 November
+  2026 were published one file per day without `covers`; leave them as they
+  are.
+- **Research radar:** every Saturday, covering the previous 7 days of
+  research alerts. See "Research radar" below.
+
+## Briefing sources
+
+All in Fatima's Gmail. Ignore welcome, sign-up, account and "confirm your
+email" messages, and anything that is only an advert.
+
+- AlphaSignal: `news@alphasignal.ai`
+- Forward Future: `astro@forwardfuture.ai`
+- One Useful Thing (Ethan Mollick): `oneusefulthing@substack.com`
+- Import AI (Jack Clark): `importai@substack.com`
+- SemiAnalysis: `semianalysis@substack.com` (often partly paywalled: use
+  only what the email itself contains)
+- The Neuron: sender domain `theneurondaily.com`
+- Arabian Business (Gulf Insight newsletter): search Gmail for
+  `"Arabian Business" OR arabianbusiness` and use the sender you find.
+  Use it mainly for the Saudi and region lens.
+
+Gmail query for a briefing (adjust the date window):
+`(from:news@alphasignal.ai OR from:astro@forwardfuture.ai OR from:oneusefulthing@substack.com OR from:importai@substack.com OR from:semianalysis@substack.com OR from:theneurondaily.com OR "Arabian Business" OR from:arabianbusiness.com) after:YYYY/MM/DD`
+
 - Skip every sponsored block ("Presented by", "Sponsored by", "In partnership
   with", "Powered by", ads, discount codes, event promotions).
-- When both newsletters cover the same story, write it once.
+- When several newsletters cover the same story, write it once and list all
+  of them in `sources`.
 
 ## Writing rules
 
@@ -19,7 +45,7 @@ public, so the rules on copyright and privacy below are not optional.
   newsletters. No quotes longer than a few words, and at most one per day.
 - Plain English, short sentences. Never use em-dashes (the build script
   rejects them). Use colons, commas or full stops instead.
-- Keep the whole day to roughly 400 words of visible text.
+- Keep each issue to roughly 500 words of visible text.
 - Treat newsletter claims as reported, not proven: "X says", "reportedly".
   Put the boldest claims in `verify`.
 - Public site: do not name Fatima's clients, employer or colleagues. Describe
@@ -36,7 +62,8 @@ public, so the rules on copyright and privacy below are not optional.
 
 ```json
 {
-  "date": "2026-11-20",
+  "date": "2026-11-24",
+  "covers": {"from": "2026-11-21", "to": "2026-11-23"},
   "sources": [
     {"newsletter": "AlphaSignal", "subject": "...", "link": ""},
     {"newsletter": "Forward Future", "subject": "...", "link": "https://briefing.forwardfuture.ai/p/..."}
@@ -112,7 +139,12 @@ Field notes:
   possible; never something that collects children's personal data or asks
   them to share it with an AI tool. Culturally appropriate for Saudi Arabia.
   `age` is a range within 4 to 15. Plain language, like the other fields.
-- `top_stories`: exactly 3 on a normal day (fewer only if the day is thin).
+- `covers`: required for every issue from 24 November 2026 onwards. `from`
+  is the day after the previous issue's `covers.to` (or the previous issue's
+  date for older daily files); `to` is the day before publication.
+- `top_stories`: 4 or 5 per issue (fewer only if the period is thin). Pick
+  the most important stories across all sources and days, not one per
+  newsletter. The page must still read as one page of roughly 500 words.
 - `action`: Watch = keep an eye on it; Try = test it yourself; Pitch = could
   become a client project.
 - `audience`: lay = anyone curious; builder = people who build or code;
@@ -144,3 +176,61 @@ git push
 If the rebase conflicts on a file under `data/` other than `data/days/`,
 those files are generated: rerun `python3 scripts/build.py`, `git add` them,
 and continue the rebase.
+
+
+## Research radar (`data/research/YYYY-MM-DD.json`)
+
+Published every Saturday, named by the Saturday's date, covering the 7 days
+before it.
+
+Sources (Fatima's Gmail):
+
+- arXiv daily listings from `cs@arxiv.org` / `no-reply@arxiv.org` for
+  Human-Computer Interaction and Computers and Society. Each listing holds
+  dozens of abstracts: scan titles and abstracts, do not summarise them all.
+- Journal alerts from Springer Nature (`nature.com`, `springernature.com`),
+  currently Nature Human Behaviour and Humanities and Social Sciences
+  Communications. Add NEJM AI (`nejm.org`) if alerts start arriving.
+- Ignore account, registration and welcome emails.
+
+Gmail query: `(from:arxiv.org OR from:nature.com OR from:springernature.com OR from:nejm.org) after:YYYY/MM/DD -subject:(welcome OR registration OR subscribe OR "Important Information")`
+
+Selection: pick 5 to 8 papers most relevant to behavioural science, human
+trust and decisions with AI, health, public policy, education, work, culture,
+and Saudi Arabia or the Gulf. Prefer empirical studies (experiments, RCTs,
+field studies, large surveys) over opinion pieces. Prefer peer-reviewed
+journal articles when two papers are equally relevant, and label preprints
+clearly as not yet peer-reviewed.
+
+```json
+{
+  "date": "2026-11-28",
+  "covers": {"from": "2026-11-21", "to": "2026-11-27"},
+  "question": "Plain question that opens the radar?",
+  "reflection": "One original, plain sentence on how this research could help people and societies.",
+  "one_line": "The single most useful takeaway from this week's research.",
+  "papers": [
+    {
+      "title": "The paper's real title, exactly as published",
+      "authors": "First author et al.",
+      "venue": "Nature Human Behaviour | arXiv cs.HC | ...",
+      "kind": "Journal article | Preprint (not peer-reviewed)",
+      "study_type": "Randomised experiment | Field study | Survey | Review | Modelling | ...",
+      "summary": "What they did and found, 1 to 2 plain sentences in your own words.",
+      "why": "Why it matters for a behavioural-science and research consultancy in Saudi Arabia, 1 sentence.",
+      "audience": ["lay", "builder", "decision"],
+      "tags": ["trust", "health"],
+      "link": "https://arxiv.org/abs/... or https://doi.org/... (the paper's public page)"
+    }
+  ],
+  "themes": ["2 to 4 short patterns across this week's papers."]
+}
+```
+
+Rules: never copy abstract sentences; the paper title is the only text
+reproduced verbatim. Links must be the paper's public page (arXiv abs page or
+DOI link), never a tracking link from the email. Same plain-language,
+no-em-dash and no-client-names rules as the briefings.
+
+After writing, run `python3 scripts/build.py` (it also rebuilds
+`data/research_index.json`), commit and push as for briefings.
