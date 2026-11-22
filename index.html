@@ -162,7 +162,7 @@
     <p>AI news and research, read through a Saudi and behavioural-science lens</p>
   </div>
   <nav role="tablist">
-    <button role="tab" data-tab="daily">Briefings</button>
+    <button role="tab" data-tab="briefings">Briefings</button>
     <button role="tab" data-tab="research">Research</button>
     <button role="tab" data-tab="guide">What this means</button>
     <button role="tab" data-tab="who">Who &amp; What</button>
@@ -211,7 +211,7 @@
     <div class="guide">
       <h2 style="margin-top:0">How to read this site</h2>
       <div class="qa"><h3>What is this?</h3>
-        <p>A short, regular briefing on AI for people who need to understand what it means, not only what was launched. It is written from eight newsletters and a set of research journals, with sponsored content removed, duplicate stories merged, and every point read through a Saudi and behavioural-science lens.</p></div>
+        <p>A short, regular briefing on AI for people who need to understand what it means, not only what was launched. It is written from high-calibre newsletters and research journals, with every point read through a behavioral-science lens focused for Saudi region.</p></div>
       <div class="qa"><h3>What is on each tab?</h3>
         <p><b>Briefings:</b> one page, three times a week, with the stories that matter most.</p>
         <p><b>Research:</b> a weekly radar of new studies on AI and people, with a link to each paper.</p>
@@ -318,11 +318,12 @@ const monthOf = d => new Date(d + "T12:00:00").toLocaleDateString("en-GB", { mon
 
 /* ---------- tabs and routing ---------- */
 function route() {
-  const [tab, arg] = (location.hash.slice(1) || "daily").split("/");
-  const name = ["daily", "research", "guide", "who", "mindmap"].includes(tab) ? tab : "daily";
+  let [tab, arg] = (location.hash.slice(1) || "briefings").split("/");
+  if (tab === "daily") tab = "briefings";
+  const name = ["briefings", "research", "guide", "who", "mindmap"].includes(tab) ? tab : "briefings";
   document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
-  document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "panel-" + name);
-  if (name === "daily") showDaily(arg);
+  document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "panel-" + (name === "briefings" ? "daily" : name));
+  if (name === "briefings") showDaily(arg);
   if (name === "research") showResearch(arg);
   if (name === "who") renderWho();
   if (name === "mindmap") renderMindmap();
@@ -377,7 +378,7 @@ let index = [];
 async function loadIndex() {
   try { index = await getJSON("data/index.json"); } catch { index = []; }
 }
-const renderArchive = makeArchive({ listId: "archive-list", searchId: "archive-search", route: "daily", unit: ["issue", "issues"], getItems: () => index });
+const renderArchive = makeArchive({ listId: "archive-list", searchId: "archive-search", route: "briefings", unit: ["issue", "issues"], getItems: () => index });
 
 async function showDaily(date) {
   if (!index.length) await loadIndex();
