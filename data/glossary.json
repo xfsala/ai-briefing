@@ -48,9 +48,10 @@
  {
   "id": "agentic-payments",
   "term": "Agentic payments",
-  "definition": "Purchases that an AI agent completes for a person, using a saved card under limits the person sets.",
+  "definition": "Purchases that an AI agent makes for a person, usually within limits and approvals the person sets.",
   "audience": "lay",
   "days": [
+   "2026-09-01",
    "2026-11-16"
   ]
  },
@@ -160,8 +161,9 @@
   "id": "calibrated-confidence",
   "term": "Calibrated confidence",
   "definition": "When a model's stated certainty matches how often it is actually right.",
-  "audience": "decision",
+  "audience": "lay",
   "days": [
+   "2026-09-02",
    "2026-09-27",
    "2026-11-17"
   ]
@@ -187,9 +189,10 @@
  {
   "id": "computer-use",
   "term": "Computer use",
-  "definition": "When an AI model operates software like a person, by reading the screen, clicking and typing.",
+  "definition": "An AI model operating a computer the way a person does, by reading the screen, clicking and typing.",
   "audience": "lay",
   "days": [
+   "2026-09-04",
    "2026-10-27"
   ]
  },
@@ -283,9 +286,10 @@
  {
   "id": "demand-response",
   "term": "Demand response",
-  "definition": "Cutting or shifting electricity use when the grid is under strain, often in return for payment.",
+  "definition": "Adjusting when and how much electricity a large user draws, to ease pressure on the power grid.",
   "audience": "decision",
   "days": [
+   "2026-09-03",
    "2026-09-17"
   ]
  },
@@ -362,9 +366,10 @@
  {
   "id": "fine-tuning",
   "term": "Fine-tuning",
-  "definition": "Extra training on a smaller, chosen set of examples to change how an existing AI model behaves.",
+  "definition": "Further training an existing model on a smaller, focused set of examples so it gets better at one kind of task.",
   "audience": "builder",
   "days": [
+   "2026-09-06",
    "2026-11-09"
   ]
  },
@@ -416,6 +421,15 @@
   ]
  },
  {
+  "id": "inter-rater-agreement",
+  "term": "Inter-rater agreement",
+  "definition": "A measure of how often two or more raters give the same score to the same item, used to check that a scoring method is reliable.",
+  "audience": "lay",
+  "days": [
+   "2026-09-06"
+  ]
+ },
+ {
   "id": "ipo-prospectus",
   "term": "IPO prospectus",
   "definition": "The official document a company publishes before selling shares to the public, listing its finances and risks.",
@@ -457,9 +471,10 @@
  {
   "id": "llm-as-a-judge",
   "term": "LLM-as-a-judge",
-  "definition": "Using one AI model to score or check the answers produced by another.",
+  "definition": "Using a language model to score the answers of another model against a set of criteria.",
   "audience": "builder",
   "days": [
+   "2026-09-06",
    "2026-09-27"
   ]
  },
@@ -610,9 +625,10 @@
  {
   "id": "preliminary-injunction",
   "term": "Preliminary injunction",
-  "definition": "A temporary court order that stops an action while a lawsuit is still being decided.",
+  "definition": "A temporary court order that stops someone from doing something while a case is still being decided.",
   "audience": "decision",
   "days": [
+   "2026-09-02",
    "2026-09-29"
   ]
  },
@@ -629,9 +645,10 @@
  {
   "id": "prompt-caching",
   "term": "Prompt caching",
-  "definition": "Reusing text a model has already processed so repeated requests cost less and run faster.",
+  "definition": "Reusing parts of a prompt that a model has already processed, so repeated requests cost less and run faster.",
   "audience": "builder",
   "days": [
+   "2026-09-02",
    "2026-09-23",
    "2026-11-15"
   ]
@@ -767,9 +784,10 @@
  {
   "id": "sandbox",
   "term": "Sandbox",
-  "definition": "A closed test environment where software can run without reaching real systems.",
-  "audience": "builder",
+  "definition": "A closed test space where software can run without reaching real systems or data.",
+  "audience": "lay",
   "days": [
+   "2026-09-03",
    "2026-09-28",
    "2026-10-13",
    "2026-10-22",
@@ -799,9 +817,10 @@
  {
   "id": "self-hosted",
   "term": "Self-hosted",
-  "definition": "Software that runs on an organisation's own servers or cloud account, so its data does not pass through the vendor's systems.",
+  "definition": "Software that runs on an organisation's own servers instead of the provider's cloud.",
   "audience": "decision",
   "days": [
+   "2026-09-04",
    "2026-11-13",
    "2026-11-20"
   ]
@@ -864,9 +883,10 @@
  {
   "id": "superintelligence",
   "term": "Superintelligence",
-  "definition": "A hypothetical AI that is far more capable than humans across most tasks.",
+  "definition": "A hypothetical AI that is far better than humans at almost every mental task.",
   "audience": "lay",
   "days": [
+   "2026-09-04",
    "2026-09-24",
    "2026-10-21"
   ]
@@ -874,9 +894,10 @@
  {
   "id": "supply-chain-attack",
   "term": "Supply-chain attack",
-  "definition": "A cyberattack that hides malicious code inside a trusted add-on, library or update, so victims install it themselves.",
-  "audience": "decision",
+  "definition": "An attack that hides harmful code in a package or tool that many others download and trust.",
+  "audience": "builder",
   "days": [
+   "2026-09-03",
    "2026-11-02"
   ]
  },
@@ -942,9 +963,10 @@
  {
   "id": "time-series",
   "term": "Time series",
-  "definition": "A sequence of numbers recorded over time, such as daily sales or hourly electricity use.",
+  "definition": "Data recorded in order over time, such as daily sales or hourly visits, used to spot trends and make forecasts.",
   "audience": "lay",
   "days": [
+   "2026-09-01",
    "2026-11-01"
   ]
  },
@@ -1038,9 +1060,10 @@
  {
   "id": "zero-shot-forecasting",
   "term": "Zero-shot forecasting",
-  "definition": "Predicting future values from past data with a ready-made model, without training it on your own data first.",
+  "definition": "Using a ready-made model to forecast new data without first training it on that data.",
   "audience": "builder",
   "days": [
+   "2026-09-01",
    "2026-11-01"
   ]
  }

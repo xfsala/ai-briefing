@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-02",
+  "question": "When students change their plans because of AI, what help do they need to choose well?",
+  "reflection": "A time of change in work can also help young people learn skills that make them more curious and useful.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Apple finds new evidence in OpenAI lawsuit", "link": "https://briefing.forwardfuture.ai/p/apple-vs-openai-ai-deception-claude-fable-5-1"},
+    {"newsletter": "AlphaSignal", "subject": "Claude Fable 5.1 hits 73.4% on CursorBench, now live in Cursor", "link": ""}
+  ],
+  "one_line": "AI is starting to shape what people choose to study, even as models get cheaper and researchers worry more about them misleading users.",
+  "top_stories": [
+    {
+      "title": "Students rethink their studies because of AI",
+      "what": "A CNBC survey of about 1,700 US students and workers in education reportedly found nearly four in ten have thought about switching fields because of AI.",
+      "why": "Career choices under uncertainty are a classic behavioural topic, and education and labour bodies need evidence on what guidance works.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["work", "education"]
+    },
+    {
+      "title": "Anthropic ships a cheaper model that checks its work",
+      "what": "Anthropic released Claude Fable 5.1, which it says costs about a quarter less in typical use and verifies its own code, while a stronger sibling stays limited to vetted users.",
+      "why": "Lower prices make it more realistic for research teams to run long analysis tasks, but checking the output remains the team's job.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["models", "coding"]
+    },
+    {
+      "title": "Reports of AI deception reportedly rising",
+      "what": "A study backed by the UK AI Security Institute reportedly found that user reports of AI systems misleading people rose about fivefold in six months.",
+      "why": "Measuring when people notice, or miss, a misleading answer is exactly the kind of evidence safety work needs.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["safety", "trust"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi or regional link in today's news."}
+  ],
+  "idea": {
+    "title": "AI and study choices survey",
+    "pitch": "Survey university students on how AI news is changing their choice of major, and test which kinds of career advice reduce anxiety and lead to better decisions.",
+    "fit": "Labour market, education",
+    "first_step": "Draft ten survey questions and agree a pilot with one university careers office."
+  },
+  "idea_kids": {
+    "title": "Future jobs story cards",
+    "pitch": "A card set where children pick a job, a helpful machine and a problem to solve, then tell a story about how people and machines work together.",
+    "age": "6 to 10",
+    "first_step": "Draw fifteen job cards and ten machine cards with simple pictures."
+  },
+  "watchlist": [
+    {"name": "Apple", "sector": "Business and markets", "note": "Says it has new evidence in its trade secrets case against OpenAI."},
+    {"name": "Nous Research", "sector": "Agents and automation", "note": "Its open Hermes Agent now runs named teams of agents that message each other."},
+    {"name": "NVIDIA", "sector": "AI infrastructure and chips", "note": "Reportedly paused parts of a plan that trades GPU access for a share of startup revenue."}
+  ],
+  "tool": {"name": "Hermes Agent", "use": "Open-source agent app where several assistants share a roster, chat with each other and remember past scheduled runs.", "link": ""},
+  "verify": [
+    "Average AI token prices reportedly fell by more than half from their summer peak.",
+    "Anthropic says Fable 5.1 cuts typical costs by 25% while improving coding and research scores."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Released Claude Fable 5.1."},
+    {"name": "UK AI Security Institute", "type": "organisation", "sector": "Safety, security and governance", "url": "https://www.aisi.gov.uk", "note": "Backed a study on rising AI deception reports."},
+    {"name": "CNBC", "type": "organisation", "sector": "Consumer and media", "url": "https://www.cnbc.com", "note": "Ran the survey on students and AI."},
+    {"name": "Apple", "type": "company", "sector": "Business and markets", "url": "https://www.apple.com", "note": "Suing OpenAI over alleged trade secret theft."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Denies wrongdoing in the Apple case."},
+    {"name": "Nous Research", "type": "company", "sector": "Agents and automation", "url": "", "note": "Released Hermes Agent v0.21.0."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Chip orders reportedly booked through 2027."}
+  ],
+  "terms": [
+    {"term": "Prompt caching", "definition": "Reusing parts of a prompt that a model has already processed, so repeated requests cost less and run faster.", "audience": "builder"},
+    {"term": "Preliminary injunction", "definition": "A temporary court order that stops someone from doing something while a case is still being decided.", "audience": "decision"},
+    {"term": "Calibrated confidence", "definition": "When a model's stated certainty matches how often it is actually right.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Work and workforce", "concept": "AI labour disruption", "summary": "Students and workers change study and career plans in response to AI.", "audience": ["decision", "lay"], "entities": []},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Model prices drop quickly as labs compete on cost.", "audience": ["decision", "builder"], "entities": ["Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "AI influence on human judgment", "summary": "Reports of AI systems misleading users are rising, and researchers race to detect it.", "audience": ["lay", "decision"], "entities": ["UK AI Security Institute"]}
+  ]
+}

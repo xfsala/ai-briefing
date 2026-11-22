@@ -18,6 +18,31 @@
      "children": []
     },
     {
+     "name": "AI service concentration risk",
+     "kind": "concept",
+     "summary": "Many people rely on a few AI services that share the same cloud, so one failure spreads.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-09-04"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "xAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "AI-designed chips",
      "kind": "concept",
      "summary": "Using AI models to improve the design of the processors that run AI.",
@@ -263,11 +288,20 @@
       "lay"
      ],
      "days": [
-      "2026-11-04"
+      "2026-11-04",
+      "2026-09-01"
      ],
      "children": [
       {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
        "name": "Y Combinator",
+       "kind": "entity"
+      },
+      {
+       "name": "xAI",
        "kind": "entity"
       }
      ]
@@ -285,11 +319,16 @@
       "2026-11-18",
       "2026-11-16",
       "2026-10-23",
-      "2026-09-17"
+      "2026-09-17",
+      "2026-09-03"
      ],
      "children": [
       {
        "name": "1Password",
+       "kind": "entity"
+      },
+      {
+       "name": "Anthropic",
        "kind": "entity"
       },
       {
@@ -668,6 +707,24 @@
      ]
     },
     {
+     "name": "Data-for-discount offers",
+     "kind": "concept",
+     "summary": "AI providers lower prices for users who allow their data to train models.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-09-04"
+     ],
+     "children": [
+      {
+       "name": "Meta",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Deepfake moderation",
      "kind": "concept",
      "summary": "Platforms face pressure to label, demote and remove AI-made fakes of real people.",
@@ -743,9 +800,19 @@
      "days": [
       "2026-11-01",
       "2026-10-13",
-      "2026-09-27"
+      "2026-09-27",
+      "2026-09-06",
+      "2026-09-01"
      ],
      "children": [
+      {
+       "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
+       "name": "Google",
+       "kind": "entity"
+      },
       {
        "name": "Kumo",
        "kind": "entity"
@@ -760,6 +827,10 @@
       },
       {
        "name": "Prior Labs",
+       "kind": "entity"
+      },
+      {
+       "name": "Shopify",
        "kind": "entity"
       },
       {
@@ -818,7 +889,8 @@
       "decision"
      ],
      "days": [
-      "2026-09-18"
+      "2026-09-18",
+      "2026-09-04"
      ],
      "children": [
       {
@@ -847,7 +919,9 @@
       "2026-10-08",
       "2026-09-30",
       "2026-09-23",
-      "2026-09-20"
+      "2026-09-20",
+      "2026-09-06",
+      "2026-09-02"
      ],
      "children": [
       {
@@ -867,6 +941,10 @@
        "kind": "entity"
       },
       {
+       "name": "Shopify",
+       "kind": "entity"
+      },
+      {
        "name": "Stanford University",
        "kind": "entity"
       }
@@ -878,6 +956,19 @@
    "name": "Healthcare and life sciences",
    "kind": "industry",
    "children": [
+    {
+     "name": "AI diagnosis support",
+     "kind": "concept",
+     "summary": "AI reads routine tests to flag disease that doctors cannot easily see.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-09-01"
+     ],
+     "children": []
+    },
     {
      "name": "AI drug discovery",
      "kind": "concept",
@@ -1052,11 +1143,16 @@
       "2026-11-18",
       "2026-11-13",
       "2026-11-03",
-      "2026-10-26"
+      "2026-10-26",
+      "2026-09-04"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Cursor",
        "kind": "entity"
       },
       {
@@ -1087,7 +1183,8 @@
      ],
      "days": [
       "2026-11-09",
-      "2026-09-23"
+      "2026-09-23",
+      "2026-09-03"
      ],
      "children": [
       {
@@ -1346,11 +1443,16 @@
       "lay"
      ],
      "days": [
-      "2026-11-02"
+      "2026-11-02",
+      "2026-09-02"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "UK AI Security Institute",
        "kind": "entity"
       }
      ]
@@ -1607,7 +1709,8 @@
       "2026-10-26",
       "2026-10-15",
       "2026-10-13",
-      "2026-09-28"
+      "2026-09-28",
+      "2026-09-03"
      ],
      "children": [
       {
@@ -1827,7 +1930,8 @@
       "2026-11-13",
       "2026-10-27",
       "2026-10-01",
-      "2026-09-21"
+      "2026-09-21",
+      "2026-09-02"
      ],
      "children": [
       {

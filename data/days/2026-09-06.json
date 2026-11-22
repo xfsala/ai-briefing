@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-06",
+  "question": "If small AI models learn from the mistakes of large ones, who decides what counts as a mistake?",
+  "reflection": "Careful checking of what machines get wrong can make tools cheaper and fairer, as long as people keep setting the standard for good work.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "What Developers Can Learn From Shopify's Self-Improving AI Pipeline", "link": ""}
+  ],
+  "one_line": "For narrow, high-volume tasks, a small model trained on carefully repaired examples can reportedly beat a frontier model at a fraction of the cost.",
+  "top_stories": [
+    {
+      "title": "A tiny model reportedly beats a frontier model at one job",
+      "what": "Shopify's CEO says a fine-tuned 0.8 billion parameter Qwen model outperformed a top OpenAI model on generating buyer profiles, while daily output rose from about 2 million to 72 million.",
+      "why": "Agencies with one repeated, well-defined task may not need the most expensive model, which changes the cost case for public-sector AI.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["models", "cost"]
+    },
+    {
+      "title": "Turning failures into training material",
+      "what": "Shopify describes a daily loop where low-scoring assistant conversations are critiqued by large models, repaired, re-checked and then used to train a smaller model.",
+      "why": "The same loop of collecting errors, fixing them and retraining mirrors how behavioural programmes learn from field data, so the method can be borrowed.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "evaluation"]
+    },
+    {
+      "title": "AI judges are only as good as the humans behind them",
+      "what": "Shopify checks its automated AI graders against product experts' labels and measures how often they agree before trusting them.",
+      "why": "Building scoring rubrics and testing agreement between raters is core research work, and AI teams now need it at scale.",
+      "action": "Pitch",
+      "audience": ["decision", "builder"],
+      "tags": ["evaluation", "research methods"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi or regional link today."}
+  ],
+  "idea": {
+    "title": "Rubric design service for AI graders",
+    "pitch": "Help organisations write clear scoring rubrics for their AI assistants and test how well automated graders agree with trained human raters.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Take one public chatbot task, write a four-criterion rubric and have two colleagues score twenty sample answers."
+  },
+  "idea_kids": {
+    "title": "Fix the robot's homework",
+    "pitch": "A classroom game where children receive answers from a pretend robot, find the mistakes, correct them and explain the fix to the robot.",
+    "age": "8 to 11",
+    "first_step": "Write ten short maths and spelling answers, half of them with one clear mistake each."
+  },
+  "watchlist": [
+    {"name": "Shopify", "sector": "Business and markets", "note": "Publishes detailed notes on training small models from real usage."},
+    {"name": "Alibaba", "sector": "Frontier models", "note": "Its small open Qwen models are a common base for specialised systems."}
+  ],
+  "tool": null,
+  "verify": [
+    "Serving Shopify's agent traffic with frontier models would reportedly cost about $27 million a year versus about $1 million for the fine-tuned model.",
+    "A 0.8 billion parameter model reportedly beat GPT-5.6 on the buyer-profile task."
+  ],
+  "entities": [
+    {"name": "Shopify", "type": "company", "sector": "Business and markets", "url": "https://www.shopify.com", "note": "Built a self-improving pipeline for its merchant assistant."},
+    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Maker of the Qwen model family used as the small base model."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Its frontier model was the comparison baseline."}
+  ],
+  "terms": [
+    {"term": "Fine-tuning", "definition": "Further training an existing model on a smaller, focused set of examples so it gets better at one kind of task.", "audience": "builder"},
+    {"term": "LLM-as-a-judge", "definition": "Using a language model to score the answers of another model against a set of criteria.", "audience": "builder"},
+    {"term": "Inter-rater agreement", "definition": "A measure of how often two or more raters give the same score to the same item, used to check that a scoring method is reliable.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Data and analytics", "concept": "Specialised foundation models", "summary": "Small models trained for one bounded task can beat larger general models on cost and speed.", "audience": ["builder", "decision"], "entities": ["Shopify", "Alibaba"]},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Large models increasingly act as teachers for cheaper specialist models.", "audience": ["decision"], "entities": ["OpenAI", "Shopify"]}
+  ]
+}

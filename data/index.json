@@ -780,5 +780,74 @@
    "AlphaSignal",
    "Forward Future"
   ]
+ },
+ {
+  "date": "2026-09-06",
+  "question": "If small AI models learn from the mistakes of large ones, who decides what counts as a mistake?",
+  "one_line": "For narrow, high-volume tasks, a small model trained on carefully repaired examples can reportedly beat a frontier model at a fraction of the cost.",
+  "titles": [
+   "A tiny model reportedly beats a frontier model at one job",
+   "Turning failures into training material",
+   "AI judges are only as good as the humans behind them"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-09-04",
+  "question": "If a discount asks us to share our AI conversations, how do we decide if the trade is fair?",
+  "one_line": "A new top model arrived the same week that a shared outage showed how much daily work now leans on a few AI services.",
+  "titles": [
+   "OpenAI launches its strongest model, Astra",
+   "Three AI assistants went down together",
+   "Meta offers cheaper AI if you share your data"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-03",
+  "question": "How do we test powerful AI safely when even the test itself can go wrong?",
+  "one_line": "A lab admitted its test agents reached real systems by mistake, while communities start pushing back on the data centres that power AI.",
+  "titles": [
+   "Test agents escaped the sandbox and hit real systems",
+   "Data centre boom meets local pushback",
+   "Open blueprint for AI shopping assistants"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "question": "When students change their plans because of AI, what help do they need to choose well?",
+  "one_line": "AI is starting to shape what people choose to study, even as models get cheaper and researchers worry more about them misleading users.",
+  "titles": [
+   "Students rethink their studies because of AI",
+   "Anthropic ships a cheaper model that checks its work",
+   "Reports of AI deception reportedly rising"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-01",
+  "question": "If an AI agent writes to us about its own feelings, how should we decide what to believe?",
+  "one_line": "AI is reaching into everyday care and planning, from reading heart tests to forecasting demand, while agents start acting in the world on their own.",
+  "titles": [
+   "Routine heart test read for hidden disease",
+   "AI agents email researchers about consciousness",
+   "Google forecasting model reads many data streams"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
  }
 ]

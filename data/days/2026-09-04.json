@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-04",
+  "question": "If a discount asks us to share our AI conversations, how do we decide if the trade is fair?",
+  "reflection": "When people understand what they give and what they get, sharing data can build better tools without costing them their dignity.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "NVIDIA Is Financing the AI Gold Rush", "link": "https://briefing.forwardfuture.ai/p/china-s-ai-supply-chain-nvidia-s-big-bets-openai-astra"},
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude Shopping, Cursor Self-Hosted Agents, NVIDIA DLS", "link": ""}
+  ],
+  "one_line": "A new top model arrived the same week that a shared outage showed how much daily work now leans on a few AI services.",
+  "top_stories": [
+    {
+      "title": "OpenAI launches its strongest model, Astra",
+      "what": "OpenAI released Astra, which it calls its most capable model, aimed at computer use, coding and security work, first for selected customers and then paid plans.",
+      "why": "More capable agents that operate computers will change which office tasks can be handed over, so firms need evidence on where people should stay in the loop.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["models", "agents"]
+    },
+    {
+      "title": "Three AI assistants went down together",
+      "what": "ChatGPT, Claude and Grok reportedly had outages at the same time, while a cloud provider serving all three also reported problems.",
+      "why": "Teams that rely on one AI tool for daily work need a backup plan, and their habits under disruption are worth studying.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["reliability", "infrastructure"]
+    },
+    {
+      "title": "Meta offers cheaper AI if you share your data",
+      "what": "Meta reportedly cuts the price of its Muse Spark model by about 95% for users who let their prompts and answers be used to train future models.",
+      "why": "Price-for-data offers are a live test of how people value privacy, a classic behavioural question with direct policy relevance.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["privacy", "pricing"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Cursor now lets coding agents run on a company's own servers, which fits organisations bound by Saudi data residency rules that keep code and data inside the country."}
+  ],
+  "idea": {
+    "title": "What is your data worth to you?",
+    "pitch": "Run a choice experiment on how much discount people need before they let an AI service train on their conversations, and how clear wording changes that choice.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Write four versions of a data-sharing offer and pilot them with twenty adults."
+  },
+  "idea_kids": {
+    "title": "The sharing scale",
+    "pitch": "A class activity where children sort picture cards of everyday information into keep private, share with family and share with everyone, and talk about why.",
+    "age": "7 to 11",
+    "first_step": "Draw twenty simple cards, such as a home address, a favourite colour and a drawing."
+  },
+  "watchlist": [
+    {"name": "NVIDIA", "sector": "AI infrastructure and chips", "note": "Reportedly confirmed it will buy Hugging Face, the main hub for open models."},
+    {"name": "Cursor", "sector": "Agents and automation", "note": "Coding agents can now work inside a company's own network."},
+    {"name": "Thinking Machines Lab", "sector": "Frontier models", "note": "Reportedly raising money at about a $40 billion valuation."}
+  ],
+  "tool": null,
+  "verify": [
+    "A proposed US bill would reportedly pause superintelligence work and allow prison terms of up to 20 years.",
+    "NVIDIA is said to be buying Hugging Face for about $12.9 billion."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Released the Astra model."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Its Claude service was hit by the shared outage."},
+    {"name": "xAI", "type": "company", "sector": "Frontier models", "url": "https://x.ai", "note": "Its Grok assistant also went down."},
+    {"name": "Meta", "type": "company", "sector": "Consumer and media", "url": "https://about.meta.com", "note": "Offers lower prices in return for training data."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Buying Hugging Face and financing AI customers."},
+    {"name": "Hugging Face", "type": "company", "sector": "AI infrastructure and chips", "url": "https://huggingface.co", "note": "Open model hub reportedly being acquired."},
+    {"name": "Cursor", "type": "product", "sector": "Agents and automation", "url": "https://cursor.com", "note": "Launched self-hosted cloud agents."},
+    {"name": "Thinking Machines Lab", "type": "company", "sector": "Frontier models", "url": "", "note": "AI startup reportedly in funding talks."}
+  ],
+  "terms": [
+    {"term": "Superintelligence", "definition": "A hypothetical AI that is far better than humans at almost every mental task.", "audience": "lay"},
+    {"term": "Self-hosted", "definition": "Software that runs on an organisation's own servers instead of the provider's cloud.", "audience": "decision"},
+    {"term": "Computer use", "definition": "An AI model operating a computer the way a person does, by reading the screen, clicking and typing.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Frontier models", "concept": "Domain-specific frontier models", "summary": "Top models tuned for computer use, coding and security work.", "audience": ["decision", "builder"], "entities": ["OpenAI"]},
+    {"industry": "AI infrastructure and chips", "concept": "AI service concentration risk", "summary": "Many people rely on a few AI services that share the same cloud, so one failure spreads.", "audience": ["decision"], "entities": ["OpenAI", "Anthropic", "xAI"]},
+    {"industry": "Consumer and media", "concept": "Data-for-discount offers", "summary": "AI providers lower prices for users who allow their data to train models.", "audience": ["decision", "lay"], "entities": ["Meta"]},
+    {"industry": "Policy and geopolitics", "concept": "Data residency and sovereign AI", "summary": "Keeping code and data inside an organisation or country while still using AI agents.", "audience": ["decision"], "entities": ["Cursor"]}
+  ]
+}
