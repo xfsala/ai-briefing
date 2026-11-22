@@ -53,6 +53,7 @@
   "days": [
    "2026-08-03",
    "2026-08-04",
+   "2026-08-07",
    "2026-08-17",
    "2026-08-27",
    "2026-09-06",
@@ -107,6 +108,8 @@
   "url": "https://www.amazon.com",
   "note": "Launched Bee AI wearables and promotes ambient computing.",
   "days": [
+   "2026-08-07",
+   "2026-08-11",
    "2026-09-10",
    "2026-09-18",
    "2026-09-22",
@@ -148,6 +151,10 @@
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
    "2026-08-03",
+   "2026-08-06",
+   "2026-08-10",
+   "2026-08-11",
+   "2026-08-12",
    "2026-08-16",
    "2026-08-18",
    "2026-08-19",
@@ -282,6 +289,17 @@
   "note": "Large US bank warning about AI assistants and passwords.",
   "days": [
    "2026-10-28"
+  ]
+ },
+ {
+  "id": "block",
+  "name": "Block",
+  "type": "company",
+  "sector": "Business and markets",
+  "url": "https://block.xyz",
+  "note": "Open-sourced the Buzz workspace.",
+  "days": [
+   "2026-08-07"
   ]
  },
  {
@@ -684,6 +702,9 @@
   "days": [
    "2026-08-04",
    "2026-08-05",
+   "2026-08-07",
+   "2026-08-11",
+   "2026-08-12",
    "2026-08-19",
    "2026-08-23",
    "2026-08-28",
@@ -967,6 +988,8 @@
   "url": "https://about.meta.com",
   "note": "Its FAIR research lab maintains the FAISS search library.",
   "days": [
+   "2026-08-06",
+   "2026-08-10",
    "2026-08-16",
    "2026-08-28",
    "2026-09-03",
@@ -993,6 +1016,7 @@
   "url": "https://www.meta.com",
   "note": "Meta's personal AI agent with long-term memory; facing privacy concerns.",
   "days": [
+   "2026-08-06",
    "2026-11-19"
   ]
  },
@@ -1019,6 +1043,7 @@
   "url": "https://www.microsoft.com",
   "note": "Sells Copilot in Office and is a major Anthropic partner and investor.",
   "days": [
+   "2026-08-07",
    "2026-09-23",
    "2026-09-28",
    "2026-09-30",
@@ -1064,6 +1089,7 @@
   "url": "https://www.mit.edu",
   "note": "US university whose researchers ran the weight-editing study.",
   "days": [
+   "2026-08-10",
    "2026-11-04"
   ]
  },
@@ -1118,6 +1144,7 @@
   "url": "https://www.nvidia.com",
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
+   "2026-08-11",
    "2026-08-24",
    "2026-08-26",
    "2026-08-28",
@@ -1168,6 +1195,10 @@
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
    "2026-08-04",
+   "2026-08-07",
+   "2026-08-10",
+   "2026-08-11",
+   "2026-08-12",
    "2026-08-18",
    "2026-08-19",
    "2026-08-21",
@@ -1319,9 +1350,10 @@
   "name": "Prime Intellect",
   "type": "company",
   "sector": "Science and research",
-  "url": "",
+  "url": "https://www.primeintellect.ai",
   "note": "Open-sourced an agent harness that reuses context.",
   "days": [
+   "2026-08-06",
    "2026-08-18",
    "2026-08-26"
   ]
@@ -1543,6 +1575,17 @@
   ]
  },
  {
+  "id": "tencent",
+  "name": "Tencent",
+  "type": "company",
+  "sector": "Consumer and media",
+  "url": "https://www.tencent.com",
+  "note": "Released a text-to-3D world tool.",
+  "days": [
+   "2026-08-12"
+  ]
+ },
+ {
   "id": "the-economist",
   "name": "The Economist",
   "type": "organisation",
@@ -1607,6 +1650,7 @@
   "url": "https://www.uber.com",
   "note": "Ride and delivery platform reporting very low agent bookings.",
   "days": [
+   "2026-08-06",
    "2026-09-24",
    "2026-11-05"
   ]
@@ -1672,10 +1716,11 @@
   "type": "company",
   "sector": "AI infrastructure and chips",
   "url": "https://unsloth.ai",
-  "note": "Supported a new open model on modest hardware from day one.",
+  "note": "Released a desktop app for local training.",
   "days": [
    "2026-08-02",
-   "2026-08-04"
+   "2026-08-04",
+   "2026-08-12"
   ]
  },
  {

@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-11",
+  "question": "If AI tools make the most progress before anyone outside the lab can use them, how can the public keep up?",
+  "reflection": "Open logs of how a result was found can turn private AI breakthroughs into lessons everyone can learn from.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude jumps Riemann Hypothesis from 41% to 67% in history", "link": ""}
+  ],
+  "one_line": "Unreleased AI models are reportedly producing major results in math and security before the public can use them.",
+  "top_stories": [
+    {
+      "title": "Big step on a famous math problem",
+      "what": "An unreleased Claude model reportedly raised the proven share of a key set of values in a 160-year-old math problem from about 42 to 67 percent, using many helper agents.",
+      "why": "Large, logged agent teams may change how hard research problems are tackled in other fields.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["science", "agents"]
+    },
+    {
+      "title": "Security model for vetted defenders",
+      "what": "OpenAI split its security program into a general tier and a restricted tier with a model that reportedly found two unknown flaws in a major browser engine.",
+      "why": "Access limited to vetted users is becoming the model for releasing risky AI skills.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["cybersecurity", "access"]
+    },
+    {
+      "title": "Fast open model for agents",
+      "what": "NVIDIA released an open model that uses only a tenth of its parts at a time and reportedly runs four times faster than models of similar size.",
+      "why": "Faster small models make routine agent steps cheaper for research teams.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["open models", "efficiency"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Tiered access to cyber-capable models raises a question for Saudi defenders: how national security teams can qualify for the restricted tiers."}
+  ],
+  "idea": {
+    "title": "AI agents versus A/B tests",
+    "pitch": "Following a reported test by a large retailer, compare simulated user agents with a real A/B test on a public service page.",
+    "fit": "Government digital services, culture sector",
+    "first_step": "Pick one past A/B test with known results to use as the benchmark."
+  },
+  "idea_kids": {
+    "title": "Many small helpers",
+    "pitch": "A group puzzle where each child solves one small piece of a big picture, then the class puts the pieces together.",
+    "age": "6 to 10",
+    "first_step": "Cut a large drawing into 20 numbered pieces with a simple task on each."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Science and research", "note": "Unreleased model reportedly advanced a famous math problem."},
+    {"name": "NVIDIA", "sector": "AI infrastructure and chips", "note": "Open fast model built for agent work."},
+    {"name": "Amazon", "sector": "Business and markets", "note": "Testing whether agents can stand in for A/B tests."}
+  ],
+  "tool": null,
+  "verify": [
+    "An unreleased Claude model reportedly raised the Riemann Hypothesis result from 41.6 to 67.2 percent, checked in Lean 4 and by two experts.",
+    "The restricted security model reportedly completed 95 percent of advanced security tasks."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Unreleased model reportedly advanced the Riemann Hypothesis."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Launched tiered access for its security models."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Released an open fast agent model."},
+    {"name": "Amazon", "type": "company", "sector": "Business and markets", "url": "https://www.amazon.com", "note": "Tested agents as a replacement for A/B tests."},
+    {"name": "Google", "type": "company", "sector": "Frontier models", "url": "https://about.google", "note": "Its browser engine had two flaws found by AI."}
+  ],
+  "terms": [
+    {"term": "Zero-day", "definition": "A security flaw that the software maker does not yet know about, so no fix exists.", "audience": "lay"},
+    {"term": "Formal verification", "definition": "Using a computer to check, step by step, that a proof or program is fully correct.", "audience": "lay"},
+    {"term": "A/B test", "definition": "An experiment that shows two versions of something to different groups to see which works better.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "Agent teams producing checked results on famous math problems.", "audience": ["lay", "decision"], "entities": ["Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "Restricted access to models that can find and exploit software flaws.", "audience": ["decision"], "entities": ["OpenAI"]},
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Fast open models tuned for agent workloads.", "audience": ["builder"], "entities": ["NVIDIA"]}
+  ]
+}

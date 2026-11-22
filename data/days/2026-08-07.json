@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-07",
+  "question": "When one shared standard connects all AI tools, who gets to shape the rules?",
+  "reflection": "Shared standards can let small builders reach many users at once, if no single company quietly controls the gate.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "OpenAI GPT-5.6 Sol, OpenAI Agent Plugins Standard, Block Buzz Work", "link": ""}
+  ],
+  "one_line": "OpenAI is moving from shipping models to setting the shared format that agent tools across many companies will use.",
+  "top_stories": [
+    {
+      "title": "One plugin format for many agents",
+      "what": "OpenAI launched an open format for packaging agent skills and connectors, with Google, Amazon, Microsoft and others on its steering group.",
+      "why": "A shared format means a tool built once for one client could work in many AI assistants.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "standards"]
+    },
+    {
+      "title": "ChatGPT gets a more careful default",
+      "what": "OpenAI says its new default paid model makes far fewer factual errors in finance, health and law questions and disagrees with users when they are wrong.",
+      "why": "Less flattery from AI matters for research use, where agreeable answers can bias conclusions.",
+      "action": "Try",
+      "audience": ["lay", "decision"],
+      "tags": ["models", "accuracy"]
+    },
+    {
+      "title": "A workspace shared by people and agents",
+      "what": "Block released Buzz, a free self-hosted workspace where AI agents join chat rooms with their own identity, permissions and records.",
+      "why": "Giving agents the same permission rules as staff is a practical model for workplace pilots.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["workplace", "agents"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "A self-hosted workspace with agents could suit Saudi organisations that cannot send internal chats to foreign cloud services."}
+  ],
+  "idea": {
+    "title": "Agent teammate trial",
+    "pitch": "Run a four-week trial where one AI agent joins a project channel with limited permissions, and measure how staff use and trust it.",
+    "fit": "Consultancy, government services",
+    "first_step": "Write a one-page list of what the agent may read, write and never touch."
+  },
+  "idea_kids": {
+    "title": "Universal plug puzzle",
+    "pitch": "A building activity where children design one plug shape that fits several different toy machines, learning why shared rules help.",
+    "age": "7 to 11",
+    "first_step": "Cut cardboard machines with different sockets and challenge groups to design one shared plug."
+  },
+  "watchlist": [
+    {"name": "OpenAI", "sector": "Frontier models", "note": "Leading a new shared standard for agent plugins."},
+    {"name": "Block", "sector": "Work and workforce", "note": "Open workspace where agents act as teammates."}
+  ],
+  "tool": {"name": "Buzz", "use": "A self-hosted chat and project space where AI agents work alongside people with set permissions.", "link": ""},
+  "verify": [
+    "The new default model reportedly makes 68 percent fewer factual errors than the previous quick model."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Released a new default model and an agent plugin standard."},
+    {"name": "Block", "type": "company", "sector": "Business and markets", "url": "https://block.xyz", "note": "Open-sourced the Buzz workspace."},
+    {"name": "Google", "type": "company", "sector": "Frontier models", "url": "https://about.google", "note": "Joined the plugin standard as a core maintainer."},
+    {"name": "Microsoft", "type": "company", "sector": "Frontier models", "url": "https://www.microsoft.com", "note": "Sits on the plugin standard's steering group."},
+    {"name": "Amazon", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.amazon.com", "note": "Sits on the plugin standard's steering group."},
+    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Opened a public test of its new video model."}
+  ],
+  "terms": [
+    {"term": "MCP server", "definition": "A connector that lets an AI assistant use an outside tool or data source in a standard way.", "audience": "builder"},
+    {"term": "Sycophancy", "definition": "When an AI agrees with the user or flatters them instead of giving an accurate answer.", "audience": "lay"},
+    {"term": "Self-hosted", "definition": "Software that an organisation runs on its own servers instead of a vendor's cloud.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent plugin standards", "summary": "Shared formats that let one agent tool work across many assistants.", "audience": ["builder", "decision"], "entities": ["OpenAI", "Google", "Microsoft", "Amazon"]},
+    {"industry": "Agents and automation", "concept": "Agents inside workplace chat", "summary": "Agents join team channels with their own identity and permissions.", "audience": ["decision"], "entities": ["Block"]},
+    {"industry": "Consumer and media", "concept": "Public trust in AI", "summary": "Models designed to push back instead of simply agreeing.", "audience": ["lay"], "entities": ["OpenAI"]}
+  ]
+}

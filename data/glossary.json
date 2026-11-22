@@ -5,6 +5,7 @@
   "definition": "An experiment that shows two versions of something to different groups to see which works better.",
   "audience": "lay",
   "days": [
+   "2026-08-11",
    "2026-09-10"
   ]
  },
@@ -51,9 +52,10 @@
  {
   "id": "agent-memory",
   "term": "Agent memory",
-  "definition": "Information an agent keeps between sessions so it does not start from zero each time.",
+  "definition": "Information an AI agent keeps from earlier steps so it can continue work without starting over.",
   "audience": "lay",
   "days": [
+   "2026-08-06",
    "2026-08-18",
    "2026-08-26",
    "2026-10-25"
@@ -62,9 +64,10 @@
  {
   "id": "agent-skill",
   "term": "Agent skill",
-  "definition": "A packaged set of instructions or steps that an AI agent can load when a task calls for it.",
-  "audience": "lay",
+  "definition": "A packaged set of instructions and tools that teaches an agent to do one kind of task.",
+  "audience": "builder",
   "days": [
+   "2026-08-06",
    "2026-08-23"
   ]
  },
@@ -139,10 +142,20 @@
  {
   "id": "api-key",
   "term": "API key",
-  "definition": "A secret code that lets software use a paid online service; if stolen, others can run up charges.",
-  "audience": "builder",
+  "definition": "A secret code that lets software use a paid online service, like a password for programs.",
+  "audience": "lay",
   "days": [
+   "2026-08-12",
    "2026-10-21"
+  ]
+ },
+ {
+  "id": "approval-fatigue",
+  "term": "Approval fatigue",
+  "definition": "When people asked to approve many requests stop reading them carefully and click yes by habit.",
+  "audience": "lay",
+  "days": [
+   "2026-08-10"
   ]
  },
  {
@@ -512,6 +525,7 @@
   "audience": "builder",
   "days": [
    "2026-08-04",
+   "2026-08-12",
    "2026-09-06",
    "2026-11-09"
   ]
@@ -523,6 +537,7 @@
   "audience": "lay",
   "days": [
    "2026-08-04",
+   "2026-08-11",
    "2026-09-07",
    "2026-09-09",
    "2026-10-07",
@@ -607,9 +622,10 @@
  {
   "id": "kill-switch",
   "term": "Kill switch",
-  "definition": "A way to stop an AI system or process immediately when something goes wrong.",
+  "definition": "A way to stop an AI system quickly if it behaves dangerously.",
   "audience": "lay",
   "days": [
+   "2026-08-10",
    "2026-08-30",
    "2026-09-21",
    "2026-10-29",
@@ -668,9 +684,10 @@
  {
   "id": "mcp-server",
   "term": "MCP server",
-  "definition": "A connector that lets an AI assistant use an outside tool or data source through a shared standard.",
+  "definition": "A connector that lets an AI assistant use an outside tool or data source in a standard way.",
   "audience": "builder",
   "days": [
+   "2026-08-07",
    "2026-08-24",
    "2026-08-28",
    "2026-09-17"
@@ -733,9 +750,10 @@
  {
   "id": "multi-agent-simulation",
   "term": "Multi-agent simulation",
-  "definition": "A setup where many AI agents interact in a shared world so researchers can watch group behaviour emerge.",
-  "audience": "builder",
+  "definition": "Using many AI agents to imitate how groups of people might behave.",
+  "audience": "decision",
   "days": [
+   "2026-08-10",
    "2026-11-04"
   ]
  },
@@ -957,9 +975,10 @@
  {
   "id": "reasoning-trace",
   "term": "Reasoning trace",
-  "definition": "The step-by-step notes an AI model writes while working on a problem, which may not fully match what it then does.",
+  "definition": "The step-by-step working a model produces before giving its final answer.",
   "audience": "lay",
   "days": [
+   "2026-08-12",
    "2026-10-27"
   ]
  },
@@ -1095,9 +1114,10 @@
  {
   "id": "self-hosted",
   "term": "Self-hosted",
-  "definition": "Software run on your own computers or servers rather than through an outside provider.",
-  "audience": "decision",
+  "definition": "Software that an organisation runs on its own servers instead of a vendor's cloud.",
+  "audience": "lay",
   "days": [
+   "2026-08-07",
    "2026-08-26",
    "2026-09-04",
    "2026-11-13",
@@ -1158,6 +1178,7 @@
   "audience": "builder",
   "days": [
    "2026-08-01",
+   "2026-08-06",
    "2026-08-21",
    "2026-10-08"
   ]
@@ -1187,9 +1208,10 @@
  {
   "id": "sycophancy",
   "term": "Sycophancy",
-  "definition": "When a chatbot tells people what they want to hear instead of what is accurate.",
+  "definition": "When an AI agrees with the user or flatters them instead of giving an accurate answer.",
   "audience": "lay",
   "days": [
+   "2026-08-07",
    "2026-10-06"
   ]
  },
@@ -1348,6 +1370,15 @@
   "days": [
    "2026-09-16",
    "2026-10-28"
+  ]
+ },
+ {
+  "id": "zero-day",
+  "term": "Zero-day",
+  "definition": "A security flaw that the software maker does not yet know about, so no fix exists.",
+  "audience": "lay",
+  "days": [
+   "2026-08-11"
   ]
  },
  {

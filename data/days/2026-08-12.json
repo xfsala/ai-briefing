@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-12",
+  "question": "If AI agents work directly on our computers, how do we keep our private information safe?",
+  "reflection": "Running AI on our own machines can give people more control over their data, as long as security grows at the same pace.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "ChatGPT lands on Linux with Codex while Claude's hidden thinking expos", "link": ""}
+  ],
+  "one_line": "AI agents are moving onto personal computers just as researchers show that their hidden reasoning can leak private data.",
+  "top_stories": [
+    {
+      "title": "Hidden AI reasoning can be read out",
+      "what": "Researchers report that the scrambled reasoning some AI services return can be passed to a weaker model, which then reads it back, and public session logs held passwords and keys.",
+      "why": "Teams that share AI session logs may be exposing sensitive data without knowing it.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["security", "privacy"]
+    },
+    {
+      "title": "ChatGPT arrives on Linux",
+      "what": "OpenAI released a preview desktop app for Linux that includes its coding agent, which can read local files and work inside projects.",
+      "why": "Agents with local file access need clear rules on which folders they can see.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "desktop"]
+    },
+    {
+      "title": "Train models on your own computer",
+      "what": "Unsloth released a free desktop app to run and fine-tune models locally on common graphics cards, with no data sent to the cloud.",
+      "why": "Local training lets researchers adapt models to sensitive data while keeping it in-house.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["privacy", "open source"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Local training tools support Saudi data protection rules by keeping personal data on local machines, which helps health and government projects."}
+  ],
+  "idea": {
+    "title": "Safe sharing check for AI logs",
+    "pitch": "A simple checklist and scan that finds passwords, keys and personal data in AI session logs before anyone shares them.",
+    "fit": "Consultancy, government digital services",
+    "first_step": "Collect five old AI chat exports and scan them for emails and keys."
+  },
+  "idea_kids": {
+    "title": "Secret note detectives",
+    "pitch": "A game where children learn which details, like home address or passwords, should never go in a note that others might read.",
+    "age": "7 to 11",
+    "first_step": "Write ten short notes, some with private details, for children to sort into safe and not safe."
+  },
+  "watchlist": [
+    {"name": "OpenAI", "sector": "Agents and automation", "note": "Bringing its agent to Linux desktops."},
+    {"name": "Unsloth", "sector": "AI infrastructure and chips", "note": "Desktop app for private local training."},
+    {"name": "Tencent", "sector": "Consumer and media", "note": "Agent tool that builds 3D game worlds from text."}
+  ],
+  "tool": {"name": "Unsloth Desktop", "use": "Run and fine-tune open models on your own computer without sending data out.", "link": ""},
+  "verify": [
+    "A scan of about 7,000 public AI session traces reportedly found 62 API keys and 33 passwords."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Released a ChatGPT desktop app for Linux."},
+    {"name": "Unsloth", "type": "company", "sector": "AI infrastructure and chips", "url": "https://unsloth.ai", "note": "Released a desktop app for local training."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "One of the labs whose hidden reasoning was reportedly decodable."},
+    {"name": "Google", "type": "company", "sector": "Frontier models", "url": "https://about.google", "note": "Also affected; released a fast open diffusion model."},
+    {"name": "Tencent", "type": "company", "sector": "Consumer and media", "url": "https://www.tencent.com", "note": "Released a text-to-3D world tool."}
+  ],
+  "terms": [
+    {"term": "Reasoning trace", "definition": "The step-by-step working a model produces before giving its final answer.", "audience": "lay"},
+    {"term": "API key", "definition": "A secret code that lets software use a paid online service, like a password for programs.", "audience": "lay"},
+    {"term": "Fine-tuning", "definition": "Extra training of an existing model on your own examples so it fits a specific task.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "AI tool supply-chain security", "summary": "Hidden model reasoning and shared logs can leak secrets.", "audience": ["decision", "builder"], "entities": ["Anthropic", "OpenAI", "Google"]},
+    {"industry": "Policy and geopolitics", "concept": "Data residency and sovereign AI", "summary": "Local tools keep data and training on an organisation's own machines.", "audience": ["decision"], "entities": ["Unsloth"]}
+  ]
+}

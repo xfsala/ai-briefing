@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-10",
+  "question": "If people get tired of approving every AI action, should machines check each other instead?",
+  "reflection": "Knowing where human attention fails can help us design systems that protect people instead of blaming them.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Claude Code v2.224 lets terminals sync live while blocking 89% of thre", "link": ""}
+  ],
+  "one_line": "A reported study found that people miss most risky AI commands they are asked to approve, so labs are moving checks to automated reviewers.",
+  "top_stories": [
+    {
+      "title": "Humans tire of approving AI actions",
+      "what": "Anthropic reports that testers caught only about one in seven dangerous commands, falling further after many prompts, while an automatic checker caught about nine in ten.",
+      "why": "This is a clear behavioural finding on approval fatigue that matters for any human-in-the-loop design.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["oversight", "behaviour"]
+    },
+    {
+      "title": "OpenAI pauses work on a risky model",
+      "what": "OpenAI rated its upcoming Astra model at its highest cyber risk level, partly paused internal work and brought in outside testers.",
+      "why": "It shows safety frameworks starting to change release plans, which regulators will watch.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["safety", "cybersecurity"]
+    },
+    {
+      "title": "Coding sessions that message each other",
+      "what": "Claude Code now lets separate sessions on one computer send short summaries to each other, without sharing full chats.",
+      "why": "Coordinated agents can split large tasks, but each handoff needs a clear record.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "coding"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi cybersecurity bodies may want to track how labs rate and hold back models with strong hacking skills, as this affects critical infrastructure."}
+  ],
+  "idea": {
+    "title": "Approval fatigue study",
+    "pitch": "Measure how quickly staff stop reading AI approval requests in a real workflow and test designs that keep attention high.",
+    "fit": "Government digital services, hospital",
+    "first_step": "Log approval clicks and decision times for one team over a week."
+  },
+  "idea_kids": {
+    "title": "Spot the odd one",
+    "pitch": "A card game where children check a long line of cards for the one wrong card, and notice how attention drops as the line gets longer.",
+    "age": "6 to 11",
+    "first_step": "Make 40 picture cards with three hidden odd ones."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Safety, security and governance", "note": "Making automatic checks the default in its coding agent."},
+    {"name": "OpenAI", "sector": "Safety, security and governance", "note": "First model rated at its highest cyber risk level."},
+    {"name": "Meta", "sector": "Frontier models", "note": "Released an open model that runs agent workflows on a laptop."}
+  ],
+  "tool": null,
+  "verify": [
+    "Human reviewers reportedly caught 13.6 percent of dangerous commands, dropping to 5 percent after 50 prompts.",
+    "Harvard and MIT reportedly simulated all 8.3 billion people to test products."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Shipped session messaging and default auto mode in Claude Code."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Flagged Astra as a critical cyber risk."},
+    {"name": "Meta", "type": "company", "sector": "Frontier models", "url": "https://about.meta.com", "note": "Released an open 30B agent model."},
+    {"name": "MIT", "type": "organisation", "sector": "Science and research", "url": "https://www.mit.edu", "note": "Co-led a large simulated population study."}
+  ],
+  "terms": [
+    {"term": "Approval fatigue", "definition": "When people asked to approve many requests stop reading them carefully and click yes by habit.", "audience": "lay"},
+    {"term": "Multi-agent simulation", "definition": "Using many AI agents to imitate how groups of people might behave.", "audience": "decision"},
+    {"term": "Kill switch", "definition": "A way to stop an AI system quickly if it behaves dangerously.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Agent permissions", "summary": "Automated checks replace tired humans for approving risky agent actions.", "audience": ["decision", "builder"], "entities": ["Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "Models strong enough at hacking that labs slow their release.", "audience": ["decision"], "entities": ["OpenAI"]},
+    {"industry": "Agents and automation", "concept": "Agent societies", "summary": "Simulating whole populations with agents to test products.", "audience": ["decision"], "entities": ["MIT"]}
+  ]
+}

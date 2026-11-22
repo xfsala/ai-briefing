@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-06",
+  "question": "If AI agents remember everything between steps, who decides what they should forget?",
+  "reflection": "Agents that keep useful notes could free people from repeating themselves, if we stay careful about what is stored and why.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Prime Intellect Agent, Meta Muse Code Terminal, Skills.sh v1.2 Upd", "link": ""}
+  ],
+  "one_line": "Coding agents that keep working in the background and remember their context are quickly becoming the normal way to build software.",
+  "top_stories": [
+    {
+      "title": "Open agent with lasting memory",
+      "what": "Prime Intellect released a free coding agent that keeps its working notes between steps and can rewrite its own instructions while it works.",
+      "why": "Agents that adjust themselves mid-task need clear logs so people can review what changed and why.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "open source"]
+    },
+    {
+      "title": "Meta launches a terminal coding agent",
+      "what": "Meta released Muse Code, which runs several helper agents in parallel and can resume after a crash because it logs every action.",
+      "why": "Big platforms now compete on agents, so tool choices for small teams will keep shifting.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "coding"]
+    },
+    {
+      "title": "Agent memory is getting expensive",
+      "what": "A new paper shows ways to cut the cost of what agents remember without losing accuracy.",
+      "why": "Memory cost will decide whether long-running agents are affordable for research teams.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "cost"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today, though agent memory raises the same data retention questions that national data protection rules already cover."}
+  ],
+  "idea": {
+    "title": "Agent memory policy template",
+    "pitch": "A short template that tells teams what an AI agent may remember, for how long, and who can review it.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Map one agent workflow and mark every point where it stores information."
+  },
+  "idea_kids": {
+    "title": "The notebook robot",
+    "pitch": "A role-play game where one child plays a robot who may only write three things in a notebook, and the group decides what is worth remembering.",
+    "age": "6 to 10",
+    "first_step": "Prepare small notebooks and a set of picture cards with things the robot sees."
+  },
+  "watchlist": [
+    {"name": "Prime Intellect", "sector": "Agents and automation", "note": "Open agent that reports very high scores on a hard reasoning test."},
+    {"name": "Meta", "sector": "Agents and automation", "note": "Entered the coding agent race with its own terminal tool."},
+    {"name": "Uber", "sector": "Safety, security and governance", "note": "Released an open tool that watches enterprise agents for threats."}
+  ],
+  "tool": {"name": "Prime Agent", "use": "An open coding agent that keeps working notes across steps and runs helper agents.", "link": ""},
+  "verify": [
+    "Prime Agent with a leading model reportedly scored 95.5 percent on a hard reasoning test, above human experts."
+  ],
+  "entities": [
+    {"name": "Prime Intellect", "type": "company", "sector": "Agents and automation", "url": "https://www.primeintellect.ai", "note": "Released the open Prime Agent."},
+    {"name": "Meta", "type": "company", "sector": "Frontier models", "url": "https://about.meta.com", "note": "Launched the Muse Code terminal agent."},
+    {"name": "Meta Muse", "type": "product", "sector": "Agents and automation", "url": "", "note": "Meta's model family, now with a coding agent."},
+    {"name": "Uber", "type": "company", "sector": "Safety, security and governance", "url": "https://www.uber.com", "note": "Shared an open tool for monitoring enterprise agents."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Its models were used in reported agent benchmarks."}
+  ],
+  "terms": [
+    {"term": "Agent memory", "definition": "Information an AI agent keeps from earlier steps so it can continue work without starting over.", "audience": "lay"},
+    {"term": "Agent skill", "definition": "A packaged set of instructions and tools that teaches an agent to do one kind of task.", "audience": "builder"},
+    {"term": "Subagent", "definition": "A smaller AI agent that a main agent sends to handle one narrow part of a task.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent memory management", "summary": "Keeping agent memory useful while controlling cost and risk.", "audience": ["builder", "decision"], "entities": ["Prime Intellect"]},
+    {"industry": "Agents and automation", "concept": "Long-running agents", "summary": "Agents that run in the background and recover after interruptions.", "audience": ["builder"], "entities": ["Meta", "Prime Intellect"]}
+  ]
+}

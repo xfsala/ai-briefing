@@ -1132,6 +1132,71 @@
   ]
  },
  {
+  "date": "2026-08-12",
+  "question": "If AI agents work directly on our computers, how do we keep our private information safe?",
+  "one_line": "AI agents are moving onto personal computers just as researchers show that their hidden reasoning can leak private data.",
+  "titles": [
+   "Hidden AI reasoning can be read out",
+   "ChatGPT arrives on Linux",
+   "Train models on your own computer"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-11",
+  "question": "If AI tools make the most progress before anyone outside the lab can use them, how can the public keep up?",
+  "one_line": "Unreleased AI models are reportedly producing major results in math and security before the public can use them.",
+  "titles": [
+   "Big step on a famous math problem",
+   "Security model for vetted defenders",
+   "Fast open model for agents"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-10",
+  "question": "If people get tired of approving every AI action, should machines check each other instead?",
+  "one_line": "A reported study found that people miss most risky AI commands they are asked to approve, so labs are moving checks to automated reviewers.",
+  "titles": [
+   "Humans tire of approving AI actions",
+   "OpenAI pauses work on a risky model",
+   "Coding sessions that message each other"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-07",
+  "question": "When one shared standard connects all AI tools, who gets to shape the rules?",
+  "one_line": "OpenAI is moving from shipping models to setting the shared format that agent tools across many companies will use.",
+  "titles": [
+   "One plugin format for many agents",
+   "ChatGPT gets a more careful default",
+   "A workspace shared by people and agents"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-06",
+  "question": "If AI agents remember everything between steps, who decides what they should forget?",
+  "one_line": "Coding agents that keep working in the background and remember their context are quickly becoming the normal way to build software.",
+  "titles": [
+   "Open agent with lasting memory",
+   "Meta launches a terminal coding agent",
+   "Agent memory is getting expensive"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
   "date": "2026-08-05",
   "question": "If capable AI can run on a phone without the internet, what changes for privacy and access?",
   "one_line": "Labs are giving away more of their core tools, and small models are getting good enough to run useful agents on a phone.",
