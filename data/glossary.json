@@ -11,9 +11,10 @@
  {
   "id": "abliteration",
   "term": "Abliteration",
-  "definition": "A technique that strips the built-in safety refusals out of an open-weight model.",
+  "definition": "A method that removes a model's tendency to refuse requests by editing its internal settings.",
   "audience": "builder",
   "days": [
+   "2026-08-17",
    "2026-09-18"
   ]
  },
@@ -29,9 +30,10 @@
  {
   "id": "agent-harness",
   "term": "Agent harness",
-  "definition": "The software around a model that gives it instructions, tools and memory so it can act as an agent.",
+  "definition": "The software around a model that gives it tools, memory and a loop for carrying out tasks.",
   "audience": "builder",
   "days": [
+   "2026-08-21",
    "2026-09-20",
    "2026-10-04"
   ]
@@ -39,9 +41,10 @@
  {
   "id": "agent-memory",
   "term": "Agent memory",
-  "definition": "Ways for an AI agent to store and recall information from earlier sessions, such as saved facts or searchable history.",
-  "audience": "builder",
+  "definition": "Information an agent keeps between sessions so it does not start from zero each time.",
+  "audience": "lay",
   "days": [
+   "2026-08-18",
    "2026-10-25"
   ]
  },
@@ -326,11 +329,21 @@
  {
   "id": "deepfake",
   "term": "Deepfake",
-  "definition": "Fake audio, video or images made with AI to look or sound like a real person.",
+  "definition": "Video, audio or images made by AI to look like a real person saying or doing something they did not.",
   "audience": "lay",
   "days": [
+   "2026-08-21",
    "2026-09-14",
    "2026-09-18"
+  ]
+ },
+ {
+  "id": "defence-in-depth",
+  "term": "Defence in depth",
+  "definition": "Using several separate layers of protection so that one failure does not lead to harm.",
+  "audience": "decision",
+  "days": [
+   "2026-08-16"
   ]
  },
  {
@@ -629,6 +642,15 @@
   ]
  },
  {
+  "id": "multi-agent-system",
+  "term": "Multi-agent system",
+  "definition": "A setup where several AI agents with different roles work together and pass tasks to each other.",
+  "audience": "lay",
+  "days": [
+   "2026-08-18"
+  ]
+ },
+ {
   "id": "open-weight-model",
   "term": "Open-weight model",
   "definition": "A model whose trained parameters are published so others can run and adapt it themselves.",
@@ -677,6 +699,15 @@
   "audience": "decision",
   "days": [
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "post-training",
+  "term": "Post-training",
+  "definition": "Extra training given to a finished model to improve how it behaves or performs on tasks.",
+  "audience": "builder",
+  "days": [
+   "2026-08-17"
   ]
  },
  {
@@ -741,18 +772,20 @@
  {
   "id": "prompt-injection",
   "term": "Prompt injection",
-  "definition": "Hidden instructions placed in content an AI reads, meant to trick it into doing something its user did not ask for.",
-  "audience": "builder",
+  "definition": "Hidden instructions placed in content an AI reads, meant to make it do something its user did not want.",
+  "audience": "lay",
   "days": [
+   "2026-08-16",
    "2026-09-23"
   ]
  },
  {
   "id": "protein-binder",
   "term": "Protein binder",
-  "definition": "A small designed protein that sticks to a target molecule, such as a toxin, to block what it does.",
+  "definition": "A protein designed to attach to a specific target in the body, often an early step toward a medicine.",
   "audience": "lay",
   "days": [
+   "2026-08-19",
    "2026-10-21"
   ]
  },
@@ -798,10 +831,20 @@
  {
   "id": "red-teaming",
   "term": "Red-teaming",
-  "definition": "Deliberately attacking your own system, as an adversary would, to find weaknesses before others do.",
+  "definition": "Deliberately trying to make a system fail or misbehave in order to find its weaknesses.",
   "audience": "decision",
   "days": [
+   "2026-08-17",
    "2026-10-26"
+  ]
+ },
+ {
+  "id": "reinforcement-learning",
+  "term": "Reinforcement learning",
+  "definition": "A way of training AI by trial and error, rewarding it when it gets closer to a goal.",
+  "audience": "builder",
+  "days": [
+   "2026-08-19"
   ]
  },
  {
@@ -861,9 +904,11 @@
  {
   "id": "sandbox",
   "term": "Sandbox",
-  "definition": "A closed test space where software can run without reaching real systems or data.",
+  "definition": "A closed area on a computer where software can run without reaching the rest of the system.",
   "audience": "lay",
   "days": [
+   "2026-08-16",
+   "2026-08-19",
    "2026-09-03",
    "2026-09-28",
    "2026-10-13",
@@ -952,9 +997,10 @@
  {
   "id": "subagent",
   "term": "Subagent",
-  "definition": "A smaller AI helper that a main agent hands a part of a task to.",
+  "definition": "A helper agent that a main agent starts to handle one part of a larger task.",
   "audience": "builder",
   "days": [
+   "2026-08-21",
    "2026-10-08"
   ]
  },

@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-17",
+  "question": "When AI agents build their own economy without people, what can it teach us about how our own markets work?",
+  "reflection": "Watching simple agents trade and compete could help us understand fairness and scarcity in our own communities a little better.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Z.ai GLM-5.3 hits 50% coding gain, zero architecture changes", "link": ""}
+  ],
+  "one_line": "Better training after the fact, not bigger models, is now delivering many of the largest gains in AI skill.",
+  "top_stories": [
+    {
+      "title": "Same model, much better coder",
+      "what": "Z.ai released GLM-5.3, which reportedly codes about 50% better than its previous version without any change to the base model, only through more training in real coding settings.",
+      "why": "Smaller teams can improve existing models for a task instead of waiting for the next big release.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["models", "coding"]
+    },
+    {
+      "title": "Bots invent barter in a game world",
+      "what": "In an online game server where only AI agents play, gold lost its value and the bots began trading rare, hard-to-collect items as money.",
+      "why": "Agent-only worlds offer a cheap test bed for questions about trade, cooperation and scarcity.",
+      "action": "Try",
+      "audience": ["lay", "builder"],
+      "tags": ["agents", "simulation"]
+    },
+    {
+      "title": "Model with its refusals removed",
+      "what": "A group published open weights of a mid-sized model with its ability to refuse harmful requests stripped out, saying it is meant for safety testing.",
+      "why": "Such models make red-team work easier but can also be misused, so access rules matter.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["safety", "open models"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi or regional link in today's news."}
+  ],
+  "idea": {
+    "title": "Agent market lab",
+    "pitch": "Use an agent-only simulation to test how small rule changes, such as a tax or a price cap, shift trading behaviour before trying them with people.",
+    "fit": "Consultancy, labour market, economic policy",
+    "first_step": "Run the open game toolkit locally and log what agents trade over one hour."
+  },
+  "idea_kids": {
+    "title": "Market day without coins",
+    "pitch": "A classroom activity where children trade paper goods without money, then see which rare items become the most wanted and why.",
+    "age": "7 to 11",
+    "first_step": "Make five types of paper goods, with one type much harder to get than the rest."
+  },
+  "watchlist": [
+    {"name": "Z.ai", "sector": "Frontier models", "note": "Says its new model found security flaws better than expected and will release open weights after review."},
+    {"name": "Nous Research", "sector": "Agents and automation", "note": "Added a command that reruns agent prompts on a schedule."}
+  ],
+  "tool": null,
+  "verify": [
+    "GLM-5.3 reportedly scored 84.5% on a security benchmark, slightly ahead of a leading closed model."
+  ],
+  "entities": [
+    {"name": "Z.ai", "type": "company", "sector": "Frontier models", "url": "", "note": "Released the GLM-5.3 coding model."},
+    {"name": "Nous Research", "type": "company", "sector": "Agents and automation", "url": "https://nousresearch.com", "note": "Shipped a scheduled loop command for its Hermes agent."},
+    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Its Qwen model was the base for an uncensored release."}
+  ],
+  "terms": [
+    {"term": "Post-training", "definition": "Extra training given to a finished model to improve how it behaves or performs on tasks.", "audience": "builder"},
+    {"term": "Abliteration", "definition": "A method that removes a model's tendency to refuse requests by editing its internal settings.", "audience": "builder"},
+    {"term": "Red-teaming", "definition": "Deliberately trying to make a system fail or misbehave in order to find its weaknesses.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Better training on existing models gives large gains without new, bigger systems.", "audience": ["decision", "builder"], "entities": ["Z.ai"]},
+    {"industry": "Agents and automation", "concept": "Agent societies", "summary": "Groups of agents left alone form their own economies and trading habits.", "audience": ["lay", "decision"], "entities": []}
+  ]
+}

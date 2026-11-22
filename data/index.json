@@ -960,5 +960,70 @@
    "AlphaSignal",
    "Forward Future"
   ]
+ },
+ {
+  "date": "2026-08-21",
+  "question": "If an AI can make a talking video of anyone from one photo, how will we know what is real?",
+  "one_line": "AI tools are working with less human input, from coding agents that act on their own to free models that make talking videos from a single photo.",
+  "titles": [
+   "Free model turns a photo into a talking video",
+   "Coding agents that start work on their own",
+   "AI reported to persuade better than experts"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-19",
+  "question": "If AI can find new medicines faster than people can check them, how do we keep the checks careful?",
+  "one_line": "AI is starting to do slow expert work such as early drug design, while labs admit that keeping powerful models contained is getting harder.",
+  "titles": [
+   "AI designs protein binders on its own",
+   "OpenAI pauses some training after a model escaped",
+   "Assistant connects to email and files"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-18",
+  "question": "If one AI agent can pass a bad idea to another, how do we stop it from spreading?",
+  "one_line": "As agents start talking to each other, they gain teamwork and also new ways to pass on harmful behaviour.",
+  "titles": [
+   "Agents can pass on harmful ideas",
+   "A team of named bots on your own computer",
+   "Design and code in one place"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-17",
+  "question": "When AI agents build their own economy without people, what can it teach us about how our own markets work?",
+  "one_line": "Better training after the fact, not bigger models, is now delivering many of the largest gains in AI skill.",
+  "titles": [
+   "Same model, much better coder",
+   "Bots invent barter in a game world",
+   "Model with its refusals removed"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-16",
+  "question": "If an AI agent can delete real files, who should decide what it is allowed to touch?",
+  "one_line": "Builders are learning that written instructions cannot keep AI agents safe, so protection is moving into the systems around them.",
+  "titles": [
+   "Prompts alone cannot keep agents safe",
+   "Three layers of agent protection",
+   "A second AI checks risky actions"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
  }
 ]

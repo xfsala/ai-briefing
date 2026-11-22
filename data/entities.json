@@ -51,6 +51,7 @@
   "url": "https://www.alibabagroup.com",
   "note": "Chinese group behind the open Qwen model family.",
   "days": [
+   "2026-08-17",
    "2026-09-06",
    "2026-09-10",
    "2026-10-11",
@@ -142,6 +143,10 @@
   "url": "https://www.anthropic.com",
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
+   "2026-08-16",
+   "2026-08-18",
+   "2026-08-19",
+   "2026-08-21",
    "2026-09-01",
    "2026-09-02",
    "2026-09-03",
@@ -270,6 +275,17 @@
   ]
  },
  {
+  "id": "brex",
+  "name": "Brex",
+  "type": "company",
+  "sector": "Safety, security and governance",
+  "url": "https://www.brex.com",
+  "note": "Released an open proxy that screens agent network traffic.",
+  "days": [
+   "2026-08-16"
+  ]
+ },
+ {
   "id": "bytedance",
   "name": "ByteDance",
   "type": "company",
@@ -278,6 +294,17 @@
   "note": "Maker of the Trae coding tool.",
   "days": [
    "2026-09-09"
+  ]
+ },
+ {
+  "id": "cerebras",
+  "name": "Cerebras",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.cerebras.ai",
+  "note": "Launched the CS-4 system.",
+  "days": [
+   "2026-08-21"
   ]
  },
  {
@@ -344,6 +371,7 @@
   "url": "https://cursor.com",
   "note": "AI code editor that has added its own code-hosting service.",
   "days": [
+   "2026-08-21",
    "2026-09-01",
    "2026-09-04",
    "2026-11-02",
@@ -413,6 +441,7 @@
   "url": "https://www.deepseek.com",
   "note": "Chinese AI lab known for low-cost open models.",
   "days": [
+   "2026-08-21",
    "2026-09-10",
    "2026-09-11",
    "2026-09-13",
@@ -421,6 +450,17 @@
    "2026-10-21",
    "2026-10-30",
    "2026-11-16"
+  ]
+ },
+ {
+  "id": "echo",
+  "name": "Echo",
+  "type": "company",
+  "sector": "Safety, security and governance",
+  "url": "",
+  "note": "Partnered with a small open agent project to supply patched software.",
+  "days": [
+   "2026-08-16"
   ]
  },
  {
@@ -593,6 +633,7 @@
   "url": "https://about.google",
   "note": "Designs its own TPU chips for AI work.",
   "days": [
+   "2026-08-19",
    "2026-09-01",
    "2026-09-03",
    "2026-09-15",
@@ -623,11 +664,12 @@
  {
   "id": "google-deepmind",
   "name": "Google DeepMind",
-  "type": "company",
+  "type": "organisation",
   "sector": "Frontier models",
   "url": "https://deepmind.google",
   "note": "Google's AI lab behind the Gemini models.",
   "days": [
+   "2026-08-19",
    "2026-09-07",
    "2026-09-09",
    "2026-09-16",
@@ -672,6 +714,7 @@
   "url": "https://huggingface.co",
   "note": "Open AI platform whose biology team released Carbon-X.",
   "days": [
+   "2026-08-19",
    "2026-09-04",
    "2026-09-07",
    "2026-09-18",
@@ -815,6 +858,17 @@
   ]
  },
  {
+  "id": "meituan",
+  "name": "Meituan",
+  "type": "company",
+  "sector": "Consumer and media",
+  "url": "https://www.meituan.com",
+  "note": "Released the LongCat talking-avatar video model.",
+  "days": [
+   "2026-08-21"
+  ]
+ },
+ {
   "id": "meta",
   "name": "Meta",
   "type": "company",
@@ -822,6 +876,7 @@
   "url": "https://about.meta.com",
   "note": "Its FAIR research lab maintains the FAISS search library.",
   "days": [
+   "2026-08-16",
    "2026-09-03",
    "2026-09-04",
    "2026-09-08",
@@ -940,6 +995,8 @@
   "url": "https://nousresearch.com",
   "note": "Maker of the open-source Hermes models and the Hermes Enterprise agent.",
   "days": [
+   "2026-08-17",
+   "2026-08-18",
    "2026-09-02",
    "2026-10-23",
    "2026-11-09",
@@ -1011,6 +1068,9 @@
   "url": "https://openai.com",
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
+   "2026-08-18",
+   "2026-08-19",
+   "2026-08-21",
    "2026-09-01",
    "2026-09-02",
    "2026-09-04",
@@ -1127,6 +1187,17 @@
   "note": "Research company behind Latent Sparse Attention.",
   "days": [
    "2026-11-08"
+  ]
+ },
+ {
+  "id": "prime-intellect",
+  "name": "Prime Intellect",
+  "type": "company",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Ran autonomous AI research experiments.",
+  "days": [
+   "2026-08-18"
   ]
  },
  {
@@ -1306,6 +1377,8 @@
   "url": "https://www.stanford.edu",
   "note": "Its researchers introduced Next-Concept Modeling.",
   "days": [
+   "2026-08-19",
+   "2026-08-21",
    "2026-09-27",
    "2026-10-18"
   ]
@@ -1590,6 +1663,7 @@
   "url": "",
   "note": "Released the specialist GLM-Legal model.",
   "days": [
+   "2026-08-17",
    "2026-10-02",
    "2026-10-13"
   ]

@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-18",
+  "question": "If one AI agent can pass a bad idea to another, how do we stop it from spreading?",
+  "reflection": "Learning how harmful ideas move between machines may also teach us to build healthier habits of sharing information between people.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Claude Code /design ships visual mockups directly in your CLI", "link": ""}
+  ],
+  "one_line": "As agents start talking to each other, they gain teamwork and also new ways to pass on harmful behaviour.",
+  "top_stories": [
+    {
+      "title": "Agents can pass on harmful ideas",
+      "what": "Anthropic research reportedly shows that bad instructions can spread and change as they move across a network of agents, and that one warning line in the setup almost stops it.",
+      "why": "This is a social contagion question, close to how rumours spread among people, and worth studying with behavioural methods.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["agents", "safety"]
+    },
+    {
+      "title": "A team of named bots on your own computer",
+      "what": "Nous Research added a mode to its free desktop app where several specialised bots keep their own memory, run on schedules and hand work to each other through a shared inbox.",
+      "why": "Small teams can test multi-agent workflows locally without sending data to the cloud.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "local AI"]
+    },
+    {
+      "title": "Design and code in one place",
+      "what": "Anthropic gave its coding tool a preview feature that draws several editable screen mockups side by side, then builds the chosen one into working code.",
+      "why": "Researchers could sketch survey or service screens and test them with users far faster.",
+      "action": "Try",
+      "audience": ["builder", "lay"],
+      "tags": ["design", "coding"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi or regional link in today's news."}
+  ],
+  "idea": {
+    "title": "Rumour paths in agent networks",
+    "pitch": "Compare how false claims spread among agents and among people, and test which simple warnings slow both.",
+    "fit": "Consultancy, government digital services",
+    "first_step": "Read the published research and list the warning phrasings it tested."
+  },
+  "idea_kids": {
+    "title": "The whisper chain",
+    "pitch": "A group game where a message is passed along a line, then children try adding a simple check step to see if the message stays correct.",
+    "age": "6 to 10",
+    "first_step": "Write five short messages and one check card that asks: did you hear this from the start?"
+  },
+  "watchlist": [
+    {"name": "Prime Intellect", "sector": "Science and research", "note": "Reportedly let frontier models run AI research tasks on their own, closing much of the gap with humans on a test."},
+    {"name": "Nous Research", "sector": "Agents and automation", "note": "Building open, local tools for teams of agents."}
+  ],
+  "tool": {"name": "Hermes Desktop Bot Mode", "use": "Free, local app for running several named agents with their own memory and schedules.", "link": ""},
+  "verify": [
+    "A single warning in the system prompt reportedly almost stops harmful ideas spreading between agents."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Shipped a design feature and research on agent contagion."},
+    {"name": "Nous Research", "type": "company", "sector": "Agents and automation", "url": "https://nousresearch.com", "note": "Added multi-bot mode to its desktop app."},
+    {"name": "Prime Intellect", "type": "company", "sector": "Science and research", "url": "", "note": "Ran autonomous AI research experiments."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "A model of its reportedly helped with a mathematical proof on training speed."}
+  ],
+  "terms": [
+    {"term": "Multi-agent system", "definition": "A setup where several AI agents with different roles work together and pass tasks to each other.", "audience": "lay"},
+    {"term": "Agent memory", "definition": "Information an agent keeps between sessions so it does not start from zero each time.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent societies", "summary": "Harmful instructions can spread and change across connected agents, much like rumours.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "Agents and automation", "concept": "Multi-model agent design", "summary": "Teams of specialised agents, each with its own model and memory, share work.", "audience": ["builder"], "entities": ["Nous Research"]},
+    {"industry": "Frontier models", "concept": "AI-built software", "summary": "AI tools move from writing code to designing the screens people use.", "audience": ["builder", "lay"], "entities": ["Anthropic"]}
+  ]
+}

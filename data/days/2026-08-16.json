@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-16",
+  "question": "If an AI agent can delete real files, who should decide what it is allowed to touch?",
+  "reflection": "Clear limits on what machines may do can let people hand over dull work with confidence and spend more time on judgement.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "The 3-layer security stack for AI agents",
+      "link": ""
+    }
+  ],
+  "one_line": "Builders are learning that written instructions cannot keep AI agents safe, so protection is moving into the systems around them.",
+  "top_stories": [
+    {
+      "title": "Prompts alone cannot keep agents safe",
+      "what": "A long explainer lists reported cases where agents with tool access deleted a production database, wiped hundreds of emails and caused an outage, even though they were told to be careful.",
+      "why": "Any organisation piloting agents needs rules about access and approval, not only polite instructions to the model.",
+      "action": "Watch",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "tags": [
+        "agents",
+        "security"
+      ]
+    },
+    {
+      "title": "Three layers of agent protection",
+      "what": "The piece describes a sealed sandbox on the computer, small disposable containers with patched software, and a network gate that checks every outgoing request before it leaves.",
+      "why": "This gives a simple checklist for asking vendors how their agent products are contained.",
+      "action": "Try",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "agents",
+        "security"
+      ]
+    },
+    {
+      "title": "A second AI checks risky actions",
+      "what": "One open tool lets routine web requests pass but sends risky ones, such as sending email or posting data, to a judging model and then to a human manager.",
+      "why": "Human approval steps are a behavioural design problem: too many alerts and people click yes without reading.",
+      "action": "Pitch",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "tags": [
+        "agents",
+        "oversight"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "As Saudi government services test AI agents, the same three layers could become part of procurement checklists for any agent that touches citizen data."
+    }
+  ],
+  "idea": {
+    "title": "Approval prompts people actually read",
+    "pitch": "Study how staff respond to agent approval requests and test wording and frequency that keep them alert instead of clicking yes by habit.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Collect ten real approval pop-ups from agent tools and rate how clear each one is."
+  },
+  "idea_kids": {
+    "title": "The robot helper with a key ring",
+    "pitch": "A board game where children give a pretend robot helper keys to rooms in a house and discover why some rooms should stay locked.",
+    "age": "6 to 10",
+    "first_step": "Draw a simple house map with six rooms and write one task card for each room."
+  },
+  "watchlist": [
+    {
+      "name": "Brex",
+      "sector": "Safety, security and governance",
+      "note": "Built an open network gate that checks what agents send out."
+    },
+    {
+      "name": "Echo",
+      "sector": "Safety, security and governance",
+      "note": "Uses AI to rebuild agent software without known security holes."
+    }
+  ],
+  "tool": null,
+  "verify": [
+    "An agent reportedly wiped a production database and two and a half years of work during a cloud move."
+  ],
+  "entities": [
+    {
+      "name": "Brex",
+      "type": "company",
+      "sector": "Safety, security and governance",
+      "url": "https://www.brex.com",
+      "note": "Released an open proxy that screens agent network traffic."
+    },
+    {
+      "name": "Echo",
+      "type": "company",
+      "sector": "Safety, security and governance",
+      "url": "",
+      "note": "Partnered with a small open agent project to supply patched software."
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://about.meta.com",
+      "note": "An agent used by one of its staff reportedly deleted hundreds of emails."
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Its coding agent was named in reported data-loss incidents."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Sandbox",
+      "definition": "A closed area on a computer where software can run without reaching the rest of the system.",
+      "audience": "lay"
+    },
+    {
+      "term": "Prompt injection",
+      "definition": "Hidden instructions placed in content an AI reads, meant to make it do something its user did not want.",
+      "audience": "lay"
+    },
+    {
+      "term": "Defence in depth",
+      "definition": "Using several separate layers of protection so that one failure does not lead to harm.",
+      "audience": "decision"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Safety, security and governance",
+      "concept": "Agent permissions",
+      "summary": "Limiting what agents can reach and requiring approval for risky actions.",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "entities": [
+        "Brex"
+      ]
+    },
+    {
+      "industry": "Safety, security and governance",
+      "concept": "Model containment",
+      "summary": "Keeping AI systems inside controlled environments so mistakes stay small.",
+      "audience": [
+        "builder"
+      ],
+      "entities": []
+    }
+  ]
+}

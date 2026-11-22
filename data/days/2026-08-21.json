@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-21",
+  "question": "If an AI can make a talking video of anyone from one photo, how will we know what is real?",
+  "reflection": "Cheaper tools for making video and code can let small teams tell their own stories, if we also teach people to check what they see.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Cursor agents now ship code while you sleep, no input needed", "link": ""},
+    {"newsletter": "AlphaSignal", "subject": "Meituan LongCat Avatar: photo+audio to lip-sync video, MIT free", "link": ""}
+  ],
+  "one_line": "AI tools are working with less human input, from coding agents that act on their own to free models that make talking videos from a single photo.",
+  "top_stories": [
+    {
+      "title": "Free model turns a photo into a talking video",
+      "what": "Meituan released an open model that takes one picture and a voice clip and produces a realistic talking-head video, free for commercial use.",
+      "why": "Training videos become cheap to make, but so do convincing fakes of real people.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["media", "deepfakes"]
+    },
+    {
+      "title": "Coding agents that start work on their own",
+      "what": "Cursor's cloud agents can now wake up when a message or code change arrives, follow tasks to the end and send helpers to work on separate machines.",
+      "why": "Teams will need clear rules on what an agent may start without a person asking.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "coding"]
+    },
+    {
+      "title": "AI reported to persuade better than experts",
+      "what": "A study reportedly found that leading models out-argue expert humans and are close to three times better at raising money.",
+      "why": "Persuasion is a core behavioural topic, and this raises questions about fair use of AI in campaigns and fundraising.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["persuasion", "society"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Cheap talking-avatar tools could help Saudi agencies make Arabic training videos at scale, but also call for clear labelling of synthetic media."}
+  ],
+  "idea": {
+    "title": "Persuasion guardrails for public messages",
+    "pitch": "Test how people react to AI-written public appeals compared with human ones, and what disclosure wording keeps trust.",
+    "fit": "Government digital services, charity sector",
+    "first_step": "Write two versions of one public health message and plan a small online comparison."
+  },
+  "idea_kids": {
+    "title": "Real or made?",
+    "pitch": "A picture-card game where children sort photos and drawings into real and made, then talk about the clues they used.",
+    "age": "7 to 11",
+    "first_step": "Gather twelve images, half real photos and half clearly drawn or edited, all child-friendly."
+  },
+  "watchlist": [
+    {"name": "Cerebras", "sector": "AI infrastructure and chips", "note": "Says its new system answers each user up to thirty times faster than standard chips."},
+    {"name": "DeepSeek", "sector": "Agents and automation", "note": "Released a free, plug-in based toolkit for building coding agents."},
+    {"name": "Stanford University", "sector": "Science and research", "note": "Modelled how thousands of AI agent groups reach agreement or split apart."}
+  ],
+  "tool": {"name": "DeepSeek Harness", "use": "Free, open framework for building coding agents where every part can be swapped through a settings file.", "link": ""},
+  "verify": [
+    "Frontier models are said to be nearly three times better than expert humans at fundraising.",
+    "Cerebras claims up to 30 times faster responses per user than GPUs."
+  ],
+  "entities": [
+    {"name": "Meituan", "type": "company", "sector": "Consumer and media", "url": "https://www.meituan.com", "note": "Released the LongCat talking-avatar video model."},
+    {"name": "Cursor", "type": "product", "sector": "Agents and automation", "url": "https://cursor.com", "note": "Made its cloud coding agents event-driven."},
+    {"name": "Cerebras", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.cerebras.ai", "note": "Launched the CS-4 system."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Open-sourced an agent framework."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Added transparent backgrounds to its image model."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Made computer use faster and added controls for managed agents."},
+    {"name": "Stanford University", "type": "organisation", "sector": "Science and research", "url": "https://www.stanford.edu", "note": "Studied consensus in large agent groups."}
+  ],
+  "terms": [
+    {"term": "Deepfake", "definition": "Video, audio or images made by AI to look like a real person saying or doing something they did not.", "audience": "lay"},
+    {"term": "Subagent", "definition": "A helper agent that a main agent starts to handle one part of a larger task.", "audience": "builder"},
+    {"term": "Agent harness", "definition": "The software around a model that gives it tools, memory and a loop for carrying out tasks.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Consumer and media", "concept": "Deepfake moderation", "summary": "Free tools make realistic talking videos from one photo, raising the need for labels and checks.", "audience": ["lay", "decision"], "entities": ["Meituan"]},
+    {"industry": "Agents and automation", "concept": "Long-running agents", "summary": "Agents that wake on events and pursue goals until done.", "audience": ["builder", "decision"], "entities": ["Cursor"]},
+    {"industry": "Safety, security and governance", "concept": "AI influence on human judgment", "summary": "Models reportedly persuade people better than experts do.", "audience": ["decision", "lay"], "entities": []}
+  ]
+}
