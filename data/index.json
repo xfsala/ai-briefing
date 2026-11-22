@@ -1132,6 +1132,32 @@
   ]
  },
  {
+  "date": "2026-08-14",
+  "question": "If an AI worker can log into our accounts and act in our name, what should it never do without us?",
+  "one_line": "AI agents that sign into everyday tools and work alone are now on sale, while open alternatives arrive for free.",
+  "titles": [
+   "An AI worker that logs in for you",
+   "DeepSeek shares a free agent kit",
+   "Very fast answers from a top model"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-13",
+  "question": "If top AI models keep getting cheaper, what will make one choice better than another?",
+  "one_line": "Two new top-tier models arrived on the same day with sharply lower prices, a sign that frontier AI is turning into a commodity.",
+  "titles": [
+   "Grok 4.6 competes on price",
+   "DeepSeek V4-Pro goes live with night discounts",
+   "Browser assistant joins the main workspace"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
   "date": "2026-08-12",
   "question": "If AI agents work directly on our computers, how do we keep our private information safe?",
   "one_line": "AI agents are moving onto personal computers just as researchers show that their hidden reasoning can leak private data.",

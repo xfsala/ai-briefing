@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-13",
+  "question": "If top AI models keep getting cheaper, what will make one choice better than another?",
+  "reflection": "Lower prices can open strong AI to schools, small firms and public services that could not afford it before.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "xAI Grok 4.6 Launch, DeepSeek V4-Pro GA, Claude Cowork Sync", "link": ""}
+  ],
+  "one_line": "Two new top-tier models arrived on the same day with sharply lower prices, a sign that frontier AI is turning into a commodity.",
+  "top_stories": [
+    {
+      "title": "Grok 4.6 competes on price",
+      "what": "xAI released Grok 4.6 for long, multi-step tasks, priced at well under half of a leading rival model per word processed.",
+      "why": "Price pressure makes it worth re-checking which model gives the best value for each project task.",
+      "action": "Try",
+      "audience": ["decision", "builder"],
+      "tags": ["models", "pricing"]
+    },
+    {
+      "title": "DeepSeek V4-Pro goes live with night discounts",
+      "what": "DeepSeek made its V4-Pro model generally available with a very long input limit and half-price rates outside peak hours.",
+      "why": "Scheduling large analysis jobs overnight could cut research costs noticeably.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["models", "cost"]
+    },
+    {
+      "title": "Browser assistant joins the main workspace",
+      "what": "Anthropic connected its Chrome browser assistant to the same sessions used on desktop and phone, while warning that browser agents can be tricked by hidden page instructions.",
+      "why": "Browser agents that use your logins need clear limits before they handle client or citizen data.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["agents", "security"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Falling model prices lower the cost of Arabic AI services for Saudi agencies, though the cheapest model is not always the safest choice for sensitive data."}
+  ],
+  "idea": {
+    "title": "Model value scorecard",
+    "pitch": "A simple quarterly scorecard that compares models on cost, accuracy in Arabic and data handling for a client's main tasks.",
+    "fit": "Consultancy, government services",
+    "first_step": "Choose three typical tasks and run them on two cheaper models this week."
+  },
+  "idea_kids": {
+    "title": "Smart shopper market",
+    "pitch": "A pretend market where children compare price and quality of toy goods and explain why the cheapest is not always the best.",
+    "age": "6 to 10",
+    "first_step": "Make price tags and quality cards for ten pretend items."
+  },
+  "watchlist": [
+    {"name": "xAI", "sector": "Frontier models", "note": "Using price as its main weapon in the model race."},
+    {"name": "DeepSeek", "sector": "Frontier models", "note": "Off-peak pricing could become an industry norm."},
+    {"name": "Pathway", "sector": "Science and research", "note": "A tiny model reportedly solved hard puzzles at almost no cost."}
+  ],
+  "tool": null,
+  "verify": [
+    "Grok 4.6 is reportedly about 60 percent cheaper than a leading rival model.",
+    "A new tool reportedly removes hidden watermarks from AI text from several major labs."
+  ],
+  "entities": [
+    {"name": "xAI", "type": "company", "sector": "Frontier models", "url": "https://x.ai", "note": "Released Grok 4.6 at low prices."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Made V4-Pro generally available."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Linked its browser assistant to its main workspace."},
+    {"name": "Pathway", "type": "company", "sector": "Science and research", "url": "", "note": "Reported very cheap puzzle solving with a small model."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Its pricing was the comparison point."}
+  ],
+  "terms": [
+    {"term": "Context window", "definition": "The amount of text an AI model can read and keep in mind at one time.", "audience": "lay"},
+    {"term": "Prompt injection", "definition": "Hidden instructions placed in content an AI reads, meant to make it do something its user did not want.", "audience": "lay"},
+    {"term": "Watermark", "definition": "A hidden signal added to AI-made content so it can later be identified as AI-made.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Top-tier models launch at much lower prices.", "audience": ["decision"], "entities": ["xAI", "DeepSeek"]},
+    {"industry": "Safety, security and governance", "concept": "AI content provenance", "summary": "Tools to strip watermarks weaken ways of spotting AI text.", "audience": ["decision", "lay"], "entities": []},
+    {"industry": "Agents and automation", "concept": "Browser agents", "summary": "Assistants that act in your browser with your logins.", "audience": ["lay", "decision"], "entities": ["Anthropic"]}
+  ]
+}

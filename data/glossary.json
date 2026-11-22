@@ -40,9 +40,10 @@
  {
   "id": "agent-harness",
   "term": "Agent harness",
-  "definition": "The software around a model that gives it tools, memory and a loop for carrying out tasks.",
+  "definition": "The software around an AI model that gives it tools, memory and a way to act.",
   "audience": "builder",
   "days": [
+   "2026-08-14",
    "2026-08-21",
    "2026-08-31",
    "2026-09-20",
@@ -188,9 +189,10 @@
  {
   "id": "audit-trail",
   "term": "Audit trail",
-  "definition": "A record of who or what did each action in a system, so mistakes can be traced.",
-  "audience": "decision",
+  "definition": "A record of every action taken, so people can check later what happened and who did it.",
+  "audience": "lay",
   "days": [
+   "2026-08-14",
    "2026-10-09"
   ]
  },
@@ -283,9 +285,10 @@
  {
   "id": "computer-use",
   "term": "Computer use",
-  "definition": "An AI model operating a computer the way a person does, by reading the screen, clicking and typing.",
+  "definition": "When an AI controls a computer by clicking and typing like a person.",
   "audience": "lay",
   "days": [
+   "2026-08-14",
    "2026-09-04",
    "2026-10-27"
   ]
@@ -311,9 +314,10 @@
  {
   "id": "context-window",
   "term": "Context window",
-  "definition": "The amount of text an AI model can hold in view at one time when working on a task.",
+  "definition": "The amount of text an AI model can read and keep in mind at one time.",
   "audience": "lay",
   "days": [
+   "2026-08-13",
    "2026-08-25",
    "2026-10-01",
    "2026-10-25",
@@ -921,6 +925,7 @@
   "definition": "Hidden instructions placed in content an AI reads, meant to make it do something its user did not want.",
   "audience": "lay",
   "days": [
+   "2026-08-13",
    "2026-08-16",
    "2026-09-23"
   ]
@@ -1338,9 +1343,10 @@
  {
   "id": "watermark",
   "term": "Watermark",
-  "definition": "A hidden pattern added to AI output so a detector can later tell it was machine-made.",
+  "definition": "A hidden signal added to AI-made content so it can later be identified as AI-made.",
   "audience": "lay",
   "days": [
+   "2026-08-13",
    "2026-10-06"
   ]
  },

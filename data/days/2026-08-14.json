@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-14",
+  "question": "If an AI worker can log into our accounts and act in our name, what should it never do without us?",
+  "reflection": "Agents that take over routine tasks could give people more time for care and creativity, if trust is earned step by step.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "xAI Grok Bot logs into your tools autonomously, $120/seat", "link": ""}
+  ],
+  "one_line": "AI agents that sign into everyday tools and work alone are now on sale, while open alternatives arrive for free.",
+  "top_stories": [
+    {
+      "title": "An AI worker that logs in for you",
+      "what": "xAI launched Grok Bot, which runs on its own cloud computer, signs into browser tools like a person and keeps working after you leave, from 120 dollars per user each month.",
+      "why": "Agents that can negotiate or reply in your name raise urgent questions about consent and accountability.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["agents", "work"]
+    },
+    {
+      "title": "DeepSeek shares a free agent kit",
+      "what": "DeepSeek released an early open framework where every part of an agent, from the model to memory, is a swappable plug-in with a full action log.",
+      "why": "Open, logged agent kits let research teams build and audit their own tools.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "open source"]
+    },
+    {
+      "title": "Very fast answers from a top model",
+      "what": "OpenAI offered a preview of a high-speed tier of its leading model on Cerebras chips, reportedly up to 14 times faster.",
+      "why": "Near-instant answers make real-time voice and support services more natural.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["infrastructure", "speed"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Agents that act in a person's name touch Saudi rules on digital identity and e-signatures, so public bodies may need guidance before staff use them."}
+  ],
+  "idea": {
+    "title": "Acting-on-my-behalf rules",
+    "pitch": "Draft clear rules for which tasks an AI agent may do in an employee's name, and test how staff and customers react to them.",
+    "fit": "Government digital services, labour-market agency",
+    "first_step": "List ten common tasks and sort them into allowed, needs approval and never."
+  },
+  "idea_kids": {
+    "title": "Helper permission cards",
+    "pitch": "A card set where children decide which jobs a pretend helper may do alone, which need a grown-up, and which they must always do themselves.",
+    "age": "5 to 9",
+    "first_step": "Draw twelve simple job cards, such as tidying toys or opening the door."
+  },
+  "watchlist": [
+    {"name": "xAI", "sector": "Agents and automation", "note": "Selling autonomous agents that use browser logins."},
+    {"name": "DeepSeek", "sector": "Agents and automation", "note": "Open agent framework with full action logs."},
+    {"name": "Cerebras", "sector": "AI infrastructure and chips", "note": "Its chips power a high-speed tier of a leading model."}
+  ],
+  "tool": {"name": "Spec Kit", "use": "An open GitHub toolkit that makes AI coding assistants write a plan before they write code.", "link": ""},
+  "verify": [
+    "The high-speed tier reportedly reaches 750 tokens per second, up to 14 times faster than normal."
+  ],
+  "entities": [
+    {"name": "xAI", "type": "company", "sector": "Frontier models", "url": "https://x.ai", "note": "Launched the Grok Bot agent."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Open-sourced an agent framework."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Previewed a high-speed tier of its top model."},
+    {"name": "Cerebras", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.cerebras.ai", "note": "Supplies the chips behind the speed tier."},
+    {"name": "GitHub", "type": "company", "sector": "Agents and automation", "url": "https://github.com", "note": "Its planning toolkit for AI coding is widely used."}
+  ],
+  "terms": [
+    {"term": "Agent harness", "definition": "The software around an AI model that gives it tools, memory and a way to act.", "audience": "builder"},
+    {"term": "Computer use", "definition": "When an AI controls a computer by clicking and typing like a person.", "audience": "lay"},
+    {"term": "Audit trail", "definition": "A record of every action taken, so people can check later what happened and who did it.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Browser agents", "summary": "Agents that log into web tools and work without a person present.", "audience": ["decision", "lay"], "entities": ["xAI"]},
+    {"industry": "Safety, security and governance", "concept": "Agent liability", "summary": "Who answers for what an agent does in a person's name.", "audience": ["decision"], "entities": ["xAI"]},
+    {"industry": "AI infrastructure and chips", "concept": "Custom AI chips", "summary": "Specialised chips that make top models answer much faster.", "audience": ["builder", "decision"], "entities": ["Cerebras", "OpenAI"]}
+  ]
+}
