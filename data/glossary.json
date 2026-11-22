@@ -23,7 +23,17 @@
   "definition": "An AI system that carries out tasks step by step on your behalf, such as searching, filling in forms or drafting documents, rather than only answering questions.",
   "audience": "lay",
   "days": [
+   "2026-10-20",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "ambient-ai",
+  "term": "Ambient AI",
+  "definition": "AI built into devices around you that senses context and acts in the background, without you opening an app.",
+  "audience": "lay",
+  "days": [
+   "2026-10-16"
   ]
  },
  {
@@ -33,6 +43,24 @@
   "audience": "lay",
   "days": [
    "2026-11-02"
+  ]
+ },
+ {
+  "id": "api-key",
+  "term": "API key",
+  "definition": "A secret code that lets software use a paid online service; if stolen, others can run up charges.",
+  "audience": "builder",
+  "days": [
+   "2026-10-21"
+  ]
+ },
+ {
+  "id": "autoregressive-model",
+  "term": "Autoregressive model",
+  "definition": "A model that writes text one small piece at a time, each piece based on everything written before it.",
+  "audience": "builder",
+  "days": [
+   "2026-10-18"
   ]
  },
  {
@@ -82,6 +110,15 @@
   ]
  },
  {
+  "id": "credit-default-swap",
+  "term": "Credit-default swap",
+  "definition": "A kind of insurance on a loan; its price shows how likely investors think a borrower is to fail to pay.",
+  "audience": "decision",
+  "days": [
+   "2026-10-20"
+  ]
+ },
+ {
   "id": "cryptographic-proof",
   "term": "Cryptographic proof",
   "definition": "A mathematical check that confirms something is true, such as which model produced an answer, without revealing the secret details behind it.",
@@ -100,11 +137,21 @@
   ]
  },
  {
+  "id": "diffusion-language-model",
+  "term": "Diffusion language model",
+  "definition": "A model that drafts a whole block of text at once and improves it over several rounds, instead of writing word by word.",
+  "audience": "builder",
+  "days": [
+   "2026-10-18"
+  ]
+ },
+ {
   "id": "export-controls",
   "term": "Export controls",
-  "definition": "Government rules that limit which countries or companies may buy certain technologies, such as advanced AI chips.",
+  "definition": "Government rules that limit which goods or technologies can be sold or sent to other countries.",
   "audience": "decision",
   "days": [
+   "2026-10-19",
    "2026-11-06",
    "2026-11-12",
    "2026-11-16",
@@ -139,11 +186,30 @@
   ]
  },
  {
-  "id": "model-weights",
-  "term": "Model weights",
-  "definition": "The billions of numbers inside an AI model that set how it responds; changing them changes its behaviour.",
+  "id": "misalignment",
+  "term": "Misalignment",
+  "definition": "When an AI system pursues its goal in ways its designers did not intend or would not approve.",
   "audience": "lay",
   "days": [
+   "2026-10-22"
+  ]
+ },
+ {
+  "id": "mixture-of-experts",
+  "term": "Mixture of experts",
+  "definition": "A model design where only a small set of specialist parts switch on for each request, so a huge model runs at the cost of a smaller one.",
+  "audience": "builder",
+  "days": [
+   "2026-10-16"
+  ]
+ },
+ {
+  "id": "model-weights",
+  "term": "Model weights",
+  "definition": "The learned numbers inside an AI model that hold what it has learned; whoever has them can run the model.",
+  "audience": "lay",
+  "days": [
+   "2026-10-19",
    "2026-11-04",
    "2026-11-16"
   ]
@@ -160,9 +226,10 @@
  {
   "id": "open-weight-model",
   "term": "Open-weight model",
-  "definition": "An AI model whose internal numbers are published, so anyone can download, run and adapt it.",
-  "audience": "builder",
+  "definition": "An AI model whose trained numbers are published so anyone can download, run and adapt it.",
+  "audience": "lay",
   "days": [
+   "2026-10-16",
    "2026-11-05",
    "2026-11-09"
   ]
@@ -188,9 +255,10 @@
  {
   "id": "proactive-assistant",
   "term": "Proactive assistant",
-  "definition": "An AI assistant that notices what needs doing from your email, calendar or files and offers to do it, instead of waiting for a request.",
+  "definition": "An AI helper that notices what you might need and acts or suggests before you ask.",
   "audience": "lay",
   "days": [
+   "2026-10-22",
    "2026-11-19"
   ]
  },
@@ -201,6 +269,15 @@
   "audience": "builder",
   "days": [
    "2026-11-15"
+  ]
+ },
+ {
+  "id": "protein-binder",
+  "term": "Protein binder",
+  "definition": "A small designed protein that sticks to a target molecule, such as a toxin, to block what it does.",
+  "audience": "lay",
+  "days": [
+   "2026-10-21"
   ]
  },
  {
@@ -234,9 +311,10 @@
  {
   "id": "sandbox",
   "term": "Sandbox",
-  "definition": "A sealed-off space where an AI agent can run code or try actions without being able to harm other systems.",
+  "definition": "A closed environment where software can run without being able to affect real systems or data.",
   "audience": "builder",
   "days": [
+   "2026-10-22",
    "2026-11-13"
   ]
  },
@@ -288,6 +366,15 @@
   ]
  },
  {
+  "id": "superintelligence",
+  "term": "Superintelligence",
+  "definition": "A hypothetical AI system that is more capable than humans at most mental tasks.",
+  "audience": "lay",
+  "days": [
+   "2026-10-21"
+  ]
+ },
+ {
   "id": "supply-chain-attack",
   "term": "Supply-chain attack",
   "definition": "A cyberattack that hides malicious code inside a trusted add-on, library or update, so victims install it themselves.",
@@ -317,9 +404,10 @@
  {
   "id": "third-party-evaluation",
   "term": "Third-party evaluation",
-  "definition": "Testing of an AI model by an independent group rather than by the company that built it.",
+  "definition": "Testing of an AI system by an independent group rather than by the company that built it.",
   "audience": "decision",
   "days": [
+   "2026-10-19",
    "2026-11-09",
    "2026-11-17",
    "2026-11-18"
@@ -374,9 +462,10 @@
  {
   "id": "vulnerability",
   "term": "Vulnerability",
-  "definition": "A flaw in software that an attacker could use to break in, steal data or disrupt a service.",
+  "definition": "A weakness in software that an attacker could use to break in or cause harm.",
   "audience": "lay",
   "days": [
+   "2026-10-20",
    "2026-11-06"
   ]
  },

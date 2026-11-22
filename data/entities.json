@@ -18,6 +18,12 @@
   "url": "https://alphasignal.ai",
   "note": "Daily AI news for developers, founded by Lior Alexander.",
   "days": [
+   "2026-10-16",
+   "2026-10-18",
+   "2026-10-19",
+   "2026-10-20",
+   "2026-10-21",
+   "2026-10-22",
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
@@ -29,6 +35,17 @@
    "2026-11-10",
    "2026-11-11",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "amazon",
+  "name": "Amazon",
+  "type": "company",
+  "sector": "Consumer devices",
+  "url": "https://www.amazon.com",
+  "note": "Launched Bee AI wearables and promotes ambient computing.",
+  "days": [
+   "2026-10-16"
   ]
  },
  {
@@ -50,6 +67,11 @@
   "url": "https://www.anthropic.com",
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
+   "2026-10-16",
+   "2026-10-19",
+   "2026-10-20",
+   "2026-10-21",
+   "2026-10-22",
    "2026-11-02",
    "2026-11-03",
    "2026-11-05",
@@ -88,6 +110,17 @@
   ]
  },
  {
+  "id": "coreweave",
+  "name": "CoreWeave",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.coreweave.com",
+  "note": "Cloud provider renting AI chips, heavily funded by debt.",
+  "days": [
+   "2026-10-20"
+  ]
+ },
+ {
   "id": "cursor",
   "name": "Cursor",
   "type": "product",
@@ -118,6 +151,9 @@
   "url": "https://www.deepseek.com",
   "note": "Chinese AI lab known for low-cost open models.",
   "days": [
+   "2026-10-19",
+   "2026-10-20",
+   "2026-10-21",
    "2026-11-16"
   ]
  },
@@ -162,6 +198,11 @@
   "url": "https://www.forwardfuture.ai",
   "note": "Daily AI briefing by Matthew Berman and Nick Wentz.",
   "days": [
+   "2026-10-16",
+   "2026-10-19",
+   "2026-10-20",
+   "2026-10-21",
+   "2026-10-22",
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
@@ -215,6 +256,7 @@
   "url": "https://deepmind.google",
   "note": "Google's AI lab behind the Gemini models.",
   "days": [
+   "2026-10-20",
    "2026-11-11",
    "2026-11-12",
    "2026-11-20"
@@ -228,6 +270,7 @@
   "url": "https://huggingface.co",
   "note": "Open AI platform whose biology team released Carbon-X.",
   "days": [
+   "2026-10-18",
    "2026-11-03"
   ]
  },
@@ -294,6 +337,8 @@
   "url": "https://about.meta.com",
   "note": "Its FAIR research lab maintains the FAISS search library.",
   "days": [
+   "2026-10-16",
+   "2026-10-21",
    "2026-11-09",
    "2026-11-12"
   ]
@@ -317,6 +362,7 @@
   "url": "https://metr.org",
   "note": "Independent research group that evaluates the abilities and risks of frontier models.",
   "days": [
+   "2026-10-19",
    "2026-11-06",
    "2026-11-18"
   ]
@@ -380,12 +426,13 @@
  },
  {
   "id": "nvidia",
-  "name": "Nvidia",
+  "name": "NVIDIA",
   "type": "company",
   "sector": "AI infrastructure and chips",
   "url": "https://www.nvidia.com",
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
+   "2026-10-22",
    "2026-11-06",
    "2026-11-09",
    "2026-11-10",
@@ -405,6 +452,9 @@
   "url": "https://openai.com",
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
+   "2026-10-19",
+   "2026-10-21",
+   "2026-10-22",
    "2026-11-03",
    "2026-11-04",
    "2026-11-06",
@@ -453,6 +503,28 @@
   ]
  },
  {
+  "id": "replit",
+  "name": "Replit",
+  "type": "company",
+  "sector": "Agents and automation",
+  "url": "https://replit.com",
+  "note": "Coding platform whose CEO champions agent-run companies.",
+  "days": [
+   "2026-10-19"
+  ]
+ },
+ {
+  "id": "sam-altman",
+  "name": "Sam Altman",
+  "type": "person",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "CEO of OpenAI.",
+  "days": [
+   "2026-10-21"
+  ]
+ },
+ {
   "id": "sarvam",
   "name": "Sarvam",
   "type": "company",
@@ -464,6 +536,17 @@
   ]
  },
  {
+  "id": "sherry-turkle",
+  "name": "Sherry Turkle",
+  "type": "person",
+  "sector": "Research",
+  "url": "",
+  "note": "MIT sociologist who studies human relationships with technology.",
+  "days": [
+   "2026-10-16"
+  ]
+ },
+ {
   "id": "spacex",
   "name": "SpaceX",
   "type": "company",
@@ -471,7 +554,30 @@
   "url": "https://www.spacex.com",
   "note": "Space company expanding into large AI data centres.",
   "days": [
+   "2026-10-22",
    "2026-11-05"
+  ]
+ },
+ {
+  "id": "stanford-university",
+  "name": "Stanford University",
+  "type": "organisation",
+  "sector": "Research",
+  "url": "https://www.stanford.edu",
+  "note": "Its researchers introduced Next-Concept Modeling.",
+  "days": [
+   "2026-10-18"
+  ]
+ },
+ {
+  "id": "tsmc",
+  "name": "TSMC",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.tsmc.com",
+  "note": "World's largest contract chipmaker, expanding 3-nanometer capacity.",
+  "days": [
+   "2026-10-16"
   ]
  },
  {
@@ -483,6 +589,17 @@
   "note": "Ride and delivery platform reporting very low agent bookings.",
   "days": [
    "2026-11-05"
+  ]
+ },
+ {
+  "id": "unitree",
+  "name": "Unitree",
+  "type": "company",
+  "sector": "Robotics",
+  "url": "https://www.unitree.com",
+  "note": "Chinese maker of humanoid and legged robots.",
+  "days": [
+   "2026-10-22"
   ]
  },
  {

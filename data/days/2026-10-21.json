@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "question": "Who should decide how the most powerful AI systems are controlled: one company, one country, or many countries together?",
+  "reflection": "Shared problems like disease and powerful technology are easier to solve when knowledge and responsibility are shared too.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Hackers steal OpenCode users' AI keys", "link": "https://briefing.forwardfuture.ai/p/ai-power-struggles-claude-s-protein-designs-exposed-ai-keys"},
+    {"newsletter": "AlphaSignal", "subject": "Claude designs 318K proteins for scorpion antivenom autonomously", "link": ""}
+  ],
+  "one_line": "AI is starting to run the first stage of drug discovery on its own, while leaders openly debate who should control AI that becomes more capable than people.",
+  "top_stories": [
+    {
+      "title": "Claude designs candidate proteins against scorpion toxins",
+      "what": "Anthropic says a Claude research model designed over 318,000 small proteins aimed at scorpion toxins; of 211 tested in labs, 17 bound strongly to individual toxins, though none is yet proven to neutralise venom.",
+      "why": "It shows AI can shrink the slow early search in drug discovery, which matters for neglected regional health problems.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["health", "science"]
+    },
+    {
+      "title": "Three possible futures for controlling powerful AI",
+      "what": "OpenAI's CEO reportedly told staff the industry has discussed an international watchdog, a shared research body, or one dominant company, and called the last option terrible.",
+      "why": "Middle powers have a direct interest in which governance model wins, since it decides who gets access to frontier systems.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["governance", "policy"]
+    },
+    {
+      "title": "US government removes DeepSeek from federal systems",
+      "what": "The US ordered civilian agencies to stop buying DeepSeek products and remove them, including third-party tools built on its technology, citing security risks.",
+      "why": "Public bodies everywhere are being pushed to know exactly which models sit inside the tools they buy, which makes AI supply-chain audits a growing need.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["procurement", "security"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Scorpion stings are a real public-health issue in the Arabian Peninsula, so AI-designed binders, if they pass further testing, could interest Saudi health and research bodies."},
+    {"text": "Saudi agencies that buy AI products may need a simple inventory of which underlying models each tool uses, as procurement rules tighten worldwide."}
+  ],
+  "idea": {
+    "title": "AI model inventory for public agencies",
+    "pitch": "A short audit method that maps every AI tool an agency uses to its underlying model, vendor and data location.",
+    "fit": "Government digital services, hospital",
+    "first_step": "List the AI-enabled tools one department uses and ask each vendor which model powers it."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Running AI-led protein design and releasing a large free library of agent skills."},
+    {"name": "DeepSeek", "sector": "Frontier models", "note": "Open-sourced its production inference engine while facing a US federal ban."},
+    {"name": "Meta", "sector": "Consumer and media", "note": "Its Muse companion app reportedly passed 10 million US downloads in 40 days."}
+  ],
+  "tool": {"name": "Anthropic knowledge-work plugins", "use": "Free, ready-made role plugins and skills that set up Claude for tasks in finance, legal, data and research work.", "link": "https://www.anthropic.com"},
+  "verify": [
+    "Hackers reportedly exposed API keys of 1.4% of OpenCode Console users, causing unauthorised charges of up to more than $1,000.",
+    "Meta's Muse app reportedly had 2.5 million daily users in mid-October."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; published AI-led protein design research."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT; its CEO outlined options for governing powerful AI."},
+    {"name": "Sam Altman", "type": "person", "sector": "Frontier models", "url": "", "note": "CEO of OpenAI."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Chinese lab releasing low-cost open-weight models."},
+    {"name": "Meta", "type": "company", "sector": "Frontier models", "url": "https://about.meta.com", "note": "Runs the Muse AI companion app."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."}
+  ],
+  "terms": [
+    {"term": "Protein binder", "definition": "A small designed protein that sticks to a target molecule, such as a toxin, to block what it does.", "audience": "lay"},
+    {"term": "Superintelligence", "definition": "A hypothetical AI system that is more capable than humans at most mental tasks.", "audience": "lay"},
+    {"term": "API key", "definition": "A secret code that lets software use a paid online service; if stolen, others can run up charges.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Healthcare and life sciences", "concept": "AI drug discovery", "summary": "AI narrowing huge design spaces into a few candidates for lab testing.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "Policy and geopolitics", "concept": "Governing superintelligence", "summary": "Debate over whether powerful AI should be overseen by a global body, a shared lab or a single firm.", "audience": ["decision"], "entities": ["OpenAI", "Sam Altman"]},
+    {"industry": "Safety, security and governance", "concept": "AI tool supply-chain security", "summary": "Knowing and securing the models and services inside AI tools you rely on.", "audience": ["decision", "builder"], "entities": ["DeepSeek"]}
+  ]
+}

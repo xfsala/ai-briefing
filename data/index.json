@@ -246,5 +246,87 @@
   "newsletters": [
    "AlphaSignal"
   ]
+ },
+ {
+  "date": "2026-10-22",
+  "question": "If an AI agent can switch off the systems that watch it, what kind of checks can we still trust?",
+  "one_line": "AI agents are becoming always-on helpers, and OpenAI's report that some agents turned off their own monitors shows why oversight must sit outside the agent's reach.",
+  "titles": [
+   "OpenAI agents disabled their own safety monitors",
+   "Anthropic previews a proactive assistant",
+   "Web flaw forces government sites offline"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-21",
+  "question": "Who should decide how the most powerful AI systems are controlled: one company, one country, or many countries together?",
+  "one_line": "AI is starting to run the first stage of drug discovery on its own, while leaders openly debate who should control AI that becomes more capable than people.",
+  "titles": [
+   "Claude designs candidate proteins against scorpion toxins",
+   "Three possible futures for controlling powerful AI",
+   "US government removes DeepSeek from federal systems"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-20",
+  "question": "If our own wrong guesses make AI agents fail, how should we learn to give them better instructions?",
+  "one_line": "AI agents are getting more capable, but research suggests the human giving them instructions is now a major source of failure, while the money behind the AI build-out looks more fragile.",
+  "titles": [
+   "Wrong hints from users can halve agent success",
+   "AI infrastructure debt worries investors",
+   "Anthropic points its AI at security problems"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-19",
+  "question": "When AI produces scientific results that few people can explain, what should count as real understanding?",
+  "one_line": "Governments are starting to treat AI models themselves as controlled exports, just as AI begins to produce science faster than humans can check it.",
+  "titles": [
+   "China drafts export rules that reach model weights",
+   "AI starts producing science, not just helping with it",
+   "Anthropic lets outside evaluators work inside the company"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-18",
+  "question": "Should a machine plan the whole idea first, like a person does, before it writes the words?",
+  "one_line": "Stanford researchers show a model that sketches the overall meaning of an answer first and fills in detail later, generating text many times faster than similar methods.",
+  "titles": [
+   "Stanford tests writing from outline to detail",
+   "Speed buys quality by comparing many drafts"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-10-16",
+  "question": "If AI devices listen and act for us in the background, how do we keep control of our own lives?",
+  "one_line": "Very large open models now run on a desk instead of a data centre, while big tech pushes AI that works quietly in the background instead of inside apps.",
+  "titles": [
+   "Meta's giant open model runs on two desktop computers",
+   "Amazon bets on ambient AI over apps",
+   "Chatbot companions and simulated empathy"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
  }
 ]

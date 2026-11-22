@@ -65,11 +65,20 @@
       "decision"
      ],
      "days": [
-      "2026-11-11"
+      "2026-11-11",
+      "2026-10-22"
      ],
      "children": [
       {
        "name": "Envision",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
+       "kind": "entity"
+      },
+      {
+       "name": "SpaceX",
        "kind": "entity"
       }
      ]
@@ -104,9 +113,14 @@
       "decision"
      ],
      "days": [
-      "2026-11-13"
+      "2026-11-13",
+      "2026-10-16"
      ],
      "children": [
+      {
+       "name": "Meta",
+       "kind": "entity"
+      },
       {
        "name": "Nvidia",
        "kind": "entity"
@@ -124,13 +138,19 @@
      "kind": "concept",
      "summary": "Consumers rarely use AI agents for tasks that existing apps already make quick.",
      "audience": [
+      "builder",
       "decision",
       "lay"
      ],
      "days": [
-      "2026-11-05"
+      "2026-11-05",
+      "2026-10-20"
      ],
      "children": [
+      {
+       "name": "Google DeepMind",
+       "kind": "entity"
+      },
       {
        "name": "Uber",
        "kind": "entity"
@@ -191,6 +211,23 @@
       },
       {
        "name": "Zocdoc",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Agent-run companies",
+     "kind": "concept",
+     "summary": "Firms where agents handle routine work and escalate judgement calls to people.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-10-19"
+     ],
+     "children": [
+      {
+       "name": "Replit",
        "kind": "entity"
       }
      ]
@@ -268,7 +305,8 @@
      ],
      "days": [
       "2026-11-19",
-      "2026-11-09"
+      "2026-11-09",
+      "2026-10-22"
      ],
      "children": [
       {
@@ -318,9 +356,14 @@
       "decision"
      ],
      "days": [
-      "2026-11-12"
+      "2026-11-12",
+      "2026-10-20"
      ],
      "children": [
+      {
+       "name": "CoreWeave",
+       "kind": "entity"
+      },
       {
        "name": "Nvidia",
        "kind": "entity"
@@ -372,6 +415,24 @@
    "kind": "industry",
    "children": [
     {
+     "name": "AI companionship",
+     "kind": "concept",
+     "summary": "People forming emotional bonds with chatbots, with open questions about wellbeing.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-16"
+     ],
+     "children": [
+      {
+       "name": "Sherry Turkle",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "AI misinformation in elections",
      "kind": "concept",
      "summary": "Synthetic political content testing platforms' labelling and voters' judgment.",
@@ -398,6 +459,24 @@
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Ambient AI devices",
+     "kind": "concept",
+     "summary": "Wearables and home devices that listen and act in the background instead of through apps.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-16"
+     ],
+     "children": [
+      {
+       "name": "Amazon",
        "kind": "entity"
       }
      ]
@@ -507,7 +586,8 @@
       "2026-11-18",
       "2026-11-15",
       "2026-11-12",
-      "2026-11-09"
+      "2026-11-09",
+      "2026-10-18"
      ],
      "children": [
       {
@@ -520,6 +600,10 @@
       },
       {
        "name": "Ramp",
+       "kind": "entity"
+      },
+      {
+       "name": "Stanford University",
        "kind": "entity"
       }
      ]
@@ -539,9 +623,14 @@
       "lay"
      ],
      "days": [
-      "2026-11-18"
+      "2026-11-18",
+      "2026-10-21"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "Isomorphic Labs",
        "kind": "entity"
@@ -584,7 +673,8 @@
       "2026-11-16",
       "2026-11-12",
       "2026-11-10",
-      "2026-11-06"
+      "2026-11-06",
+      "2026-10-19"
      ],
      "children": [
       {
@@ -671,6 +761,27 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "Governing superintelligence",
+     "kind": "concept",
+     "summary": "Debate over whether powerful AI should be overseen by a global body, a shared lab or a single firm.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-10-21"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "Sam Altman",
+       "kind": "entity"
+      }
+     ]
     }
    ]
   },
@@ -711,9 +822,15 @@
       "decision"
      ],
      "days": [
-      "2026-11-06"
+      "2026-11-06",
+      "2026-10-22",
+      "2026-10-20"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "OpenAI",
        "kind": "entity"
@@ -747,11 +864,16 @@
       "decision"
      ],
      "days": [
-      "2026-11-02"
+      "2026-11-02",
+      "2026-10-21"
      ],
      "children": [
       {
        "name": "Cursor",
+       "kind": "entity"
+      },
+      {
+       "name": "DeepSeek",
        "kind": "entity"
       }
      ]
@@ -778,9 +900,14 @@
       "decision"
      ],
      "days": [
-      "2026-11-10"
+      "2026-11-10",
+      "2026-10-22"
      ],
      "children": [
+      {
+       "name": "NVIDIA",
+       "kind": "entity"
+      },
       {
        "name": "OpenAI",
        "kind": "entity"
@@ -796,9 +923,14 @@
      ],
      "days": [
       "2026-11-18",
-      "2026-11-17"
+      "2026-11-17",
+      "2026-10-19"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "Apollo Research",
        "kind": "entity"
@@ -926,6 +1058,24 @@
      ]
     },
     {
+     "name": "AI-generated science",
+     "kind": "concept",
+     "summary": "AI systems producing research results faster than humans can verify them.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-19"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Automated science labs",
      "kind": "concept",
      "summary": "AI and robots running experiments around the clock to speed up applied research.",
@@ -939,6 +1089,23 @@
      "children": [
       {
        "name": "XtalPi",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "New ways to generate text",
+     "kind": "concept",
+     "summary": "Research into models that plan answers before writing them, aiming for speed and consistency.",
+     "audience": [
+      "builder"
+     ],
+     "days": [
+      "2026-10-18"
+     ],
+     "children": [
+      {
+       "name": "Stanford University",
        "kind": "entity"
       }
      ]

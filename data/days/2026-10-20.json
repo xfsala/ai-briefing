@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-20",
+  "question": "If our own wrong guesses make AI agents fail, how should we learn to give them better instructions?",
+  "reflection": "Working well with machines starts with knowing the limits of our own knowledge, which is a skill that helps us everywhere.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Claude's crypto breakthrough + AI's $3 trillion debt problem", "link": "https://briefing.forwardfuture.ai/p/claude-cracks-crypto-mystery-ai-debt-risks-anthropic-s-public-fund"},
+    {"newsletter": "AlphaSignal", "subject": "DeepSeek V4.1-Flash, Anthropic OSS Scanner, DeepMind Agent Study", "link": ""}
+  ],
+  "one_line": "AI agents are getting more capable, but research suggests the human giving them instructions is now a major source of failure, while the money behind the AI build-out looks more fragile.",
+  "top_stories": [
+    {
+      "title": "Wrong hints from users can halve agent success",
+      "what": "A Google DeepMind study reportedly found that when users give AI agents a mistaken guess about a task, the agents' success rate drops by nearly half.",
+      "why": "This is a human-behaviour problem at the centre of AI adoption, and training staff in how to brief AI tools is a clear behavioural-science service.",
+      "action": "Pitch",
+      "audience": ["decision", "builder"],
+      "tags": ["agents", "human factors"]
+    },
+    {
+      "title": "AI infrastructure debt worries investors",
+      "what": "AI-linked borrowers reportedly carry more than $3 trillion in debt, and lenders now demand much higher returns from some cloud providers, such as CoreWeave.",
+      "why": "If cheap AI capacity depends on fragile debt, organisations should avoid locking long projects to a single small provider.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["finance", "infrastructure"]
+    },
+    {
+      "title": "Anthropic points its AI at security problems",
+      "what": "Anthropic launched a free scanner that reportedly found hundreds of serious bugs in open-source projects in a week, and says a Claude research model explained the origin of seeds behind widely used encryption curves.",
+      "why": "AI-driven security checks are becoming cheap enough for small teams and public bodies that rely on open-source software.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["security", "open source"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "As Saudi government services roll out AI agents, the quality of staff instructions may matter as much as the model, so prompt and briefing training belongs in digital upskilling programmes."}
+  ],
+  "idea": {
+    "title": "Briefing the machine",
+    "pitch": "A field experiment comparing staff who get a short training on how to brief AI agents with staff who do not, measuring task success and time saved.",
+    "fit": "Government digital services, labour-market agency",
+    "first_step": "Pick one routine task done with an AI tool and write a one-page briefing checklist to test."
+  },
+  "watchlist": [
+    {"name": "Google DeepMind", "sector": "Frontier models", "note": "Studying how user behaviour affects agent performance."},
+    {"name": "CoreWeave", "sector": "AI infrastructure and chips", "note": "AI cloud provider whose bonds signal investor stress."},
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Launched a free security scanner and proposed a public benefit fund."}
+  ],
+  "tool": {"name": "Anthropic OSS Scanner", "use": "Free AI security scanning for open-source projects, with bug reports and suggested fixes for maintainers.", "link": "https://www.anthropic.com"},
+  "verify": [
+    "Anthropic plans to put 5% of its shares into a public benefit fund, subject to shareholder approval.",
+    "Credit markets reportedly imply a greater than 60% chance that CoreWeave cannot service its debt within five years."
+  ],
+  "entities": [
+    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Google's AI lab; published research on how user hints affect agents."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; launched a free open-source security scanner."},
+    {"name": "CoreWeave", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.coreweave.com", "note": "Cloud provider renting AI chips, heavily funded by debt."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Chinese lab releasing low-cost open-weight models."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."}
+  ],
+  "terms": [
+    {"term": "AI agent", "definition": "An AI system that carries out tasks step by step on your behalf, such as searching, filling in forms or drafting documents, rather than only answering questions.", "audience": "lay"},
+    {"term": "Vulnerability", "definition": "A weakness in software that an attacker could use to break in or cause harm.", "audience": "lay"},
+    {"term": "Credit-default swap", "definition": "A kind of insurance on a loan; its price shows how likely investors think a borrower is to fail to pay.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent adoption gap", "summary": "Agents fail less from model limits and more from how people brief and use them.", "audience": ["decision", "builder"], "entities": ["Google DeepMind"]},
+    {"industry": "Business and markets", "concept": "AI financing risk", "summary": "Heavy borrowing to build AI data centres leaves weaker providers exposed.", "audience": ["decision"], "entities": ["CoreWeave"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "AI tools that find and help fix software flaws at scale.", "audience": ["builder", "decision"], "entities": ["Anthropic"]}
+  ]
+}

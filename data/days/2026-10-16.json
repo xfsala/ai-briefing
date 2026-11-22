@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-16",
+  "question": "If AI devices listen and act for us in the background, how do we keep control of our own lives?",
+  "reflection": "Technology that fades into the background can free our attention for people, if we stay clear about what we let it hear.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Meta's 816B Model Runs Locally on Two Mac Studios", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Amazon wants AI to make apps obsolete", "link": "https://briefing.forwardfuture.ai/p/ai-devices-chatbot-companions-anthropic-s-16-8b-revenue"}
+  ],
+  "one_line": "Very large open models now run on a desk instead of a data centre, while big tech pushes AI that works quietly in the background instead of inside apps.",
+  "top_stories": [
+    {
+      "title": "Meta's giant open model runs on two desktop computers",
+      "what": "Meta released Muse Spark Open, an 816-billion-parameter open-weight model that only activates about 42 billion parameters per request and reportedly runs on two high-end Mac Studios.",
+      "why": "Strong models that run fully on local hardware make it easier to analyse sensitive survey or interview data without sending it to a foreign cloud.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["open models", "local AI"]
+    },
+    {
+      "title": "Amazon bets on ambient AI over apps",
+      "what": "Amazon's devices chief says future computing will lean on sensor-rich devices that understand needs in the background, and its new Bee wearables record, summarise and turn conversations into reminders.",
+      "why": "Always-listening devices raise fresh questions about consent, privacy norms and trust that behavioural researchers are well placed to study.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["devices", "privacy"]
+    },
+    {
+      "title": "Chatbot companions and simulated empathy",
+      "what": "A widely discussed interview with sociologist Sherry Turkle explores how many adults now talk to chatbots, some as romantic partners, and the risk of accepting care from a system with no stake in us.",
+      "why": "Emotional reliance on AI is a growing behavioural question for health, youth and family policy, and a natural research topic.",
+      "action": "Pitch",
+      "audience": ["lay", "decision"],
+      "tags": ["wellbeing", "relationships"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Locally runnable open models give Saudi agencies a route to capable AI that keeps sensitive data inside the Kingdom, in line with data-residency rules."},
+    {"text": "With a young, highly connected population, Saudi Arabia is a relevant place to study how teenagers and families use AI companions."}
+  ],
+  "idea": {
+    "title": "AI companion use survey",
+    "pitch": "A short national survey on how young adults use chatbots for advice, comfort or company, and how that relates to wellbeing and social ties.",
+    "fit": "Health, youth and family services, culture sector",
+    "first_step": "Draft ten neutral questions on chatbot use frequency, purpose and feelings of support."
+  },
+  "watchlist": [
+    {"name": "Meta", "sector": "Frontier models", "note": "Pushing very large open-weight models that run on local hardware."},
+    {"name": "Amazon", "sector": "Consumer devices", "note": "Testing ambient AI wearables that summarise conversations."},
+    {"name": "TSMC", "sector": "AI infrastructure and chips", "note": "Adding another advanced chip factory on the back of AI demand."}
+  ],
+  "tool": {"name": "Muse Spark Open", "use": "An open-weight model for long coding and document tasks that can run on your own hardware.", "link": ""},
+  "verify": [
+    "Anthropic reportedly told investors its third-quarter revenue rose about 45% to $16.8 billion and that it is cash-flow positive.",
+    "GPT-6 reportedly solved 49 of 50 expert physics problems for about $3 each."
+  ],
+  "entities": [
+    {"name": "Meta", "type": "company", "sector": "Frontier models", "url": "https://about.meta.com", "note": "Released the open-weight Muse Spark Open model."},
+    {"name": "Amazon", "type": "company", "sector": "Consumer devices", "url": "https://www.amazon.com", "note": "Launched Bee AI wearables and promotes ambient computing."},
+    {"name": "TSMC", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.tsmc.com", "note": "World's largest contract chipmaker, expanding 3-nanometer capacity."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; reported fast but slowing revenue growth ahead of a planned IPO."},
+    {"name": "Sherry Turkle", "type": "person", "sector": "Research", "url": "", "note": "MIT sociologist who studies human relationships with technology."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."}
+  ],
+  "terms": [
+    {"term": "Open-weight model", "definition": "An AI model whose trained numbers are published so anyone can download, run and adapt it.", "audience": "lay"},
+    {"term": "Mixture of experts", "definition": "A model design where only a small set of specialist parts switch on for each request, so a huge model runs at the cost of a smaller one.", "audience": "builder"},
+    {"term": "Ambient AI", "definition": "AI built into devices around you that senses context and acts in the background, without you opening an app.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Large open models now run on local hardware, giving organisations control over their data.", "audience": ["builder", "decision"], "entities": ["Meta"]},
+    {"industry": "Consumer and media", "concept": "Ambient AI devices", "summary": "Wearables and home devices that listen and act in the background instead of through apps.", "audience": ["lay", "decision"], "entities": ["Amazon"]},
+    {"industry": "Consumer and media", "concept": "AI companionship", "summary": "People forming emotional bonds with chatbots, with open questions about wellbeing.", "audience": ["lay", "decision"], "entities": ["Sherry Turkle"]}
+  ]
+}

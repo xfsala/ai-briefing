@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-18",
+  "question": "Should a machine plan the whole idea first, like a person does, before it writes the words?",
+  "reflection": "When machines learn to think from the big picture down to the details, they may help us do the same.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "New AI Architecture Challenges Token-by-Token Generation", "link": ""}
+  ],
+  "one_line": "Stanford researchers show a model that sketches the overall meaning of an answer first and fills in detail later, generating text many times faster than similar methods.",
+  "top_stories": [
+    {
+      "title": "Stanford tests writing from outline to detail",
+      "what": "Stanford's Next-Concept Modeling builds an answer as layers of codes, from a rough outline to fine detail, and reportedly generated text 10 to 31 times faster than comparable diffusion models in small-scale tests.",
+      "why": "Faster, more consistent generation could cut the cost of large text tasks such as coding open-ended survey answers or summarising interviews.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["research", "efficiency"]
+    },
+    {
+      "title": "Speed buys quality by comparing many drafts",
+      "what": "Because the method is fast, it can produce several candidate answers and pick the one most similar to the rest, which improved summary quality in the paper's tests.",
+      "why": "Generating several drafts and choosing the consensus is a simple quality check that research teams can already apply with today's models.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["quality", "summarisation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today. This is early research, worth watching for later Arabic-language results."}
+  ],
+  "idea": {
+    "title": "Consensus summaries for qualitative data",
+    "pitch": "Summarise each interview several times with an AI model and keep the version that agrees most with the others, then check a sample by hand.",
+    "fit": "Consultancy, government services research",
+    "first_step": "Take five transcripts, generate three summaries each, and compare them with a human summary."
+  },
+  "watchlist": [
+    {"name": "Stanford University", "sector": "Research", "note": "Released code and checkpoints for a new way to generate text."}
+  ],
+  "tool": null,
+  "verify": [
+    "Next-Concept Modeling reportedly needs 4 to 5 times fewer training tokens than strong diffusion baselines; results so far come from small models."
+  ],
+  "entities": [
+    {"name": "Stanford University", "type": "organisation", "sector": "Research", "url": "https://www.stanford.edu", "note": "Its researchers introduced Next-Concept Modeling."},
+    {"name": "Hugging Face", "type": "company", "sector": "AI platforms", "url": "https://huggingface.co", "note": "Hosts the released model checkpoints."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "Autoregressive model", "definition": "A model that writes text one small piece at a time, each piece based on everything written before it.", "audience": "builder"},
+    {"term": "Diffusion language model", "definition": "A model that drafts a whole block of text at once and improves it over several rounds, instead of writing word by word.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Science and research", "concept": "New ways to generate text", "summary": "Research into models that plan answers before writing them, aiming for speed and consistency.", "audience": ["builder"], "entities": ["Stanford University"]},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "New methods keep cutting the compute needed for each answer.", "audience": ["decision"], "entities": ["Stanford University"]}
+  ]
+}
