@@ -6,6 +6,18 @@
    "kind": "industry",
    "children": [
     {
+     "name": "AI hardware supply squeeze",
+     "kind": "concept",
+     "summary": "AI data centres soaking up memory, chips and boards, raising prices for other electronics.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-03"
+     ],
+     "children": []
+    },
+    {
      "name": "AI-designed chips",
      "kind": "concept",
      "summary": "Using AI models to improve the design of the processors that run AI.",
@@ -26,6 +38,80 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "Custom AI chips",
+     "kind": "concept",
+     "summary": "Specialised processors built by cloud firms as alternatives to general-purpose GPUs.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-10"
+     ],
+     "children": [
+      {
+       "name": "Google",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Data-centre power and cost",
+     "kind": "concept",
+     "summary": "Electricity supply and building cost as the deciding factors in the AI build-out.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-11"
+     ],
+     "children": [
+      {
+       "name": "Envision",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Long-context efficiency",
+     "kind": "concept",
+     "summary": "Techniques that make it cheaper for models to work with very large inputs.",
+     "audience": [
+      "builder"
+     ],
+     "days": [
+      "2026-11-08"
+     ],
+     "children": [
+      {
+       "name": "ETH Zurich",
+       "kind": "entity"
+      },
+      {
+       "name": "Prefrontal AI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Open model ecosystems",
+     "kind": "concept",
+     "summary": "Freely available models backed by chipmakers and labs, which smaller teams rely on.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-13"
+     ],
+     "children": [
+      {
+       "name": "Nvidia",
+       "kind": "entity"
+      }
+     ]
     }
    ]
   },
@@ -33,6 +119,59 @@
    "name": "Agents and automation",
    "kind": "industry",
    "children": [
+    {
+     "name": "Agent adoption gap",
+     "kind": "concept",
+     "summary": "Consumers rarely use AI agents for tasks that existing apps already make quick.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-05"
+     ],
+     "children": [
+      {
+       "name": "Uber",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Agent memory management",
+     "kind": "concept",
+     "summary": "Deciding what an agent keeps in working memory and what it looks up later.",
+     "audience": [
+      "builder"
+     ],
+     "days": [
+      "2026-11-15"
+     ],
+     "children": [
+      {
+       "name": "Nvidia",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Agent societies",
+     "kind": "concept",
+     "summary": "Groups of AI agents that organise, set rules and pick leaders in simulated worlds.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-04"
+     ],
+     "children": [
+      {
+       "name": "Y Combinator",
+       "kind": "entity"
+      }
+     ]
+    },
     {
      "name": "Agent-ready services",
      "kind": "concept",
@@ -42,9 +181,14 @@
       "decision"
      ],
      "days": [
-      "2026-11-18"
+      "2026-11-18",
+      "2026-11-16"
      ],
      "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      },
       {
        "name": "Zocdoc",
        "kind": "entity"
@@ -60,11 +204,56 @@
       "decision"
      ],
      "days": [
-      "2026-11-20"
+      "2026-11-20",
+      "2026-11-13",
+      "2026-11-12"
      ],
      "children": [
       {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
        "name": "Nous Research",
+       "kind": "entity"
+      },
+      {
+       "name": "xAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Long-running agents",
+     "kind": "concept",
+     "summary": "Agents that work for hours or days and build up huge working memories.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-08"
+     ],
+     "children": [
+      {
+       "name": "Prefrontal AI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Multi-model agent design",
+     "kind": "concept",
+     "summary": "Agents that combine a reasoning model, specialist models and plain code, each doing what it does best.",
+     "audience": [
+      "builder"
+     ],
+     "days": [
+      "2026-11-01"
+     ],
+     "children": [
+      {
+       "name": "Mistral AI",
        "kind": "entity"
       }
      ]
@@ -78,11 +267,16 @@
       "lay"
      ],
      "days": [
-      "2026-11-19"
+      "2026-11-19",
+      "2026-11-09"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Meta",
        "kind": "entity"
       },
       {
@@ -117,6 +311,40 @@
    "kind": "industry",
    "children": [
     {
+     "name": "AI financing risk",
+     "kind": "concept",
+     "summary": "Chipmakers and investors lending to and guaranteeing AI projects, linking AI demand to wider financial risk.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-12"
+     ],
+     "children": [
+      {
+       "name": "Nvidia",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "AI lab IPOs",
+     "kind": "concept",
+     "summary": "Frontier AI developers raising money on public stock markets.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-11"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "AI startup consolidation",
      "kind": "concept",
      "summary": "Standalone AI products are being absorbed or replaced by features inside big platforms.",
@@ -140,9 +368,132 @@
    ]
   },
   {
+   "name": "Consumer and media",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "AI misinformation in elections",
+     "kind": "concept",
+     "summary": "Synthetic political content testing platforms' labelling and voters' judgment.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-04"
+     ],
+     "children": []
+    },
+    {
+     "name": "AI personal finance",
+     "kind": "concept",
+     "summary": "Assistants that read your accounts and explain your spending.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-06"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Conversational search",
+     "kind": "concept",
+     "summary": "Search moving from lists of links to AI-written answers, reshaping the ad business.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-02"
+     ],
+     "children": [
+      {
+       "name": "Google",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Data and analytics",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "AI-assisted data coding",
+     "kind": "concept",
+     "summary": "Using AI to label and extract data at scale, with humans checking the uncertain cases.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-17"
+     ],
+     "children": [
+      {
+       "name": "Liquid AI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Specialised foundation models",
+     "kind": "concept",
+     "summary": "Small pretrained models built for one data task, such as forecasting or table prediction.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-01"
+     ],
+     "children": [
+      {
+       "name": "Kumo",
+       "kind": "entity"
+      },
+      {
+       "name": "Mistral AI",
+       "kind": "entity"
+      },
+      {
+       "name": "Prior Labs",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "name": "Frontier models",
    "kind": "industry",
    "children": [
+    {
+     "name": "AI-built software",
+     "kind": "concept",
+     "summary": "Models that can produce whole working applications from short instructions.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-10"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    },
     {
      "name": "Falling cost of intelligence",
      "kind": "concept",
@@ -153,11 +504,22 @@
       "lay"
      ],
      "days": [
-      "2026-11-18"
+      "2026-11-18",
+      "2026-11-15",
+      "2026-11-12",
+      "2026-11-09"
      ],
      "children": [
       {
+       "name": "Nvidia",
+       "kind": "entity"
+      },
+      {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "Ramp",
        "kind": "entity"
       }
      ]
@@ -185,6 +547,23 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "AI in hospital operations",
+     "kind": "concept",
+     "summary": "AI layers that connect patient records, billing and guidelines for staff.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-11"
+     ],
+     "children": [
+      {
+       "name": "Google Cloud",
+       "kind": "entity"
+      }
+     ]
     }
    ]
   },
@@ -200,11 +579,49 @@
       "decision"
      ],
      "days": [
-      "2026-11-19"
+      "2026-11-19",
+      "2026-11-17",
+      "2026-11-16",
+      "2026-11-12",
+      "2026-11-10",
+      "2026-11-06"
      ],
      "children": [
       {
+       "name": "DeepSeek",
+       "kind": "entity"
+      },
+      {
+       "name": "Megaspeed",
+       "kind": "entity"
+      },
+      {
+       "name": "Moonshot AI",
+       "kind": "entity"
+      },
+      {
        "name": "Nvidia",
+       "kind": "entity"
+      },
+      {
+       "name": "US Department of Commerce",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Data centre community deals",
+     "kind": "concept",
+     "summary": "Agreements on local benefits and limits for communities that host AI data centres.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-03"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -218,15 +635,63 @@
      ],
      "days": [
       "2026-11-20",
-      "2026-11-18"
+      "2026-11-18",
+      "2026-11-13",
+      "2026-11-03"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "Nous Research",
        "kind": "entity"
       },
       {
        "name": "Sarvam",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Data-centre backlash",
+     "kind": "concept",
+     "summary": "Local and political resistance to AI data centres over power, water and costs.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-09"
+     ],
+     "children": [
+      {
+       "name": "Nvidia",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Robotics and physical AI",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "General models controlling robots",
+     "kind": "concept",
+     "summary": "Using the same large models behind chatbots to steer physical machines.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-16"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -237,6 +702,60 @@
    "name": "Safety, security and governance",
    "kind": "industry",
    "children": [
+    {
+     "name": "AI for cybersecurity",
+     "kind": "concept",
+     "summary": "Models that find and fix software flaws, usable by defenders and attackers alike.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-06"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "AI influence on human judgment",
+     "kind": "concept",
+     "summary": "AI assistants can shift people's decisions in ways they do not notice or credit.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-02"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "AI tool supply-chain security",
+     "kind": "concept",
+     "summary": "Malicious add-ons and packages targeting people who use AI coding tools.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-02"
+     ],
+     "children": [
+      {
+       "name": "Cursor",
+       "kind": "entity"
+      }
+     ]
+    },
     {
      "name": "Agent liability",
      "kind": "concept",
@@ -251,6 +770,24 @@
      "children": []
     },
     {
+     "name": "Human override and shutdown",
+     "kind": "concept",
+     "summary": "Controls that let people halt AI systems quickly when something goes wrong.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-10"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Independent AI audits",
      "kind": "concept",
      "summary": "Outside groups testing models for hidden risks before and after release.",
@@ -258,7 +795,8 @@
       "decision"
      ],
      "days": [
-      "2026-11-18"
+      "2026-11-18",
+      "2026-11-17"
      ],
      "children": [
       {
@@ -270,7 +808,213 @@
        "kind": "entity"
       },
       {
+       "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
        "name": "Vals",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Model bias and values",
+     "kind": "concept",
+     "summary": "Measuring and changing whose views an AI model reflects in its answers.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-09"
+     ],
+     "children": [
+      {
+       "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
+       "name": "Nous Research",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Model identity verification",
+     "kind": "concept",
+     "summary": "Proving which AI model produced an output so customers can trust what they are buying.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-05"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Recursive self-improvement risk",
+     "kind": "concept",
+     "summary": "Concern that AI speeding up AI research could outpace safety work.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-03"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science and research",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "AI editing AI models",
+     "kind": "concept",
+     "summary": "Using a strong model to inspect and patch a weaker model's weights directly.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-04"
+     ],
+     "children": [
+      {
+       "name": "MIT",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "AI-accelerated AI research",
+     "kind": "concept",
+     "summary": "AI tools doing a growing share of the work of building the next AI models.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-06"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "METR",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Automated science labs",
+     "kind": "concept",
+     "summary": "AI and robots running experiments around the clock to speed up applied research.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-05"
+     ],
+     "children": [
+      {
+       "name": "XtalPi",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Work and workforce",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "AI labour disruption",
+     "kind": "concept",
+     "summary": "AI changing which jobs exist and how fast, with entry-level roles hit first.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-13"
+     ],
+     "children": [
+      {
+       "name": "Federal Reserve",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "AI workspaces",
+     "kind": "concept",
+     "summary": "Assistants that bundle documents, spreadsheets, whiteboards and meetings in one place.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-11"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Workplace AI adoption",
+     "kind": "concept",
+     "summary": "Which AI assistants people actually use day to day at work.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-17"
+     ],
+     "children": [
+      {
+       "name": "Microsoft",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Workplace AI monitoring",
+     "kind": "concept",
+     "summary": "Employers gaining tools to see how staff use AI assistants at work.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-02"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
        "kind": "entity"
       }
      ]

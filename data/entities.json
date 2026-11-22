@@ -1,5 +1,16 @@
 [
  {
+  "id": "alibaba",
+  "name": "Alibaba",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://www.alibabagroup.com",
+  "note": "Chinese group behind the open Qwen model family.",
+  "days": [
+   "2026-11-09"
+  ]
+ },
+ {
   "id": "alphasignal",
   "name": "AlphaSignal",
   "type": "organisation",
@@ -7,6 +18,16 @@
   "url": "https://alphasignal.ai",
   "note": "Daily AI news for developers, founded by Lior Alexander.",
   "days": [
+   "2026-11-01",
+   "2026-11-02",
+   "2026-11-03",
+   "2026-11-04",
+   "2026-11-05",
+   "2026-11-06",
+   "2026-11-08",
+   "2026-11-09",
+   "2026-11-10",
+   "2026-11-11",
    "2026-11-20"
   ]
  },
@@ -29,6 +50,16 @@
   "url": "https://www.anthropic.com",
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
+   "2026-11-02",
+   "2026-11-03",
+   "2026-11-05",
+   "2026-11-06",
+   "2026-11-10",
+   "2026-11-11",
+   "2026-11-12",
+   "2026-11-13",
+   "2026-11-15",
+   "2026-11-16",
    "2026-11-19",
    "2026-11-20"
   ]
@@ -41,6 +72,7 @@
   "url": "https://www.apolloresearch.ai",
   "note": "Independent group testing whether AI models could act against their developers.",
   "days": [
+   "2026-11-17",
    "2026-11-18"
   ]
  },
@@ -56,6 +88,73 @@
   ]
  },
  {
+  "id": "cursor",
+  "name": "Cursor",
+  "type": "product",
+  "sector": "Developer tools",
+  "url": "https://cursor.com",
+  "note": "AI code editor that has added its own code-hosting service.",
+  "days": [
+   "2026-11-02",
+   "2026-11-13"
+  ]
+ },
+ {
+  "id": "deep-principle",
+  "name": "Deep Principle",
+  "type": "company",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Developer of the open Hydrogen-1.0 science model.",
+  "days": [
+   "2026-11-04"
+  ]
+ },
+ {
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://www.deepseek.com",
+  "note": "Chinese AI lab known for low-cost open models.",
+  "days": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "id": "envision",
+  "name": "Envision",
+  "type": "company",
+  "sector": "Energy and data centres",
+  "url": "",
+  "note": "Chinese energy firm behind the Galaxy AI campus in Inner Mongolia.",
+  "days": [
+   "2026-11-11"
+  ]
+ },
+ {
+  "id": "eth-zurich",
+  "name": "ETH Zurich",
+  "type": "organisation",
+  "sector": "Research university",
+  "url": "https://ethz.ch",
+  "note": "Swiss technical university and research partner on the work.",
+  "days": [
+   "2026-11-08"
+  ]
+ },
+ {
+  "id": "federal-reserve",
+  "name": "Federal Reserve",
+  "type": "organisation",
+  "sector": "Policy and economics",
+  "url": "https://www.federalreserve.gov",
+  "note": "The US central bank, now studying AI's effect on jobs.",
+  "days": [
+   "2026-11-13"
+  ]
+ },
+ {
   "id": "forward-future",
   "name": "Forward Future",
   "type": "organisation",
@@ -63,7 +162,49 @@
   "url": "https://www.forwardfuture.ai",
   "note": "Daily AI briefing by Matthew Berman and Nick Wentz.",
   "days": [
+   "2026-11-02",
+   "2026-11-03",
+   "2026-11-04",
+   "2026-11-05",
+   "2026-11-06",
+   "2026-11-09",
+   "2026-11-10",
+   "2026-11-11",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "github",
+  "name": "GitHub",
+  "type": "company",
+  "sector": "Developer tools",
+  "url": "https://github.com",
+  "note": "The main platform where developers store and share code.",
+  "days": [
+   "2026-11-13"
+  ]
+ },
+ {
+  "id": "google",
+  "name": "Google",
+  "type": "company",
+  "sector": "AI chips",
+  "url": "https://www.google.com",
+  "note": "Designs its own TPU chips for AI work.",
+  "days": [
+   "2026-11-02",
+   "2026-11-10"
+  ]
+ },
+ {
+  "id": "google-cloud",
+  "name": "Google Cloud",
+  "type": "company",
+  "sector": "Cloud and AI",
+  "url": "https://cloud.google.com",
+  "note": "Google's cloud business, launching Gemini for healthcare.",
+  "days": [
+   "2026-11-11"
   ]
  },
  {
@@ -74,7 +215,20 @@
   "url": "https://deepmind.google",
   "note": "Google's AI lab behind the Gemini models.",
   "days": [
+   "2026-11-11",
+   "2026-11-12",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "type": "company",
+  "sector": "Science and research",
+  "url": "https://huggingface.co",
+  "note": "Open AI platform whose biology team released Carbon-X.",
+  "days": [
+   "2026-11-03"
   ]
  },
  {
@@ -86,6 +240,62 @@
   "note": "AI drug-discovery company spun out of Google DeepMind.",
   "days": [
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "kumo",
+  "name": "Kumo",
+  "type": "company",
+  "sector": "Data and analytics",
+  "url": "https://kumo.ai",
+  "note": "Builds foundation models for relational databases.",
+  "days": [
+   "2026-11-01"
+  ]
+ },
+ {
+  "id": "langchain",
+  "name": "LangChain",
+  "type": "company",
+  "sector": "Developer tools",
+  "url": "https://www.langchain.com",
+  "note": "Makes open-source tools for building AI agents.",
+  "days": [
+   "2026-11-16"
+  ]
+ },
+ {
+  "id": "liquid-ai",
+  "name": "Liquid AI",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://www.liquid.ai",
+  "note": "Builds small, efficient models, including the d1.2 decision models.",
+  "days": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "id": "megaspeed",
+  "name": "Megaspeed",
+  "type": "company",
+  "sector": "Data centres",
+  "url": "",
+  "note": "Singapore data-centre firm under US criminal investigation.",
+  "days": [
+   "2026-11-10"
+  ]
+ },
+ {
+  "id": "meta",
+  "name": "Meta",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://about.meta.com",
+  "note": "Its FAIR research lab maintains the FAISS search library.",
+  "days": [
+   "2026-11-09",
+   "2026-11-12"
   ]
  },
  {
@@ -107,7 +317,53 @@
   "url": "https://metr.org",
   "note": "Independent research group that evaluates the abilities and risks of frontier models.",
   "days": [
+   "2026-11-06",
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "microsoft",
+  "name": "Microsoft",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://www.microsoft.com",
+  "note": "Sells Copilot in Office and is a major Anthropic partner and investor.",
+  "days": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://mistral.ai",
+  "note": "French AI lab, maker of the Timestral forecasting models.",
+  "days": [
+   "2026-11-01"
+  ]
+ },
+ {
+  "id": "mit",
+  "name": "MIT",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://www.mit.edu",
+  "note": "US university whose researchers ran the weight-editing study.",
+  "days": [
+   "2026-11-04"
+  ]
+ },
+ {
+  "id": "moonshot-ai",
+  "name": "Moonshot AI",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "Chinese lab behind the Kimi assistant.",
+  "days": [
+   "2026-11-05",
+   "2026-11-06"
   ]
  },
  {
@@ -118,6 +374,7 @@
   "url": "https://nousresearch.com",
   "note": "Maker of the open-source Hermes models and the Hermes Enterprise agent.",
   "days": [
+   "2026-11-09",
    "2026-11-20"
   ]
  },
@@ -129,6 +386,14 @@
   "url": "https://www.nvidia.com",
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
+   "2026-11-06",
+   "2026-11-09",
+   "2026-11-10",
+   "2026-11-12",
+   "2026-11-13",
+   "2026-11-15",
+   "2026-11-16",
+   "2026-11-17",
    "2026-11-19"
   ]
  },
@@ -140,9 +405,51 @@
   "url": "https://openai.com",
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
+   "2026-11-03",
+   "2026-11-04",
+   "2026-11-06",
+   "2026-11-10",
+   "2026-11-11",
+   "2026-11-12",
+   "2026-11-15",
+   "2026-11-16",
+   "2026-11-17",
    "2026-11-18",
    "2026-11-19",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "prefrontal-ai",
+  "name": "Prefrontal AI",
+  "type": "company",
+  "sector": "AI research",
+  "url": "",
+  "note": "Research company behind Latent Sparse Attention.",
+  "days": [
+   "2026-11-08"
+  ]
+ },
+ {
+  "id": "prior-labs",
+  "name": "Prior Labs",
+  "type": "company",
+  "sector": "Data and analytics",
+  "url": "https://priorlabs.ai",
+  "note": "Developer of the TabPFN tabular foundation model.",
+  "days": [
+   "2026-11-01"
+  ]
+ },
+ {
+  "id": "ramp",
+  "name": "Ramp",
+  "type": "company",
+  "sector": "Fintech",
+  "url": "https://ramp.com",
+  "note": "Corporate card company that publishes business spending trends.",
+  "days": [
+   "2026-11-09"
   ]
  },
  {
@@ -157,6 +464,39 @@
   ]
  },
  {
+  "id": "spacex",
+  "name": "SpaceX",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.spacex.com",
+  "note": "Space company expanding into large AI data centres.",
+  "days": [
+   "2026-11-05"
+  ]
+ },
+ {
+  "id": "uber",
+  "name": "Uber",
+  "type": "company",
+  "sector": "Consumer and media",
+  "url": "https://www.uber.com",
+  "note": "Ride and delivery platform reporting very low agent bookings.",
+  "days": [
+   "2026-11-05"
+  ]
+ },
+ {
+  "id": "us-department-of-commerce",
+  "name": "US Department of Commerce",
+  "type": "organisation",
+  "sector": "Policy and geopolitics",
+  "url": "https://www.commerce.gov",
+  "note": "Sets US export rules on advanced AI chips.",
+  "days": [
+   "2026-11-17"
+  ]
+ },
+ {
   "id": "vals",
   "name": "Vals",
   "type": "company",
@@ -165,6 +505,50 @@
   "note": "AI evaluation company testing model behaviour on real-world tasks.",
   "days": [
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "vercel",
+  "name": "Vercel",
+  "type": "company",
+  "sector": "Developer tools",
+  "url": "https://vercel.com",
+  "note": "Web platform company whose lab released agent-desktop.",
+  "days": [
+   "2026-11-02"
+  ]
+ },
+ {
+  "id": "xai",
+  "name": "xAI",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://x.ai",
+  "note": "Maker of the Grok models and Grok Bot.",
+  "days": [
+   "2026-11-12"
+  ]
+ },
+ {
+  "id": "xtalpi",
+  "name": "XtalPi",
+  "type": "company",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Chinese firm running AI-driven robotic labs for drugs and materials.",
+  "days": [
+   "2026-11-05"
+  ]
+ },
+ {
+  "id": "y-combinator",
+  "name": "Y Combinator",
+  "type": "organisation",
+  "sector": "Business and markets",
+  "url": "https://www.ycombinator.com",
+  "note": "Startup accelerator whose lab ran the 50-agent experiment.",
+  "days": [
+   "2026-11-04"
   ]
  },
  {

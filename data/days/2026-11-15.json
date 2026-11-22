@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-15",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Nvidia Shows How to Cut AI Context Without Sacrificing Accuracy", "link": ""}
+  ],
+  "one_line": "AI agents often work as well, or better, when they forget most of their history and keep only a short note of where the task stands.",
+  "top_stories": [
+    {
+      "title": "Agents do fine with a short memory",
+      "what": "Nvidia researchers found that agents which periodically squeeze their working history into a brief task summary kept, and sometimes improved, accuracy on coding benchmarks.",
+      "why": "Shorter memory means faster and cheaper agents, which makes long analysis jobs on modest budgets more realistic.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["agents", "research"]
+    },
+    {
+      "title": "Let the agent search documents instead of reading them all",
+      "what": "In the same study, storing long documents as files and letting the agent search for the passages it needs matched or beat pasting everything into the prompt.",
+      "why": "For report reviews and literature scans, a search-then-read setup is a simple way to handle large document sets with AI.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["documents", "research methods"]
+    },
+    {
+      "title": "Shorter context can still cost more",
+      "what": "The study warns that trimming history breaks prompt caching, so one model's bill rose by about a fifth despite using fewer tokens, and one open model collapsed under tight limits.",
+      "why": "Teams should test cost per finished task on their own work, not assume that less input always means a smaller bill.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["cost", "evaluation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today; the findings mainly help any team, local or global, run AI agents more cheaply."}
+  ],
+  "idea": {
+    "title": "Searchable evidence library",
+    "pitch": "Store a client's past reports and survey files as a searchable folder and let an AI assistant pull only the relevant passages to answer policy questions.",
+    "fit": "Government services, consultancy",
+    "first_step": "Collect ten past reports on one topic and test whether an assistant can answer five known questions by searching them."
+  },
+  "watchlist": [
+    {"name": "Nvidia", "sector": "AI infrastructure and chips", "note": "Its research suggests agents need far less context than assumed, which could reshape how they are served."}
+  ],
+  "tool": null,
+  "verify": [
+    "Cutting context from 256,000 to 16,000 tokens raised output speed by up to seven times on tested open models (Nvidia's own measurements)."
+  ],
+  "entities": [
+    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "AI chipmaker whose researchers ran the context study."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Its Claude Opus 4.5 was one of the models tested."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Its GPT-5.6 Sol was one of the models tested."}
+  ],
+  "terms": [
+    {"term": "Context window", "definition": "The amount of text an AI model can take in and consider at once, measured in tokens.", "audience": "lay"},
+    {"term": "Context compaction", "definition": "Replacing an agent's long working history with a short summary of what matters for the next step.", "audience": "builder"},
+    {"term": "Prompt caching", "definition": "Reusing work the model already did on an unchanged start of a prompt, which makes repeat requests cheaper.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent memory management", "summary": "Deciding what an agent keeps in working memory and what it looks up later.", "audience": ["builder"], "entities": ["Nvidia"]},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Each new model generation does more for less money per task.", "audience": ["builder", "decision", "lay"], "entities": ["Nvidia"]}
+  ]
+}

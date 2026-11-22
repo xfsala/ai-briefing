@@ -1,11 +1,75 @@
 [
  {
+  "id": "accessibility-tree",
+  "term": "Accessibility tree",
+  "definition": "A structured list of every button, field and window on screen that operating systems keep for assistive tools, and that agents can now use to act.",
+  "audience": "builder",
+  "days": [
+   "2026-11-02"
+  ]
+ },
+ {
+  "id": "agentic-payments",
+  "term": "Agentic payments",
+  "definition": "Purchases that an AI agent completes for a person, using a saved card under limits the person sets.",
+  "audience": "lay",
+  "days": [
+   "2026-11-16"
+  ]
+ },
+ {
   "id": "ai-agent",
   "term": "AI agent",
   "definition": "An AI system that carries out tasks step by step on your behalf, such as searching, filling in forms or drafting documents, rather than only answering questions.",
   "audience": "lay",
   "days": [
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "anchoring",
+  "term": "Anchoring",
+  "definition": "The tendency to lean on the first suggestion you see when making a judgment, even if you think you decided independently.",
+  "audience": "lay",
+  "days": [
+   "2026-11-02"
+  ]
+ },
+ {
+  "id": "calibrated-confidence",
+  "term": "Calibrated confidence",
+  "definition": "When a model's stated certainty matches reality, so answers marked 80% sure are right about 80% of the time.",
+  "audience": "builder",
+  "days": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "id": "clustering",
+  "term": "Clustering",
+  "definition": "Grouping similar items together automatically, for example sorting thousands of comments into common themes.",
+  "audience": "lay",
+  "days": [
+   "2026-11-12"
+  ]
+ },
+ {
+  "id": "context-compaction",
+  "term": "Context compaction",
+  "definition": "Replacing an agent's long working history with a short summary of what matters for the next step.",
+  "audience": "builder",
+  "days": [
+   "2026-11-15"
+  ]
+ },
+ {
+  "id": "context-window",
+  "term": "Context window",
+  "definition": "How much text, code or data an AI model can take in and consider at one time.",
+  "audience": "lay",
+  "days": [
+   "2026-11-08",
+   "2026-11-15"
   ]
  },
  {
@@ -18,12 +82,98 @@
   ]
  },
  {
+  "id": "cryptographic-proof",
+  "term": "Cryptographic proof",
+  "definition": "A mathematical check that confirms something is true, such as which model produced an answer, without revealing the secret details behind it.",
+  "audience": "decision",
+  "days": [
+   "2026-11-05"
+  ]
+ },
+ {
+  "id": "customer-concentration",
+  "term": "Customer concentration",
+  "definition": "When a large share of a company's revenue comes from a few customers, making it vulnerable if one leaves.",
+  "audience": "decision",
+  "days": [
+   "2026-11-11"
+  ]
+ },
+ {
   "id": "export-controls",
   "term": "Export controls",
   "definition": "Government rules that limit which countries or companies may buy certain technologies, such as advanced AI chips.",
   "audience": "decision",
   "days": [
+   "2026-11-06",
+   "2026-11-12",
+   "2026-11-16",
    "2026-11-19"
+  ]
+ },
+ {
+  "id": "fine-tuning",
+  "term": "Fine-tuning",
+  "definition": "Extra training on a smaller, chosen set of examples to change how an existing AI model behaves.",
+  "audience": "builder",
+  "days": [
+   "2026-11-09"
+  ]
+ },
+ {
+  "id": "ipo-prospectus",
+  "term": "IPO prospectus",
+  "definition": "The official document a company publishes before selling shares to the public, describing its business, finances and risks.",
+  "audience": "decision",
+  "days": [
+   "2026-11-11"
+  ]
+ },
+ {
+  "id": "kill-switch",
+  "term": "Kill switch",
+  "definition": "A control that lets people stop an AI system quickly if it starts behaving in harmful or unexpected ways.",
+  "audience": "lay",
+  "days": [
+   "2026-11-10"
+  ]
+ },
+ {
+  "id": "model-weights",
+  "term": "Model weights",
+  "definition": "The billions of numbers inside an AI model that set how it responds; changing them changes its behaviour.",
+  "audience": "lay",
+  "days": [
+   "2026-11-04",
+   "2026-11-16"
+  ]
+ },
+ {
+  "id": "multi-agent-simulation",
+  "term": "Multi-agent simulation",
+  "definition": "A setup where many AI agents interact in a shared world so researchers can watch group behaviour emerge.",
+  "audience": "builder",
+  "days": [
+   "2026-11-04"
+  ]
+ },
+ {
+  "id": "open-weight-model",
+  "term": "Open-weight model",
+  "definition": "An AI model whose internal numbers are published, so anyone can download, run and adapt it.",
+  "audience": "builder",
+  "days": [
+   "2026-11-05",
+   "2026-11-09"
+  ]
+ },
+ {
+  "id": "outcome-based-pricing",
+  "term": "Outcome-based pricing",
+  "definition": "Charging for results delivered instead of for hours worked, a model AI is pushing consultancies toward.",
+  "audience": "decision",
+  "days": [
+   "2026-11-13"
   ]
  },
  {
@@ -45,39 +195,198 @@
   ]
  },
  {
+  "id": "prompt-caching",
+  "term": "Prompt caching",
+  "definition": "Reusing work the model already did on an unchanged start of a prompt, which makes repeat requests cheaper.",
+  "audience": "builder",
+  "days": [
+   "2026-11-15"
+  ]
+ },
+ {
+  "id": "recursive-self-improvement",
+  "term": "Recursive self-improvement",
+  "definition": "When AI systems help build better AI systems, which could make progress speed up quickly.",
+  "audience": "lay",
+  "days": [
+   "2026-11-03",
+   "2026-11-06"
+  ]
+ },
+ {
+  "id": "reinforcement-learning-environment",
+  "term": "Reinforcement-learning environment",
+  "definition": "A practice task with a score, used to train an AI model by rewarding it when it does the task well.",
+  "audience": "builder",
+  "days": [
+   "2026-11-12"
+  ]
+ },
+ {
+  "id": "remote-compute-access",
+  "term": "Remote compute access",
+  "definition": "Using powerful chips by renting them in a data centre elsewhere, instead of owning the hardware.",
+  "audience": "decision",
+  "days": [
+   "2026-11-17"
+  ]
+ },
+ {
+  "id": "sandbox",
+  "term": "Sandbox",
+  "definition": "A sealed-off space where an AI agent can run code or try actions without being able to harm other systems.",
+  "audience": "builder",
+  "days": [
+   "2026-11-13"
+  ]
+ },
+ {
+  "id": "scalable-oversight",
+  "term": "Scalable oversight",
+  "definition": "Methods that let humans keep checking and correcting AI systems even as those systems become more capable than the people supervising them.",
+  "audience": "decision",
+  "days": [
+   "2026-11-03"
+  ]
+ },
+ {
+  "id": "self-driving-lab",
+  "term": "Self-driving lab",
+  "definition": "A laboratory where AI plans experiments and robots run them, so tests can continue day and night with little human help.",
+  "audience": "lay",
+  "days": [
+   "2026-11-05"
+  ]
+ },
+ {
   "id": "self-hosted",
   "term": "Self-hosted",
   "definition": "Software that runs on an organisation's own servers or cloud account, so its data does not pass through the vendor's systems.",
   "audience": "decision",
   "days": [
+   "2026-11-13",
    "2026-11-20"
   ]
  },
  {
   "id": "sovereign-ai",
   "term": "Sovereign AI",
-  "definition": "AI models and computing that a country hosts and governs itself, so that data and control stay under national rules.",
+  "definition": "AI models, data and computing that a country owns and controls itself rather than relying on foreign providers.",
   "audience": "decision",
   "days": [
+   "2026-11-03",
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "sparse-attention",
+  "term": "Sparse attention",
+  "definition": "A way for an AI model to look only at the most relevant parts of its input instead of every word, which saves time and computing power.",
+  "audience": "builder",
+  "days": [
+   "2026-11-08"
+  ]
+ },
+ {
+  "id": "supply-chain-attack",
+  "term": "Supply-chain attack",
+  "definition": "A cyberattack that hides malicious code inside a trusted add-on, library or update, so victims install it themselves.",
+  "audience": "decision",
+  "days": [
+   "2026-11-02"
+  ]
+ },
+ {
+  "id": "synthetic-media",
+  "term": "Synthetic media",
+  "definition": "Images, audio or video created or heavily altered by AI rather than captured from real life.",
+  "audience": "lay",
+  "days": [
+   "2026-11-04"
+  ]
+ },
+ {
+  "id": "tabular-foundation-model",
+  "term": "Tabular foundation model",
+  "definition": "A pretrained AI model that makes predictions from spreadsheet-style data, using example rows instead of being trained from scratch.",
+  "audience": "builder",
+  "days": [
+   "2026-11-01"
   ]
  },
  {
   "id": "third-party-evaluation",
   "term": "Third-party evaluation",
-  "definition": "Testing of an AI model by an independent organisation rather than by the company that built it.",
+  "definition": "Testing of an AI model by an independent group rather than by the company that built it.",
   "audience": "decision",
   "days": [
+   "2026-11-09",
+   "2026-11-17",
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "time-series",
+  "term": "Time series",
+  "definition": "A sequence of numbers recorded over time, such as daily sales or hourly electricity use.",
+  "audience": "lay",
+  "days": [
+   "2026-11-01"
+  ]
+ },
+ {
+  "id": "time-to-first-token",
+  "term": "Time to first token",
+  "definition": "How long you wait before an AI model starts producing its answer.",
+  "audience": "builder",
+  "days": [
+   "2026-11-08"
+  ]
+ },
+ {
+  "id": "tpu",
+  "term": "TPU",
+  "definition": "Tensor processing unit: a chip Google designed specifically for running and training AI models.",
+  "audience": "lay",
+  "days": [
+   "2026-11-10"
   ]
  },
  {
   "id": "trust-calibration",
   "term": "Trust calibration",
-  "definition": "How well a person's trust in a system matches how reliable it really is: trusting it when it is right and doubting it when it is wrong.",
+  "definition": "Helping people trust an AI system exactly as much as it deserves, no more and no less.",
   "audience": "decision",
   "days": [
+   "2026-11-11",
    "2026-11-19"
+  ]
+ },
+ {
+  "id": "vibe-coding",
+  "term": "Vibe coding",
+  "definition": "Building software by describing what you want in plain language and letting an AI write the code.",
+  "audience": "lay",
+  "days": [
+   "2026-11-10"
+  ]
+ },
+ {
+  "id": "vulnerability",
+  "term": "Vulnerability",
+  "definition": "A flaw in software that an attacker could use to break in, steal data or disrupt a service.",
+  "audience": "lay",
+  "days": [
+   "2026-11-06"
+  ]
+ },
+ {
+  "id": "zero-shot-forecasting",
+  "term": "Zero-shot forecasting",
+  "definition": "Predicting future values from past data with a ready-made model, without training it on your own data first.",
+  "audience": "builder",
+  "days": [
+   "2026-11-01"
   ]
  }
 ]

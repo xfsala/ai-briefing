@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-16",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "1980s energy model beats modern AI loops by 1,000x in speed", "link": ""},
+    {"newsletter": "Forward Future", "subject": "What would make Anthropic stop?", "link": "https://briefing.forwardfuture.ai/p/openai-s-robotics-reset-mit-s-ai-copilot-china-s-nvidia-scandal"}
+  ],
+  "one_line": "Chip export rules look leakier than hoped, while AI assistants take their first real steps toward paying for things on our behalf.",
+  "top_stories": [
+    {
+      "title": "Top Chinese models reportedly trained on banned chips",
+      "what": "Analysis of published model weights suggests DeepSeek, Moonshot, MiniMax and Ant Group trained new models on Nvidia Blackwell chips that the US bars from export to China.",
+      "why": "If hardware controls leak this much, policy advice on AI supply chains should not rely on chips alone as the lever.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["policy", "export controls", "chips"]
+    },
+    {
+      "title": "ChatGPT can now pay at checkout",
+      "what": "OpenAI launched ChatGPT Wallet for some US users, letting its agent use a saved card once the user approves a purchase or grants advance permission.",
+      "why": "Letting AI spend money raises fresh questions about consent, impulse buying and trust that behavioural research is well placed to study.",
+      "action": "Pitch",
+      "audience": ["lay", "decision"],
+      "tags": ["agents", "payments", "consumer"]
+    },
+    {
+      "title": "OpenAI folds robotics into its main models",
+      "what": "OpenAI reportedly closed its stand-alone robotics team, betting that its general models can increasingly control machines without a separate robot model.",
+      "why": "It signals that the same AI behind chatbots may soon run physical devices, from warehouses to hospital logistics.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["robotics"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Evidence that restricted chips still reach China may push Washington to tighten checks on all buyers, which could slow chip deliveries to Saudi data-centre projects."},
+    {"text": "Agent-led payments will need clear rules from local regulators before such features reach Saudi shoppers."}
+  ],
+  "idea": {
+    "title": "Consent design for AI purchases",
+    "pitch": "Test different approval screens for AI-made purchases and measure which ones keep users in control without making them abandon useful tasks.",
+    "fit": "Consumer protection bodies, fintech regulators, consultancy",
+    "first_step": "Sketch three approval flows (every purchase, spending limit, weekly summary) and draft a short online experiment comparing them."
+  },
+  "watchlist": [
+    {"name": "DeepSeek", "sector": "Frontier models", "note": "Opened web search, file reading and voice tools to developers through its API."},
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Its IPO filing highlights tension between selling safety and moving fast."},
+    {"name": "LangChain", "sector": "Developer tools", "note": "Agent-tooling startup reportedly valued at $3 billion."}
+  ],
+  "tool": {"name": "Gamma", "use": "Turns an outline or file into a draft presentation or visual document, useful for quick first versions of client decks.", "link": "https://gamma.app"},
+  "verify": [
+    "Weight analysis shows DeepSeek, Moonshot, MiniMax and Ant Group used export-banned Blackwell chips; the method and findings need independent confirmation.",
+    "A petition to reinstate Jensen Huang reportedly passed 115,000 signatures."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT, now adding payments through ChatGPT Wallet."},
+    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Maker of the Blackwell chips at the centre of the export dispute."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Chinese AI lab known for low-cost open models."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude, preparing to list publicly."},
+    {"name": "LangChain", "type": "company", "sector": "Developer tools", "url": "https://www.langchain.com", "note": "Makes open-source tools for building AI agents."}
+  ],
+  "terms": [
+    {"term": "Export controls", "definition": "Government rules limiting which countries or companies can buy certain technologies, such as advanced AI chips.", "audience": "decision"},
+    {"term": "Model weights", "definition": "The learned numbers inside an AI model that hold what it has learned; publishing them lets others run the model.", "audience": "lay"},
+    {"term": "Agentic payments", "definition": "Purchases that an AI agent completes for a person, using a saved card under limits the person sets.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Policy and geopolitics", "concept": "Chip export controls", "summary": "Rules deciding which countries and companies can access advanced AI chips.", "audience": ["decision"], "entities": ["Nvidia", "DeepSeek"]},
+    {"industry": "Agents and automation", "concept": "Agent-ready services", "summary": "Designing services so AI agents can complete them on a person's behalf.", "audience": ["builder", "decision"], "entities": ["OpenAI"]},
+    {"industry": "Robotics and physical AI", "concept": "General models controlling robots", "summary": "Using the same large models behind chatbots to steer physical machines.", "audience": ["decision", "builder"], "entities": ["OpenAI"]}
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-13",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Claude Meetings joins Google Meet live, builds docs in real time", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Can GitHub win?", "link": "https://briefing.forwardfuture.ai/p/jensen-huang-resigns-nvidia-s-5-7t-problem-ai-s-labor-shock"}
+  ],
+  "one_line": "AI agents are moving inside organisations' own systems, while central bankers warn that workers may feel the disruption before the gains.",
+  "top_stories": [
+    {
+      "title": "Claude agents can now run on a company's own cloud",
+      "what": "Anthropic opened a private beta of self-hosted Claude Managed Agents, where the agent server, data, credentials and sandboxes stay in the customer's environment.",
+      "why": "Keeping agents and their records in-house is what many public bodies need before they can let AI touch internal systems.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "enterprise", "privacy"]
+    },
+    {
+      "title": "A Fed governor warns of short-term AI job pain",
+      "what": "Federal Reserve Governor Michael Barr said societies should prepare for serious labour disruption from AI before productivity gains arrive, as consulting firms test pricing by outcome instead of hours.",
+      "why": "Labour-market and workforce studies on AI exposure, retraining and the junior-role squeeze are becoming urgent policy work.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["jobs", "economy"]
+    },
+    {
+      "title": "Nvidia's founder steps down",
+      "what": "Jensen Huang resigned as Nvidia's CEO and left the board, with finance chief Colette Kress serving as interim CEO, raising questions about Nvidia's support for open models.",
+      "why": "Many free models used by smaller teams came from Nvidia, so a strategy change could narrow open options.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["chips", "open source"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Self-hosted agents fit Saudi rules that keep sensitive government data inside the Kingdom, so they may reach public-sector pilots sooner than cloud-only tools."},
+    {"text": "The warning about early job disruption matters for Saudization goals, since entry-level office roles are both a target for local hiring and the easiest to automate."}
+  ],
+  "idea": {
+    "title": "Junior roles exposure map",
+    "pitch": "Map which entry-level tasks in a sector are most exposed to AI agents and test which retraining messages persuade young workers to move into new roles.",
+    "fit": "Labour market, government services",
+    "first_step": "List ten common graduate job titles and score each task in them for how easily an AI agent could do it."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Filed for its IPO and launched Claude Meetings, which joins video calls and drafts documents live."},
+    {"name": "Nvidia", "sector": "AI infrastructure and chips", "note": "Interim leadership faces its first earnings test and a choice on open models."},
+    {"name": "Cursor", "sector": "Developer tools", "note": "Launched Origin, a code-hosting service aimed at rivalling GitHub as agents write more code."}
+  ],
+  "tool": null,
+  "verify": [
+    "Anthropic's CEO told investors AI could make cancer, Alzheimer's and heart disease relics within a decade; medical experts say clinical evidence does not support this.",
+    "Anthropic reportedly grew revenue over 1,200% year on year, to $33.2 billion in nine months."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; filed for a Nasdaq listing in November 2026."},
+    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Leading AI chipmaker, now under interim leadership."},
+    {"name": "Federal Reserve", "type": "organisation", "sector": "Policy and economics", "url": "https://www.federalreserve.gov", "note": "The US central bank, now studying AI's effect on jobs."},
+    {"name": "Cursor", "type": "product", "sector": "Developer tools", "url": "https://cursor.com", "note": "AI code editor that has added its own code-hosting service."},
+    {"name": "GitHub", "type": "company", "sector": "Developer tools", "url": "https://github.com", "note": "The main platform where developers store and share code."}
+  ],
+  "terms": [
+    {"term": "Self-hosted", "definition": "Software that runs on an organisation's own servers or cloud account, so its data does not pass through the vendor's systems.", "audience": "decision"},
+    {"term": "Sandbox", "definition": "A sealed-off space where an AI agent can run code or try actions without being able to harm other systems.", "audience": "builder"},
+    {"term": "Outcome-based pricing", "definition": "Charging for results delivered instead of for hours worked, a model AI is pushing consultancies toward.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Policy and geopolitics", "concept": "Data residency and sovereign AI", "summary": "Keeping data and AI processing inside national borders and under national rules.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Work and workforce", "concept": "AI labour disruption", "summary": "AI changing which jobs exist and how fast, with entry-level roles hit first.", "audience": ["decision", "lay"], "entities": ["Federal Reserve"]},
+    {"industry": "Agents and automation", "concept": "Agents inside workplace chat", "summary": "AI agents that work inside Teams, Slack and meetings as shared team members.", "audience": ["builder", "decision"], "entities": ["Anthropic"]},
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Freely available models backed by chipmakers and labs, which smaller teams rely on.", "audience": ["builder", "decision"], "entities": ["Nvidia"]}
+  ]
+}

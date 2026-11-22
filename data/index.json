@@ -37,5 +37,196 @@
    "AlphaSignal",
    "Forward Future"
   ]
+ },
+ {
+  "date": "2026-11-17",
+  "one_line": "Washington now polices where AI chips are used, not just where they are shipped, which puts data centres in third countries under a brighter light.",
+  "titles": [
+   "US targets remote access to restricted chips",
+   "Outside safety testers move inside OpenAI",
+   "Small models that say how sure they are"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-16",
+  "one_line": "Chip export rules look leakier than hoped, while AI assistants take their first real steps toward paying for things on our behalf.",
+  "titles": [
+   "Top Chinese models reportedly trained on banned chips",
+   "ChatGPT can now pay at checkout",
+   "OpenAI folds robotics into its main models"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-15",
+  "one_line": "AI agents often work as well, or better, when they forget most of their history and keep only a short note of where the task stands.",
+  "titles": [
+   "Agents do fine with a short memory",
+   "Let the agent search documents instead of reading them all",
+   "Shorter context can still cost more"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-11-13",
+  "one_line": "AI agents are moving inside organisations' own systems, while central bankers warn that workers may feel the disruption before the gains.",
+  "titles": [
+   "Claude agents can now run on a company's own cloud",
+   "A Fed governor warns of short-term AI job pain",
+   "Nvidia's founder steps down"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-12",
+  "one_line": "AI is shifting from a personal helper to a shared team member, while the know-how used to train it slips past rules built for chips.",
+  "titles": [
+   "Grok Bot becomes a shared team assistant",
+   "Training tasks for AI are reaching Chinese labs",
+   "OpenAI pushes prices down to rival Chinese models"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-11",
+  "one_line": "Anthropic is heading to the stock market with safety as part of its sales pitch, while AI assistants grow into full workspaces for teams.",
+  "titles": [
+   "Anthropic pitches safety to investors",
+   "Claude grows into a team workspace",
+   "Google brings Gemini into hospital operations"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-10",
+  "one_line": "Anthropic's new Fable 5.2 model reportedly builds working software from short prompts, while labs start adding emergency brakes for their own experiments.",
+  "titles": [
+   "Fable 5.2 raises the bar for AI-built software",
+   "OpenAI adds a fast off-switch for risky experiments",
+   "Nvidia's ties cloud a chip-smuggling probe"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "one_line": "US politics is turning against data centres just as companies get more AI work done for the same money, putting pressure on the AI spending boom.",
+  "titles": [
+   "US midterms put AI rules back on the table",
+   "Political bias in an open model is easy to strip out",
+   "Firms use more AI but spend about the same"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-08",
+  "one_line": "Researchers found a cheaper way for AI models to search very long inputs, which could make agents that work for hours on huge document sets more affordable.",
+  "titles": [
+   "A library-style shortcut for very long AI inputs",
+   "Open code lets teams test it now"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-11-06",
+  "one_line": "An outside review suggests AI is now speeding up the building of AI itself, so the pace of change is likely to keep rising.",
+  "titles": [
+   "AI is helping Anthropic build AI faster",
+   "OpenAI releases a model built for security teams",
+   "Claude starts reading your bank transactions"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-05",
+  "one_line": "Shopping agents are barely being used by real customers, a reminder that convenient technology still has to beat habits that already work.",
+  "titles": [
+   "Almost nobody lets agents book their rides",
+   "China builds round-the-clock robot labs",
+   "Proof of which model answered"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-04",
+  "one_line": "AI is starting to repair other AI models directly and to organise itself in groups, which makes careful testing of what these systems actually do more important.",
+  "titles": [
+   "One AI model repairs another",
+   "Fifty agents form a mini government",
+   "AI-made political ads flood feeds"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-03",
+  "one_line": "Anthropic says AI that speeds up its own development may be close, and it is recruiting people from outside machine learning to help keep it safe.",
+  "titles": [
+   "Anthropic flags self-improving AI as near",
+   "AI servers squeeze ordinary electronics",
+   "OpenAI prepares a policy push"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-02",
+  "one_line": "A new experiment suggests AI agents quietly tilt the choices of expert analysts, who then repeat the agent's reasoning as their own.",
+  "titles": [
+   "AI agents nudge expert judgment without credit",
+   "Managers get reports on staff AI chats",
+   "Fake coding extension spreads malware"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-01",
+  "one_line": "Small models trained for one job, like forecasting or reading tables, are becoming a cheap alternative to asking a giant chatbot to do everything.",
+  "titles": [
+   "Mistral releases a tiny forecasting model",
+   "Foundation models spread beyond language",
+   "The AI stack becomes a team of models"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
  }
 ]

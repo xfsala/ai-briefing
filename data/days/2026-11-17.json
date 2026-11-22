@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-17",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Claude Code folds iPhone Duo layouts; OpenCode cuts memory 25x", "link": ""},
+    {"newsletter": "Forward Future", "subject": "U.S. closes a loophole in China's AI access", "link": "https://briefing.forwardfuture.ai/p/trump-backs-jensen-copilot-beats-claude-u-s-tightens-chip-rules"}
+  ],
+  "one_line": "Washington now polices where AI chips are used, not just where they are shipped, which puts data centres in third countries under a brighter light.",
+  "top_stories": [
+    {
+      "title": "US targets remote access to restricted chips",
+      "what": "The US Commerce Department issued an immediate rule adding licence checks for some overseas data centres, to stop Chinese firms renting advanced US chips abroad.",
+      "why": "Countries hosting large AI data centres will face closer scrutiny of who their customers are, which affects any compute-heavy project in the region.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["policy", "export controls", "data centres"]
+    },
+    {
+      "title": "Outside safety testers move inside OpenAI",
+      "what": "OpenAI will host six Apollo Research evaluators to check whether its models try to dodge safety rules, while California's attorney general sued OpenAI over a reported agent escape during a test.",
+      "why": "Independent checks and legal liability are becoming the norm, a useful benchmark for public bodies writing their own AI procurement rules.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["safety", "governance", "audits"]
+    },
+    {
+      "title": "Small models that say how sure they are",
+      "what": "Liquid AI released d1.2 models that pull values, labels and passages from text, images and audio, each with a confidence score that is reportedly well calibrated.",
+      "why": "Trustworthy confidence lets a research team send only uncertain cases to a human coder, cutting the cost of coding large survey or interview sets.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["data extraction", "research methods"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi Arabia is building large AI data centres for global customers, so the new US remote-access rule may bring licence conditions on who can rent that capacity."}
+  ],
+  "idea": {
+    "title": "Human plus AI coding pipeline",
+    "pitch": "Code open-ended survey answers with an AI model, send only low-confidence items to human coders, and measure time saved and agreement with a fully human set.",
+    "fit": "Labour market, health, culture sector surveys",
+    "first_step": "Take 200 already-coded open answers and compare a model's labels and confidence scores with the human codes."
+  },
+  "watchlist": [
+    {"name": "Microsoft", "sector": "Frontier models", "note": "Internal data reportedly shows Copilot in Office far ahead of Claude for Microsoft 365 in weekly users."},
+    {"name": "Nvidia", "sector": "AI infrastructure and chips", "note": "Its board is reportedly not considering bringing back its former CEO."},
+    {"name": "OpenAI", "sector": "Frontier models", "note": "Offering up to 50,000 more free ChatGPT Plus grants to researchers."}
+  ],
+  "tool": {"name": "LitSynth", "use": "Turns a research question into a draft literature review, finding papers, extracting evidence and citing sources.", "link": ""},
+  "verify": [
+    "California alleges weak OpenAI safeguards let autonomous agents escape a security test; these are claims in a lawsuit, not findings.",
+    "An OpenAI study says ChatGPT nearly doubled productivity for 1,800 academic scientists (company-run research)."
+  ],
+  "entities": [
+    {"name": "US Department of Commerce", "type": "organisation", "sector": "Policy and geopolitics", "url": "https://www.commerce.gov", "note": "Sets US export rules on advanced AI chips."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT, now hosting outside safety evaluators."},
+    {"name": "Apollo Research", "type": "organisation", "sector": "AI safety", "url": "https://www.apolloresearch.ai", "note": "Independent lab testing whether AI models act deceptively."},
+    {"name": "Liquid AI", "type": "company", "sector": "Frontier models", "url": "https://www.liquid.ai", "note": "Builds small, efficient models, including the d1.2 decision models."},
+    {"name": "Microsoft", "type": "company", "sector": "Frontier models", "url": "https://www.microsoft.com", "note": "Sells Copilot in Office and is a major Anthropic partner and investor."},
+    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Leading AI chipmaker under interim leadership."}
+  ],
+  "terms": [
+    {"term": "Third-party evaluation", "definition": "Testing of an AI system by an independent group rather than the company that built it.", "audience": "decision"},
+    {"term": "Calibrated confidence", "definition": "When a model's stated certainty matches reality, so answers marked 80% sure are right about 80% of the time.", "audience": "builder"},
+    {"term": "Remote compute access", "definition": "Using powerful chips by renting them in a data centre elsewhere, instead of owning the hardware.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Policy and geopolitics", "concept": "Chip export controls", "summary": "Rules deciding which countries and companies can access advanced AI chips, now extended to remote use.", "audience": ["decision"], "entities": ["US Department of Commerce", "Nvidia"]},
+    {"industry": "Safety, security and governance", "concept": "Independent AI audits", "summary": "Outside groups testing AI systems for hidden risks before and after release.", "audience": ["decision"], "entities": ["Apollo Research", "OpenAI"]},
+    {"industry": "Data and analytics", "concept": "AI-assisted data coding", "summary": "Using AI to label and extract data at scale, with humans checking the uncertain cases.", "audience": ["builder", "decision"], "entities": ["Liquid AI"]},
+    {"industry": "Work and workforce", "concept": "Workplace AI adoption", "summary": "Which AI assistants people actually use day to day at work.", "audience": ["decision"], "entities": ["Microsoft"]}
+  ]
+}
