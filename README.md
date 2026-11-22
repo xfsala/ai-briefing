@@ -1,7 +1,6 @@
 # AI Briefing
 
-A daily one-page briefing on AI, built from the AlphaSignal and Forward Future
-newsletters and read through a Saudi and behavioural-science lens.
+A daily one-page briefing on AI, built from AI-driven newsletters and read through a Saudi and behavioural-science lens.
 
 **Live site:** https://xfsala.github.io/ai-briefing/
 
