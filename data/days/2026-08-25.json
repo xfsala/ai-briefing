@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-25",
+  "question": "When an AI helps people apply for jobs, does it make the search fairer or just faster?",
+  "reflection": "Tools that ease a hard job search could give people more time to prepare well and show their real strengths.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Renderer Rewrite, Claude CV Agent Tool, Pi Coding Agent", "link": ""}
+  ],
+  "one_line": "Much of the progress today is quiet polish that makes AI tools smoother and cheaper to use every day.",
+  "top_stories": [
+    {
+      "title": "Job seeker shares his AI application kit",
+      "what": "A person who lost his job built an open tool where one agent drafts tailored CVs and letters and a second agent reviews them, and he reports dozens of interviews and a new contract.",
+      "why": "If many applicants use such tools, employers will receive more polished applications and may need new ways to judge fit.",
+      "action": "Pitch",
+      "audience": ["lay", "decision"],
+      "tags": ["work", "hiring"]
+    },
+    {
+      "title": "Agents that save logs instead of cutting them",
+      "what": "The makers of the Pi coding agent store long tool outputs on disk and keep only a pointer in memory, which they say cut processing costs by up to 88%.",
+      "why": "Long-running agents become cheaper and less likely to lose the key detail they need.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "cost"]
+    },
+    {
+      "title": "Smoother long answers in Claude",
+      "what": "Anthropic rebuilt how replies appear on screen so long answers no longer freeze slower laptops.",
+      "why": "Small comfort fixes shape whether staff keep using a tool every day.",
+      "action": "Watch",
+      "audience": ["lay"],
+      "tags": ["product", "usability"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "AI-assisted job applications could change how Saudi employers and national job platforms screen candidates, so screening methods may need review."}
+  ],
+  "idea": {
+    "title": "Hiring in the age of AI applications",
+    "pitch": "Study how recruiters judge AI-polished applications and design fairer screening steps, such as short work samples.",
+    "fit": "Labour-market agency, human resources",
+    "first_step": "Interview three recruiters about changes they see in applications this year."
+  },
+  "idea_kids": {
+    "title": "My skills poster",
+    "pitch": "Children make a poster of things they are good at with real examples, learning to describe their strengths in their own words.",
+    "age": "8 to 12",
+    "first_step": "Prepare a poster template with four boxes: I can, I learned, I helped, I want to learn."
+  },
+  "watchlist": [
+    {"name": "Thinking Machines Lab", "sector": "Safety, security and governance", "note": "Offering small grants for safety research on open-weight models."},
+    {"name": "Anthropic", "sector": "Agents and automation", "note": "Made it easier for companies to connect tools without extra sign-in setup."}
+  ],
+  "tool": null,
+  "verify": [
+    "The job tool's author reports 69 applications, 20 first interviews and one contract."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Rebuilt its reply renderer and simplified connector sign-in."},
+    {"name": "Thinking Machines Lab", "type": "company", "sector": "Safety, security and governance", "url": "", "note": "Offers $50,000 in grants for open-weight safety research."},
+    {"name": "DeepSeek", "type": "company", "sector": "Agents and automation", "url": "https://www.deepseek.com", "note": "Its agent framework was compared with Pi's approach to long logs."}
+  ],
+  "terms": [
+    {"term": "Context window", "definition": "The amount of text an AI model can hold in view at one time when working on a task.", "audience": "lay"},
+    {"term": "Drafter-reviewer pattern", "definition": "A setup where one AI writes a draft and a second AI checks and improves it.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Work and workforce", "concept": "AI labour disruption", "summary": "Job seekers use agents to apply at scale, changing how hiring works.", "audience": ["lay", "decision"], "entities": []},
+    {"industry": "Agents and automation", "concept": "Agent memory management", "summary": "Saving full outputs to disk keeps long agent runs cheap and complete.", "audience": ["builder"], "entities": ["DeepSeek"]}
+  ]
+}

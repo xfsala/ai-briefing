@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-26",
+  "question": "If an AI assistant remembers us across every task, how much should it be allowed to keep?",
+  "reflection": "An assistant that remembers our goals could save effort and support learning, as long as we can always see and remove what it holds.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "OpenAI Jalapeño Chip, Anthropic Claude Unified Memory, Perplexity", "link": ""}
+  ],
+  "one_line": "AI companies are competing on the systems around their models: memory, chips and where the work runs.",
+  "top_stories": [
+    {
+      "title": "Assistant memory shared across chat and tasks",
+      "what": "Anthropic now lets Claude keep one memory across ordinary chats and longer agent tasks, on by default, with a settings page to view, edit or delete what it has saved.",
+      "why": "Memory raises clear questions of consent and control that behavioural research can help answer.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["privacy", "agents"]
+    },
+    {
+      "title": "OpenAI shows its own inference chip",
+      "what": "OpenAI shared results for Jalapeño, a chip made with Broadcom to run its models, which it says was designed in nine months with help from its own AI and targets about half the cost per reply.",
+      "why": "Lower running costs could make AI services cheaper for organisations over time.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["chips", "cost"]
+    },
+    {
+      "title": "Agent that runs fully on a desk computer",
+      "what": "Perplexity released an agent that plans and acts entirely on a local machine, keeps sensitive files on the device and asks before sending any step to the cloud.",
+      "why": "Local agents suit teams that handle personal or confidential research data.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["privacy", "local AI"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Local agents that keep data on the device fit Saudi data protection rules and the push for data to stay inside the Kingdom."}
+  ],
+  "idea": {
+    "title": "What should my assistant remember?",
+    "pitch": "Run a study on which kinds of personal details people are happy for an AI to remember, and how clear controls change that comfort.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "List fifteen kinds of personal details and plan a quick card-sorting session with ten people."
+  },
+  "idea_kids": {
+    "title": "The forgetful robot",
+    "pitch": "A story book about a helper robot that asks before it remembers anything, teaching children that their information belongs to them.",
+    "age": "5 to 9",
+    "first_step": "Sketch eight pages where the robot asks: may I remember this?"
+  },
+  "watchlist": [
+    {"name": "Broadcom", "sector": "AI infrastructure and chips", "note": "Co-built OpenAI's first inference chip."},
+    {"name": "Prime Intellect", "sector": "Agents and automation", "note": "Says its open agent harness lifted a hard puzzle test score from 30% to over 95%."}
+  ],
+  "tool": {"name": "Perplexity Portable Computer", "use": "Runs a full agent on your own hardware so files stay local; asks before using the cloud.", "link": ""},
+  "verify": [
+    "OpenAI's chip reportedly targets about 50% lower cost per response than NVIDIA's best chips."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "AI infrastructure and chips", "url": "https://openai.com", "note": "Showed results for its Jalapeño inference chip."},
+    {"name": "Broadcom", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.broadcom.com", "note": "Chip partner to OpenAI."},
+    {"name": "Anthropic", "type": "company", "sector": "Consumer and media", "url": "https://www.anthropic.com", "note": "Made Claude's memory shared across chat and tasks."},
+    {"name": "Perplexity", "type": "company", "sector": "Agents and automation", "url": "https://www.perplexity.ai", "note": "Released a fully local agent."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Its desktop hardware runs Perplexity's local agent."},
+    {"name": "Prime Intellect", "type": "company", "sector": "Science and research", "url": "", "note": "Open-sourced an agent harness that reuses context."}
+  ],
+  "terms": [
+    {"term": "Inference", "definition": "The stage when a trained AI model is used to produce an answer, as opposed to being trained.", "audience": "lay"},
+    {"term": "Agent memory", "definition": "Information an agent keeps between sessions so it does not start from zero each time.", "audience": "lay"},
+    {"term": "Self-hosted", "definition": "Software run on your own computers or servers rather than through an outside provider.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent memory management", "summary": "Assistants keep one memory across chat and tasks, with user controls.", "audience": ["lay", "decision"], "entities": ["Anthropic"]},
+    {"industry": "AI infrastructure and chips", "concept": "Custom AI chips", "summary": "AI labs build their own chips to cut the cost of running models.", "audience": ["decision"], "entities": ["OpenAI", "Broadcom"]},
+    {"industry": "Policy and geopolitics", "concept": "Data residency and sovereign AI", "summary": "Agents that run fully on local hardware keep data in place.", "audience": ["decision", "builder"], "entities": ["Perplexity"]}
+  ]
+}

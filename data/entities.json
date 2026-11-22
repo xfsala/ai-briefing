@@ -52,6 +52,7 @@
   "note": "Chinese group behind the open Qwen model family.",
   "days": [
    "2026-08-17",
+   "2026-08-27",
    "2026-09-06",
    "2026-09-10",
    "2026-10-11",
@@ -68,6 +69,7 @@
   "url": "https://alphasignal.ai",
   "note": "Daily AI news for developers, founded by Lior Alexander.",
   "days": [
+   "2026-08-23",
    "2026-10-11",
    "2026-10-16",
    "2026-10-18",
@@ -147,6 +149,9 @@
    "2026-08-18",
    "2026-08-19",
    "2026-08-21",
+   "2026-08-24",
+   "2026-08-25",
+   "2026-08-26",
    "2026-09-01",
    "2026-09-02",
    "2026-09-03",
@@ -283,6 +288,17 @@
   "note": "Released an open proxy that screens agent network traffic.",
   "days": [
    "2026-08-16"
+  ]
+ },
+ {
+  "id": "broadcom",
+  "name": "Broadcom",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.broadcom.com",
+  "note": "Chip partner to OpenAI.",
+  "days": [
+   "2026-08-26"
   ]
  },
  {
@@ -442,6 +458,8 @@
   "note": "Chinese AI lab known for low-cost open models.",
   "days": [
    "2026-08-21",
+   "2026-08-24",
+   "2026-08-25",
    "2026-09-10",
    "2026-09-11",
    "2026-09-13",
@@ -527,6 +545,17 @@
   "note": "US consumer protection agency, investigating AI agent risks.",
   "days": [
    "2026-10-01"
+  ]
+ },
+ {
+  "id": "figure",
+  "name": "Figure",
+  "type": "company",
+  "sector": "Robotics and physical AI",
+  "url": "https://www.figure.ai",
+  "note": "Launched a robot training dataset.",
+  "days": [
+   "2026-08-27"
   ]
  },
  {
@@ -634,6 +663,7 @@
   "note": "Designs its own TPU chips for AI work.",
   "days": [
    "2026-08-19",
+   "2026-08-23",
    "2026-09-01",
    "2026-09-03",
    "2026-09-15",
@@ -715,6 +745,7 @@
   "note": "Open AI platform whose biology team released Carbon-X.",
   "days": [
    "2026-08-19",
+   "2026-08-27",
    "2026-09-04",
    "2026-09-07",
    "2026-09-18",
@@ -912,6 +943,7 @@
   "url": "https://metr.org",
   "note": "Independent research group that evaluates the abilities and risks of frontier models.",
   "days": [
+   "2026-08-27",
    "2026-10-01",
    "2026-10-19",
    "2026-11-06",
@@ -1022,6 +1054,8 @@
   "url": "https://www.nvidia.com",
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
+   "2026-08-24",
+   "2026-08-26",
    "2026-09-02",
    "2026-09-03",
    "2026-09-04",
@@ -1071,6 +1105,8 @@
    "2026-08-18",
    "2026-08-19",
    "2026-08-21",
+   "2026-08-26",
+   "2026-08-27",
    "2026-09-01",
    "2026-09-02",
    "2026-09-04",
@@ -1167,6 +1203,17 @@
   ]
  },
  {
+  "id": "perplexity",
+  "name": "Perplexity",
+  "type": "company",
+  "sector": "Agents and automation",
+  "url": "https://www.perplexity.ai",
+  "note": "Released a fully local agent.",
+  "days": [
+   "2026-08-26"
+  ]
+ },
+ {
   "id": "pew-research-center",
   "name": "Pew Research Center",
   "type": "organisation",
@@ -1195,9 +1242,10 @@
   "type": "company",
   "sector": "Science and research",
   "url": "",
-  "note": "Ran autonomous AI research experiments.",
+  "note": "Open-sourced an agent harness that reuses context.",
   "days": [
-   "2026-08-18"
+   "2026-08-18",
+   "2026-08-26"
   ]
  },
  {
@@ -1435,6 +1483,7 @@
   "url": "",
   "note": "AI startup reportedly in funding talks.",
   "days": [
+   "2026-08-25",
    "2026-09-04"
   ]
  },
@@ -1664,6 +1713,7 @@
   "note": "Released the specialist GLM-Legal model.",
   "days": [
    "2026-08-17",
+   "2026-08-27",
    "2026-10-02",
    "2026-10-13"
   ]

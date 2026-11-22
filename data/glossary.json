@@ -9,6 +9,15 @@
   ]
  },
  {
+  "id": "ablation-study",
+  "term": "Ablation study",
+  "definition": "An experiment that removes one part of a system to see how much that part matters.",
+  "audience": "builder",
+  "days": [
+   "2026-08-23"
+  ]
+ },
+ {
   "id": "abliteration",
   "term": "Abliteration",
   "definition": "A method that removes a model's tendency to refuse requests by editing its internal settings.",
@@ -45,7 +54,17 @@
   "audience": "lay",
   "days": [
    "2026-08-18",
+   "2026-08-26",
    "2026-10-25"
+  ]
+ },
+ {
+  "id": "agent-skill",
+  "term": "Agent skill",
+  "definition": "A packaged set of instructions or steps that an AI agent can load when a task calls for it.",
+  "audience": "lay",
+  "days": [
+   "2026-08-23"
   ]
  },
  {
@@ -250,9 +269,10 @@
  {
   "id": "context-window",
   "term": "Context window",
-  "definition": "How much text a model can read and keep in mind at one time.",
+  "definition": "The amount of text an AI model can hold in view at one time when working on a task.",
   "audience": "lay",
   "days": [
+   "2026-08-25",
    "2026-10-01",
    "2026-10-25",
    "2026-11-08",
@@ -378,6 +398,15 @@
   ]
  },
  {
+  "id": "drafter-reviewer-pattern",
+  "term": "Drafter-reviewer pattern",
+  "definition": "A setup where one AI writes a draft and a second AI checks and improves it.",
+  "audience": "builder",
+  "days": [
+   "2026-08-25"
+  ]
+ },
+ {
   "id": "dual-use-research",
   "term": "Dual-use research",
   "definition": "Scientific work that can be used for good, like vaccines, or for harm, like weapons.",
@@ -497,12 +526,30 @@
   ]
  },
  {
+  "id": "inference",
+  "term": "Inference",
+  "definition": "The stage when a trained AI model is used to produce an answer, as opposed to being trained.",
+  "audience": "lay",
+  "days": [
+   "2026-08-26"
+  ]
+ },
+ {
   "id": "inter-rater-agreement",
   "term": "Inter-rater agreement",
   "definition": "A measure of how often two or more raters give the same score to the same item, used to check that a scoring method is reliable.",
   "audience": "lay",
   "days": [
    "2026-09-06"
+  ]
+ },
+ {
+  "id": "interpretability",
+  "term": "Interpretability",
+  "definition": "Research that tries to understand what is happening inside an AI model when it produces an answer.",
+  "audience": "decision",
+  "days": [
+   "2026-08-24"
   ]
  },
  {
@@ -557,9 +604,10 @@
  {
   "id": "llm-as-a-judge",
   "term": "LLM-as-a-judge",
-  "definition": "Using a language model to score the answers of another model against a set of criteria.",
+  "definition": "Using one language model to score or check the output of another.",
   "audience": "builder",
   "days": [
+   "2026-08-23",
    "2026-09-06",
    "2026-09-27"
   ]
@@ -576,9 +624,10 @@
  {
   "id": "mcp-server",
   "term": "MCP server",
-  "definition": "A small connector that lets an AI assistant use an outside app or device through a shared standard.",
+  "definition": "A connector that lets an AI assistant use an outside tool or data source through a shared standard.",
   "audience": "builder",
   "days": [
+   "2026-08-24",
    "2026-09-17"
   ]
  },
@@ -595,9 +644,10 @@
  {
   "id": "mixture-of-experts",
   "term": "Mixture of experts",
-  "definition": "A model design that only switches on a small part of its parameters for each task, which saves cost.",
+  "definition": "A model design where only a small set of specialised parts works on each request, which saves computing power.",
   "audience": "builder",
   "days": [
+   "2026-08-27",
    "2026-09-11",
    "2026-10-05",
    "2026-10-16"
@@ -651,11 +701,21 @@
   ]
  },
  {
+  "id": "multimodal-model",
+  "term": "Multimodal model",
+  "definition": "An AI model that can work with more than one kind of input, such as text and images.",
+  "audience": "lay",
+  "days": [
+   "2026-08-24"
+  ]
+ },
+ {
   "id": "open-weight-model",
   "term": "Open-weight model",
-  "definition": "A model whose trained parameters are published so others can run and adapt it themselves.",
-  "audience": "builder",
+  "definition": "An AI model whose trained settings are published so anyone can download and run it.",
+  "audience": "decision",
   "days": [
+   "2026-08-27",
    "2026-09-07",
    "2026-09-16",
    "2026-10-02",
@@ -893,6 +953,15 @@
   ]
  },
  {
+  "id": "reward-hacking",
+  "term": "Reward hacking",
+  "definition": "When an AI finds an unintended shortcut to score well on its goal instead of doing the real task.",
+  "audience": "lay",
+  "days": [
+   "2026-08-27"
+  ]
+ },
+ {
   "id": "row-level-security",
   "term": "Row-level security",
   "definition": "A database setting that controls which rows of data each user is allowed to see.",
@@ -939,9 +1008,10 @@
  {
   "id": "self-hosted",
   "term": "Self-hosted",
-  "definition": "Software that runs on an organisation's own servers instead of the provider's cloud.",
+  "definition": "Software run on your own computers or servers rather than through an outside provider.",
   "audience": "decision",
   "days": [
+   "2026-08-26",
    "2026-09-04",
    "2026-11-13",
    "2026-11-20"

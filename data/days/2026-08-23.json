@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-23",
+  "question": "When we write instructions for an AI agent, are we teaching it facts or showing it the steps?",
+  "reflection": "Good habits written as clear steps help machines and people alike, and the practice of writing them makes our own work clearer.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "AI agent skills: Why they succeed and what causes them to crash",
+      "link": ""
+    }
+  ],
+  "one_line": "A large study suggests agent skills work best as step-by-step checklists, not as stores of knowledge.",
+  "top_stories": [
+    {
+      "title": "Agent skills work as checklists, not lessons",
+      "what": "Researchers reviewed more than 8,000 agent trials and found that skills mostly help by keeping the agent on a steady sequence of steps, rarely by adding new facts.",
+      "why": "This matches what behavioural science knows about checklists in surgery and aviation, and gives a clear way to write agent guidance.",
+      "action": "Try",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "agents",
+        "research"
+      ]
+    },
+    {
+      "title": "Unlabelled past runs make agents worse",
+      "what": "When skills were built from past attempts without marking which ones succeeded, success reportedly fell from about 75% to 40%.",
+      "why": "Learning from experience only works when outcomes are recorded honestly, for machines as for teams.",
+      "action": "Watch",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "agents",
+        "data quality"
+      ]
+    },
+    {
+      "title": "Too many skills confuse the agent",
+      "what": "As the skill library grew from 5 to 100, agents picked the exact right skill far less often, though related skills still helped them finish.",
+      "why": "Sorting guidance into clear groups first, then using strict triggers, keeps large libraries usable.",
+      "action": "Try",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "agents",
+        "design"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "No direct Saudi or regional link in today's news."
+    }
+  ],
+  "idea": {
+    "title": "Runbooks for research agents",
+    "pitch": "Turn the team's best research procedures, such as survey cleaning or interview coding, into short step lists that agents and new staff can both follow.",
+    "fit": "Consultancy, research teams",
+    "first_step": "Pick one routine task and write it as no more than ten numbered steps."
+  },
+  "idea_kids": {
+    "title": "My step-by-step recipe card",
+    "pitch": "Children write a picture recipe for a simple task, like making a sandwich, then a partner follows it exactly to see which steps were missing.",
+    "age": "6 to 10",
+    "first_step": "Print a blank recipe card with six numbered boxes for drawings."
+  },
+  "watchlist": [
+    {
+      "name": "Google",
+      "sector": "Agents and automation",
+      "note": "Its Gemini model was one of the agents tested in the skills study."
+    }
+  ],
+  "tool": null,
+  "verify": [
+    "Step-by-step guidance reportedly explained about two thirds of successful skill use, while added facts explained under 5%."
+  ],
+  "entities": [
+    {
+      "name": "Google",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://about.google",
+      "note": "Its model was used in the skill experiments."
+    },
+    {
+      "name": "AlphaSignal",
+      "type": "organisation",
+      "sector": "Consumer and media",
+      "url": "https://alphasignal.ai",
+      "note": "Published a long explainer on the skills study."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Agent skill",
+      "definition": "A packaged set of instructions or steps that an AI agent can load when a task calls for it.",
+      "audience": "lay"
+    },
+    {
+      "term": "LLM-as-a-judge",
+      "definition": "Using one language model to score or check the output of another.",
+      "audience": "builder"
+    },
+    {
+      "term": "Ablation study",
+      "definition": "An experiment that removes one part of a system to see how much that part matters.",
+      "audience": "builder"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Agents and automation",
+      "concept": "Leaner agent instructions",
+      "summary": "Agent guidance works best as short procedures rather than knowledge dumps.",
+      "audience": [
+        "builder"
+      ],
+      "entities": []
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Agent memory management",
+      "summary": "Past runs only help when successes and failures are clearly marked.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "Google"
+      ]
+    }
+  ]
+}

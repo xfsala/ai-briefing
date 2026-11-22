@@ -86,11 +86,20 @@
       "decision"
      ],
      "days": [
-      "2026-11-10"
+      "2026-11-10",
+      "2026-08-26"
      ],
      "children": [
       {
+       "name": "Broadcom",
+       "kind": "entity"
+      },
+      {
        "name": "Google",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -203,11 +212,16 @@
       "2026-10-30",
       "2026-10-16",
       "2026-10-07",
-      "2026-09-07"
+      "2026-09-07",
+      "2026-08-27"
      ],
      "children": [
       {
        "name": "AT&T",
+       "kind": "entity"
+      },
+      {
+       "name": "Alibaba",
        "kind": "entity"
       },
       {
@@ -228,6 +242,10 @@
       },
       {
        "name": "Nvidia",
+       "kind": "entity"
+      },
+      {
+       "name": "Z.ai",
        "kind": "entity"
       }
      ]
@@ -278,13 +296,30 @@
      "kind": "concept",
      "summary": "Deciding what an agent keeps in working memory and what it looks up later.",
      "audience": [
-      "builder"
+      "builder",
+      "decision",
+      "lay"
      ],
      "days": [
       "2026-11-15",
-      "2026-10-25"
+      "2026-10-25",
+      "2026-08-26",
+      "2026-08-25",
+      "2026-08-23"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "DeepSeek",
+       "kind": "entity"
+      },
+      {
+       "name": "Google",
+       "kind": "entity"
+      },
       {
        "name": "Nvidia",
        "kind": "entity"
@@ -430,7 +465,8 @@
       "builder"
      ],
      "days": [
-      "2026-09-14"
+      "2026-09-14",
+      "2026-08-23"
      ],
      "children": [
       {
@@ -1022,6 +1058,7 @@
       "2026-09-11",
       "2026-09-06",
       "2026-09-02",
+      "2026-08-24",
       "2026-08-17"
      ],
      "children": [
@@ -1247,6 +1284,7 @@
      "kind": "concept",
      "summary": "Keeping data and AI processing inside national borders and under national rules.",
      "audience": [
+      "builder",
       "decision"
      ],
      "days": [
@@ -1255,7 +1293,8 @@
       "2026-11-13",
       "2026-11-03",
       "2026-10-26",
-      "2026-09-04"
+      "2026-09-04",
+      "2026-08-26"
      ],
      "children": [
       {
@@ -1276,6 +1315,10 @@
       },
       {
        "name": "Nous Research",
+       "kind": "entity"
+      },
+      {
+       "name": "Perplexity",
        "kind": "entity"
       },
       {
@@ -1439,9 +1482,14 @@
      ],
      "days": [
       "2026-11-16",
-      "2026-09-16"
+      "2026-09-16",
+      "2026-08-27"
      ],
      "children": [
+      {
+       "name": "Figure",
+       "kind": "entity"
+      },
       {
        "name": "Odyssey",
        "kind": "entity"
@@ -1533,7 +1581,8 @@
       "2026-10-12",
       "2026-10-02",
       "2026-09-23",
-      "2026-09-09"
+      "2026-09-09",
+      "2026-08-24"
      ],
      "children": [
       {
@@ -1861,6 +1910,7 @@
       "2026-10-13",
       "2026-09-28",
       "2026-09-03",
+      "2026-08-27",
       "2026-08-19",
       "2026-08-16"
      ],
@@ -1879,6 +1929,10 @@
       },
       {
        "name": "Irregular",
+       "kind": "entity"
+      },
+      {
+       "name": "METR",
        "kind": "entity"
       },
       {
@@ -2097,7 +2151,8 @@
       "2026-09-21",
       "2026-09-10",
       "2026-09-07",
-      "2026-09-02"
+      "2026-09-02",
+      "2026-08-25"
      ],
      "children": [
       {

@@ -962,6 +962,71 @@
   ]
  },
  {
+  "date": "2026-08-27",
+  "question": "If AI agents learn to cheat together to win a test, how can we trust their scores?",
+  "one_line": "Open models from China are getting cheaper and stronger, while a test showed hundreds of agents secretly working together to cheat.",
+  "titles": [
+   "Agents secretly worked together to cheat",
+   "Large open model at a very low price",
+   "Robots learn from real videos worldwide"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-26",
+  "question": "If an AI assistant remembers us across every task, how much should it be allowed to keep?",
+  "one_line": "AI companies are competing on the systems around their models: memory, chips and where the work runs.",
+  "titles": [
+   "Assistant memory shared across chat and tasks",
+   "OpenAI shows its own inference chip",
+   "Agent that runs fully on a desk computer"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-25",
+  "question": "When an AI helps people apply for jobs, does it make the search fairer or just faster?",
+  "one_line": "Much of the progress today is quiet polish that makes AI tools smoother and cheaper to use every day.",
+  "titles": [
+   "Job seeker shares his AI application kit",
+   "Agents that save logs instead of cutting them",
+   "Smoother long answers in Claude"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-24",
+  "question": "If simple tools often beat complex ones, why do we keep building complicated systems?",
+  "one_line": "Strong AI skills such as seeing images and finding security flaws are becoming cheaper and open to many more users.",
+  "titles": [
+   "Low-cost model that reads images",
+   "Strong security scanner opened to business users",
+   "Reading transcripts beat special tools"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-23",
+  "question": "When we write instructions for an AI agent, are we teaching it facts or showing it the steps?",
+  "one_line": "A large study suggests agent skills work best as step-by-step checklists, not as stores of knowledge.",
+  "titles": [
+   "Agent skills work as checklists, not lessons",
+   "Unlabelled past runs make agents worse",
+   "Too many skills confuse the agent"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
   "date": "2026-08-21",
   "question": "If an AI can make a talking video of anyone from one photo, how will we know what is real?",
   "one_line": "AI tools are working with less human input, from coding agents that act on their own to free models that make talking videos from a single photo.",

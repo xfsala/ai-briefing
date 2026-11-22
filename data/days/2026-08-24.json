@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-24",
+  "question": "If simple tools often beat complex ones, why do we keep building complicated systems?",
+  "reflection": "Choosing the simpler path can free time and money for the people a system is meant to serve.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Claude Code Remote Control, DeepSeek V4-Flash-Vision Launch, Anth", "link": ""}
+  ],
+  "one_line": "Strong AI skills such as seeing images and finding security flaws are becoming cheaper and open to many more users.",
+  "top_stories": [
+    {
+      "title": "Low-cost model that reads images",
+      "what": "DeepSeek released a vision version of its cheap Flash model that can read screenshots, charts and documents, reportedly near top closed models on agent tests at the same low price.",
+      "why": "Research teams could process scanned forms and charts at a fraction of earlier costs.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["models", "vision"]
+    },
+    {
+      "title": "Strong security scanner opened to business users",
+      "what": "Anthropic made its most capable security model available inside code scans for enterprise customers, returning flaws with severity ratings and suggested fixes, and set aside $35 million in credits for open-source fixes.",
+      "why": "Organisations can find weak spots in their own software sooner, without hiring a large security team.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["security", "software"]
+    },
+    {
+      "title": "Reading transcripts beat special tools",
+      "what": "Anthropic reportedly found that its tools for looking inside models gave no extra help over simply reading what the model wrote.",
+      "why": "Careful reading of outputs, a familiar qualitative method, remains a strong way to understand model behaviour.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["research", "safety"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Cheaper image-reading models could help digitise Arabic paper archives and scanned government forms more quickly."}
+  ],
+  "idea": {
+    "title": "Qualitative review of AI transcripts",
+    "pitch": "Offer structured reading and coding of AI conversation logs to find where a deployed assistant confuses or misleads users.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Draft a short coding guide with five categories of user confusion."
+  },
+  "idea_kids": {
+    "title": "Spot the hidden mistake",
+    "pitch": "A puzzle book where children find small errors in pictures and short stories, practising careful reading and checking.",
+    "age": "7 to 11",
+    "first_step": "Draw four simple scenes, each with three hidden mistakes."
+  },
+  "watchlist": [
+    {"name": "DeepSeek", "sector": "Frontier models", "note": "Keeps pushing strong models at very low prices."},
+    {"name": "NVIDIA", "sector": "Agents and automation", "note": "Its coding agent reportedly scored full marks on a hard reasoning puzzle test."}
+  ],
+  "tool": {"name": "Claude Code Remote Control", "use": "Start and continue coding sessions on a computer from a phone, with automatic reconnects.", "link": ""},
+  "verify": [
+    "A study reportedly found command-line agents 5 to 28 times cheaper than agents using MCP connectors.",
+    "NVIDIA's agent is said to have scored 100% on ARC-AGI-3 without instructions."
+  ],
+  "entities": [
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Released a low-cost vision model."},
+    {"name": "Anthropic", "type": "company", "sector": "Safety, security and governance", "url": "https://www.anthropic.com", "note": "Opened its security scanning model and funded open-source fixes."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Reported a top score on a reasoning benchmark."}
+  ],
+  "terms": [
+    {"term": "Multimodal model", "definition": "An AI model that can work with more than one kind of input, such as text and images.", "audience": "lay"},
+    {"term": "Interpretability", "definition": "Research that tries to understand what is happening inside an AI model when it produces an answer.", "audience": "decision"},
+    {"term": "MCP server", "definition": "A connector that lets an AI assistant use an outside tool or data source through a shared standard.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Image understanding now comes at the price of a cheap text model.", "audience": ["decision", "builder"], "entities": ["DeepSeek"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "Strong models scan code for flaws and suggest fixes.", "audience": ["decision", "builder"], "entities": ["Anthropic"]}
+  ]
+}
