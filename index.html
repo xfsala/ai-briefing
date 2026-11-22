@@ -43,14 +43,20 @@
   .daily { display: grid; grid-template-columns: 270px 1fr; gap: 24px; align-items: start; }
   .archive { position: sticky; top: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px; max-height: calc(100vh - 24px); overflow: auto; }
   .archive input { width: 100%; font: inherit; font-size: 15px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; }
-  .archive h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .8px; color: var(--gold); margin: 16px 0 6px; }
   .archive button {
     display: block; width: 100%; text-align: left; font: inherit; font-size: 15px; background: none; border: 0;
     padding: 6px 8px; border-radius: 6px; cursor: pointer; color: var(--ink);
   }
   .archive button:hover { background: var(--teal-soft); }
-  .archive button.active { background: var(--teal); color: #fff; }
-  .archive small { display: block; color: inherit; opacity: .75; font-size: 13px; line-height: 1.3; }
+  .archive button.month {
+    display: flex; justify-content: space-between; align-items: center; margin-top: 10px;
+    font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: .6px; font-size: 14px;
+    border-bottom: 1px solid var(--line); border-radius: 6px 6px 0 0;
+  }
+  .archive button.month .n { font-weight: 400; color: var(--muted); text-transform: none; letter-spacing: 0; font-size: 13px; }
+  .archive .days-list { padding: 4px 0 4px 6px; }
+  .archive button.day { padding: 4px 8px; }
+  .archive button.day.active { background: var(--teal); color: #fff; }
   .page { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 28px 32px; }
   .page .date { color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; }
   .oneline { font-size: 24px; line-height: 1.3; margin: 6px 0 4px; font-weight: 700; }
@@ -98,8 +104,7 @@
   .card h3 { margin: 0 0 2px; font-size: 18px; }
   .card .meta { font-size: 13px; color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: .6px; }
   .card p { margin: 6px 0; }
-  .days a { font-size: 13px; margin-right: 6px; }
-  .count { color: var(--muted); font-size: 14px; }
+    .count { color: var(--muted); font-size: 14px; }
 
   /* Mindmap */
   .mm-wrap { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
@@ -212,7 +217,7 @@
         <button id="mm-collapse">Collapse all</button>
       </div>
       <div id="mindmap"></div>
-      <div class="mm-info" id="mm-info">Click an industry to open it, then click a concept to see what it means and when it appeared.</div>
+      <div class="mm-info" id="mm-info">Click an industry to open it, then click a concept to see what it means.</div>
     </div>
   </section>
 </main>
@@ -252,18 +257,32 @@ let index = [];
 async function loadIndex() {
   try { index = await getJSON("data/index.json"); } catch { index = []; }
 }
+const openMonths = new Set();
+let lastActive = null;
 function renderArchive(active) {
   const q = document.getElementById("archive-search").value.trim().toLowerCase();
   const list = index.filter(d => !q || (d.one_line + " " + d.titles.join(" ") + " " + d.date).toLowerCase().includes(q));
-  let html = "", month = "";
+  const months = [];
   for (const d of list) {
     const m = monthOf(d.date);
-    if (m !== month) { html += `<h3>${esc(m)}</h3>`; month = m; }
-    html += `<button class="${d.date === active ? "active" : ""}" data-date="${d.date}">${esc(fmtShort(d.date))}<small>${esc(d.titles[0] || d.one_line)}</small></button>`;
+    if (!months.length || months[months.length - 1].name !== m) months.push({ name: m, days: [] });
+    months[months.length - 1].days.push(d);
   }
+  if (active && active !== lastActive) { openMonths.add(monthOf(active)); lastActive = active; }
   const el = document.getElementById("archive-list");
-  el.innerHTML = html || `<p class="empty">No matching days.</p>`;
-  el.querySelectorAll("button").forEach(b => b.onclick = () => { location.hash = "daily/" + b.dataset.date; });
+  el.innerHTML = months.map(m => {
+    const open = q || openMonths.has(m.name);
+    return `<button class="month${open ? " open" : ""}" data-month="${esc(m.name)}" aria-expanded="${!!open}">
+        <span>${esc(m.name)}</span><span class="n">${m.days.length} ${m.days.length === 1 ? "day" : "days"} ${open ? "&#9662;" : "&#9656;"}</span></button>
+      <div class="days-list"${open ? "" : " hidden"}>${m.days.map(d =>
+        `<button class="day${d.date === active ? " active" : ""}" data-date="${d.date}">${esc(fmtShort(d.date))}</button>`).join("")}</div>`;
+  }).join("") || `<p class="empty">No matching days.</p>`;
+  el.querySelectorAll("button.month").forEach(b => b.onclick = () => {
+    const m = b.dataset.month;
+    openMonths.has(m) ? openMonths.delete(m) : openMonths.add(m);
+    renderArchive(active);
+  });
+  el.querySelectorAll("button.day").forEach(b => b.onclick = () => { location.hash = "daily/" + b.dataset.date; });
 }
 document.getElementById("archive-search").addEventListener("input", () => renderArchive((location.hash.split("/")[1]) || (index[0] && index[0].date)));
 
@@ -312,7 +331,6 @@ document.querySelectorAll(".subnav [data-sub]").forEach(b => b.onclick = () => {
 });
 document.getElementById("who-search").addEventListener("input", renderWho);
 document.getElementById("who-filter").addEventListener("change", renderWho);
-const dayLinks = days => `<div class="days">Seen: ${days.slice().sort().reverse().map(d => `<a href="#daily/${d}">${esc(fmtShort(d))}</a>`).join("")}</div>`;
 
 async function renderWho() {
   const sel = document.getElementById("who-filter");
@@ -335,13 +353,13 @@ async function renderWho() {
     cards.innerHTML = list.map(e => `<div class="card">
       <div class="meta">${esc(e.type)} &middot; ${esc(e.sector)}</div>
       <h3>${e.url ? `<a href="${esc(e.url)}" rel="noopener" target="_blank">${esc(e.name)}</a>` : esc(e.name)}</h3>
-      <p>${esc(e.note)}</p>${dayLinks(e.days)}</div>`).join("") || `<p class="empty">Nothing matches.</p>`;
+      <p>${esc(e.note)}</p></div>`).join("") || `<p class="empty">Nothing matches.</p>`;
   } else {
     const list = items.filter(g => (!f || g.audience === f) && (!q || (g.term + " " + g.definition).toLowerCase().includes(q)));
     document.getElementById("who-count").textContent = `${list.length} of ${items.length} terms, A to Z`;
     cards.innerHTML = list.map(g => `<div class="card">
       <div class="meta"><span class="chip ${esc(g.audience)}">${esc(AUD_LABEL[g.audience] || g.audience)}</span></div>
-      <h3>${esc(g.term)}</h3><p>${esc(g.definition)}</p>${dayLinks(g.days)}</div>`).join("") || `<p class="empty">Nothing matches.</p>`;
+      <h3>${esc(g.term)}</h3><p>${esc(g.definition)}</p></div>`).join("") || `<p class="empty">Nothing matches.</p>`;
   }
 }
 
@@ -426,13 +444,13 @@ async function showInfo(d) {
   const box = document.getElementById("mm-info");
   if (d.data.kind === "concept") {
     const a = (d.data.audience || []).map(x => `<span class="chip ${x}">${esc(AUD_LABEL[x])}</span>`).join(" ");
-    box.innerHTML = `<strong>${esc(d.data.name)}</strong> <span class="count">in ${esc(d.parent.data.name)}</span><p style="margin:4px 0">${esc(d.data.summary)}</p>${a}${dayLinks(d.data.days || [])}`;
+    box.innerHTML = `<strong>${esc(d.data.name)}</strong> <span class="count">in ${esc(d.parent.data.name)}</span><p style="margin:4px 0">${esc(d.data.summary)}</p>${a}`;
   } else {
     let ents = [];
     try { ents = await getJSON("data/entities.json"); } catch {}
     const e = ents.find(x => x.name === d.data.name);
     box.innerHTML = e
-      ? `<strong>${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a>` : esc(e.name)}</strong> <span class="count">${esc(e.sector)}</span><p style="margin:4px 0">${esc(e.note)}</p>${dayLinks(e.days)}`
+      ? `<strong>${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a>` : esc(e.name)}</strong> <span class="count">${esc(e.sector)}</span><p style="margin:4px 0">${esc(e.note)}</p>`
       : `<strong>${esc(d.data.name)}</strong>`;
   }
 }
