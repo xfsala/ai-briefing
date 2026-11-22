@@ -69,6 +69,12 @@
     "fit": "Government digital services, consultancy",
     "first_step": "Draft five survey questions on trust and workload to ask a team before and after a one-month assistant pilot."
   },
+  "idea_kids": {
+    "title": "Team robot challenge",
+    "pitch": "A group game where a class designs one shared robot helper, agreeing rules for what it may and may not do for the team.",
+    "age": "9 to 13",
+    "first_step": "Write the 6 rule cards and a simple voting sheet for the class."
+  },
   "watchlist": [
     {
       "name": "Anthropic",

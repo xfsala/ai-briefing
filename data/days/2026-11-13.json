@@ -73,6 +73,12 @@
     "fit": "Labour market, government services",
     "first_step": "List ten common graduate job titles and score each task in them for how easily an AI agent could do it."
   },
+  "idea_kids": {
+    "title": "Jobs of the future cards",
+    "pitch": "A card set showing jobs that exist today and how they might change, helping children imagine skills that machines cannot replace.",
+    "age": "10 to 15",
+    "first_step": "Pick 12 familiar jobs and write one 'today' and one 'tomorrow' line for each."
+  },
   "watchlist": [
     {
       "name": "Anthropic",

@@ -63,6 +63,12 @@ public, so the rules on copyright and privacy below are not optional.
     "fit": "Sector it suits, e.g. culture sector, health, labour market, government services",
     "first_step": "A concrete first step for this week."
   },
+  "idea_kids": {
+    "title": "Something to create for children",
+    "pitch": "One or two sentences: a game, book, activity kit, workshop or simple app made for children, inspired by the day's theme.",
+    "age": "8 to 12",
+    "first_step": "A concrete first step for this week."
+  },
   "watchlist": [
     {"name": "Company or person", "sector": "Sector tag", "note": "Why to watch, one line."}
   ],
@@ -100,6 +106,12 @@ Field notes:
   day's developments could help people grow, societies progress, or humanity
   do better, without ignoring the risks.
 
+- `idea_kids`: an idea for something to create for children aged 15 and
+  under (a game, picture book, card set, classroom kit, workshop or simple
+  app), inspired by the same day's theme. Hands-on and offline-friendly where
+  possible; never something that collects children's personal data or asks
+  them to share it with an AI tool. Culturally appropriate for Saudi Arabia.
+  `age` is a range within 4 to 15. Plain language, like the other fields.
 - `top_stories`: exactly 3 on a normal day (fewer only if the day is thin).
 - `action`: Watch = keep an eye on it; Try = test it yourself; Pitch = could
   become a client project.

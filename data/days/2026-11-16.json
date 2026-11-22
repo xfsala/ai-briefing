@@ -73,6 +73,12 @@
     "fit": "Consumer protection bodies, fintech regulators, consultancy",
     "first_step": "Sketch three approval flows (every purchase, spending limit, weekly summary) and draft a short online experiment comparing them."
   },
+  "idea_kids": {
+    "title": "Ask before you buy",
+    "pitch": "A role-play kit where children practise when to ask a parent before buying online, including in games and apps.",
+    "age": "6 to 11",
+    "first_step": "Write 8 short shopping situations with 'ask' or 'okay' answers."
+  },
   "watchlist": [
     {
       "name": "DeepSeek",

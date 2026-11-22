@@ -73,6 +73,12 @@
     "fit": "Government digital services, consultancy",
     "first_step": "Pick one high-volume online service and map how long each step takes today with and without an assistant."
   },
+  "idea_kids": {
+    "title": "Habit detectives",
+    "pitch": "A short workshop where children track one daily habit for a week and design a small nudge to change it, learning why people stick to routines.",
+    "age": "10 to 14",
+    "first_step": "Design a one-page habit tracker with space for a nudge idea."
+  },
   "watchlist": [
     {
       "name": "Uber",

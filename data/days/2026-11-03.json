@@ -68,6 +68,12 @@
     "fit": "Government services, energy and municipal planning",
     "first_step": "List the main data-centre sites announced in the region and the communities near them."
   },
+  "idea_kids": {
+    "title": "Where does the internet live?",
+    "pitch": "An illustrated story that follows a message from a phone to a data centre in the desert, explaining power, water and cooling in simple words.",
+    "age": "7 to 11",
+    "first_step": "Sketch the 6 stops of the message's journey as storyboard panels."
+  },
   "watchlist": [
     {
       "name": "Anthropic",

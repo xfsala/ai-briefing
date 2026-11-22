@@ -69,6 +69,12 @@
     "fit": "Labour market, health, culture sector surveys",
     "first_step": "Take 200 already-coded open answers and compare a model's labels and confidence scores with the human codes."
   },
+  "idea_kids": {
+    "title": "Rules around the world",
+    "pitch": "A map game showing how different countries make rules for sharing technology, so children see why agreements between nations matter.",
+    "age": "11 to 15",
+    "first_step": "Mark 6 countries on a map with one simple rule card each."
+  },
   "watchlist": [
     {
       "name": "Microsoft",

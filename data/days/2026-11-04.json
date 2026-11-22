@@ -70,6 +70,12 @@
     "fit": "Government communications, media regulators, culture sector",
     "first_step": "Assemble 20 paired real and AI-made images on local themes for a pilot online test."
   },
+  "idea_kids": {
+    "title": "Real or made by AI?",
+    "pitch": "A picture-and-sound quiz game that teaches children simple clues for spotting AI-made images and voices, and to check before sharing.",
+    "age": "9 to 15",
+    "first_step": "Collect 10 pairs of real and AI-made pictures that are safe for children."
+  },
   "watchlist": [
     {
       "name": "MIT",

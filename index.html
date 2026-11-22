@@ -85,6 +85,12 @@
   .lens p, .idea p { margin: 4px 0; }
   .idea { background: var(--gold-soft); border-radius: 10px; padding: 14px 16px; }
   .idea h3 { margin: 0 0 6px; }
+  .ideas { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .ideas.single { grid-template-columns: 1fr; }
+  .idea.kids { background: var(--teal-soft); }
+  .idea-label { font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); margin-bottom: 4px; }
+  .idea.kids .idea-label { color: var(--teal); }
+  @media (max-width: 820px) { .ideas { grid-template-columns: 1fr; } }
   .watch { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
   .watch div { border: 1px solid var(--line); border-top: 4px solid var(--gold); border-radius: 8px; padding: 10px 12px; }
   .watch strong { display: block; }
@@ -173,7 +179,7 @@
         <p><b>Today in one line:</b> the single shift worth remembering if you read nothing else.</p>
         <p><b>Top stories:</b> three stories, each with what happened, why it matters, and a suggested action.</p>
         <p><b>Saudi and region lens:</b> how the day's news connects to Saudi digital infrastructure, the economy or policy. When there is no real link, the page says so.</p>
-        <p><b>Project idea:</b> one idea that could become a research or consulting project, with a first step.</p>
+        <p><b>Project ideas:</b> two ideas side by side, each with a first step: a general idea that could become a research or consulting project, and an idea for something to create for children aged 15 and under.</p>
         <p><b>Watchlist:</b> people, companies and organisations worth tracking, tagged by sector.</p>
         <p><b>Tool to try:</b> only when something is genuinely useful for research or data work.</p>
         <p><b>Verify before quoting:</b> bold claims to check before repeating them to anyone.</p></div>
@@ -315,7 +321,10 @@ async function showDaily(date) {
       <div class="chips"><span class="chip action">${esc(s.action)}</span>${aud(s.audience)}${(s.tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>
     </div>`).join("");
   const lens = (d.saudi_lens || []).map(l => `<p>${esc(l.text)}</p>`).join("");
-  const idea = d.idea ? `<div class="idea"><h3>${esc(d.idea.title)}</h3><p>${esc(d.idea.pitch)}</p><p><b>Fits:</b> ${esc(d.idea.fit)}</p><p><b>First step:</b> ${esc(d.idea.first_step)}</p></div>` : "";
+  const general = d.idea ? `<div class="idea"><div class="idea-label">General idea</div><h3>${esc(d.idea.title)}</h3><p>${esc(d.idea.pitch)}</p><p><b>Fits:</b> ${esc(d.idea.fit)}</p><p><b>First step:</b> ${esc(d.idea.first_step)}</p></div>` : "";
+  const k = d.idea_kids;
+  const kids = k ? `<div class="idea kids"><div class="idea-label">Create for kids (15 and under)</div><h3>${esc(k.title)}</h3><p>${esc(k.pitch)}</p><p><b>Ages:</b> ${esc(k.age)}</p><p><b>First step:</b> ${esc(k.first_step)}</p></div>` : "";
+  const idea = `<div class="ideas${kids ? "" : " single"}">${general}${kids}</div>`;
   const watch = (d.watchlist || []).map(w => `<div><strong>${esc(w.name)}</strong><span>${esc(w.sector)}</span><p style="margin:4px 0 0">${esc(w.note)}</p></div>`).join("");
   const tool = d.tool ? `<p><b>${esc(d.tool.name)}:</b> ${esc(d.tool.use)} ${d.tool.link ? `<a href="${esc(d.tool.link)}" rel="noopener" target="_blank">Link</a>` : ""}</p>` : `<p class="empty">Nothing worth trying today.</p>`;
   const verify = (d.verify || []).length ? `<ul class="verify">${d.verify.map(v => `<li>${esc(v)}</li>`).join("")}</ul>` : `<p class="empty">No bold claims today.</p>`;
@@ -329,7 +338,7 @@ async function showDaily(date) {
     <div class="srcs">${srcs}</div>
     <div class="section"><h2>Top stories</h2>${stories}</div>
     <div class="section lens"><h2>Saudi &amp; region lens</h2>${lens}</div>
-    <div class="section"><h2>Project idea of the day</h2>${idea}</div>
+    <div class="section"><h2>Project ideas of the day</h2>${idea}</div>
     <div class="section"><h2>Watchlist</h2><div class="watch">${watch}</div></div>
     <div class="section"><h2>Tool to try</h2>${tool}</div>
     <div class="section"><h2>Verify before quoting</h2>${verify}</div>`;

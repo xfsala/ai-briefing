@@ -71,6 +71,12 @@
     "fit": "Government digital services, culture sector, consultancy",
     "first_step": "Write 20 test questions with a panel of three colleagues and agree on what a balanced answer looks like."
   },
+  "idea_kids": {
+    "title": "Fair answers checklist",
+    "pitch": "A simple, colourful checklist that helps children ask whether an answer from a chatbot is fair, kind and true before they believe it.",
+    "age": "10 to 15",
+    "first_step": "Draft 5 checklist questions in Arabic and English and test them with one child."
+  },
   "watchlist": [
     {
       "name": "Nous Research",

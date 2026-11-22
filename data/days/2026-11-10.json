@@ -72,6 +72,12 @@
     "fit": "Government digital services, health, labour market",
     "first_step": "Choose one paper-based form a client still uses and ask a coding model to turn it into a clickable app."
   },
+  "idea_kids": {
+    "title": "Build an app on paper",
+    "pitch": "A paper prototyping kit where children design screens for an app that solves a problem at home or school, before any coding.",
+    "age": "9 to 14",
+    "first_step": "Print blank phone-screen templates and write 3 example problems to solve."
+  },
   "watchlist": [
     {
       "name": "Anthropic",

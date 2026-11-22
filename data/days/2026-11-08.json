@@ -50,6 +50,12 @@
     "fit": "Culture sector, labour-market agency, consultancy knowledge management",
     "first_step": "Pick ten questions that need facts from several old reports and record how long a person takes to answer them."
   },
+  "idea_kids": {
+    "title": "The giant library treasure hunt",
+    "pitch": "A puzzle book where children learn to find answers in a big library using an index, keywords and clues, the same idea AI uses to search long texts.",
+    "age": "8 to 12",
+    "first_step": "Choose 5 questions and hide the clues across a pretend library map."
+  },
   "watchlist": [
     {
       "name": "Prefrontal AI",

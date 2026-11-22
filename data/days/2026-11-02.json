@@ -70,6 +70,12 @@
     "fit": "Government services, consultancy",
     "first_step": "Draft three realistic policy judgment tasks and a short protocol for both conditions."
   },
+  "idea_kids": {
+    "title": "Think first, then ask",
+    "pitch": "A classroom activity kit where children write their own answer before checking a chatbot, then compare and discuss which was better and why.",
+    "age": "10 to 15",
+    "first_step": "Write 5 simple questions children can answer themselves before asking an AI."
+  },
   "watchlist": [
     {
       "name": "Anthropic",

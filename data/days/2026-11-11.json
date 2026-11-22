@@ -72,6 +72,12 @@
     "fit": "Hospital, health ministry programmes",
     "first_step": "Map the three record-handling tasks where staff lose most time and ask five clinicians how they would verify an AI summary of each."
   },
+  "idea_kids": {
+    "title": "Dr. Helper and the robot nurse",
+    "pitch": "A picture book that shows how doctors and nurses use computers to help, while people still care for patients and make the decisions.",
+    "age": "5 to 9",
+    "first_step": "Write the story in 8 short scenes, one per page."
+  },
   "watchlist": [
     {
       "name": "Anthropic",

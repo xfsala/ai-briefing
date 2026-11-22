@@ -64,6 +64,12 @@
     "fit": "Government services, consultancy",
     "first_step": "Collect ten past reports on one topic and test whether an assistant can answer five known questions by searching them."
   },
+  "idea_kids": {
+    "title": "Sticky-note memory game",
+    "pitch": "A memory game that teaches children to write a short note of what matters most, so they do not need to remember everything at once.",
+    "age": "7 to 11",
+    "first_step": "Design 3 rounds with a list of items and a one-line note to keep."
+  },
   "watchlist": [
     {
       "name": "Nvidia",

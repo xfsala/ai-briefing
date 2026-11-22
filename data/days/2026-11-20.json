@@ -74,6 +74,12 @@
     "fit": "Survey-heavy public bodies, culture sector, health",
     "first_step": "Pick a 5-question survey you already run and list which questions might be answered differently to a machine."
   },
+  "idea_kids": {
+    "title": "What makes me special?",
+    "pitch": "A creative workbook where children list things only people can do well, such as caring, inventing and teaching, and design their own 'human skill' badge.",
+    "age": "7 to 12",
+    "first_step": "Draft 6 workbook pages with prompts and space for drawing."
+  },
   "watchlist": [
     {
       "name": "Nous Research",

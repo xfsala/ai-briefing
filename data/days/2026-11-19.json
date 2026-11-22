@@ -73,6 +73,12 @@
     "fit": "Government digital services, banks and fintech, health",
     "first_step": "Draft 10 assistant suggestions, half correct and half wrong, and design two versions of how they are presented."
   },
+  "idea_kids": {
+    "title": "Who decides? Story cards",
+    "pitch": "Story cards where a helpful robot offers to do things, and children choose 'yes', 'no' or 'ask a grown-up', learning that people stay in charge.",
+    "age": "6 to 10",
+    "first_step": "Write 10 short situations with a picture idea for each."
+  },
   "watchlist": [
     {
       "name": "Cognition",

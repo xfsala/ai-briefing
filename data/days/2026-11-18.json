@@ -72,6 +72,12 @@
     "fit": "Government digital services, health appointment systems",
     "first_step": "Choose one service you know well and write out every step, marking which ones an agent could complete today."
   },
+  "idea_kids": {
+    "title": "Help the robot book an appointment",
+    "pitch": "A maze-style activity where a robot must get through forms, phone calls and missing information, showing why clear systems help everyone.",
+    "age": "8 to 12",
+    "first_step": "Draw one maze with 5 obstacles, each linked to a real-life step."
+  },
   "watchlist": [
     {
       "name": "Zocdoc",
