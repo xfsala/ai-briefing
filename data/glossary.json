@@ -111,6 +111,15 @@
   ]
  },
  {
+  "id": "attribution",
+  "term": "Attribution",
+  "definition": "Saying clearly who or what contributed to a piece of work or a discovery.",
+  "audience": "lay",
+  "days": [
+   "2026-09-29"
+  ]
+ },
+ {
   "id": "audit-trail",
   "term": "Audit trail",
   "definition": "A record of who or what did each action in a system, so mistakes can be traced.",
@@ -409,9 +418,10 @@
  {
   "id": "ipo-prospectus",
   "term": "IPO prospectus",
-  "definition": "The official document a company publishes before selling shares to the public, describing its business, finances and risks.",
+  "definition": "The official document a company publishes before selling shares to the public, listing its finances and risks.",
   "audience": "decision",
   "days": [
+   "2026-09-30",
    "2026-11-11"
   ]
  },
@@ -489,6 +499,15 @@
   "days": [
    "2026-10-05",
    "2026-10-16"
+  ]
+ },
+ {
+  "id": "model-constitution",
+  "term": "Model constitution",
+  "definition": "A written set of principles a company uses to train and guide how its AI model behaves.",
+  "audience": "lay",
+  "days": [
+   "2026-09-30"
   ]
  },
  {
@@ -586,6 +605,15 @@
   "audience": "lay",
   "days": [
    "2026-10-28"
+  ]
+ },
+ {
+  "id": "preliminary-injunction",
+  "term": "Preliminary injunction",
+  "definition": "A temporary court order that stops an action while a lawsuit is still being decided.",
+  "audience": "decision",
+  "days": [
+   "2026-09-29"
   ]
  },
  {
@@ -710,6 +738,15 @@
   ]
  },
  {
+  "id": "retrieval-augmented-generation",
+  "term": "Retrieval-augmented generation",
+  "definition": "A method where an AI first looks up relevant passages in documents, then uses them to answer.",
+  "audience": "builder",
+  "days": [
+   "2026-09-30"
+  ]
+ },
+ {
   "id": "return-on-investment",
   "term": "Return on investment",
   "definition": "How much value an organisation gets back compared with what it spent.",
@@ -719,11 +756,21 @@
   ]
  },
  {
-  "id": "sandbox",
-  "term": "Sandbox",
-  "definition": "A closed test environment where software can run without reaching real systems or the internet.",
+  "id": "row-level-security",
+  "term": "Row-level security",
+  "definition": "A database setting that controls which rows of data each user is allowed to see.",
   "audience": "builder",
   "days": [
+   "2026-09-28"
+  ]
+ },
+ {
+  "id": "sandbox",
+  "term": "Sandbox",
+  "definition": "A closed test environment where software can run without reaching real systems.",
+  "audience": "builder",
+  "days": [
+   "2026-09-28",
    "2026-10-13",
    "2026-10-22",
    "2026-10-26",
@@ -876,6 +923,7 @@
   "audience": "decision",
   "days": [
    "2026-09-25",
+   "2026-09-29",
    "2026-10-19",
    "2026-11-09",
    "2026-11-17",
@@ -933,9 +981,10 @@
  {
   "id": "vibe-coding",
   "term": "Vibe coding",
-  "definition": "Building software by describing what you want in plain language and letting an AI write the code.",
+  "definition": "Building software mostly by describing what you want to an AI, with little hand-written code.",
   "audience": "lay",
   "days": [
+   "2026-09-28",
    "2026-11-10"
   ]
  },

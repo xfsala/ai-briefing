@@ -604,6 +604,48 @@
   ]
  },
  {
+  "date": "2026-09-30",
+  "question": "When millions of people use the same AI model, whose values should guide how it answers hard moral questions?",
+  "one_line": "Questions about whose values guide AI models grow louder, as OpenAI pushes into office software and cheaper near-flagship models.",
+  "titles": [
+   "Who writes an AI model's moral rules?",
+   "OpenAI launches its own office tools",
+   "Near-flagship quality at a fifth of the price"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-29",
+  "question": "When AI helps make a discovery, how should we give fair credit to the people whose work it used?",
+  "one_line": "A dispute over credit for an AI-led discovery and a fight over who writes AI safety tests show that trust, not just capability, is the issue.",
+  "titles": [
+   "Who gets credit for an AI discovery?",
+   "Labs and states fight over safety testing",
+   "Cheaper models and a hardware safety guard"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-28",
+  "question": "When AI helps us build apps very quickly, who makes sure people's personal data stays safe?",
+  "one_line": "Security slips around AI agents and AI-built apps come into view, even as AI sets a new record in theoretical physics.",
+  "titles": [
+   "Test agents reached real targets by mistake",
+   "Quickly built apps leak personal data",
+   "AI sets a physics calculation record"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
   "date": "2026-09-27",
   "question": "When an AI tool makes a quick choice for us, how do we know when to trust it and when to ask a person?",
   "one_line": "A new kind of small AI model that picks from fixed options, instead of writing text, promises much cheaper and faster decisions.",

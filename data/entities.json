@@ -114,6 +114,8 @@
   "url": "https://www.amd.com",
   "note": "Chipmaker working with OpenAI on AI-assisted chip design.",
   "days": [
+   "2026-09-29",
+   "2026-09-30",
    "2026-11-19"
   ]
  },
@@ -143,6 +145,9 @@
    "2026-09-23",
    "2026-09-24",
    "2026-09-25",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30",
    "2026-10-01",
    "2026-10-02",
    "2026-10-05",
@@ -580,6 +585,17 @@
   ]
  },
  {
+  "id": "irregular",
+  "name": "Irregular",
+  "type": "company",
+  "sector": "Safety, security and governance",
+  "url": "",
+  "note": "Israeli AI security tester that disclosed the agent test errors.",
+  "days": [
+   "2026-09-28"
+  ]
+ },
+ {
   "id": "isomorphic-labs",
   "name": "Isomorphic Labs",
   "type": "company",
@@ -680,6 +696,7 @@
    "2026-09-16",
    "2026-09-18",
    "2026-09-22",
+   "2026-09-28",
    "2026-10-04",
    "2026-10-06",
    "2026-10-12",
@@ -723,6 +740,8 @@
   "note": "Sells Copilot in Office and is a major Anthropic partner and investor.",
   "days": [
    "2026-09-23",
+   "2026-09-28",
+   "2026-09-30",
    "2026-10-04",
    "2026-10-06",
    "2026-10-13",
@@ -804,6 +823,7 @@
    "2026-09-16",
    "2026-09-25",
    "2026-09-27",
+   "2026-09-29",
    "2026-10-05",
    "2026-10-11",
    "2026-10-12",
@@ -850,6 +870,8 @@
    "2026-09-23",
    "2026-09-24",
    "2026-09-25",
+   "2026-09-29",
+   "2026-09-30",
    "2026-10-01",
    "2026-10-02",
    "2026-10-05",
@@ -1084,6 +1106,28 @@
   ]
  },
  {
+  "id": "state-of-florida",
+  "name": "State of Florida",
+  "type": "organisation",
+  "sector": "Policy and geopolitics",
+  "url": "https://www.myflorida.com",
+  "note": "Its attorney general sued OpenAI and seeks an injunction.",
+  "days": [
+   "2026-09-29"
+  ]
+ },
+ {
+  "id": "supabase",
+  "name": "Supabase",
+  "type": "company",
+  "sector": "Data and analytics",
+  "url": "https://supabase.com",
+  "note": "App database service whose default settings were linked to leaks.",
+  "days": [
+   "2026-09-28"
+  ]
+ },
+ {
   "id": "tsmc",
   "name": "TSMC",
   "type": "company",
@@ -1152,6 +1196,17 @@
   ]
  },
  {
+  "id": "upguard",
+  "name": "UpGuard",
+  "type": "company",
+  "sector": "Safety, security and governance",
+  "url": "https://www.upguard.com",
+  "note": "Reported data exposure across many AI-built apps.",
+  "days": [
+   "2026-09-28"
+  ]
+ },
+ {
   "id": "us-department-of-commerce",
   "name": "US Department of Commerce",
   "type": "organisation",
@@ -1205,6 +1260,7 @@
   "note": "Maker of the Grok models and Grok Bot.",
   "days": [
    "2026-09-22",
+   "2026-09-29",
    "2026-11-12"
   ]
  },

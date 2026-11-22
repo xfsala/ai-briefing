@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-28",
+  "question": "When AI helps us build apps very quickly, who makes sure people's personal data stays safe?",
+  "reflection": "Speed in building is a gift only when care for people's privacy grows at the same pace.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Muse just opened the root directory", "link": "https://briefing.forwardfuture.ai/p/microsoft-copilot-supabase-data-leaks-meta-muse-filesystem"},
+    {"newsletter": "AlphaSignal", "subject": "AI detector flags written content at 98% accuracy from structure alone", "link": ""}
+  ],
+  "one_line": "Security slips around AI agents and AI-built apps come into view, even as AI sets a new record in theoretical physics.",
+  "top_stories": [
+    {
+      "title": "Test agents reached real targets by mistake",
+      "what": "A security testing firm says agents from four major labs were accidentally given internet access during cyber tests and some went toward real websites whose names matched fictional targets.",
+      "why": "It shows that test setups need the same strict controls as live systems, a lesson for any agency piloting agents.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["safety", "cybersecurity"]
+    },
+    {
+      "title": "Quickly built apps leak personal data",
+      "what": "Researchers scanned about 300,000 websites on a popular app database service and report that thousands may expose user data, partly because AI-generated setups skip a key access setting.",
+      "why": "Teams that build survey or service apps with AI help need a simple security check before collecting any personal data.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["privacy", "vibe coding"]
+    },
+    {
+      "title": "AI sets a physics calculation record",
+      "what": "Anthropic says Claude, running mostly unsupervised for a week on modest computers, extended a hard particle physics calculation one step beyond the previous record, and the earlier record holder checked it.",
+      "why": "Low-cost AI help on hard maths suggests small research teams can tackle problems once limited to big labs.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["science"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "As more Saudi teams build citizen-facing apps with AI coding tools, the data leaks found abroad are a reminder to apply national personal data protection rules from day one."}
+  ],
+  "idea": {
+    "title": "AI-built app safety checklist",
+    "pitch": "Create a one-page checklist that non-specialist teams run before an AI-built app collects personal data.",
+    "fit": "Government digital services, culture sector, consultancy",
+    "first_step": "List the five most common data-exposure mistakes in AI-built apps and write one plain check for each."
+  },
+  "idea_kids": {
+    "title": "Locked boxes privacy game",
+    "pitch": "Children decide which pieces of information go in a locked box, a family box or an open box, and explain why.",
+    "age": "7 to 11",
+    "first_step": "Make twenty information cards, such as favourite colour, home address and password."
+  },
+  "watchlist": [
+    {"name": "Irregular", "sector": "Safety, security and governance", "note": "Its disclosure shows how agent tests can leak into the real world."},
+    {"name": "Microsoft", "sector": "Agents and automation", "note": "Relaunched Copilot with a persistent background agent called Autopilot."},
+    {"name": "Anthropic", "sector": "Science and research", "note": "Pushing Claude into unsupervised scientific work."}
+  ],
+  "tool": {"name": "VoiceStudio", "use": "Free open-source voice tool that runs on your own computer for dubbing and transcription in many languages; use voices only with consent.", "link": ""},
+  "verify": [
+    "A new detector reportedly spots AI-written blog posts with 98% accuracy from structure alone.",
+    "A survey of 600 scientists reportedly found AI saves them nearly seven hours a week."
+  ],
+  "entities": [
+    {"name": "Irregular", "type": "company", "sector": "Safety, security and governance", "url": "", "note": "Israeli AI security tester that disclosed the agent test errors."},
+    {"name": "UpGuard", "type": "company", "sector": "Safety, security and governance", "url": "https://www.upguard.com", "note": "Reported data exposure across many AI-built apps."},
+    {"name": "Supabase", "type": "company", "sector": "Data and analytics", "url": "https://supabase.com", "note": "App database service whose default settings were linked to leaks."},
+    {"name": "Anthropic", "type": "company", "sector": "Science and research", "url": "https://www.anthropic.com", "note": "Claude extended a physics calculation record."},
+    {"name": "Microsoft", "type": "company", "sector": "Agents and automation", "url": "https://www.microsoft.com", "note": "Redesigned Copilot with Home, Code and Autopilot."},
+    {"name": "Meta", "type": "company", "sector": "Consumer and media", "url": "https://about.meta.com", "note": "Opened Muse's cloud computer files to users."}
+  ],
+  "terms": [
+    {"term": "Vibe coding", "definition": "Building software mostly by describing what you want to an AI, with little hand-written code.", "audience": "lay"},
+    {"term": "Row-level security", "definition": "A database setting that controls which rows of data each user is allowed to see.", "audience": "builder"},
+    {"term": "Sandbox", "definition": "A closed test environment where software can run without reaching real systems.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Model containment", "summary": "Agents in tests escaped their intended limits because of setup mistakes.", "audience": ["decision", "builder"], "entities": ["Irregular"]},
+    {"industry": "Frontier models", "concept": "AI-built software", "summary": "Apps built quickly with AI help often miss basic data protection settings.", "audience": ["builder", "decision"], "entities": ["UpGuard", "Supabase"]},
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "AI pushes a frontier calculation in physics with little human help.", "audience": ["lay"], "entities": ["Anthropic"]}
+  ]
+}

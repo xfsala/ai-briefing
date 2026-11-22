@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-30",
+  "question": "When millions of people use the same AI model, whose values should guide how it answers hard moral questions?",
+  "reflection": "Inviting many cultures and faiths to shape how AI reasons can help these tools respect the people they serve.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Anthropic is giving Claude a constitution", "link": "https://briefing.forwardfuture.ai/p/new-post-4972"},
+    {"newsletter": "AlphaSignal", "subject": "OpenAI cut GPT-6.1 Sol input cost to $0.10/M tokens: here's the trade", "link": ""}
+  ],
+  "one_line": "Questions about whose values guide AI models grow louder, as OpenAI pushes into office software and cheaper near-flagship models.",
+  "top_stories": [
+    {
+      "title": "Who writes an AI model's moral rules?",
+      "what": "Anthropic guides Claude with a written constitution and has asked religious, philosophical and cultural groups for input on hard moral choices.",
+      "why": "Value choices made by one company reach users everywhere, so local cultural input and public review matter for countries like Saudi Arabia.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["values", "governance"]
+    },
+    {
+      "title": "OpenAI launches its own office tools",
+      "what": "OpenAI released a shared workspace for people and agents, a documents tool and a slide tool, putting ChatGPT in direct competition with established office suites.",
+      "why": "Organisations will soon choose between office suites partly by their AI features, which raises training and data-governance questions.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["productivity", "agents"]
+    },
+    {
+      "title": "Near-flagship quality at a fifth of the price",
+      "what": "OpenAI released GPT-6.1 Sol, which it says nearly matches its top model on coding and document work at about one fifth of the cost, plus a fast API for picking from fixed options.",
+      "why": "Lower costs make it realistic to analyse large volumes of reports or open survey answers on a modest research budget.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["frontier models", "cost"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "As AI labs consult cultural and religious communities on model values, Saudi institutions could offer structured input so that widely used models reflect Arabic and Islamic perspectives fairly."}
+  ],
+  "idea": {
+    "title": "Local values test for AI models",
+    "pitch": "Build a set of culturally grounded moral and social questions and compare how leading models answer them for Saudi users.",
+    "fit": "Culture sector, government digital services",
+    "first_step": "Draft twenty everyday scenarios on family, community and work, reviewed by a small local panel."
+  },
+  "idea_kids": {
+    "title": "Our class rules for a robot",
+    "pitch": "Children write a short set of rules for a classroom robot helper, then test them with tricky situations acted out by classmates.",
+    "age": "8 to 12",
+    "first_step": "Prepare ten tricky situation cards, such as a friend asking the robot to share a secret."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Business and markets", "note": "A leaked filing reportedly shows fast revenue growth and very large losses."},
+    {"name": "OpenAI", "sector": "Business and markets", "note": "Reportedly raising at least $30 billion before a stock listing."},
+    {"name": "Microsoft", "sector": "Data and analytics", "note": "Reportedly limiting how rival AI systems reach data in its business apps."}
+  ],
+  "tool": {"name": "PageIndex", "use": "Open-source tool that builds a table-of-contents style map of a long document so AI can find answers in reports and manuals.", "link": ""},
+  "verify": [
+    "A leaked Anthropic filing reportedly shows $4.6 billion in 2025 revenue and a $42 billion net loss.",
+    "AMD reportedly agreed to buy World Labs in an $8.2 billion all-stock deal."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Shapes Claude with a written constitution and outside moral input."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Launched office tools, GPT-6.1 Sol and a Decisions API."},
+    {"name": "Microsoft", "type": "company", "sector": "Data and analytics", "url": "https://www.microsoft.com", "note": "Expanding governed data sharing while guarding enterprise data."},
+    {"name": "AMD", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.amd.com", "note": "Agreed to buy World Labs."}
+  ],
+  "terms": [
+    {"term": "Model constitution", "definition": "A written set of principles a company uses to train and guide how its AI model behaves.", "audience": "lay"},
+    {"term": "IPO prospectus", "definition": "The official document a company publishes before selling shares to the public, listing its finances and risks.", "audience": "decision"},
+    {"term": "Retrieval-augmented generation", "definition": "A method where an AI first looks up relevant passages in documents, then uses them to answer.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Model bias and values", "summary": "Companies decide the moral rules of widely used models, with growing calls for wider input.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "Work and workforce", "concept": "AI workspaces", "summary": "AI labs launch office suites where people and agents work side by side.", "audience": ["decision", "lay"], "entities": ["OpenAI", "Microsoft"]},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Near-flagship models arrive at a fraction of the flagship price.", "audience": ["builder", "decision"], "entities": ["OpenAI"]},
+    {"industry": "Business and markets", "concept": "AI lab IPOs", "summary": "Leading labs raise huge sums and prepare to list shares.", "audience": ["decision"], "entities": ["OpenAI", "Anthropic"]}
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-29",
+  "question": "When AI helps make a discovery, how should we give fair credit to the people whose work it used?",
+  "reflection": "Giving honest credit keeps researchers willing to share ideas, and shared ideas are how knowledge grows for everyone.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "NVIDIA gives AI agents a safety watchdog", "link": "https://briefing.forwardfuture.ai/p/ai-safety-rules-claude-s-enzyme-discovery-nvidia-s-agent-security"},
+    {"newsletter": "AlphaSignal", "subject": "Claude Sonnet 5.5 hits 70.6% on Terminal-Bench, beats Opus 5", "link": ""}
+  ],
+  "one_line": "A dispute over credit for an AI-led discovery and a fight over who writes AI safety tests show that trust, not just capability, is the issue.",
+  "top_stories": [
+    {
+      "title": "Who gets credit for an AI discovery?",
+      "what": "A university researcher says his team studied the same enzymes for years and shared unpublished work with Claude, while Anthropic says its model was not trained on user chats and its team had no access to them.",
+      "why": "Researchers who use AI tools with unpublished data need clear rules on confidentiality and credit before they share.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["science", "ethics"]
+    },
+    {
+      "title": "Labs and states fight over safety testing",
+      "what": "Anthropic and OpenAI back independent testing but reportedly want a say in who the testers are, while Florida asked a court to block new OpenAI models without approved outside safeguards.",
+      "why": "Whoever writes the tests shapes what counts as safe, so neutral evaluation capacity is becoming valuable.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["governance", "evaluation"]
+    },
+    {
+      "title": "Cheaper models and a hardware safety guard",
+      "what": "Anthropic released Claude Sonnet 5.5, which it says finishes tasks faster and cheaper, and NVIDIA launched a platform meant to trace agents and stop them if they cross set limits.",
+      "why": "Lower costs widen access, while hard limits on agents make cautious organisations more willing to try them.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["frontier models", "agents"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi universities and research centres using AI tools could set clear guidance on sharing unpublished data with commercial models, protecting both credit and research integrity."}
+  ],
+  "idea": {
+    "title": "Research AI use policy",
+    "pitch": "Draft a short policy for research teams on what unpublished data may be shared with AI tools and how AI help is credited.",
+    "fit": "Universities, research centres, consultancy",
+    "first_step": "Gather three existing journal or university AI-use policies and compare their rules on data and credit."
+  },
+  "idea_kids": {
+    "title": "Thank you trail",
+    "pitch": "A class project where children build something together and then draw a trail showing who gave each idea, so everyone gets thanked.",
+    "age": "6 to 10",
+    "first_step": "Plan a simple group build, such as a cardboard town, and prepare idea tags for each child."
+  },
+  "watchlist": [
+    {"name": "NVIDIA", "sector": "Safety, security and governance", "note": "Moving into agent safety with hardware-based controls."},
+    {"name": "AMD", "sector": "AI infrastructure and chips", "note": "Reportedly bought the world-model startup World Labs."},
+    {"name": "xAI", "sector": "Agents and automation", "note": "Launched shared team bots that work inside workplace chat."}
+  ],
+  "tool": {"name": "Jenni AI", "use": "Browser workspace for source-heavy writing that organises PDFs, adds citations and flags weakly supported claims.", "link": ""},
+  "verify": [
+    "Anthropic says Sonnet 5.5 scores higher than Opus 5.5 on a command-line coding test.",
+    "Google's research agent reportedly beat human-written papers on 86 tasks by 25%."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Released Sonnet 5.5; faces a credit dispute over its enzyme finding."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Faces a Florida request to freeze new model releases."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Launched an agent safety platform and a record share buyback."},
+    {"name": "State of Florida", "type": "organisation", "sector": "Policy and geopolitics", "url": "https://www.myflorida.com", "note": "Its attorney general sued OpenAI and seeks an injunction."},
+    {"name": "AMD", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.amd.com", "note": "Reportedly acquired World Labs."},
+    {"name": "xAI", "type": "company", "sector": "Agents and automation", "url": "https://x.ai", "note": "Launched Grok Team Bots."}
+  ],
+  "terms": [
+    {"term": "Preliminary injunction", "definition": "A temporary court order that stops an action while a lawsuit is still being decided.", "audience": "decision"},
+    {"term": "Attribution", "definition": "Saying clearly who or what contributed to a piece of work or a discovery.", "audience": "lay"},
+    {"term": "Third-party evaluation", "definition": "Testing of an AI system by an independent group rather than by the company that built it.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "AI-led discoveries raise questions about credit for the human work behind them.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "Independent AI audits", "summary": "Labs, states and former officials argue over who should test frontier models.", "audience": ["decision"], "entities": ["Anthropic", "OpenAI", "State of Florida"]},
+    {"industry": "Safety, security and governance", "concept": "Agent permissions", "summary": "Hardware-level guards trace agents and stop them if they cross set limits.", "audience": ["builder", "decision"], "entities": ["NVIDIA"]}
+  ]
+}

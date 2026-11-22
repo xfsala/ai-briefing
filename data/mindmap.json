@@ -510,11 +510,16 @@
      ],
      "days": [
       "2026-11-11",
-      "2026-10-27"
+      "2026-10-27",
+      "2026-09-30"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -786,11 +791,20 @@
       "decision"
      ],
      "days": [
-      "2026-11-10"
+      "2026-11-10",
+      "2026-09-28"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Supabase",
+       "kind": "entity"
+      },
+      {
+       "name": "UpGuard",
        "kind": "entity"
       }
      ]
@@ -831,6 +845,7 @@
       "2026-10-25",
       "2026-10-18",
       "2026-10-08",
+      "2026-09-30",
       "2026-09-23",
       "2026-09-20"
      ],
@@ -1405,12 +1420,14 @@
      "kind": "concept",
      "summary": "Banks and others decide which actions agents may take on people's behalf.",
      "audience": [
+      "builder",
       "decision",
       "lay"
      ],
      "days": [
       "2026-10-15",
       "2026-10-05",
+      "2026-09-29",
       "2026-09-22"
      ],
      "children": [
@@ -1428,6 +1445,10 @@
       },
       {
        "name": "Meta",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
        "kind": "entity"
       }
      ]
@@ -1497,6 +1518,7 @@
       "2026-11-17",
       "2026-10-19",
       "2026-10-07",
+      "2026-09-29",
       "2026-09-21",
       "2026-09-18"
      ],
@@ -1530,6 +1552,10 @@
        "kind": "entity"
       },
       {
+       "name": "State of Florida",
+       "kind": "entity"
+      },
+      {
        "name": "Vals",
        "kind": "entity"
       }
@@ -1541,15 +1567,21 @@
      "summary": "Measuring and changing whose views an AI model reflects in its answers.",
      "audience": [
       "builder",
-      "decision"
+      "decision",
+      "lay"
      ],
      "days": [
       "2026-11-09",
+      "2026-09-30",
       "2026-09-22"
      ],
      "children": [
       {
        "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
+       "name": "Anthropic",
        "kind": "entity"
       },
       {
@@ -1574,7 +1606,8 @@
       "2026-10-27",
       "2026-10-26",
       "2026-10-15",
-      "2026-10-13"
+      "2026-10-13",
+      "2026-09-28"
      ],
      "children": [
       {
@@ -1587,6 +1620,10 @@
       },
       {
        "name": "Cohere",
+       "kind": "entity"
+      },
+      {
+       "name": "Irregular",
        "kind": "entity"
       },
       {
@@ -1713,6 +1750,8 @@
       "2026-10-19",
       "2026-10-09",
       "2026-10-06",
+      "2026-09-29",
+      "2026-09-28",
       "2026-09-24"
      ],
      "children": [
@@ -1817,7 +1856,8 @@
      "days": [
       "2026-11-11",
       "2026-10-09",
-      "2026-10-07"
+      "2026-10-07",
+      "2026-09-30"
      ],
      "children": [
       {
@@ -1826,6 +1866,14 @@
       },
       {
        "name": "Google",
+       "kind": "entity"
+      },
+      {
+       "name": "Microsoft",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
