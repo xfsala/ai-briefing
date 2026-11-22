@@ -1,0 +1,181 @@
+[
+ {
+  "id": "alphasignal",
+  "name": "AlphaSignal",
+  "type": "organisation",
+  "sector": "AI media",
+  "url": "https://alphasignal.ai",
+  "note": "Daily AI news for developers, founded by Lior Alexander.",
+  "days": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "amd",
+  "name": "AMD",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.amd.com",
+  "note": "Chipmaker working with OpenAI on AI-assisted chip design.",
+  "days": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "id": "anthropic",
+  "name": "Anthropic",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://www.anthropic.com",
+  "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
+  "days": [
+   "2026-11-19",
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "apollo-research",
+  "name": "Apollo Research",
+  "type": "organisation",
+  "sector": "AI evaluation",
+  "url": "https://www.apolloresearch.ai",
+  "note": "Independent group testing whether AI models could act against their developers.",
+  "days": [
+   "2026-11-18"
+  ]
+ },
+ {
+  "id": "cognition",
+  "name": "Cognition",
+  "type": "company",
+  "sector": "AI software engineering",
+  "url": "https://cognition.ai",
+  "note": "Maker of the Devin coding agent and Devin Bots.",
+  "days": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "id": "forward-future",
+  "name": "Forward Future",
+  "type": "organisation",
+  "sector": "AI media",
+  "url": "https://www.forwardfuture.ai",
+  "note": "Daily AI briefing by Matthew Berman and Nick Wentz.",
+  "days": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "google-deepmind",
+  "name": "Google DeepMind",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://deepmind.google",
+  "note": "Google's AI lab behind the Gemini models.",
+  "days": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "isomorphic-labs",
+  "name": "Isomorphic Labs",
+  "type": "company",
+  "sector": "Healthcare and life sciences",
+  "url": "https://www.isomorphiclabs.com",
+  "note": "AI drug-discovery company spun out of Google DeepMind.",
+  "days": [
+   "2026-11-18"
+  ]
+ },
+ {
+  "id": "meta-muse",
+  "name": "Meta Muse",
+  "type": "product",
+  "sector": "Personal AI assistants",
+  "url": "https://www.meta.com",
+  "note": "Meta's personal AI agent with long-term memory; facing privacy concerns.",
+  "days": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "id": "metr",
+  "name": "METR",
+  "type": "organisation",
+  "sector": "AI evaluation",
+  "url": "https://metr.org",
+  "note": "Independent research group that evaluates the abilities and risks of frontier models.",
+  "days": [
+   "2026-11-18"
+  ]
+ },
+ {
+  "id": "nous-research",
+  "name": "Nous Research",
+  "type": "company",
+  "sector": "Open-source agents",
+  "url": "https://nousresearch.com",
+  "note": "Maker of the open-source Hermes models and the Hermes Enterprise agent.",
+  "days": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "nvidia",
+  "name": "Nvidia",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.nvidia.com",
+  "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
+  "days": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "id": "openai",
+  "name": "OpenAI",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://openai.com",
+  "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
+  "days": [
+   "2026-11-18",
+   "2026-11-19",
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "sarvam",
+  "name": "Sarvam",
+  "type": "company",
+  "sector": "Sovereign AI",
+  "url": "https://www.sarvam.ai",
+  "note": "Indian AI company building nationally hosted models.",
+  "days": [
+   "2026-11-18"
+  ]
+ },
+ {
+  "id": "vals",
+  "name": "Vals",
+  "type": "company",
+  "sector": "AI evaluation",
+  "url": "https://www.vals.ai",
+  "note": "AI evaluation company testing model behaviour on real-world tasks.",
+  "days": [
+   "2026-11-18"
+  ]
+ },
+ {
+  "id": "zocdoc",
+  "name": "Zocdoc",
+  "type": "company",
+  "sector": "Health access",
+  "url": "https://www.zocdoc.com",
+  "note": "US platform for booking doctor appointments.",
+  "days": [
+   "2026-11-18"
+  ]
+ }
+]

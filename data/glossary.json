@@ -1,0 +1,83 @@
+[
+ {
+  "id": "ai-agent",
+  "term": "AI agent",
+  "definition": "An AI system that carries out tasks step by step on your behalf, such as searching, filling in forms or drafting documents, rather than only answering questions.",
+  "audience": "lay",
+  "days": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "cost-per-task",
+  "term": "Cost per task",
+  "definition": "What it costs to get a job done with an AI model, which depends on both the price per word processed and how much work the model needs.",
+  "audience": "decision",
+  "days": [
+   "2026-11-18"
+  ]
+ },
+ {
+  "id": "export-controls",
+  "term": "Export controls",
+  "definition": "Government rules that limit which countries or companies may buy certain technologies, such as advanced AI chips.",
+  "audience": "decision",
+  "days": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "id": "platform-bundling",
+  "term": "Platform bundling",
+  "definition": "When a large platform adds a feature for free that smaller companies were selling on its own, often putting those companies out of business.",
+  "audience": "decision",
+  "days": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "proactive-assistant",
+  "term": "Proactive assistant",
+  "definition": "An AI assistant that notices what needs doing from your email, calendar or files and offers to do it, instead of waiting for a request.",
+  "audience": "lay",
+  "days": [
+   "2026-11-19"
+  ]
+ },
+ {
+  "id": "self-hosted",
+  "term": "Self-hosted",
+  "definition": "Software that runs on an organisation's own servers or cloud account, so its data does not pass through the vendor's systems.",
+  "audience": "decision",
+  "days": [
+   "2026-11-20"
+  ]
+ },
+ {
+  "id": "sovereign-ai",
+  "term": "Sovereign AI",
+  "definition": "AI models and computing that a country hosts and governs itself, so that data and control stay under national rules.",
+  "audience": "decision",
+  "days": [
+   "2026-11-18"
+  ]
+ },
+ {
+  "id": "third-party-evaluation",
+  "term": "Third-party evaluation",
+  "definition": "Testing of an AI model by an independent organisation rather than by the company that built it.",
+  "audience": "decision",
+  "days": [
+   "2026-11-18"
+  ]
+ },
+ {
+  "id": "trust-calibration",
+  "term": "Trust calibration",
+  "definition": "How well a person's trust in a system matches how reliable it really is: trusting it when it is right and doubting it when it is wrong.",
+  "audience": "decision",
+  "days": [
+   "2026-11-19"
+  ]
+ }
+]

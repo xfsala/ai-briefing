@@ -1,0 +1,41 @@
+[
+ {
+  "date": "2026-11-20",
+  "one_line": "AI features are turning into free buttons inside big platforms, so the lasting value is moving to data, relationships and real-world know-how.",
+  "titles": [
+   "AI startups face their first wave of extinction",
+   "Agents move into the chat tools teams already use",
+   "Cheaper voice agents that pause when callers go quiet"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-19",
+  "one_line": "Personal AI assistants are becoming proactive, but the privacy and liability rules around them are still being written.",
+  "titles": [
+   "Proactive assistants: helpful, but not yet reliable",
+   "Banks say customers carry the risk of AI agents",
+   "AI starts to design the chips that run AI"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-11-18",
+  "one_line": "Models keep getting cheaper and smarter, but connecting them to messy real-world systems is now the hard part.",
+  "titles": [
+   "Agents are limited by the real world, not by intelligence",
+   "OpenAI cuts the cost of its top model by two thirds",
+   "Outside safety teams get deeper access to OpenAI's models"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ }
+]

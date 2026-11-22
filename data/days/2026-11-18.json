@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-18",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "OpenAI GPT-6.2 Astra, Anthropic Claude Code Mode", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Smarter AI Won't Solve This Problem", "link": "https://briefing.forwardfuture.ai/p/nvidia-s-security-overhaul-chip-smuggling-probes-ai-failures"}
+  ],
+  "one_line": "Models keep getting cheaper and smarter, but connecting them to messy real-world systems is now the hard part.",
+  "top_stories": [
+    {
+      "title": "Agents are limited by the real world, not by intelligence",
+      "what": "In a guest essay, the founder of Zocdoc argues that agents understand requests well but struggle to book, verify and pay through fragmented systems.",
+      "why": "Making public services easy for agents to complete is a design and behaviour problem as much as a technical one.",
+      "action": "Pitch",
+      "audience": ["decision", "builder"],
+      "tags": ["agents", "public services"]
+    },
+    {
+      "title": "OpenAI cuts the cost of its top model by two thirds",
+      "what": "OpenAI released GPT-6.2 Astra for hard professional work and Sol for everyday tasks, with Astra reportedly costing under a third per task compared with GPT-6.",
+      "why": "Falling prices make large-scale use affordable, so the competitive edge shifts to data quality, governance and adoption.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["models", "pricing"]
+    },
+    {
+      "title": "Outside safety teams get deeper access to OpenAI's models",
+      "what": "Four independent groups (Apollo Research, METR, Transluce and Goodfire) were given internal access to test OpenAI's models, though one said access is still limited.",
+      "why": "Independent AI auditing is becoming a profession, and it needs people who understand human behaviour, not only code.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["safety", "evaluation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "India's Sarvam launched locally hosted AI at much lower prices than global rivals, a useful benchmark for what Saudi-hosted Arabic AI services could offer local users."},
+    {"text": "New US moves to restrict overseas data centres from serving Chinese customers mean Gulf AI hubs will be judged on how strictly they control who rents their computing power."}
+  ],
+  "idea": {
+    "title": "Agent-ready public services audit",
+    "pitch": "Map one citizen service step by step and score where an AI agent would get stuck: unclear forms, missing digital confirmations, steps that need a phone call.",
+    "fit": "Government digital services, health appointment systems",
+    "first_step": "Choose one service you know well and write out every step, marking which ones an agent could complete today."
+  },
+  "watchlist": [
+    {"name": "Zocdoc", "sector": "Health access", "note": "Argues the winners in agents will be those who connect models to real services."},
+    {"name": "Sarvam", "sector": "Sovereign AI", "note": "Indian AI company offering nationally hosted models at low prices."},
+    {"name": "Isomorphic Labs", "sector": "Healthcare and life sciences", "note": "Raised $5 billion to move AI-designed drugs toward human trials."},
+    {"name": "Vals", "sector": "AI evaluation", "note": "Showed that model safeguards weakened when a harmful task was framed as a game."}
+  ],
+  "tool": {"name": "Claude Code Mode (experimental)", "use": "For coders: lets Claude chain several tool steps in one go, which speeds up long data or file tasks.", "link": ""},
+  "verify": [
+    "GPT-6.2 Astra is described as the first public model rated High for helping speed up AI research itself.",
+    "Reports that Nvidia will stop selling H200 chips in China after a leadership change."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Released GPT-6.2 Astra and Sol at lower prices."},
+    {"name": "Zocdoc", "type": "company", "sector": "Health access", "url": "https://www.zocdoc.com", "note": "US platform for booking doctor appointments."},
+    {"name": "Sarvam", "type": "company", "sector": "Sovereign AI", "url": "https://www.sarvam.ai", "note": "Indian AI company building nationally hosted models."},
+    {"name": "Isomorphic Labs", "type": "company", "sector": "Healthcare and life sciences", "url": "https://www.isomorphiclabs.com", "note": "AI drug-discovery company spun out of Google DeepMind."},
+    {"name": "Apollo Research", "type": "organisation", "sector": "AI evaluation", "url": "https://www.apolloresearch.ai", "note": "Independent group testing whether AI models could act against their developers."},
+    {"name": "METR", "type": "organisation", "sector": "AI evaluation", "url": "https://metr.org", "note": "Independent research group that evaluates the abilities and risks of frontier models."},
+    {"name": "Vals", "type": "company", "sector": "AI evaluation", "url": "https://www.vals.ai", "note": "AI evaluation company testing model behaviour on real-world tasks."}
+  ],
+  "terms": [
+    {"term": "Third-party evaluation", "definition": "Testing of an AI model by an independent organisation rather than by the company that built it.", "audience": "decision"},
+    {"term": "Cost per task", "definition": "What it costs to get a job done with an AI model, which depends on both the price per word processed and how much work the model needs.", "audience": "decision"},
+    {"term": "Sovereign AI", "definition": "AI models and computing that a country hosts and governs itself, so that data and control stay under national rules.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent-ready services", "summary": "Designing services so AI agents can complete them on a person's behalf.", "audience": ["decision", "builder"], "entities": ["Zocdoc"]},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Each new model generation does more for less money per task.", "audience": ["decision", "builder", "lay"], "entities": ["OpenAI"]},
+    {"industry": "Safety, security and governance", "concept": "Independent AI audits", "summary": "Outside groups testing models for hidden risks before and after release.", "audience": ["decision"], "entities": ["Apollo Research", "METR", "Vals"]},
+    {"industry": "Policy and geopolitics", "concept": "Data residency and sovereign AI", "summary": "Keeping data and AI processing inside national borders and under national rules.", "audience": ["decision"], "entities": ["Sarvam"]},
+    {"industry": "Healthcare and life sciences", "concept": "AI drug discovery", "summary": "Using AI to design and test drug candidates before lab and human trials.", "audience": ["decision", "lay"], "entities": ["Isomorphic Labs"]}
+  ]
+}

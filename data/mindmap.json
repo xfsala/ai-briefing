@@ -1,0 +1,281 @@
+{
+ "name": "AI landscape",
+ "children": [
+  {
+   "name": "AI infrastructure and chips",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "AI-designed chips",
+     "kind": "concept",
+     "summary": "Using AI models to improve the design of the processors that run AI.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-19"
+     ],
+     "children": [
+      {
+       "name": "AMD",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Agents and automation",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "Agent-ready services",
+     "kind": "concept",
+     "summary": "Designing services so AI agents can complete them on a person's behalf.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-18"
+     ],
+     "children": [
+      {
+       "name": "Zocdoc",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Agents inside workplace chat",
+     "kind": "concept",
+     "summary": "AI agents that work inside Teams, Slack and meetings as shared team members.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-11-20"
+     ],
+     "children": [
+      {
+       "name": "Nous Research",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Proactive personal assistants",
+     "kind": "concept",
+     "summary": "Assistants that watch your work and offer to act before being asked.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-19"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Meta Muse",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Voice agents",
+     "kind": "concept",
+     "summary": "AI that holds spoken conversations on calls, now cheap enough for surveys and service lines.",
+     "audience": [
+      "builder",
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-20"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Business and markets",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "AI startup consolidation",
+     "kind": "concept",
+     "summary": "Standalone AI products are being absorbed or replaced by features inside big platforms.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-20"
+     ],
+     "children": [
+      {
+       "name": "Google DeepMind",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Frontier models",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "Falling cost of intelligence",
+     "kind": "concept",
+     "summary": "Each new model generation does more for less money per task.",
+     "audience": [
+      "builder",
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-18"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Healthcare and life sciences",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "AI drug discovery",
+     "kind": "concept",
+     "summary": "Using AI to design and test drug candidates before lab and human trials.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-18"
+     ],
+     "children": [
+      {
+       "name": "Isomorphic Labs",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Policy and geopolitics",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "Chip export controls",
+     "kind": "concept",
+     "summary": "Rules deciding which countries and companies can access advanced AI chips.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-19"
+     ],
+     "children": [
+      {
+       "name": "Nvidia",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Data residency and sovereign AI",
+     "kind": "concept",
+     "summary": "Keeping data and AI processing inside national borders and under national rules.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-20",
+      "2026-11-18"
+     ],
+     "children": [
+      {
+       "name": "Nous Research",
+       "kind": "entity"
+      },
+      {
+       "name": "Sarvam",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Safety, security and governance",
+   "kind": "industry",
+   "children": [
+    {
+     "name": "Agent liability",
+     "kind": "concept",
+     "summary": "Who pays when an AI agent acting for a person makes a mistake or is hacked.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-11-19"
+     ],
+     "children": []
+    },
+    {
+     "name": "Independent AI audits",
+     "kind": "concept",
+     "summary": "Outside groups testing models for hidden risks before and after release.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-11-18"
+     ],
+     "children": [
+      {
+       "name": "Apollo Research",
+       "kind": "entity"
+      },
+      {
+       "name": "METR",
+       "kind": "entity"
+      },
+      {
+       "name": "Vals",
+       "kind": "entity"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

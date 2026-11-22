@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Briefing</title>
+<meta name="description" content="A daily one-page briefing on AI, built from two newsletters and read through a Saudi and behavioural-science lens.">
+<style>
+  :root {
+    --ink: #1C2321;
+    --teal: #0E5A55;
+    --gold: #7E5F2F;
+    --teal-soft: #E3EEED;
+    --gold-soft: #F3ECE2;
+    --paper: #FAF8F5;
+    --card: #FFFFFF;
+    --line: #E2DDD6;
+    --muted: #5F625F;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    font-family: Calibri, Carlito, "Segoe UI", Candara, Arial, sans-serif;
+    color: var(--ink); background: var(--paper); font-size: 17px; line-height: 1.5;
+  }
+  a { color: var(--teal); }
+  header {
+    background: var(--ink); color: #fff; padding: 18px 24px 0;
+  }
+  .brand { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .brand h1 { margin: 0; font-size: 26px; letter-spacing: .3px; }
+  .brand p { margin: 0; color: #C9CFCC; font-size: 15px; }
+  nav { display: flex; gap: 4px; margin-top: 14px; overflow-x: auto; }
+  nav button {
+    font: inherit; font-size: 16px; border: 0; cursor: pointer; white-space: nowrap;
+    background: transparent; color: #C9CFCC; padding: 10px 16px; border-radius: 8px 8px 0 0;
+  }
+  nav button[aria-selected="true"] { background: var(--paper); color: var(--ink); font-weight: 700; }
+  main { max-width: 1180px; margin: 0 auto; padding: 24px; }
+  .panel[hidden] { display: none; }
+
+  /* Daily */
+  .daily { display: grid; grid-template-columns: 270px 1fr; gap: 24px; align-items: start; }
+  .archive { position: sticky; top: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px; max-height: calc(100vh - 24px); overflow: auto; }
+  .archive input { width: 100%; font: inherit; font-size: 15px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; }
+  .archive h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .8px; color: var(--gold); margin: 16px 0 6px; }
+  .archive button {
+    display: block; width: 100%; text-align: left; font: inherit; font-size: 15px; background: none; border: 0;
+    padding: 6px 8px; border-radius: 6px; cursor: pointer; color: var(--ink);
+  }
+  .archive button:hover { background: var(--teal-soft); }
+  .archive button.active { background: var(--teal); color: #fff; }
+  .archive small { display: block; color: inherit; opacity: .75; font-size: 13px; line-height: 1.3; }
+  .page { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 28px 32px; }
+  .page .date { color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; }
+  .oneline { font-size: 24px; line-height: 1.3; margin: 6px 0 4px; font-weight: 700; }
+  .srcs { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+  .section { margin-top: 22px; }
+  .section h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 1px; color: var(--teal); margin: 0 0 10px; border-bottom: 2px solid var(--teal-soft); padding-bottom: 4px; }
+  .story { border-left: 4px solid var(--teal); padding: 6px 0 6px 14px; margin-bottom: 14px; }
+  .story h3 { margin: 0 0 4px; font-size: 19px; }
+  .story p { margin: 2px 0; }
+  .story b { color: var(--gold); font-weight: 700; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .chip { font-size: 12.5px; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); }
+  .chip.action { background: var(--ink); color: #fff; border-color: var(--ink); font-weight: 700; }
+  .chip.lay { background: var(--gold-soft); border-color: #D9C7AE; }
+  .chip.builder { background: var(--teal-soft); border-color: #B9D3D0; }
+  .chip.decision { background: #E6E8E7; border-color: #C5CAC8; }
+  .lens p, .idea p { margin: 4px 0; }
+  .idea { background: var(--gold-soft); border-radius: 10px; padding: 14px 16px; }
+  .idea h3 { margin: 0 0 6px; }
+  .watch { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+  .watch div { border: 1px solid var(--line); border-top: 4px solid var(--gold); border-radius: 8px; padding: 10px 12px; }
+  .watch strong { display: block; }
+  .watch span { font-size: 13px; color: var(--teal); font-weight: 700; }
+  .verify li { margin-bottom: 4px; }
+  .empty { color: var(--muted); font-style: italic; }
+
+  /* Guide */
+  .guide { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 28px 32px; max-width: 860px; }
+  .qa { margin-bottom: 20px; }
+  .qa h3 { margin: 0 0 6px; color: var(--teal); }
+  .qa p { margin: 4px 0; }
+  .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 10px 0; }
+  .legend div { border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: var(--paper); }
+
+  /* Who & What */
+  .subnav { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; align-items: center; }
+  .subnav button, .filters button {
+    font: inherit; font-size: 15px; border: 1px solid var(--line); background: var(--card); padding: 6px 14px; border-radius: 999px; cursor: pointer;
+  }
+  .subnav button[aria-pressed="true"], .filters button[aria-pressed="true"] { background: var(--teal); color: #fff; border-color: var(--teal); }
+  .subnav input, .subnav select { font: inherit; font-size: 15px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; }
+  .subnav input { flex: 1; min-width: 180px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .card h3 { margin: 0 0 2px; font-size: 18px; }
+  .card .meta { font-size: 13px; color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: .6px; }
+  .card p { margin: 6px 0; }
+  .days a { font-size: 13px; margin-right: 6px; }
+  .count { color: var(--muted); font-size: 14px; }
+
+  /* Mindmap */
+  .mm-wrap { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+  #mindmap { width: 100%; overflow: auto; }
+  #mindmap svg { display: block; }
+  .node text { font-family: inherit; font-size: 14px; }
+  .node circle { cursor: pointer; }
+  .mm-info { margin-top: 10px; background: var(--paper); border-radius: 10px; padding: 12px 14px; min-height: 56px; }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+
+  footer { max-width: 1180px; margin: 0 auto; padding: 8px 24px 40px; color: var(--muted); font-size: 14px; }
+
+  @media (max-width: 820px) {
+    .daily { grid-template-columns: 1fr; }
+    .archive { position: static; max-height: 320px; }
+    .page, .guide { padding: 20px; }
+    main { padding: 14px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>AI Briefing</h1>
+    <p>One page a day on AI, read through a Saudi and behavioural-science lens</p>
+  </div>
+  <nav role="tablist">
+    <button role="tab" data-tab="daily">Daily</button>
+    <button role="tab" data-tab="guide">What this means</button>
+    <button role="tab" data-tab="who">Who &amp; What</button>
+    <button role="tab" data-tab="mindmap">Mindmap</button>
+  </nav>
+</header>
+
+<main>
+  <!-- DAILY -->
+  <section class="panel" id="panel-daily">
+    <div class="daily">
+      <aside class="archive">
+        <input id="archive-search" type="search" placeholder="Search the archive" aria-label="Search the archive">
+        <div id="archive-list"></div>
+      </aside>
+      <article class="page" id="day"><p class="empty">Loading...</p></article>
+    </div>
+  </section>
+
+  <!-- GUIDE -->
+  <section class="panel" id="panel-guide" hidden>
+    <div class="guide">
+      <h2 style="margin-top:0">How to read this briefing</h2>
+      <div class="qa"><h3>What is this?</h3>
+        <p>A one-page summary of two AI newsletters, AlphaSignal (aimed at developers) and Forward Future (aimed at professionals and business readers). It is rewritten every morning in plain language, with sponsored content removed and duplicate stories merged.</p></div>
+      <div class="qa"><h3>What is each section for?</h3>
+        <p><b>Today in one line:</b> the single shift worth remembering if you read nothing else.</p>
+        <p><b>Top stories:</b> three stories, each with what happened, why it matters, and a suggested action.</p>
+        <p><b>Saudi and region lens:</b> how the day's news connects to Saudi digital infrastructure, the economy or policy. When there is no real link, the page says so.</p>
+        <p><b>Project idea:</b> one idea that could become a research or consulting project, with a first step.</p>
+        <p><b>Watchlist:</b> people, companies and organisations worth tracking, tagged by sector.</p>
+        <p><b>Tool to try:</b> only when something is genuinely useful for research or data work.</p>
+        <p><b>Verify before quoting:</b> bold claims to check before repeating them to anyone.</p></div>
+      <div class="qa"><h3>What do Watch, Try and Pitch mean?</h3>
+        <div class="legend">
+          <div><b>Watch</b><br>Important, but nothing to do yet. Keep an eye on how it develops.</div>
+          <div><b>Try</b><br>A tool or method you can test yourself this week.</div>
+          <div><b>Pitch</b><br>Could become a project or a conversation with a client.</div>
+        </div></div>
+      <div class="qa"><h3>Who is each story for?</h3>
+        <div class="legend">
+          <div><span class="chip lay">Lay users</span><br>Anyone curious. No technical background needed.</div>
+          <div><span class="chip builder">Builders</span><br>People who code, build tools or run data projects.</div>
+          <div><span class="chip decision">Decision-makers</span><br>Managers, policymakers and investors deciding where to spend.</div>
+        </div></div>
+      <div class="qa"><h3>How should I judge a headline?</h3>
+        <p>Newsletters are free because your attention is the product, so headlines are written to be clicked. Ask four questions:</p>
+        <p>1. <b>Who says so?</b> A company announcing its own product is not independent evidence.</p>
+        <p>2. <b>Measured on what?</b> Benchmarks are often narrow tests chosen by the company.</p>
+        <p>3. <b>Available to whom?</b> Many launches are US-only, limited previews or waitlists.</p>
+        <p>4. <b>What would change my decision?</b> If the answer is nothing, it is a Watch, not a Try.</p></div>
+      <div class="qa"><h3>How do the other tabs help?</h3>
+        <p><b>Who &amp; What</b> is the reference shelf: a glossary of terms and a list of every company, person and organisation mentioned, with official links and the days they appeared.</p>
+        <p><b>Mindmap</b> shows how industries, concepts and organisations connect. Use the audience filter to see what matters for lay users, builders or decision-makers.</p></div>
+      <div class="qa"><h3>Where does the content come from?</h3>
+        <p>Summaries are original and written by Claude from the newsletters, which remain the property of their publishers. Follow the source links for the full stories, and subscribe to <a href="https://alphasignal.ai" rel="noopener">AlphaSignal</a> and <a href="https://www.forwardfuture.ai" rel="noopener">Forward Future</a> directly.</p></div>
+    </div>
+  </section>
+
+  <!-- WHO & WHAT -->
+  <section class="panel" id="panel-who" hidden>
+    <div class="subnav">
+      <button data-sub="entities" aria-pressed="true">Companies &amp; entities</button>
+      <button data-sub="glossary" aria-pressed="false">Glossary</button>
+      <input id="who-search" type="search" placeholder="Search" aria-label="Search">
+      <select id="who-filter" aria-label="Filter"></select>
+    </div>
+    <p class="count" id="who-count"></p>
+    <div class="cards" id="who-cards"></div>
+  </section>
+
+  <!-- MINDMAP -->
+  <section class="panel" id="panel-mindmap" hidden>
+    <div class="mm-wrap">
+      <div class="filters">
+        <strong>Show relevance for:</strong>
+        <button data-aud="all" aria-pressed="true">Everyone</button>
+        <button data-aud="lay" aria-pressed="false"><span class="dot" style="background:#7E5F2F"></span>Lay users</button>
+        <button data-aud="builder" aria-pressed="false"><span class="dot" style="background:#0E5A55"></span>Builders</button>
+        <button data-aud="decision" aria-pressed="false"><span class="dot" style="background:#1C2321"></span>Decision-makers</button>
+        <button id="mm-expand">Expand all</button>
+        <button id="mm-collapse">Collapse all</button>
+      </div>
+      <div id="mindmap"></div>
+      <div class="mm-info" id="mm-info">Click an industry to open it, then click a concept to see what it means and when it appeared.</div>
+    </div>
+  </section>
+</main>
+
+<footer>Original summaries of AlphaSignal and Forward Future, updated daily. Not affiliated with either newsletter.</footer>
+
+<script src="vendor/d3.min.js"></script>
+<script>
+const AUD_LABEL = { lay: "Lay users", builder: "Builders", decision: "Decision-makers" };
+const AUD_COLOR = { lay: "#7E5F2F", builder: "#0E5A55", decision: "#1C2321" };
+const cache = {};
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const nocache = "?v=" + Math.floor(Date.now() / 60000);
+async function getJSON(path) {
+  if (!cache[path]) cache[path] = fetch(path + nocache).then(r => { if (!r.ok) throw new Error(path); return r.json(); });
+  return cache[path];
+}
+const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+const fmtShort = d => new Date(d + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+const monthOf = d => new Date(d + "T12:00:00").toLocaleDateString("en-GB", { month: "long", year: "numeric" });
+
+/* ---------- tabs and routing ---------- */
+function route() {
+  const [tab, arg] = (location.hash.slice(1) || "daily").split("/");
+  const name = ["daily", "guide", "who", "mindmap"].includes(tab) ? tab : "daily";
+  document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
+  document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "panel-" + name);
+  if (name === "daily") showDaily(arg);
+  if (name === "who") renderWho();
+  if (name === "mindmap") renderMindmap();
+}
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => { location.hash = b.dataset.tab; });
+window.addEventListener("hashchange", route);
+
+/* ---------- daily ---------- */
+let index = [];
+async function loadIndex() {
+  try { index = await getJSON("data/index.json"); } catch { index = []; }
+}
+function renderArchive(active) {
+  const q = document.getElementById("archive-search").value.trim().toLowerCase();
+  const list = index.filter(d => !q || (d.one_line + " " + d.titles.join(" ") + " " + d.date).toLowerCase().includes(q));
+  let html = "", month = "";
+  for (const d of list) {
+    const m = monthOf(d.date);
+    if (m !== month) { html += `<h3>${esc(m)}</h3>`; month = m; }
+    html += `<button class="${d.date === active ? "active" : ""}" data-date="${d.date}">${esc(fmtShort(d.date))}<small>${esc(d.titles[0] || d.one_line)}</small></button>`;
+  }
+  const el = document.getElementById("archive-list");
+  el.innerHTML = html || `<p class="empty">No matching days.</p>`;
+  el.querySelectorAll("button").forEach(b => b.onclick = () => { location.hash = "daily/" + b.dataset.date; });
+}
+document.getElementById("archive-search").addEventListener("input", () => renderArchive((location.hash.split("/")[1]) || (index[0] && index[0].date)));
+
+async function showDaily(date) {
+  if (!index.length) await loadIndex();
+  const el = document.getElementById("day");
+  if (!index.length) { el.innerHTML = `<p class="empty">No briefings yet. The first one is on its way.</p>`; renderArchive(); return; }
+  date = date && index.some(d => d.date === date) ? date : index[0].date;
+  renderArchive(date);
+  let d;
+  try { d = await getJSON(`data/days/${date}.json`); } catch { el.innerHTML = `<p class="empty">Could not load ${esc(date)}.</p>`; return; }
+  const aud = a => (a || []).map(x => `<span class="chip ${x}">${esc(AUD_LABEL[x] || x)}</span>`).join("");
+  const srcs = d.sources.map(s => s.link ? `<a href="${esc(s.link)}" rel="noopener" target="_blank">${esc(s.newsletter)}: ${esc(s.subject)}</a>` : `${esc(s.newsletter)}: ${esc(s.subject)}`).join(" &middot; ");
+  const stories = d.top_stories.map(s => `
+    <div class="story">
+      <h3>${esc(s.title)}</h3>
+      <p><b>What happened:</b> ${esc(s.what)}</p>
+      <p><b>Why it matters:</b> ${esc(s.why)}</p>
+      <div class="chips"><span class="chip action">${esc(s.action)}</span>${aud(s.audience)}${(s.tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+    </div>`).join("");
+  const lens = (d.saudi_lens || []).map(l => `<p>${esc(l.text)}</p>`).join("");
+  const idea = d.idea ? `<div class="idea"><h3>${esc(d.idea.title)}</h3><p>${esc(d.idea.pitch)}</p><p><b>Fits:</b> ${esc(d.idea.fit)}</p><p><b>First step:</b> ${esc(d.idea.first_step)}</p></div>` : "";
+  const watch = (d.watchlist || []).map(w => `<div><strong>${esc(w.name)}</strong><span>${esc(w.sector)}</span><p style="margin:4px 0 0">${esc(w.note)}</p></div>`).join("");
+  const tool = d.tool ? `<p><b>${esc(d.tool.name)}:</b> ${esc(d.tool.use)} ${d.tool.link ? `<a href="${esc(d.tool.link)}" rel="noopener" target="_blank">Link</a>` : ""}</p>` : `<p class="empty">Nothing worth trying today.</p>`;
+  const verify = (d.verify || []).length ? `<ul class="verify">${d.verify.map(v => `<li>${esc(v)}</li>`).join("")}</ul>` : `<p class="empty">No bold claims today.</p>`;
+  el.innerHTML = `
+    <div class="date">${esc(fmtDate(d.date))}</div>
+    <div class="oneline">${esc(d.one_line)}</div>
+    <div class="srcs">${srcs}</div>
+    <div class="section"><h2>Top stories</h2>${stories}</div>
+    <div class="section lens"><h2>Saudi &amp; region lens</h2>${lens}</div>
+    <div class="section"><h2>Project idea of the day</h2>${idea}</div>
+    <div class="section"><h2>Watchlist</h2><div class="watch">${watch}</div></div>
+    <div class="section"><h2>Tool to try</h2>${tool}</div>
+    <div class="section"><h2>Verify before quoting</h2>${verify}</div>`;
+  window.scrollTo({ top: 0 });
+}
+
+/* ---------- who & what ---------- */
+let whoSub = "entities";
+document.querySelectorAll(".subnav [data-sub]").forEach(b => b.onclick = () => {
+  whoSub = b.dataset.sub;
+  document.querySelectorAll(".subnav [data-sub]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  document.getElementById("who-filter").dataset.for = "";
+  renderWho();
+});
+document.getElementById("who-search").addEventListener("input", renderWho);
+document.getElementById("who-filter").addEventListener("change", renderWho);
+const dayLinks = days => `<div class="days">Seen: ${days.slice().sort().reverse().map(d => `<a href="#daily/${d}">${esc(fmtShort(d))}</a>`).join("")}</div>`;
+
+async function renderWho() {
+  const sel = document.getElementById("who-filter");
+  const q = document.getElementById("who-search").value.trim().toLowerCase();
+  const cards = document.getElementById("who-cards");
+  let items;
+  try { items = await getJSON(whoSub === "entities" ? "data/entities.json" : "data/glossary.json"); } catch { items = []; }
+  if (sel.dataset.for !== whoSub) {
+    const opts = whoSub === "entities"
+      ? ["All sectors", ...[...new Set(items.map(i => i.sector).filter(Boolean))].sort()]
+      : ["All audiences", "lay", "builder", "decision"];
+    sel.innerHTML = opts.map((o, i) => `<option value="${i ? esc(o) : ""}">${esc(AUD_LABEL[o] || o)}</option>`).join("");
+    sel.dataset.for = whoSub;
+  }
+  const f = sel.value;
+  if (whoSub === "entities") {
+    const list = items.filter(e => (!f || e.sector === f) && (!q || (e.name + " " + e.note + " " + e.sector).toLowerCase().includes(q)));
+    list.sort((a, b) => b.days.length - a.days.length || a.name.localeCompare(b.name));
+    document.getElementById("who-count").textContent = `${list.length} of ${items.length} entities, most mentioned first`;
+    cards.innerHTML = list.map(e => `<div class="card">
+      <div class="meta">${esc(e.type)} &middot; ${esc(e.sector)}</div>
+      <h3>${e.url ? `<a href="${esc(e.url)}" rel="noopener" target="_blank">${esc(e.name)}</a>` : esc(e.name)}</h3>
+      <p>${esc(e.note)}</p>${dayLinks(e.days)}</div>`).join("") || `<p class="empty">Nothing matches.</p>`;
+  } else {
+    const list = items.filter(g => (!f || g.audience === f) && (!q || (g.term + " " + g.definition).toLowerCase().includes(q)));
+    document.getElementById("who-count").textContent = `${list.length} of ${items.length} terms, A to Z`;
+    cards.innerHTML = list.map(g => `<div class="card">
+      <div class="meta"><span class="chip ${esc(g.audience)}">${esc(AUD_LABEL[g.audience] || g.audience)}</span></div>
+      <h3>${esc(g.term)}</h3><p>${esc(g.definition)}</p>${dayLinks(g.days)}</div>`).join("") || `<p class="empty">Nothing matches.</p>`;
+  }
+}
+
+/* ---------- mindmap ---------- */
+let mmRoot = null, mmAud = "all", mmUpdate = null;
+document.querySelectorAll(".filters [data-aud]").forEach(b => b.onclick = () => {
+  mmAud = b.dataset.aud;
+  document.querySelectorAll(".filters [data-aud]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  if (mmUpdate) mmUpdate(mmRoot);
+});
+function relevant(n) {
+  if (mmAud === "all") return true;
+  const kind = n.data.kind;
+  if (kind === "concept") return (n.data.audience || []).includes(mmAud);
+  if (kind === "entity") return relevant(n.parent);
+  if (kind === "industry") return (n._children || n.children || []).some(relevant);
+  return true;
+}
+async function renderMindmap() {
+  if (mmRoot) return;
+  const host = document.getElementById("mindmap");
+  if (typeof d3 === "undefined") { host.innerHTML = `<p class="empty">The mindmap needs an internet connection to load its drawing library.</p>`; return; }
+  let data;
+  try { data = await getJSON("data/mindmap.json"); } catch { host.innerHTML = `<p class="empty">No mindmap data yet.</p>`; return; }
+  const width = Math.max(host.clientWidth, 900), dx = 26, dy = 250;
+  const tree = d3.tree().nodeSize([dx, dy]);
+  const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+  mmRoot = d3.hierarchy(data);
+  mmRoot.x0 = 0; mmRoot.y0 = 0;
+  mmRoot.descendants().forEach((d, i) => { d.id = i; d._children = d.children; if (d.depth >= 1) d.children = null; });
+  const svg = d3.create("svg").attr("width", width).attr("style", "font:14px Calibri, Carlito, sans-serif; user-select:none;");
+  const gLink = svg.append("g").attr("fill", "none").attr("stroke", "#C9C2B8").attr("stroke-width", 1.4);
+  const gNode = svg.append("g");
+  const nodeColor = d => {
+    if (d.depth === 0) return "#1C2321";
+    if (d.data.kind === "industry") return "#7E5F2F";
+    if (d.data.kind === "concept") {
+      const a = d.data.audience || [];
+      return a.length === 1 ? AUD_COLOR[a[0]] : "#0E5A55";
+    }
+    return "#FFFFFF";
+  };
+  function update(source) {
+    const nodes = mmRoot.descendants().reverse(), links = mmRoot.links();
+    tree(mmRoot);
+    let left = mmRoot, right = mmRoot;
+    mmRoot.eachBefore(n => { if (n.x < left.x) left = n; if (n.x > right.x) right = n; });
+    const height = right.x - left.x + 60;
+    svg.transition().duration(250).attr("height", height).attr("viewBox", [-130, left.x - 30, width, height]);
+    const node = gNode.selectAll("g").data(nodes, d => d.id);
+    const enter = node.enter().append("g").attr("class", "node")
+      .attr("transform", () => `translate(${source.y0},${source.x0})`)
+      .on("click", (e, d) => {
+        if (d.data.kind === "concept" || d.data.kind === "entity") showInfo(d);
+        if (d.children) { d.children = null; } else if (d._children) { d.children = d._children; }
+        update(d);
+      });
+    enter.append("circle").attr("r", d => d.depth === 0 ? 8 : d.data.kind === "entity" ? 4.5 : 6.5).attr("stroke", "#1C2321").attr("stroke-width", 1.2);
+    enter.append("text").attr("dy", "0.32em").attr("x", d => d._children ? -10 : 10)
+      .attr("text-anchor", d => d._children ? "end" : "start")
+      .text(d => d.data.name + (d._children && d.depth > 0 ? ` (${d._children.length})` : ""))
+      .attr("paint-order", "stroke").attr("stroke", "#fff").attr("stroke-width", 3);
+    const all = node.merge(enter);
+    all.transition().duration(250).attr("transform", d => `translate(${d.y},${d.x})`)
+      .attr("opacity", d => relevant(d) ? 1 : 0.18);
+    all.select("circle").attr("fill", nodeColor);
+    all.select("text").attr("font-weight", d => d.depth <= 1 ? 700 : 400);
+    node.exit().transition().duration(250).remove().attr("transform", () => `translate(${source.y},${source.x})`);
+    const link = gLink.selectAll("path").data(links, d => d.target.id);
+    const lenter = link.enter().append("path").attr("d", () => { const o = { x: source.x0, y: source.y0 }; return diagonal({ source: o, target: o }); });
+    link.merge(lenter).transition().duration(250).attr("d", diagonal).attr("opacity", d => relevant(d.target) ? 1 : 0.15);
+    link.exit().transition().duration(250).remove().attr("d", () => { const o = { x: source.x, y: source.y }; return diagonal({ source: o, target: o }); });
+    mmRoot.eachBefore(d => { d.x0 = d.x; d.y0 = d.y; });
+  }
+  mmUpdate = update;
+  update(mmRoot);
+  host.innerHTML = ""; host.append(svg.node());
+  document.getElementById("mm-expand").onclick = () => { mmRoot.descendants().forEach(d => { if (d._children) d.children = d._children; }); update(mmRoot); };
+  document.getElementById("mm-collapse").onclick = () => { mmRoot.descendants().forEach(d => { if (d.depth >= 1) d.children = null; }); update(mmRoot); };
+}
+async function showInfo(d) {
+  const box = document.getElementById("mm-info");
+  if (d.data.kind === "concept") {
+    const a = (d.data.audience || []).map(x => `<span class="chip ${x}">${esc(AUD_LABEL[x])}</span>`).join(" ");
+    box.innerHTML = `<strong>${esc(d.data.name)}</strong> <span class="count">in ${esc(d.parent.data.name)}</span><p style="margin:4px 0">${esc(d.data.summary)}</p>${a}${dayLinks(d.data.days || [])}`;
+  } else {
+    let ents = [];
+    try { ents = await getJSON("data/entities.json"); } catch {}
+    const e = ents.find(x => x.name === d.data.name);
+    box.innerHTML = e
+      ? `<strong>${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a>` : esc(e.name)}</strong> <span class="count">${esc(e.sector)}</span><p style="margin:4px 0">${esc(e.note)}</p>${dayLinks(e.days)}`
+      : `<strong>${esc(d.data.name)}</strong>`;
+  }
+}
+
+route();
+</script>
+</body>
+</html>
