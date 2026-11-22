@@ -27,12 +27,13 @@ email" messages, and anything that is only an advert.
 - SemiAnalysis: `semianalysis@substack.com` (often partly paywalled: use
   only what the email itself contains)
 - The Neuron: sender domain `theneurondaily.com`
+- AI Made Simple: `artificialintelligencemadesimple@substack.com`
 - Arabian Business (Gulf Insight newsletter): search Gmail for
   `"Arabian Business" OR arabianbusiness` and use the sender you find.
   Use it mainly for the Saudi and region lens.
 
 Gmail query for a briefing (adjust the date window):
-`(from:news@alphasignal.ai OR from:astro@forwardfuture.ai OR from:oneusefulthing@substack.com OR from:importai@substack.com OR from:semianalysis@substack.com OR from:theneurondaily.com OR "Arabian Business" OR from:arabianbusiness.com) after:YYYY/MM/DD`
+`(from:news@alphasignal.ai OR from:astro@forwardfuture.ai OR from:oneusefulthing@substack.com OR from:importai@substack.com OR from:semianalysis@substack.com OR from:theneurondaily.com OR from:artificialintelligencemadesimple@substack.com OR "Arabian Business" OR from:arabianbusiness.com) after:YYYY/MM/DD`
 
 - Skip every sponsored block ("Presented by", "Sponsored by", "In partnership
   with", "Powered by", ads, discount codes, event promotions).

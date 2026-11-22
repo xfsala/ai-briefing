@@ -1,28 +1,40 @@
 # AI Briefing
 
-A daily one-page briefing on AI read through a Saudi and behavioural-science lens.
+AI news and research, read through a Saudi and behavioural-science lens.
 
 **Live site:** https://xfsala.github.io/ai-briefing/
 
 ## Tabs
 
-- **Daily:** today's one-pager and a searchable archive of every past day.
-- **What this means:** a guide to reading the briefing.
+- **Briefings:** a one-page briefing three times a week, with a searchable
+  archive grouped by month.
+- **Research:** a weekly radar of new studies on AI and people, with links to
+  each paper.
+- **What this means:** a guide to reading the site.
 - **Who & What:** a glossary, plus every company, person and organisation
-  mentioned, with official links and the days they appeared.
+  mentioned, with official links.
 - **Mindmap:** industries, concepts and organisations, filterable by audience
   (lay users, builders, decision-makers).
 
 ## How it updates
 
-A scheduled Claude task runs every morning at 7:30 Riyadh time. It reads the
-previous day's newsletters, writes `data/days/YYYY-MM-DD.json` following
-[`EDITORIAL_GUIDE.md`](EDITORIAL_GUIDE.md), runs `python3 scripts/build.py` to
-rebuild the glossary, entity list and mindmap, and pushes. GitHub Pages
-publishes the change within a minute or two.
+Scheduled Claude tasks write the content, following
+[`EDITORIAL_GUIDE.md`](EDITORIAL_GUIDE.md):
 
-## Content
+| When (Riyadh time) | What | File |
+|---|---|---|
+| Sunday, Tuesday, Thursday, before 7:30 am | Briefing covering the days since the last one | `data/days/YYYY-MM-DD.json` |
+| Saturday, about 8 am | Research radar covering the past 7 days | `data/research/YYYY-MM-DD.json` |
 
-Summaries are original. The newsletters remain the property of their
-publishers: subscribe at [alphasignal.ai](https://alphasignal.ai) and
-[forwardfuture.ai](https://www.forwardfuture.ai).
+Each run then executes `python3 scripts/build.py` to rebuild the indexes,
+glossary, entity list and mindmap, and pushes. GitHub Pages publishes the
+change within a minute or two.
+
+## Sources
+
+- **Briefings:** AlphaSignal, Forward Future, One Useful Thing, Import AI,
+  SemiAnalysis, The Neuron, AI Made Simple and Arabian Business.
+- **Research:** arXiv (cs.HC and cs.CY) and Springer Nature journal alerts.
+
+Summaries are original. The newsletters and papers remain the property of
+their publishers.

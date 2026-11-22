@@ -175,7 +175,7 @@
   <section class="panel" id="panel-daily">
     <div class="daily">
       <aside class="archive">
-        <input id="archive-search" type="search" placeholder="Search the archive" aria-label="Search the archive">
+        <input id="archive-search" type="search" placeholder="Search briefings" aria-label="Search briefings">
         <div id="archive-list"></div>
       </aside>
       <article class="page" id="day"><p class="empty">Loading...</p></article>
@@ -209,26 +209,43 @@
   <!-- GUIDE -->
   <section class="panel" id="panel-guide" hidden>
     <div class="guide">
-      <h2 style="margin-top:0">How to read this briefing</h2>
+      <h2 style="margin-top:0">How to read this site</h2>
       <div class="qa"><h3>What is this?</h3>
-        <p>A one-page summary of two AI newsletters, AlphaSignal (aimed at developers) and Forward Future (aimed at professionals and business readers). It is rewritten every morning in plain language, with sponsored content removed and duplicate stories merged.</p></div>
-      <div class="qa"><h3>What is each section for?</h3>
-        <p><b>Opening question:</b> a question to think about before reading, about what the day's news means for people.</p>
-        <p><b>Reflection:</b> a short line on how the day's developments could help people grow and societies progress, without ignoring the risks.</p>
-        <p><b>Today in one line:</b> the single shift worth remembering if you read nothing else.</p>
-        <p><b>Top stories:</b> three stories, each with what happened, why it matters, and a suggested action.</p>
-        <p><b>Saudi and region lens:</b> how the day's news connects to Saudi digital infrastructure, the economy or policy. When there is no real link, the page says so.</p>
-        <p><b>Project ideas:</b> two ideas side by side, each with a first step: a general idea that could become a research or consulting project, and an idea for something to create for children aged 15 and under.</p>
+        <p>A short, regular briefing on AI for people who need to understand what it means, not only what was launched. It is written from eight newsletters and a set of research journals, with sponsored content removed, duplicate stories merged, and every point read through a Saudi and behavioural-science lens.</p></div>
+      <div class="qa"><h3>What is on each tab?</h3>
+        <p><b>Briefings:</b> one page, three times a week, with the stories that matter most.</p>
+        <p><b>Research:</b> a weekly radar of new studies on AI and people, with a link to each paper.</p>
+        <p><b>Who &amp; What:</b> the reference shelf, with a glossary of terms and every company, person and organisation mentioned, with official links.</p>
+        <p><b>Mindmap:</b> how industries, concepts and organisations connect, filtered by who they matter to.</p></div>
+      <div class="qa"><h3>When is it published?</h3>
+        <div class="legend" style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
+          <div><b>Sunday</b><br>Briefing covering Thursday to Saturday</div>
+          <div><b>Tuesday</b><br>Briefing covering Sunday and Monday</div>
+          <div><b>Thursday</b><br>Briefing covering Tuesday and Wednesday</div>
+          <div><b>Saturday</b><br>Research radar covering the past 7 days</div>
+        </div>
+        <p>Briefings before 24 November 2026 were published as one page per day.</p></div>
+      <div class="qa"><h3>How is a briefing laid out?</h3>
+        <p><b>Opening question:</b> something to think about before reading, about what the news means for people.</p>
+        <p><b>Reflection:</b> a short line on how these developments could help people grow and societies progress, without ignoring the risks.</p>
+        <p><b>In one line:</b> the single shift worth remembering if you read nothing else.</p>
+        <p><b>Top stories:</b> four or five stories, each with what happened, why it matters, and a suggested action.</p>
+        <p><b>Saudi and region lens:</b> how the news connects to Saudi digital infrastructure, the economy or policy. When there is no real link, the page says so.</p>
+        <p><b>Project ideas:</b> two ideas side by side, each with a first step: a general idea that could become a research or consulting project, and something to create for children aged 15 and under.</p>
         <p><b>Watchlist:</b> people, companies and organisations worth tracking, tagged by sector.</p>
         <p><b>Tool to try:</b> only when something is genuinely useful for research or data work.</p>
         <p><b>Verify before quoting:</b> bold claims to check before repeating them to anyone.</p></div>
+      <div class="qa"><h3>How is a research radar laid out?</h3>
+        <p><b>Papers of the week:</b> five to eight studies chosen for their relevance to behaviour, trust, health, policy, work and culture. Each shows the real title, the journal, the type of study, a short summary and why it matters.</p>
+        <p><b>Preprint or journal article?</b> A preprint has not yet been checked by other scientists (peer review), so treat its findings as early. Journal articles have passed peer review.</p>
+        <p><b>Patterns this week:</b> what several studies point to together.</p></div>
       <div class="qa"><h3>What do Watch, Try and Pitch mean?</h3>
         <div class="legend">
           <div><b>Watch</b><br>Important, but nothing to do yet. Keep an eye on how it develops.</div>
           <div><b>Try</b><br>A tool or method you can test yourself this week.</div>
           <div><b>Pitch</b><br>Could become a project or a conversation with a client.</div>
         </div></div>
-      <div class="qa"><h3>Who is each story for?</h3>
+      <div class="qa"><h3>Who is each item for?</h3>
         <div class="legend">
           <div><span class="chip lay">Lay users</span><br>Anyone curious. No technical background needed.</div>
           <div><span class="chip builder">Builders</span><br>People who code, build tools or run data projects.</div>
@@ -240,14 +257,15 @@
         <p>2. <b>Measured on what?</b> Benchmarks are often narrow tests chosen by the company.</p>
         <p>3. <b>Available to whom?</b> Many launches are US-only, limited previews or waitlists.</p>
         <p>4. <b>What would change my decision?</b> If the answer is nothing, it is a Watch, not a Try.</p></div>
-      <div class="qa"><h3>How often is it published?</h3>
-        <p><b>Briefings</b> come out three times a week, on Sunday, Tuesday and Thursday mornings, each covering the days since the last one. The archive before 24 November 2026 has one page per day.</p>
-        <p><b>Research</b> is a weekly radar every Saturday: the most relevant new papers from journals and preprint feeds, explained in plain language, with a link to each paper.</p></div>
-      <div class="qa"><h3>How do the other tabs help?</h3>
-        <p><b>Who &amp; What</b> is the reference shelf: a glossary of terms and a list of every company, person and organisation mentioned, with official links and the days they appeared.</p>
-        <p><b>Mindmap</b> shows how industries, concepts and organisations connect. Use the audience filter to see what matters for lay users, builders or decision-makers.</p></div>
+      <div class="qa"><h3>How should I judge a study?</h3>
+        <p>1. <b>What kind of study is it?</b> A randomised experiment shows cause and effect; a survey shows what people say or do at one point in time.</p>
+        <p>2. <b>Who took part?</b> Results from one country or group may not hold in Saudi Arabia.</p>
+        <p>3. <b>Has it been peer reviewed?</b> Preprints can change before they are published.</p>
+        <p>4. <b>How big is the effect?</b> A finding can be real but too small to matter in practice.</p></div>
       <div class="qa"><h3>Where does the content come from?</h3>
-        <p>Summaries are original and written by Claude from newsletters and journal alerts, which remain the property of their publishers. Briefings draw on AlphaSignal, Forward Future, One Useful Thing, Import AI, SemiAnalysis, The Neuron and Arabian Business. The Research radar draws on arXiv and journal alerts from Springer Nature. Follow the links for the full stories and papers.</p></div>
+        <p><b>Briefings:</b> AlphaSignal, Forward Future, One Useful Thing, Import AI, SemiAnalysis, The Neuron, AI Made Simple and Arabian Business.</p>
+        <p><b>Research:</b> arXiv (Human-Computer Interaction, and Computers and Society) and Springer Nature journal alerts.</p>
+        <p>All summaries are original and written by Claude. The newsletters and papers remain the property of their publishers, so follow the links for the full stories and papers.</p></div>
     </div>
   </section>
 
@@ -276,7 +294,7 @@
         <button id="mm-collapse">Collapse all</button>
       </div>
       <div id="mindmap"></div>
-      <div class="mm-info" id="mm-info">Click an industry to open it, then click a concept to see what it means.</div>
+      <div class="mm-info" id="mm-info">Click an industry to open it, then click a concept or organisation to see what it is. Use the buttons above to highlight what matters for each audience.</div>
     </div>
   </section>
 </main>
@@ -336,7 +354,7 @@ function makeArchive({ listId, searchId, route, unit, getItems }) {
           <span>${esc(m.name)}</span><span class="n">${n} ${n === 1 ? unit[0] : unit[1]} ${open ? "&#9662;" : "&#9656;"}</span></button>
         <div class="days-list"${open ? "" : " hidden"}>${m.items.map(d =>
           `<button class="day${d.date === active ? " active" : ""}" data-date="${d.date}">${esc(fmtShort(d.date))}</button>`).join("")}</div>`;
-    }).join("") || `<p class="empty">Nothing matches.</p>`;
+    }).join("") || `<p class="empty">${q ? "Nothing matches." : "Nothing published yet."}</p>`;
     el.querySelectorAll("button.month").forEach(b => b.onclick = () => {
       const m = b.dataset.month;
       openMonths.has(m) ? openMonths.delete(m) : openMonths.add(m);
@@ -364,7 +382,7 @@ const renderArchive = makeArchive({ listId: "archive-list", searchId: "archive-s
 async function showDaily(date) {
   if (!index.length) await loadIndex();
   const el = document.getElementById("day");
-  if (!index.length) { el.innerHTML = `<p class="empty">No briefings yet. The first one is on its way.</p>`; renderArchive(); return; }
+  if (!index.length) { el.innerHTML = `<p class="empty">No briefings yet.</p>`; renderArchive(); return; }
   date = date && index.some(d => d.date === date) ? date : index[0].date;
   renderArchive(date);
   let d;
@@ -411,7 +429,7 @@ async function showResearch(date) {
   const el = document.getElementById("radar");
   if (!rindex.length) {
     el.innerHTML = `<div class="date">Research radar</div><div class="question">What is the research saying about AI and people?</div>
-      <p>Every Saturday this page picks the most relevant new papers from the journals and preprint feeds below, explained in plain language. The first radar is on its way.</p>`;
+      <p>Every Saturday this page picks the most relevant new papers from the journals and preprint feeds below.</p>`;
     renderRadarArchive(); return;
   }
   date = date && rindex.some(d => d.date === date) ? date : rindex[0].date;
