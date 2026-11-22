@@ -100,9 +100,10 @@
  {
   "id": "ai-agent",
   "term": "AI agent",
-  "definition": "An AI system that can take actions on a person's behalf, such as using apps or websites, not only answer questions.",
+  "definition": "An AI system that can plan and carry out several steps on its own to reach a goal.",
   "audience": "lay",
   "days": [
+   "2026-07-10",
    "2026-09-09",
    "2026-10-01",
    "2026-10-20",
@@ -354,6 +355,7 @@
   "audience": "decision",
   "days": [
    "2026-07-08",
+   "2026-07-10",
    "2026-07-19",
    "2026-09-13",
    "2026-09-20",
@@ -500,9 +502,10 @@
  {
   "id": "emotional-dependence",
   "term": "Emotional dependence",
-  "definition": "When a person comes to rely on a system, such as a chatbot, for comfort in a way that crowds out human support.",
+  "definition": "Relying on an AI tool for comfort or company to a degree that may crowd out human support.",
   "audience": "lay",
   "days": [
+   "2026-07-10",
    "2026-10-02"
   ]
  },
@@ -556,9 +559,10 @@
  {
   "id": "formal-verification",
   "term": "Formal verification",
-  "definition": "Using software to check, step by step, that a proof or program is fully correct.",
+  "definition": "Checking a proof or program with software that confirms every step follows strict rules.",
   "audience": "builder",
   "days": [
+   "2026-07-13",
    "2026-07-22",
    "2026-08-04",
    "2026-08-11",
@@ -602,9 +606,10 @@
  {
   "id": "held-out-test-set",
   "term": "Held-out test set",
-  "definition": "Test cases kept hidden while a system is built, so the final check is fair.",
+  "definition": "Examples kept aside and never used in building a system, so they give an honest measure of how well it works.",
   "audience": "builder",
   "days": [
+   "2026-07-12",
    "2026-07-21",
    "2026-10-04"
   ]
@@ -713,18 +718,20 @@
  {
   "id": "low-resource-language",
   "term": "Low-resource language",
-  "definition": "A language with little digital text available for training AI, so models often handle it less well.",
+  "definition": "A language with little digital text available, so AI tools usually work less well in it.",
   "audience": "lay",
   "days": [
+   "2026-07-15",
    "2026-10-23"
   ]
  },
  {
   "id": "mcp-server",
   "term": "MCP server",
-  "definition": "A connector that lets an AI tool read from or act in another app or data source in a standard way.",
+  "definition": "A small connector that lets an AI assistant use an outside app or data source through a shared standard.",
   "audience": "builder",
   "days": [
+   "2026-07-14",
    "2026-07-17",
    "2026-07-29",
    "2026-08-07",
@@ -747,9 +754,10 @@
  {
   "id": "mixture-of-experts",
   "term": "Mixture of experts",
-  "definition": "A model design where only a few specialised parts are used for each request, which saves computing power.",
+  "definition": "A model design where only a small part of the model is used for each answer, saving computing power.",
   "audience": "builder",
   "days": [
+   "2026-07-14",
    "2026-07-17",
    "2026-08-02",
    "2026-08-05",
@@ -771,9 +779,10 @@
  {
   "id": "model-routing",
   "term": "Model routing",
-  "definition": "Sending each task to the cheapest model that can do it well, and only hard tasks to the most expensive model.",
-  "audience": "decision",
+  "definition": "Automatically sending each AI request to the model best suited to it by cost, speed and difficulty.",
+  "audience": "builder",
   "days": [
+   "2026-07-12",
    "2026-07-19",
    "2026-07-21",
    "2026-07-23",
@@ -881,9 +890,10 @@
  {
   "id": "peer-review",
   "term": "Peer review",
-  "definition": "When independent experts check research before it is accepted as reliable.",
+  "definition": "Checking of research by independent experts before it is accepted as reliable.",
   "audience": "lay",
   "days": [
+   "2026-07-13",
    "2026-10-09"
   ]
  },
@@ -899,9 +909,10 @@
  {
   "id": "point-cloud",
   "term": "Point cloud",
-  "definition": "A set of many points in 3D space that together show the shape of an object or room.",
-  "audience": "lay",
+  "definition": "A 3D map made of many measured points, often captured by laser sensors.",
+  "audience": "builder",
   "days": [
+   "2026-07-15",
    "2026-07-20"
   ]
  },
@@ -1119,9 +1130,10 @@
  {
   "id": "retrieval-augmented-generation",
   "term": "Retrieval-augmented generation",
-  "definition": "A method where an AI first looks up relevant passages in documents, then uses them to answer.",
+  "definition": "A method where an AI first searches a set of documents and then answers using what it found.",
   "audience": "builder",
   "days": [
+   "2026-07-15",
    "2026-09-30"
   ]
  },
@@ -1192,9 +1204,10 @@
  {
   "id": "self-hosted",
   "term": "Self-hosted",
-  "definition": "Software that an organisation runs on its own servers instead of a vendor's cloud.",
-  "audience": "lay",
+  "definition": "Running software on your own servers instead of using a provider's cloud service.",
+  "audience": "decision",
   "days": [
+   "2026-07-12",
    "2026-08-07",
    "2026-08-26",
    "2026-09-04",
@@ -1256,6 +1269,7 @@
   "audience": "builder",
   "days": [
    "2026-07-08",
+   "2026-07-13",
    "2026-08-01",
    "2026-08-06",
    "2026-08-21",
@@ -1288,9 +1302,10 @@
  {
   "id": "sycophancy",
   "term": "Sycophancy",
-  "definition": "When an AI agrees with the user or flatters them instead of giving an accurate answer.",
+  "definition": "When an AI tells people what they want to hear instead of what is accurate.",
   "audience": "lay",
   "days": [
+   "2026-07-14",
    "2026-08-07",
    "2026-10-06"
   ]

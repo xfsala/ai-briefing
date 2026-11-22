@@ -1,0 +1,206 @@
+{
+  "date": "2026-07-15",
+  "question": "When a company funds public research, how can the research stay independent and serve everyone?",
+  "reflection": "Support for researchers studying children's health, minority languages and farming shows AI can serve real public needs.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Anthropic funds $10M CAD in Claude credits across 8 Canadian research institutions",
+      "link": ""
+    }
+  ],
+  "one_line": "Anthropic gave eight Canadian research institutions AI credits with no control over their findings, covering safety, children's health, minority languages and agriculture.",
+  "top_stories": [
+    {
+      "title": "AI credits for Canadian public research",
+      "what": "Anthropic is giving 10 million Canadian dollars in Claude credits to eight institutions, including national AI institutes, children's and mental health hospitals and universities working on French and Indigenous languages, and says it will not steer the research.",
+      "why": "A model for how national AI programmes can partner with labs on health and language research while protecting independence.",
+      "action": "Watch",
+      "audience": [
+        "decision"
+      ],
+      "tags": [
+        "research",
+        "health",
+        "language"
+      ]
+    },
+    {
+      "title": "Models that tidy their memory while idle",
+      "what": "Researchers describe a training method in which language models consolidate what they learned during quiet periods, likened to sleep.",
+      "why": "Better long-term memory would make AI assistants more useful on projects that run for months.",
+      "action": "Watch",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "research",
+        "memory"
+      ]
+    },
+    {
+      "title": "A small multilingual search model from Nvidia",
+      "what": "Nvidia released a 1B embedding model built for document search across 34 languages.",
+      "why": "Multilingual search models are the base for AI that answers questions from an organisation's own documents.",
+      "action": "Try",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "multilingual",
+        "search"
+      ]
+    },
+    {
+      "title": "See what a robot sees through AR glasses",
+      "what": "An open project links AR glasses to a robot dog so users see its 3D laser map overlaid on the room and send it commands by tapping.",
+      "why": "Clear views of what a robot senses help people supervise robots safely in shared spaces.",
+      "action": "Watch",
+      "audience": [
+        "builder",
+        "lay"
+      ],
+      "tags": [
+        "robotics"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Canada's mix of AI safety, health and minority-language research is a useful reference for Saudi research funding that aims to strengthen Arabic and dialect coverage."
+    }
+  ],
+  "idea": {
+    "title": "Research partnership checklist",
+    "pitch": "Write a short checklist of independence safeguards for public research projects that use donated AI credits or tools.",
+    "fit": "Government research funding, universities",
+    "first_step": "List five safeguards, such as publication rights and data ownership, and review them with a research lead."
+  },
+  "idea_kids": {
+    "title": "Sleep and memory experiment",
+    "pitch": "A home activity where children learn ten new words before bed and test themselves in the morning, to see how rest helps memory.",
+    "age": "8 to 13",
+    "first_step": "Prepare two short word lists and a simple results chart for evening and morning."
+  },
+  "watchlist": [
+    {
+      "name": "Anthropic",
+      "sector": "Science and research",
+      "note": "Funding public research with AI credits in Canada."
+    },
+    {
+      "name": "Nvidia",
+      "sector": "AI infrastructure and chips",
+      "note": "Multilingual embedding model for document search."
+    }
+  ],
+  "tool": {
+    "name": "Bonsai 27B",
+    "use": "An open model compressed enough to test offline on a laptop or phone.",
+    "link": ""
+  },
+  "verify": [
+    "Each of the eight institutions reportedly receives 1 million Canadian dollars in API credits."
+  ],
+  "entities": [
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Committed AI credits to Canadian research."
+    },
+    {
+      "name": "Mila",
+      "type": "organisation",
+      "sector": "Science and research",
+      "url": "https://mila.quebec",
+      "note": "Canadian AI institute receiving credits."
+    },
+    {
+      "name": "Vector Institute",
+      "type": "organisation",
+      "sector": "Science and research",
+      "url": "https://vectorinstitute.ai",
+      "note": "Canadian AI institute receiving credits."
+    },
+    {
+      "name": "Nvidia",
+      "type": "company",
+      "sector": "AI infrastructure and chips",
+      "url": "https://www.nvidia.com",
+      "note": "Released a multilingual embedding model."
+    },
+    {
+      "name": "Unitree",
+      "type": "company",
+      "sector": "Robotics",
+      "url": "https://www.unitree.com",
+      "note": "Maker of the robot dog used in the AR project."
+    },
+    {
+      "name": "PrismML",
+      "type": "company",
+      "sector": "AI infrastructure and chips",
+      "url": "",
+      "note": "Released the compressed Bonsai 27B model."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Retrieval-augmented generation",
+      "definition": "A method where an AI first searches a set of documents and then answers using what it found.",
+      "audience": "builder"
+    },
+    {
+      "term": "Low-resource language",
+      "definition": "A language with little digital text available, so AI tools usually work less well in it.",
+      "audience": "lay"
+    },
+    {
+      "term": "Point cloud",
+      "definition": "A 3D map made of many measured points, often captured by laser sensors.",
+      "audience": "builder"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Science and research",
+      "concept": "AI-accelerated AI research",
+      "summary": "Labs fund independent academic research with model credits.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "Anthropic",
+        "Mila",
+        "Vector Institute"
+      ]
+    },
+    {
+      "industry": "Consumer and media",
+      "concept": "AI language gaps",
+      "summary": "Funding and models aimed at minority languages and multilingual search.",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "entities": [
+        "Anthropic",
+        "Nvidia"
+      ]
+    },
+    {
+      "industry": "Robotics and physical AI",
+      "concept": "Live 3D mapping",
+      "summary": "AR views of a robot's laser map make supervision easier.",
+      "audience": [
+        "builder",
+        "lay"
+      ],
+      "entities": [
+        "Unitree"
+      ]
+    }
+  ]
+}

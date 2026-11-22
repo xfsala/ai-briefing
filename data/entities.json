@@ -165,6 +165,9 @@
    "2026-07-06",
    "2026-07-07",
    "2026-07-08",
+   "2026-07-10",
+   "2026-07-14",
+   "2026-07-15",
    "2026-07-17",
    "2026-07-22",
    "2026-07-23",
@@ -457,6 +460,7 @@
   "url": "https://cognition.ai",
   "note": "Maker of the Devin coding agent and Devin Bots.",
   "days": [
+   "2026-07-10",
    "2026-11-19"
   ]
  },
@@ -468,7 +472,19 @@
   "url": "https://cohere.com",
   "note": "Enterprise AI company that reported a model probing its sandbox.",
   "days": [
+   "2026-07-10",
    "2026-10-27"
+  ]
+ },
+ {
+  "id": "colibri",
+  "name": "Colibri",
+  "type": "product",
+  "sector": "AI infrastructure and chips",
+  "url": "",
+  "note": "Open tool that streams a huge model from disk.",
+  "days": [
+   "2026-07-14"
   ]
  },
  {
@@ -491,6 +507,7 @@
   "url": "https://cursor.com",
   "note": "AI code editor that has added its own code-hosting service.",
   "days": [
+   "2026-07-13",
    "2026-07-21",
    "2026-07-23",
    "2026-07-29",
@@ -789,6 +806,7 @@
   "note": "Designs its own TPU chips for AI work.",
   "days": [
    "2026-07-08",
+   "2026-07-13",
    "2026-08-04",
    "2026-08-05",
    "2026-08-07",
@@ -1052,6 +1070,17 @@
   ]
  },
  {
+  "id": "kyutai",
+  "name": "Kyutai",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://kyutai.org",
+  "note": "Released an open song-to-MIDI model.",
+  "days": [
+   "2026-07-13"
+  ]
+ },
+ {
   "id": "laion",
   "name": "LAION",
   "type": "organisation",
@@ -1255,6 +1284,17 @@
   ]
  },
  {
+  "id": "mila",
+  "name": "Mila",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://mila.quebec",
+  "note": "Canadian AI institute receiving credits.",
+  "days": [
+   "2026-07-15"
+  ]
+ },
+ {
   "id": "mistral-ai",
   "name": "Mistral AI",
   "type": "company",
@@ -1312,6 +1352,17 @@
   ]
  },
  {
+  "id": "nadirclaw",
+  "name": "NadirClaw",
+  "type": "product",
+  "sector": "AI infrastructure and chips",
+  "url": "",
+  "note": "Open-source local model router.",
+  "days": [
+   "2026-07-12"
+  ]
+ },
+ {
   "id": "new-york-university",
   "name": "New York University",
   "type": "organisation",
@@ -1320,6 +1371,17 @@
   "note": "Researchers built a world model that keeps learning after release.",
   "days": [
    "2026-07-07"
+  ]
+ },
+ {
+  "id": "not-diamond",
+  "name": "Not Diamond",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "",
+  "note": "Builds learned routers from customer evaluation data.",
+  "days": [
+   "2026-07-12"
   ]
  },
  {
@@ -1359,6 +1421,7 @@
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
    "2026-07-07",
+   "2026-07-15",
    "2026-07-26",
    "2026-07-27",
    "2026-07-28",
@@ -1413,6 +1476,8 @@
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
    "2026-07-09",
+   "2026-07-10",
+   "2026-07-13",
    "2026-07-16",
    "2026-07-22",
    "2026-07-24",
@@ -1494,6 +1559,17 @@
   ]
  },
  {
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://openrouter.ai",
+  "note": "Runs model routing services.",
+  "days": [
+   "2026-07-12"
+  ]
+ },
+ {
   "id": "opera",
   "name": "Opera",
   "type": "company",
@@ -1556,6 +1632,7 @@
   "url": "https://www.perplexity.ai",
   "note": "Released a fully local agent.",
   "days": [
+   "2026-07-12",
    "2026-08-26"
   ]
  },
@@ -1627,6 +1704,7 @@
   "url": "",
   "note": "Released the compressed Bonsai 27B model.",
   "days": [
+   "2026-07-15",
    "2026-07-16"
   ]
  },
@@ -1961,6 +2039,17 @@
   ]
  },
  {
+  "id": "tsinghua-university",
+  "name": "Tsinghua University",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://www.tsinghua.edu.cn",
+  "note": "Task-graph method for small agent models.",
+  "days": [
+   "2026-07-14"
+  ]
+ },
+ {
   "id": "tsmc",
   "name": "TSMC",
   "type": "company",
@@ -2037,6 +2126,7 @@
   "url": "https://www.unitree.com",
   "note": "Chinese maker of humanoid and legged robots.",
   "days": [
+   "2026-07-15",
    "2026-10-22"
   ]
  },
@@ -2107,6 +2197,17 @@
   "days": [
    "2026-10-06",
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "vector-institute",
+  "name": "Vector Institute",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://vectorinstitute.ai",
+  "note": "Canadian AI institute receiving credits.",
+  "days": [
+   "2026-07-15"
   ]
  },
  {
@@ -2257,10 +2358,22 @@
   "url": "",
   "note": "Released the specialist GLM-Legal model.",
   "days": [
+   "2026-07-14",
    "2026-08-17",
    "2026-08-27",
    "2026-10-02",
    "2026-10-13"
+  ]
+ },
+ {
+  "id": "zhipu-ai",
+  "name": "Zhipu AI",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "Reported a new reinforcement learning training method.",
+  "days": [
+   "2026-07-10"
   ]
  },
  {

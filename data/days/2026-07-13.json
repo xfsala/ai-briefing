@@ -1,0 +1,178 @@
+{
+  "date": "2026-07-13",
+  "question": "If AI helps solve a famous maths problem, how should we share the credit and check the result?",
+  "reflection": "When machines help open old puzzles, people can spend more of their curiosity on the next questions worth asking.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "64 parallel subagents just ended a 50-year math standoff",
+      "link": ""
+    }
+  ],
+  "one_line": "OpenAI says a GPT-5.6 model using 64 parallel helpers produced a proof of a 50-year-old maths conjecture in under an hour, though experts have not yet checked it.",
+  "top_stories": [
+    {
+      "title": "AI proof of a 50-year-old maths problem",
+      "what": "OpenAI says GPT-5.6 Sol Ultra, running 64 subagents in parallel, produced a proof of the Cycle Double Cover Conjecture in under an hour and published the prompt, the proof and a machine-checkable version.",
+      "why": "If confirmed, it shows how multi-agent AI can attack hard open problems, a pattern that could later apply to policy and research questions.",
+      "action": "Watch",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "tags": [
+        "science",
+        "agents"
+      ]
+    },
+    {
+      "title": "Cursor adds side chats and searchable history",
+      "what": "Cursor 3.11 lets users search all past agent conversations and open side chats for quick tangents without disturbing the main thread.",
+      "why": "Keeping a searchable record of agent work helps teams audit and reuse what AI produced.",
+      "action": "Try",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "coding",
+        "agents"
+      ]
+    },
+    {
+      "title": "Song to sheet music, per instrument",
+      "what": "Kyutai released an open model that turns a song into separate MIDI tracks for each instrument.",
+      "why": "Music transcription tools could support music education and the preservation of local musical heritage.",
+      "action": "Watch",
+      "audience": [
+        "lay",
+        "builder"
+      ],
+      "tags": [
+        "culture",
+        "audio"
+      ]
+    },
+    {
+      "title": "Cleaner web addresses for AI-built apps",
+      "what": "Google AI Studio now lets people give deployed apps a custom name under its own domain.",
+      "why": "Small polish like this makes quick AI prototypes easier to share with stakeholders.",
+      "action": "Try",
+      "audience": [
+        "builder",
+        "lay"
+      ],
+      "tags": [
+        "tools"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Open music transcription models could help Saudi cultural bodies document and teach traditional music, provided they are tested on regional instruments and rhythms."
+    }
+  ],
+  "idea": {
+    "title": "Heritage music archive pilot",
+    "pitch": "Test whether open transcription tools can turn recordings of traditional performances into notation for teaching and archiving.",
+    "fit": "Culture sector",
+    "first_step": "Choose three short public-domain recordings and compare the tool's output with a musician's transcription."
+  },
+  "idea_kids": {
+    "title": "Loops and paths puzzle book",
+    "pitch": "A puzzle book where children draw closed loops on simple maps so every road is used exactly twice, introducing graph puzzles through play.",
+    "age": "9 to 14",
+    "first_step": "Draw ten small maps of dots and lines, from easy to hard, and test them with two children."
+  },
+  "watchlist": [
+    {
+      "name": "OpenAI",
+      "sector": "Science and research",
+      "note": "Claims a major maths result from parallel subagents."
+    },
+    {
+      "name": "Kyutai",
+      "sector": "Science and research",
+      "note": "Open audio models, including music transcription."
+    }
+  ],
+  "tool": {
+    "name": "Cursor side chats",
+    "use": "Exploring a side question with an AI agent without losing the main conversation.",
+    "link": ""
+  },
+  "verify": [
+    "GPT-5.6 Sol Ultra reportedly proved the Cycle Double Cover Conjecture in under an hour; the proof is not yet peer-reviewed."
+  ],
+  "entities": [
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://openai.com",
+      "note": "Published an AI-produced proof of a long-open conjecture."
+    },
+    {
+      "name": "Cursor",
+      "type": "company",
+      "sector": "Developer tools",
+      "url": "https://cursor.com",
+      "note": "Released version 3.11 with side chats."
+    },
+    {
+      "name": "Kyutai",
+      "type": "organisation",
+      "sector": "Science and research",
+      "url": "https://kyutai.org",
+      "note": "Released an open song-to-MIDI model."
+    },
+    {
+      "name": "Google",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://about.google",
+      "note": "Added custom app names to AI Studio."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Subagent",
+      "definition": "A helper AI agent that a main agent hands a smaller piece of work to.",
+      "audience": "builder"
+    },
+    {
+      "term": "Formal verification",
+      "definition": "Checking a proof or program with software that confirms every step follows strict rules.",
+      "audience": "builder"
+    },
+    {
+      "term": "Peer review",
+      "definition": "Checking of research by independent experts before it is accepted as reliable.",
+      "audience": "lay"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Science and research",
+      "concept": "AI-generated science",
+      "summary": "Parallel AI agents produce a proof of a long-open maths conjecture.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "OpenAI"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Agent memory management",
+      "summary": "Searchable agent histories and side chats keep long work organised.",
+      "audience": [
+        "builder"
+      ],
+      "entities": [
+        "Cursor"
+      ]
+    }
+  ]
+}

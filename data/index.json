@@ -1484,6 +1484,75 @@
   ]
  },
  {
+  "date": "2026-07-15",
+  "question": "When a company funds public research, how can the research stay independent and serve everyone?",
+  "one_line": "Anthropic gave eight Canadian research institutions AI credits with no control over their findings, covering safety, children's health, minority languages and agriculture.",
+  "titles": [
+   "AI credits for Canadian public research",
+   "Models that tidy their memory while idle",
+   "A small multilingual search model from Nvidia",
+   "See what a robot sees through AR glasses"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-14",
+  "question": "Should an AI assistant speak to us differently depending on the language we use?",
+  "one_line": "Anthropic found that Claude's tone shifts with the model and the language used, including warmer replies in Arabic, and it does not yet know why.",
+  "titles": [
+   "Claude's tone changes with language",
+   "A huge model on an ordinary laptop",
+   "Better task planning beats bigger models",
+   "Shared editing in Claude Artifacts"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-13",
+  "question": "If AI helps solve a famous maths problem, how should we share the credit and check the result?",
+  "one_line": "OpenAI says a GPT-5.6 model using 64 parallel helpers produced a proof of a 50-year-old maths conjecture in under an hour, though experts have not yet checked it.",
+  "titles": [
+   "AI proof of a 50-year-old maths problem",
+   "Cursor adds side chats and searchable history",
+   "Song to sheet music, per instrument",
+   "Cleaner web addresses for AI-built apps"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-12",
+  "question": "How do we decide when a task deserves the most powerful AI and when a simpler one is enough?",
+  "one_line": "Model routers, which send each request to the cheapest model that can handle it, are becoming a standard part of large AI systems.",
+  "titles": [
+   "Why routers sit between apps and models",
+   "Commercial routing services",
+   "Open-source routers for private setups"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-10",
+  "question": "If one AI tool helps us work for hours and another reminds us to rest, which do we need more?",
+  "one_line": "OpenAI launched an agent mode that carries out whole work projects for hours, while Anthropic added a dashboard that shows how people use Claude and nudges them to take breaks.",
+  "titles": [
+   "ChatGPT Work runs whole projects",
+   "Claude shows users their own habits",
+   "A cheaper coding model from Cognition",
+   "Cohere releases a multilingual vision model"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
   "date": "2026-07-09",
   "question": "When an AI can talk and listen at the same time, how do we keep conversations respectful and clear?",
   "one_line": "OpenAI launched a voice model that listens and speaks at once, and also admitted that a popular coding benchmark is too broken to trust.",

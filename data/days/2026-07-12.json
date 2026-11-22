@@ -1,0 +1,165 @@
+{
+  "date": "2026-07-12",
+  "question": "How do we decide when a task deserves the most powerful AI and when a simpler one is enough?",
+  "reflection": "Choosing the right tool for each job saves resources that can be shared more widely, which is progress in itself.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "The missing middleware: Why AI at scale requires model routers",
+      "link": ""
+    }
+  ],
+  "one_line": "Model routers, which send each request to the cheapest model that can handle it, are becoming a standard part of large AI systems.",
+  "top_stories": [
+    {
+      "title": "Why routers sit between apps and models",
+      "what": "The newsletter argues that open models can handle most routine requests and that a router should send only hard cases to expensive top models, using rules, learned classifiers, cheap-first cascades or blends of several models.",
+      "why": "Routing is a practical way to keep large analysis projects affordable without lowering quality where it matters.",
+      "action": "Try",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "cost",
+        "infrastructure"
+      ]
+    },
+    {
+      "title": "Commercial routing services",
+      "what": "OpenRouter offers a router that blends answers from several cheaper models and reportedly beat single top models on a research benchmark at about half the cost; Not Diamond trains custom routers on a team's own test data.",
+      "why": "Managed routers lower the effort needed to use several models at once.",
+      "action": "Watch",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "title": "Open-source routers for private setups",
+      "what": "Open tools such as NadirClaw and ACRouter run locally; ACRouter learns from checked results over time to improve its choices.",
+      "why": "Self-hosted routing keeps prompts and data inside the organisation, which suits strict data rules.",
+      "action": "Watch",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "open source",
+        "privacy"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Routing most work to open models hosted locally, and only rare cases to foreign cloud models, is one way Saudi organisations can balance cost with data residency rules."
+    }
+  ],
+  "idea": {
+    "title": "Build an evaluation set first",
+    "pitch": "Before choosing AI models for a project, collect a small set of real tasks with agreed correct answers so any model or router can be tested fairly.",
+    "fit": "Consultancy, government services",
+    "first_step": "Gather 30 past tasks with known good outputs and store them in one shared folder."
+  },
+  "idea_kids": {
+    "title": "Which tool for the job?",
+    "pitch": "A sorting game where children match everyday tasks to the simplest tool that works, such as a ruler, a calculator or asking an adult.",
+    "age": "6 to 10",
+    "first_step": "Make twenty task cards and six tool cards from cardboard."
+  },
+  "watchlist": [
+    {
+      "name": "OpenRouter",
+      "sector": "AI infrastructure and chips",
+      "note": "Offers routers that blend or pick models by cost and quality."
+    },
+    {
+      "name": "Not Diamond",
+      "sector": "AI infrastructure and chips",
+      "note": "Trains custom routers on a team's own evaluation data."
+    }
+  ],
+  "tool": {
+    "name": "OpenRouter",
+    "use": "Trying several AI models behind one interface to compare cost and quality.",
+    "link": ""
+  },
+  "verify": [
+    "OpenRouter's blended router reportedly scored 64.7% on a deep research benchmark, above single top models, at about half the cost."
+  ],
+  "entities": [
+    {
+      "name": "OpenRouter",
+      "type": "company",
+      "sector": "AI infrastructure and chips",
+      "url": "https://openrouter.ai",
+      "note": "Runs model routing services."
+    },
+    {
+      "name": "Not Diamond",
+      "type": "company",
+      "sector": "AI infrastructure and chips",
+      "url": "",
+      "note": "Builds learned routers from customer evaluation data."
+    },
+    {
+      "name": "NadirClaw",
+      "type": "product",
+      "sector": "AI infrastructure and chips",
+      "url": "",
+      "note": "Open-source local model router."
+    },
+    {
+      "name": "Perplexity",
+      "type": "company",
+      "sector": "Agents and automation",
+      "url": "https://www.perplexity.ai",
+      "note": "Created the DRACO deep research benchmark."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Model routing",
+      "definition": "Automatically sending each AI request to the model best suited to it by cost, speed and difficulty.",
+      "audience": "builder"
+    },
+    {
+      "term": "Self-hosted",
+      "definition": "Running software on your own servers instead of using a provider's cloud service.",
+      "audience": "decision"
+    },
+    {
+      "term": "Held-out test set",
+      "definition": "Examples kept aside and never used in building a system, so they give an honest measure of how well it works.",
+      "audience": "builder"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Agents and automation",
+      "concept": "Multi-model agent design",
+      "summary": "Routers send easy requests to cheap models and hard ones to top models.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "OpenRouter",
+        "Not Diamond"
+      ]
+    },
+    {
+      "industry": "Frontier models",
+      "concept": "Falling cost of intelligence",
+      "summary": "Blends of cheaper models can match single top models at lower cost.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "OpenRouter"
+      ]
+    }
+  ]
+}

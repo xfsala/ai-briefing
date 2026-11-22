@@ -375,11 +375,16 @@
       "2026-08-25",
       "2026-08-23",
       "2026-08-06",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-07-13"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Cursor",
        "kind": "entity"
       },
       {
@@ -713,6 +718,7 @@
       "2026-08-01",
       "2026-07-23",
       "2026-07-21",
+      "2026-07-12",
       "2026-07-08"
      ],
      "children": [
@@ -737,11 +743,19 @@
        "kind": "entity"
       },
       {
+       "name": "Not Diamond",
+       "kind": "entity"
+      },
+      {
        "name": "Nous Research",
        "kind": "entity"
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenRouter",
        "kind": "entity"
       }
      ]
@@ -942,7 +956,9 @@
      "days": [
       "2026-10-29",
       "2026-10-23",
-      "2026-07-24"
+      "2026-07-24",
+      "2026-07-15",
+      "2026-07-14"
      ],
      "children": [
       {
@@ -959,6 +975,10 @@
       },
       {
        "name": "Liquid AI",
+       "kind": "entity"
+      },
+      {
+       "name": "Nvidia",
        "kind": "entity"
       }
      ]
@@ -1121,15 +1141,24 @@
      ],
      "days": [
       "2026-08-05",
-      "2026-07-16"
+      "2026-07-16",
+      "2026-07-14"
      ],
      "children": [
+      {
+       "name": "Colibri",
+       "kind": "entity"
+      },
       {
        "name": "Liquid AI",
        "kind": "entity"
       },
       {
        "name": "PrismML",
+       "kind": "entity"
+      },
+      {
+       "name": "Z.ai",
        "kind": "entity"
       }
      ]
@@ -1144,9 +1173,14 @@
      ],
      "days": [
       "2026-09-24",
-      "2026-08-07"
+      "2026-08-07",
+      "2026-07-10"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "Gallup",
        "kind": "entity"
@@ -1296,11 +1330,16 @@
       "2026-09-28",
       "2026-08-18",
       "2026-08-01",
-      "2026-07-21"
+      "2026-07-21",
+      "2026-07-10"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Cognition",
        "kind": "entity"
       },
       {
@@ -1375,6 +1414,7 @@
       "2026-08-03",
       "2026-07-20",
       "2026-07-19",
+      "2026-07-12",
       "2026-07-08"
      ],
      "children": [
@@ -1408,6 +1448,10 @@
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenRouter",
        "kind": "entity"
       },
       {
@@ -1873,14 +1917,20 @@
      "kind": "concept",
      "summary": "Ordinary cameras can now build 3D maps of spaces as they move.",
      "audience": [
-      "builder"
+      "builder",
+      "lay"
      ],
      "days": [
-      "2026-07-17"
+      "2026-07-17",
+      "2026-07-15"
      ],
      "children": [
       {
        "name": "LingBot-Map",
+       "kind": "entity"
+      },
+      {
+       "name": "Unitree",
        "kind": "entity"
       }
      ]
@@ -2348,7 +2398,8 @@
       "2026-09-22",
       "2026-08-31",
       "2026-08-04",
-      "2026-07-22"
+      "2026-07-22",
+      "2026-07-14"
      ],
      "children": [
       {
@@ -2533,7 +2584,8 @@
       "2026-11-06",
       "2026-10-04",
       "2026-09-08",
-      "2026-07-30"
+      "2026-07-30",
+      "2026-07-15"
      ],
      "children": [
       {
@@ -2557,11 +2609,19 @@
        "kind": "entity"
       },
       {
+       "name": "Mila",
+       "kind": "entity"
+      },
+      {
        "name": "NVIDIA",
        "kind": "entity"
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "Vector Institute",
        "kind": "entity"
       },
       {
@@ -2592,7 +2652,8 @@
       "2026-08-11",
       "2026-08-04",
       "2026-07-24",
-      "2026-07-22"
+      "2026-07-22",
+      "2026-07-13"
      ],
      "children": [
       {
@@ -2724,7 +2785,8 @@
       "2026-11-11",
       "2026-10-09",
       "2026-10-07",
-      "2026-09-30"
+      "2026-09-30",
+      "2026-07-10"
      ],
      "children": [
       {

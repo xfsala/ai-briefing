@@ -1,0 +1,193 @@
+{
+  "date": "2026-07-14",
+  "question": "Should an AI assistant speak to us differently depending on the language we use?",
+  "reflection": "Learning how our tools behave across languages is a step toward technology that respects every culture equally.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Anthropic Values Study, Blender MCP + GPT-4o 3D Render, Tsinghua 8B",
+      "link": ""
+    }
+  ],
+  "one_line": "Anthropic found that Claude's tone shifts with the model and the language used, including warmer replies in Arabic, and it does not yet know why.",
+  "top_stories": [
+    {
+      "title": "Claude's tone changes with language",
+      "what": "Anthropic analysed about 310,000 real conversations and mapped Claude's behaviour on four scales, such as warmth against rigour; it reports warmer replies in Hindi and Arabic and more analytical push-back in Russian.",
+      "why": "For Arabic-speaking users this means AI advice may come with a different balance of comfort and challenge, which matters for health, education and policy uses.",
+      "action": "Pitch",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "tags": [
+        "culture",
+        "behaviour",
+        "Arabic"
+      ]
+    },
+    {
+      "title": "A huge model on an ordinary laptop",
+      "what": "An open tool called Colibri runs the 744B GLM-5.2 model on a machine with 25GB of memory and no graphics card by loading parts from disk when needed, though very slowly.",
+      "why": "Very large open models becoming runnable offline widens options for private analysis, even if speed is poor.",
+      "action": "Watch",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "open models",
+        "on-device"
+      ]
+    },
+    {
+      "title": "Better task planning beats bigger models",
+      "what": "Tsinghua researchers report that a task-graph method lets an 8B open model beat GPT-4 on agent benchmarks without extra training.",
+      "why": "Good task structure can matter more than model size, which favours careful method design.",
+      "action": "Watch",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "agents",
+        "research"
+      ]
+    },
+    {
+      "title": "Shared editing in Claude Artifacts",
+      "what": "Anthropic added multiplayer editing and public sharing to Claude Artifacts.",
+      "why": "Shared AI-made tools let teams work on the same prototype together.",
+      "action": "Try",
+      "audience": [
+        "lay",
+        "builder"
+      ],
+      "tags": [
+        "collaboration"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "If Arabic replies are systematically warmer and less challenging, Saudi users may get gentler but less critical advice; local testing of AI tone in Arabic dialects would be valuable."
+    }
+  ],
+  "idea": {
+    "title": "Arabic AI tone audit",
+    "pitch": "Compare how leading AI assistants answer the same advice questions in Arabic and English, rating warmth, caution and honesty.",
+    "fit": "Government digital services, health, education",
+    "first_step": "Write ten paired advice questions in Arabic and English and collect answers from two assistants."
+  },
+  "idea_kids": {
+    "title": "Same story, two languages",
+    "pitch": "Children tell the same short story in Arabic and English and notice which words feel warmer or stronger in each.",
+    "age": "8 to 12",
+    "first_step": "Pick a short picture story and prepare a simple feelings chart with faces."
+  },
+  "watchlist": [
+    {
+      "name": "Anthropic",
+      "sector": "Safety, security and governance",
+      "note": "Published a large study of how Claude's values shift across languages."
+    },
+    {
+      "name": "Tsinghua University",
+      "sector": "Science and research",
+      "note": "Task-graph method that lifts small models on agent tasks."
+    }
+  ],
+  "tool": {
+    "name": "Blender MCP",
+    "use": "Controlling the free 3D app Blender with plain-language instructions through an AI assistant.",
+    "link": ""
+  },
+  "verify": [
+    "Anthropic's study reportedly covered 309,815 conversations across 20 languages.",
+    "Colibri reportedly runs a 744B model on 25GB of memory without a graphics card."
+  ],
+  "entities": [
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Published the values study and multiplayer Artifacts."
+    },
+    {
+      "name": "Tsinghua University",
+      "type": "organisation",
+      "sector": "Science and research",
+      "url": "https://www.tsinghua.edu.cn",
+      "note": "Task-graph method for small agent models."
+    },
+    {
+      "name": "Z.ai",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "",
+      "note": "Maker of the GLM-5.2 open model."
+    },
+    {
+      "name": "Colibri",
+      "type": "product",
+      "sector": "AI infrastructure and chips",
+      "url": "",
+      "note": "Open tool that streams a huge model from disk."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Sycophancy",
+      "definition": "When an AI tells people what they want to hear instead of what is accurate.",
+      "audience": "lay"
+    },
+    {
+      "term": "Mixture of experts",
+      "definition": "A model design where only a small part of the model is used for each answer, saving computing power.",
+      "audience": "builder"
+    },
+    {
+      "term": "MCP server",
+      "definition": "A small connector that lets an AI assistant use an outside app or data source through a shared standard.",
+      "audience": "builder"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Safety, security and governance",
+      "concept": "Model bias and values",
+      "summary": "AI tone and values shift by model and by the user's language.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "Anthropic"
+      ]
+    },
+    {
+      "industry": "Consumer and media",
+      "concept": "AI language gaps",
+      "summary": "Arabic and other languages receive measurably different AI behaviour.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "Anthropic"
+      ]
+    },
+    {
+      "industry": "Consumer and media",
+      "concept": "On-device AI",
+      "summary": "Very large open models made runnable on ordinary laptops.",
+      "audience": [
+        "builder"
+      ],
+      "entities": [
+        "Colibri",
+        "Z.ai"
+      ]
+    }
+  ]
+}

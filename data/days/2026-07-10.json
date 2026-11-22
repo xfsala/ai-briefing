@@ -1,0 +1,197 @@
+{
+  "date": "2026-07-10",
+  "question": "If one AI tool helps us work for hours and another reminds us to rest, which do we need more?",
+  "reflection": "Tools that know when to step back can help people stay healthy and thoughtful while they get more done.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "ChatGPT Work Agent, Claude Reflect Dashboard, SWE-1.7 at $1.97/task",
+      "link": ""
+    }
+  ],
+  "one_line": "OpenAI launched an agent mode that carries out whole work projects for hours, while Anthropic added a dashboard that shows how people use Claude and nudges them to take breaks.",
+  "top_stories": [
+    {
+      "title": "ChatGPT Work runs whole projects",
+      "what": "OpenAI launched ChatGPT Work, a mode built on GPT-5.6 that takes a goal, pulls data from connected apps such as Drive and Slack, works for hours and returns finished documents, slides, sheets or simple web apps.",
+      "why": "Agents that produce full deliverables change what clients will expect from analysts and consultants, and how fast.",
+      "action": "Watch",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "tags": [
+        "agents",
+        "work"
+      ]
+    },
+    {
+      "title": "Claude shows users their own habits",
+      "what": "Anthropic added Reflect, a dashboard showing when and how much a person uses Claude, the topics they raise most, plus quiet hours and break reminders.",
+      "why": "Built-in nudges to rest are a clear behavioural design choice worth studying for digital well-being.",
+      "action": "Pitch",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "tags": [
+        "well-being",
+        "behaviour"
+      ]
+    },
+    {
+      "title": "A cheaper coding model from Cognition",
+      "what": "Cognition released SWE-1.7, built on an open Kimi model and trained further with reinforcement learning; it reports near-top coding scores at about two dollars per task.",
+      "why": "Strong results from a tuned open base model show that the top labs are not the only route to high quality.",
+      "action": "Watch",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "coding",
+        "open models"
+      ]
+    },
+    {
+      "title": "Cohere releases a multilingual vision model",
+      "what": "Cohere Labs released Aya Vision, an 8B open-weight model that reads images and supports 23 languages.",
+      "why": "Open multilingual models are a useful starting point for testing image and document tasks outside English.",
+      "action": "Try",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "multilingual",
+        "open models"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Healthy-use features matter in Saudi Arabia, where young people are heavy digital users; usage dashboards could inform national digital well-being campaigns."
+    }
+  ],
+  "idea": {
+    "title": "Digital well-being nudge study",
+    "pitch": "Test whether break reminders and usage summaries change how long people spend with AI assistants at work and how they feel about it.",
+    "fit": "Government digital services, health promotion",
+    "first_step": "Design a two-week diary study with a small volunteer group, half with reminders turned on."
+  },
+  "idea_kids": {
+    "title": "My screen time diary",
+    "pitch": "A paper diary where children colour in the time they spend on screens, outdoors and with family each day, then talk about the balance at the end of the week.",
+    "age": "6 to 11",
+    "first_step": "Design a one-page weekly chart with three colours and a small reflection box."
+  },
+  "watchlist": [
+    {
+      "name": "OpenAI",
+      "sector": "Frontier models",
+      "note": "Pushing agents that deliver finished work over hours."
+    },
+    {
+      "name": "Cognition",
+      "sector": "Agents and automation",
+      "note": "Low-cost coding model built on an open base."
+    }
+  ],
+  "tool": {
+    "name": "Claude Reflect",
+    "use": "Seeing your own AI usage patterns and setting quiet hours.",
+    "link": ""
+  },
+  "verify": [
+    "SWE-1.7 reportedly scores 42.3% on FrontierCode at 1.97 dollars per task, near top-tier models."
+  ],
+  "entities": [
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://openai.com",
+      "note": "Launched ChatGPT Work on GPT-5.6."
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Added the Reflect usage dashboard."
+    },
+    {
+      "name": "Cognition",
+      "type": "company",
+      "sector": "AI software engineering",
+      "url": "https://cognition.ai",
+      "note": "Released the SWE-1.7 coding model."
+    },
+    {
+      "name": "Cohere",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://cohere.com",
+      "note": "Its research lab released Aya Vision."
+    },
+    {
+      "name": "Zhipu AI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "",
+      "note": "Reported a new reinforcement learning training method."
+    }
+  ],
+  "terms": [
+    {
+      "term": "AI agent",
+      "definition": "An AI system that can plan and carry out several steps on its own to reach a goal.",
+      "audience": "lay"
+    },
+    {
+      "term": "Cost per task",
+      "definition": "What it costs in AI usage fees to complete one piece of work, a fairer measure than price per word.",
+      "audience": "decision"
+    },
+    {
+      "term": "Emotional dependence",
+      "definition": "Relying on an AI tool for comfort or company to a degree that may crowd out human support.",
+      "audience": "lay"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Work and workforce",
+      "concept": "AI workspaces",
+      "summary": "Agent modes that deliver finished documents and apps from a single goal.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "OpenAI"
+      ]
+    },
+    {
+      "industry": "Consumer and media",
+      "concept": "Public trust in AI",
+      "summary": "Usage dashboards and break nudges as a design for healthier AI use.",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "entities": [
+        "Anthropic"
+      ]
+    },
+    {
+      "industry": "Frontier models",
+      "concept": "AI-built software",
+      "summary": "Coding models tuned from open bases reach near-top scores at low cost.",
+      "audience": [
+        "builder"
+      ],
+      "entities": [
+        "Cognition"
+      ]
+    }
+  ]
+}
