@@ -1482,5 +1482,74 @@
   "newsletters": [
    "AlphaSignal"
   ]
+ },
+ {
+  "date": "2026-07-09",
+  "question": "When an AI can talk and listen at the same time, how do we keep conversations respectful and clear?",
+  "one_line": "OpenAI launched a voice model that listens and speaks at once, and also admitted that a popular coding benchmark is too broken to trust.",
+  "titles": [
+   "ChatGPT voice that listens while it talks",
+   "A popular coding test is retired",
+   "AI agents let loose on the real internet",
+   "Funding for an open training stack"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-08",
+  "question": "If a strong AI only needs to guide cheaper ones, how should we decide when the best is really needed?",
+  "one_line": "Anthropic showed how a top model can direct cheaper ones to get most of the quality at roughly half the cost, and Claude's background tasks moved to phone and web.",
+  "titles": [
+   "Use the top model as an advisor, not a worker",
+   "Claude tasks keep running after you close the laptop",
+   "Free Claude access for open-source maintainers",
+   "Google releases Gemma 4 open models"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-07",
+  "question": "If we could see what an AI is quietly thinking, would that make us trust it more or less?",
+  "one_line": "Anthropic says it found a small hidden workspace inside Claude where its silent reasoning happens, opening a new way to check what a model is planning.",
+  "titles": [
+   "A hidden scratchpad inside Claude",
+   "A free AI security tester",
+   "A large free library of agent skills",
+   "A world model that keeps learning after release"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-06",
+  "question": "When an AI tool can apply for jobs on our behalf, what is still ours to decide in our own career?",
+  "one_line": "Open models are moving into mainstream developer tools, and everyday tasks like job applications are being handed to AI agents.",
+  "titles": [
+   "Copilot offers its first open-weight model",
+   "An open tool that applies for jobs with Claude",
+   "Cutting AI costs by sending text as images",
+   "Private redaction of patient details on a laptop"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-05",
+  "question": "If an AI system can rewrite its own working rules, who checks that the new rules are still good ones?",
+  "one_line": "Researchers are letting AI agents study their own failures and rewrite the software around them, which lifts smaller and cheaper models closer to the big ones.",
+  "titles": [
+   "Agents that fix their own instructions",
+   "Xiaomi open-sources a self-tuning agent toolkit",
+   "From prompt writing to loop design"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
  }
 ]

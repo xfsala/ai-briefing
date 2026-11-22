@@ -40,9 +40,10 @@
  {
   "id": "agent-harness",
   "term": "Agent harness",
-  "definition": "The software around an AI model that gives it tools, memory and a way to act.",
+  "definition": "The software around an AI model that gives it tools, memory, instructions and safety checks so it can do multi-step work.",
   "audience": "builder",
   "days": [
+   "2026-07-05",
    "2026-08-14",
    "2026-08-21",
    "2026-08-31",
@@ -66,9 +67,10 @@
  {
   "id": "agent-skill",
   "term": "Agent skill",
-  "definition": "A saved set of steps or instructions an AI agent can reuse for a specific task.",
-  "audience": "lay",
+  "definition": "A saved set of instructions and files that teaches an AI agent how to do one task the same way each time.",
+  "audience": "builder",
   "days": [
+   "2026-07-07",
    "2026-07-22",
    "2026-08-06",
    "2026-08-23"
@@ -215,9 +217,10 @@
  {
   "id": "benchmark",
   "term": "Benchmark",
-  "definition": "A standard test used to compare how well different AI systems perform.",
+  "definition": "A standard test used to compare AI models on the same tasks.",
   "audience": "lay",
   "days": [
+   "2026-07-09",
    "2026-07-27",
    "2026-08-03",
    "2026-09-08",
@@ -227,9 +230,10 @@
  {
   "id": "benchmark-contamination",
   "term": "Benchmark contamination",
-  "definition": "When a model has already seen test questions during training, so its score looks better than its real ability.",
-  "audience": "builder",
+  "definition": "When test questions or flaws in a benchmark make scores look better than real ability.",
+  "audience": "decision",
   "days": [
+   "2026-07-09",
    "2026-10-29"
   ]
  },
@@ -346,9 +350,10 @@
  {
   "id": "cost-per-task",
   "term": "Cost per task",
-  "definition": "The total cost of getting one job done by an AI, including all the text it generates along the way.",
+  "definition": "What it costs in AI usage fees to complete one piece of work, a fairer measure than price per word.",
   "audience": "decision",
   "days": [
+   "2026-07-08",
    "2026-07-19",
    "2026-09-13",
    "2026-09-20",
@@ -405,9 +410,10 @@
  {
   "id": "data-minimisation",
   "term": "Data minimisation",
-  "definition": "Collecting and keeping only the personal data that is truly needed, so there is less to lose in a breach.",
+  "definition": "Collecting and keeping only the personal data you truly need for a task.",
   "audience": "decision",
   "days": [
+   "2026-07-06",
    "2026-09-09"
   ]
  },
@@ -503,9 +509,10 @@
  {
   "id": "execution-trace",
   "term": "Execution trace",
-  "definition": "A step-by-step record of what an agent did during a task, used to find where it went wrong.",
+  "definition": "A step-by-step record of what an AI agent did during a task, used to find where it went wrong.",
   "audience": "builder",
   "days": [
+   "2026-07-05",
    "2026-10-04"
   ]
  },
@@ -565,9 +572,10 @@
  {
   "id": "full-duplex-voice",
   "term": "Full-duplex voice",
-  "definition": "A voice system that can listen and speak at the same time, so people can interrupt it naturally.",
+  "definition": "A voice system that can listen and speak at the same time, like a phone call instead of a walkie-talkie.",
   "audience": "lay",
   "days": [
+   "2026-07-09",
    "2026-07-24",
    "2026-08-04",
    "2026-10-13"
@@ -631,9 +639,10 @@
  {
   "id": "interpretability",
   "term": "Interpretability",
-  "definition": "Research into what is happening inside an AI model when it produces an answer.",
+  "definition": "Research that tries to understand what is happening inside an AI model, not only what it outputs.",
   "audience": "lay",
   "days": [
+   "2026-07-07",
    "2026-07-20",
    "2026-08-24"
   ]
@@ -815,9 +824,10 @@
  {
   "id": "ocr",
   "term": "OCR",
-  "definition": "Software that turns images of text, such as scans, into text a computer can edit and search.",
+  "definition": "Optical character recognition: software that reads text from images or scanned pages.",
   "audience": "lay",
   "days": [
+   "2026-07-06",
    "2026-07-20",
    "2026-08-03"
   ]
@@ -837,6 +847,7 @@
   "definition": "An AI model whose trained settings are published so anyone can download, run and change it.",
   "audience": "lay",
   "days": [
+   "2026-07-06",
    "2026-07-16",
    "2026-08-02",
    "2026-08-27",
@@ -954,9 +965,10 @@
  {
   "id": "prompt-caching",
   "term": "Prompt caching",
-  "definition": "Reusing parts of a prompt that a model has already processed, so repeated requests cost less and run faster.",
+  "definition": "Storing repeated parts of an AI request so they are not paid for or processed again.",
   "audience": "builder",
   "days": [
+   "2026-07-08",
    "2026-09-02",
    "2026-09-23",
    "2026-11-15"
@@ -1060,6 +1072,7 @@
   "definition": "Deliberately attacking a system to find its weak points before real attackers do.",
   "audience": "lay",
   "days": [
+   "2026-07-07",
    "2026-07-16",
    "2026-07-31",
    "2026-08-17",
@@ -1069,9 +1082,10 @@
  {
   "id": "reinforcement-learning",
   "term": "Reinforcement learning",
-  "definition": "A way of training AI by trial and error, rewarding it when it gets closer to a goal.",
-  "audience": "builder",
+  "definition": "A way of training AI by trial and error, rewarding the actions that lead to good results.",
+  "audience": "lay",
   "days": [
+   "2026-07-05",
    "2026-08-19"
   ]
  },
@@ -1238,9 +1252,10 @@
  {
   "id": "subagent",
   "term": "Subagent",
-  "definition": "A smaller AI agent that a main agent sends to handle one narrow part of a task.",
+  "definition": "A helper AI agent that a main agent hands a smaller piece of work to.",
   "audience": "builder",
   "days": [
+   "2026-07-08",
    "2026-08-01",
    "2026-08-06",
    "2026-08-21",

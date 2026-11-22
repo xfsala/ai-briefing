@@ -1,0 +1,188 @@
+{
+  "date": "2026-07-07",
+  "question": "If we could see what an AI is quietly thinking, would that make us trust it more or less?",
+  "reflection": "Looking inside our tools, not only at their answers, is how trust can be earned instead of assumed.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Anthropic's J-space exposes Claude's hidden reasoning layer",
+      "link": ""
+    }
+  ],
+  "one_line": "Anthropic says it found a small hidden workspace inside Claude where its silent reasoning happens, opening a new way to check what a model is planning.",
+  "top_stories": [
+    {
+      "title": "A hidden scratchpad inside Claude",
+      "what": "Anthropic reports a small internal space, which it calls the J-space, that holds what Claude is actively working on; removing it reportedly breaks multi-step reasoning, and it showed warning signs in a model trained to sabotage code.",
+      "why": "Tools that reveal hidden intentions could become part of how organisations audit AI systems before trusting them with sensitive work.",
+      "action": "Watch",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "tags": [
+        "safety",
+        "interpretability"
+      ]
+    },
+    {
+      "title": "A free AI security tester",
+      "what": "An open-source framework called T3MP3ST turns coding agents into automated security testers and reportedly scored about 90% on a public hacking benchmark, with risky tools held behind human approval.",
+      "why": "Cheaper security testing helps smaller organisations, but the same tools lower the barrier for attackers.",
+      "action": "Watch",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "security",
+        "agents"
+      ]
+    },
+    {
+      "title": "A large free library of agent skills",
+      "what": "A developer published his full collection of reusable agent skills for research, documentation and coordinating several agents.",
+      "why": "Ready-made skills show how a team's know-how can be packaged so AI assistants follow the same methods every time.",
+      "action": "Try",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "title": "A world model that keeps learning after release",
+      "what": "NYU researchers describe a model that keeps adapting at test time to correct its own mistakes.",
+      "why": "Models that change after deployment need new kinds of monitoring, a point to raise in AI governance work.",
+      "action": "Watch",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "research"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Better ways to inspect model reasoning support the trust and transparency principles in Saudi AI ethics guidance for public-sector use."
+    }
+  ],
+  "idea": {
+    "title": "Team skills library",
+    "pitch": "Turn the team's standard research methods, such as interview coding or literature screening, into written skill files an AI assistant can follow.",
+    "fit": "Consultancy, research teams",
+    "first_step": "Write one skill file for a task the team repeats often and test it on two past projects."
+  },
+  "idea_kids": {
+    "title": "Think aloud game",
+    "pitch": "Children solve a simple puzzle in pairs while one says every thought out loud and the other draws the steps, to learn how thinking can be made visible.",
+    "age": "8 to 12",
+    "first_step": "Choose five short puzzles and make a simple drawing sheet with numbered boxes for each step."
+  },
+  "watchlist": [
+    {
+      "name": "Anthropic",
+      "sector": "Frontier models",
+      "note": "Released an open tool for reading a model's hidden working space."
+    },
+    {
+      "name": "NVIDIA",
+      "sector": "Robotics and physical AI",
+      "note": "Released an open foundation model for humanoid robots, GR00T N1.7."
+    }
+  ],
+  "tool": {
+    "name": "J-lens",
+    "use": "An open tool, with an interactive demo, for exploring the hidden working space of open models.",
+    "link": ""
+  },
+  "verify": [
+    "T3MP3ST reportedly scored 90.1% on a 104-challenge security benchmark and found 8 of 10 real 2026 vulnerabilities.",
+    "Removing the J-space reportedly drops Claude's multi-step reasoning below its smallest model."
+  ],
+  "entities": [
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Described the J-space inside Claude."
+    },
+    {
+      "name": "T3MP3ST",
+      "type": "product",
+      "sector": "Safety, security and governance",
+      "url": "",
+      "note": "Open-source automated security testing framework."
+    },
+    {
+      "name": "New York University",
+      "type": "organisation",
+      "sector": "Science and research",
+      "url": "https://www.nyu.edu",
+      "note": "Researchers built a world model that keeps learning after release."
+    },
+    {
+      "name": "Nvidia",
+      "type": "company",
+      "sector": "AI infrastructure and chips",
+      "url": "https://www.nvidia.com",
+      "note": "Released the GR00T N1.7 humanoid robot model."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Interpretability",
+      "definition": "Research that tries to understand what is happening inside an AI model, not only what it outputs.",
+      "audience": "lay"
+    },
+    {
+      "term": "Red-teaming",
+      "definition": "Deliberately attacking a system to find its weak points before real attackers do.",
+      "audience": "lay"
+    },
+    {
+      "term": "Agent skill",
+      "definition": "A saved set of instructions and files that teaches an AI agent how to do one task the same way each time.",
+      "audience": "builder"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Safety, security and governance",
+      "concept": "Hidden model reasoning",
+      "summary": "A small internal space shows what a model is silently planning.",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "entities": [
+        "Anthropic"
+      ]
+    },
+    {
+      "industry": "Safety, security and governance",
+      "concept": "AI for cybersecurity",
+      "summary": "Open frameworks turn coding agents into automated security testers.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "T3MP3ST"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Agent plugin standards",
+      "summary": "Reusable skill folders package know-how for AI agents.",
+      "audience": [
+        "builder"
+      ],
+      "entities": []
+    }
+  ]
+}

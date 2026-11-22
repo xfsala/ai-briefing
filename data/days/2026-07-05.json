@@ -1,0 +1,159 @@
+{
+  "date": "2026-07-05",
+  "question": "If an AI system can rewrite its own working rules, who checks that the new rules are still good ones?",
+  "reflection": "Systems that learn from their own mistakes can free people to spend more time on judgement, as long as people still set the tests.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "AI agents rewrite their own harness to boost performance by 60%",
+      "link": ""
+    }
+  ],
+  "one_line": "Researchers are letting AI agents study their own failures and rewrite the software around them, which lifts smaller and cheaper models closer to the big ones.",
+  "top_stories": [
+    {
+      "title": "Agents that fix their own instructions",
+      "what": "A Shanghai AI lab framework called Self-Harness has an agent review its failed runs, propose new rules for itself and keep only the rules that pass regression tests.",
+      "why": "The same loop of logging failures and testing fixes is a sound method for any team that runs AI on repeated research tasks such as coding survey answers.",
+      "action": "Watch",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "agents",
+        "research"
+      ]
+    },
+    {
+      "title": "Xiaomi open-sources a self-tuning agent toolkit",
+      "what": "Xiaomi's HarnessX treats an agent's memory, tools and control flow as swappable parts and uses reinforcement learning to search for better combinations; it reportedly lifted a small 9B model from 33% to 47% on a hard benchmark.",
+      "why": "If small models can be tuned this way, private and low-cost deployments become more realistic for organisations with strict data rules.",
+      "action": "Watch",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "agents",
+        "open models"
+      ]
+    },
+    {
+      "title": "From prompt writing to loop design",
+      "what": "The newsletter describes a shift from hand-writing prompts to designing loops with clear triggers, checks and stopping points that let agents correct themselves safely.",
+      "why": "Strong verification gates are what make automated work auditable, which matters to any public-sector or health client.",
+      "action": "Try",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "agents",
+        "governance"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Making smaller open models perform better on local hardware supports Saudi goals for sovereign AI and keeping sensitive data inside the Kingdom."
+    }
+  ],
+  "idea": {
+    "title": "Failure log for research assistants",
+    "pitch": "Keep a simple log of every time an AI assistant gets a research task wrong, then review it monthly to write better standing instructions.",
+    "fit": "Consultancy, any research team using AI",
+    "first_step": "Create a shared sheet with columns for task, what went wrong and the rule that would have prevented it, and fill it for one week."
+  },
+  "idea_kids": {
+    "title": "Fix the robot's rules",
+    "pitch": "A card game where children give a toy robot step-by-step rules to tidy a table, watch where it fails, and rewrite one rule each round.",
+    "age": "7 to 11",
+    "first_step": "Write eight simple instruction cards and test them with a family member acting as the robot."
+  },
+  "watchlist": [
+    {
+      "name": "Xiaomi",
+      "sector": "Agents and automation",
+      "note": "Its Darwin Agent Team released the open HarnessX toolkit."
+    },
+    {
+      "name": "Shanghai Artificial Intelligence Laboratory",
+      "sector": "Science and research",
+      "note": "Behind the Self-Harness self-improving agent method."
+    }
+  ],
+  "tool": {
+    "name": "HarnessX",
+    "use": "An open toolkit for testing different memory and tool setups for an agent on your own tasks.",
+    "link": ""
+  },
+  "verify": [
+    "Self-Harness reportedly raised agent pass rates by 33% to 60% on Terminal-Bench 2.0."
+  ],
+  "entities": [
+    {
+      "name": "Shanghai Artificial Intelligence Laboratory",
+      "type": "organisation",
+      "sector": "Science and research",
+      "url": "",
+      "note": "Published the Self-Harness framework."
+    },
+    {
+      "name": "Xiaomi",
+      "type": "company",
+      "sector": "Agents and automation",
+      "url": "https://www.mi.com",
+      "note": "Open-sourced the HarnessX agent toolkit."
+    },
+    {
+      "name": "HarnessX",
+      "type": "product",
+      "sector": "Agents and automation",
+      "url": "",
+      "note": "Toolkit that searches for better agent setups automatically."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Agent harness",
+      "definition": "The software around an AI model that gives it tools, memory, instructions and safety checks so it can do multi-step work.",
+      "audience": "builder"
+    },
+    {
+      "term": "Execution trace",
+      "definition": "A step-by-step record of what an AI agent did during a task, used to find where it went wrong.",
+      "audience": "builder"
+    },
+    {
+      "term": "Reinforcement learning",
+      "definition": "A way of training AI by trial and error, rewarding the actions that lead to good results.",
+      "audience": "lay"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Science and research",
+      "concept": "AI editing AI models",
+      "summary": "Agents that rewrite their own operating rules from their failure logs.",
+      "audience": [
+        "builder"
+      ],
+      "entities": [
+        "Shanghai Artificial Intelligence Laboratory",
+        "Xiaomi"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Leaner agent instructions",
+      "summary": "Tested, automatically improved instructions let small models do more.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "Xiaomi"
+      ]
+    }
+  ]
+}

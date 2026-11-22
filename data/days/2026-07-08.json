@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-08",
+  "question": "If a strong AI only needs to guide cheaper ones, how should we decide when the best is really needed?",
+  "reflection": "When good tools cost less, more schools, clinics and small teams can use them, which spreads opportunity further.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Anthropic cuts frontier AI costs in half without sacrificing performance",
+      "link": ""
+    }
+  ],
+  "one_line": "Anthropic showed how a top model can direct cheaper ones to get most of the quality at roughly half the cost, and Claude's background tasks moved to phone and web.",
+  "top_stories": [
+    {
+      "title": "Use the top model as an advisor, not a worker",
+      "what": "Anthropic described two patterns: a cheaper model does the work and asks the top model for advice, or the top model plans and cheaper models carry out the pieces; it reports up to 96% of top quality at 46% of the cost on research tasks.",
+      "why": "Splitting work by difficulty is a practical way to keep AI budgets under control on large research or document projects.",
+      "action": "Try",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "cost",
+        "agents"
+      ]
+    },
+    {
+      "title": "Claude tasks keep running after you close the laptop",
+      "what": "Anthropic says Claude Cowork now runs on web and mobile, so tasks continue in the background, scheduled jobs run overnight and the user is asked on their phone when a decision is needed.",
+      "why": "Background agents change how knowledge work is organised and raise new questions about oversight and working hours.",
+      "action": "Watch",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "tags": [
+        "agents",
+        "work"
+      ]
+    },
+    {
+      "title": "Free Claude access for open-source maintainers",
+      "what": "Anthropic offers six months of its top paid plan to maintainers of widely used open-source projects.",
+      "why": "Support for open-source maintainers strengthens the shared software many public services rely on.",
+      "action": "Watch",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "open source"
+      ]
+    },
+    {
+      "title": "Google releases Gemma 4 open models",
+      "what": "Google released Gemma 4, a family of open-weight models from 2B to 31B parameters with built-in reasoning.",
+      "why": "Small open models with reasoning can run on local servers, which helps where data must stay on site.",
+      "action": "Try",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "open models"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Lower running costs for strong AI help Saudi public bodies and small firms scale pilots without large cloud bills, while open models like Gemma can be hosted inside the Kingdom."
+    }
+  ],
+  "idea": {
+    "title": "Two-tier AI for document review",
+    "pitch": "Use a cheaper model to sort and summarise large document sets and send only the hard cases to a top model, with cost tracked per document.",
+    "fit": "Government services, consultancy",
+    "first_step": "Pick 50 past documents, run them through a cheap model and note which ones a human says needed a stronger review."
+  },
+  "idea_kids": {
+    "title": "Team captain and helpers",
+    "pitch": "A classroom game where one child plans a group task, such as building a paper bridge, and helpers each build one part, then the team talks about how planning and doing were shared.",
+    "age": "7 to 12",
+    "first_step": "Gather paper, tape and books, and write a one-page plan sheet for the captain."
+  },
+  "watchlist": [
+    {
+      "name": "Anthropic",
+      "sector": "Frontier models",
+      "note": "Pushing cost-saving multi-model patterns and background agents."
+    },
+    {
+      "name": "Google",
+      "sector": "Frontier models",
+      "note": "Gemma 4 open models with built-in reasoning."
+    }
+  ],
+  "tool": {
+    "name": "Gemma 4",
+    "use": "Open models in several sizes for testing local, private AI.",
+    "link": ""
+  },
+  "verify": [
+    "The advisor pattern reportedly gives 92% of top-model performance at 63% of the cost on coding tests."
+  ],
+  "entities": [
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Shared advisor and orchestrator patterns and expanded Cowork."
+    },
+    {
+      "name": "Google",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://about.google",
+      "note": "Released the Gemma 4 open models."
+    },
+    {
+      "name": "Stanford University",
+      "type": "organisation",
+      "sector": "Science and research",
+      "url": "https://www.stanford.edu",
+      "note": "Built version control for live agent runs."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Subagent",
+      "definition": "A helper AI agent that a main agent hands a smaller piece of work to.",
+      "audience": "builder"
+    },
+    {
+      "term": "Cost per task",
+      "definition": "What it costs in AI usage fees to complete one piece of work, a fairer measure than price per word.",
+      "audience": "decision"
+    },
+    {
+      "term": "Prompt caching",
+      "definition": "Storing repeated parts of an AI request so they are not paid for or processed again.",
+      "audience": "builder"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Agents and automation",
+      "concept": "Multi-model agent design",
+      "summary": "A strong model plans or advises while cheaper models do most of the work.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "Anthropic"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Long-running agents",
+      "summary": "Agent tasks that continue in the background across devices.",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "entities": [
+        "Anthropic"
+      ]
+    },
+    {
+      "industry": "Frontier models",
+      "concept": "Falling cost of intelligence",
+      "summary": "Near-top quality at about half the price through smarter task splitting.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "Anthropic",
+        "Google"
+      ]
+    }
+  ]
+}

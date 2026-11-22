@@ -1,0 +1,200 @@
+{
+  "date": "2026-07-06",
+  "question": "When an AI tool can apply for jobs on our behalf, what is still ours to decide in our own career?",
+  "reflection": "Open tools that anyone can inspect and adapt can spread useful skills widely, if people stay honest about what the machine wrote.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "GitHub Copilot adds Kimi K2, Claude auto-applies for jobs, pxpipe",
+      "link": ""
+    }
+  ],
+  "one_line": "Open models are moving into mainstream developer tools, and everyday tasks like job applications are being handed to AI agents.",
+  "top_stories": [
+    {
+      "title": "Copilot offers its first open-weight model",
+      "what": "GitHub Copilot added Moonshot's Kimi K2.7, the first open-weight model in its model menu.",
+      "why": "Open models inside widely used tools make it easier to choose options that can later be hosted locally.",
+      "action": "Watch",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "open models",
+        "coding"
+      ]
+    },
+    {
+      "title": "An open tool that applies for jobs with Claude",
+      "what": "A researcher shared ai-job-search, which scores fit for a job post, drafts a tailored CV and cover letter, and uses a second agent to review the first agent's work.",
+      "why": "Employers and labour-market agencies will receive more AI-written applications, which changes how screening and fairness should be studied.",
+      "action": "Pitch",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "tags": [
+        "work",
+        "agents"
+      ]
+    },
+    {
+      "title": "Cutting AI costs by sending text as images",
+      "what": "A proxy called pxpipe turns long text context into images, which the developer says cuts Claude Code bills by up to 70%, but it can misread exact strings such as IDs.",
+      "why": "A clear example of the trade-off between cost and accuracy that every AI budget decision involves.",
+      "action": "Watch",
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "title": "Private redaction of patient details on a laptop",
+      "what": "OpenMed released a small model that removes personal details from clinical text and runs quickly on a Mac without the cloud.",
+      "why": "On-device redaction could let health research teams share notes for analysis without exposing patient identities.",
+      "action": "Try",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "health",
+        "privacy"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Local redaction of clinical text fits Saudi personal data protection rules, which favour keeping identifiable health data under tight control."
+    }
+  ],
+  "idea": {
+    "title": "How AI-written applications change hiring",
+    "pitch": "Study how recruiters judge applications drafted by AI agents and whether screening still finds the best candidates.",
+    "fit": "Labour-market agency, government HR",
+    "first_step": "Collect five real job adverts and generate paired human and AI-drafted applications to use in a small recruiter test."
+  },
+  "idea_kids": {
+    "title": "My skills poster",
+    "pitch": "A workshop where children draw a poster of things they are good at and practise explaining them in their own words, without any AI help.",
+    "age": "8 to 12",
+    "first_step": "Prepare a one-page template with three boxes: what I can do, how I learned it, and what I want to learn next."
+  },
+  "watchlist": [
+    {
+      "name": "Moonshot AI",
+      "sector": "Frontier models",
+      "note": "Its Kimi models are now inside GitHub Copilot."
+    },
+    {
+      "name": "OpenMed",
+      "sector": "Healthcare and life sciences",
+      "note": "Small on-device models for clinical text privacy."
+    }
+  ],
+  "tool": {
+    "name": "OpenMed redaction model",
+    "use": "Removing personal details from clinical text on a local machine.",
+    "link": ""
+  },
+  "verify": [
+    "pxpipe reportedly cuts Claude Code costs by 59% to 70% on real traffic.",
+    "Sakana AI's multi-agent framework reportedly scores 93% on Sudoku where baselines score 11%."
+  ],
+  "entities": [
+    {
+      "name": "GitHub",
+      "type": "company",
+      "sector": "Developer tools",
+      "url": "https://github.com",
+      "note": "Added an open-weight model to Copilot."
+    },
+    {
+      "name": "Moonshot AI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.moonshot.ai",
+      "note": "Maker of the Kimi K2.7 model."
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Its Claude models power the open job-search tool."
+    },
+    {
+      "name": "OpenMed",
+      "type": "organisation",
+      "sector": "Healthcare and life sciences",
+      "url": "",
+      "note": "Released an on-device clinical redaction model."
+    },
+    {
+      "name": "Sakana AI",
+      "type": "company",
+      "sector": "Science and research",
+      "url": "",
+      "note": "Published a multi-agent framework for puzzle solving."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Open-weight model",
+      "definition": "An AI model whose trained settings are published so anyone can download, run and change it.",
+      "audience": "lay"
+    },
+    {
+      "term": "Data minimisation",
+      "definition": "Collecting and keeping only the personal data you truly need for a task.",
+      "audience": "decision"
+    },
+    {
+      "term": "OCR",
+      "definition": "Optical character recognition: software that reads text from images or scanned pages.",
+      "audience": "lay"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "AI infrastructure and chips",
+      "concept": "Open model ecosystems",
+      "summary": "Open models now appear inside mainstream developer tools.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "GitHub",
+        "Moonshot AI"
+      ]
+    },
+    {
+      "industry": "Work and workforce",
+      "concept": "AI labour disruption",
+      "summary": "Agents that write and send job applications change both sides of hiring.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "Anthropic"
+      ]
+    },
+    {
+      "industry": "Healthcare and life sciences",
+      "concept": "AI in hospital operations",
+      "summary": "On-device tools that strip personal details from clinical notes.",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "entities": [
+        "OpenMed"
+      ]
+    }
+  ]
+}

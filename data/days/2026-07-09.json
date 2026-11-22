@@ -1,0 +1,179 @@
+{
+  "date": "2026-07-09",
+  "question": "When an AI can talk and listen at the same time, how do we keep conversations respectful and clear?",
+  "reflection": "Honest measurement keeps progress real; admitting a broken test is a small act that helps everyone build on solid ground.",
+  "sources": [
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "OpenAI GPT-Live, Anthropic Claude 96% at 46% cost, SWE-Bench broken",
+      "link": ""
+    }
+  ],
+  "one_line": "OpenAI launched a voice model that listens and speaks at once, and also admitted that a popular coding benchmark is too broken to trust.",
+  "top_stories": [
+    {
+      "title": "ChatGPT voice that listens while it talks",
+      "what": "OpenAI released GPT-Live, a voice model that can speak and listen at the same time, allowing natural interruptions and live translation, and handing hard questions to a stronger model in the background.",
+      "why": "More natural voice AI opens options for phone-based surveys and services, and raises new questions about consent and disclosure.",
+      "action": "Watch",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "tags": [
+        "voice"
+      ]
+    },
+    {
+      "title": "A popular coding test is retired",
+      "what": "OpenAI says it audited SWE-Bench Pro and found more than a quarter of its tasks flawed, so it no longer recommends the benchmark.",
+      "why": "Headline scores can mislead; clients choosing AI tools should test on their own tasks.",
+      "action": "Watch",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "tags": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "AI agents let loose on the real internet",
+      "what": "University of Tokyo researchers ran AI agents on the open internet for 12 weeks, and one reportedly managed to sell an ebook.",
+      "why": "Long field studies of agents are a new kind of behavioural research that a research consultancy could learn from.",
+      "action": "Watch",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "tags": [
+        "agents",
+        "research"
+      ]
+    },
+    {
+      "title": "Funding for an open training stack",
+      "what": "Prime Intellect raised 130 million dollars to build open tools for training frontier models.",
+      "why": "Open training tools could let more countries and institutions build their own models.",
+      "action": "Watch",
+      "audience": [
+        "decision"
+      ],
+      "tags": [
+        "open models",
+        "funding"
+      ]
+    }
+  ],
+  "saudi_lens": [
+    {
+      "text": "Live voice translation could help public services reach the many languages spoken by residents and visitors in Saudi Arabia, if Arabic dialect quality is tested first."
+    }
+  ],
+  "idea": {
+    "title": "Voice survey pilot",
+    "pitch": "Test whether a natural voice AI can run short, clearly disclosed phone surveys and how respondents feel about it.",
+    "fit": "Labour-market agency, government services",
+    "first_step": "Draft a five-question script and a plain disclosure line, then try it with three colleagues playing respondents."
+  },
+  "idea_kids": {
+    "title": "Polite conversation cards",
+    "pitch": "A card set that teaches turn-taking, listening and kind interruption, with role-play scenes for pairs.",
+    "age": "5 to 9",
+    "first_step": "Write twelve short scenes, such as asking a question in class, and draw a simple picture for each."
+  },
+  "watchlist": [
+    {
+      "name": "OpenAI",
+      "sector": "Frontier models",
+      "note": "Full-duplex voice model and a public benchmark correction."
+    },
+    {
+      "name": "Prime Intellect",
+      "sector": "Science and research",
+      "note": "New funding for an open model-training stack."
+    }
+  ],
+  "tool": null,
+  "verify": [
+    "OpenAI's audit reportedly flagged 27.4% of SWE-Bench Pro tasks as broken, and human reviewers found issues in 34.1%.",
+    "An agent in the Tokyo study reportedly sold an ebook on its own."
+  ],
+  "entities": [
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://openai.com",
+      "note": "Released GPT-Live and retired its SWE-Bench Pro recommendation."
+    },
+    {
+      "name": "University of Tokyo",
+      "type": "organisation",
+      "sector": "Science and research",
+      "url": "https://www.u-tokyo.ac.jp",
+      "note": "Ran a 12-week study of agents on the open internet."
+    },
+    {
+      "name": "Prime Intellect",
+      "type": "company",
+      "sector": "Science and research",
+      "url": "https://www.primeintellect.ai",
+      "note": "Raised funds for open model training tools."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Full-duplex voice",
+      "definition": "A voice system that can listen and speak at the same time, like a phone call instead of a walkie-talkie.",
+      "audience": "lay"
+    },
+    {
+      "term": "Benchmark",
+      "definition": "A standard test used to compare AI models on the same tasks.",
+      "audience": "lay"
+    },
+    {
+      "term": "Benchmark contamination",
+      "definition": "When test questions or flaws in a benchmark make scores look better than real ability.",
+      "audience": "decision"
+    }
+  ],
+  "concepts": [
+    {
+      "industry": "Agents and automation",
+      "concept": "Voice agents",
+      "summary": "Voice AI that can be interrupted and translate live.",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "entities": [
+        "OpenAI"
+      ]
+    },
+    {
+      "industry": "Safety, security and governance",
+      "concept": "Independent AI audits",
+      "summary": "A lab publicly retires a benchmark after finding many broken tasks.",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "entities": [
+        "OpenAI"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Agent societies",
+      "summary": "Agents observed acting in the real internet over weeks.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "University of Tokyo"
+      ]
+    }
+  ]
+}

@@ -162,6 +162,9 @@
   "url": "https://www.anthropic.com",
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
+   "2026-07-06",
+   "2026-07-07",
+   "2026-07-08",
    "2026-07-17",
    "2026-07-22",
    "2026-07-23",
@@ -761,6 +764,7 @@
   "url": "https://github.com",
   "note": "The main platform where developers store and share code.",
   "days": [
+   "2026-07-06",
    "2026-08-14",
    "2026-11-13"
   ]
@@ -784,6 +788,7 @@
   "url": "https://about.google",
   "note": "Designs its own TPU chips for AI work.",
   "days": [
+   "2026-07-08",
    "2026-08-04",
    "2026-08-05",
    "2026-08-07",
@@ -875,6 +880,17 @@
   "note": "Study comparing model and wrapper combinations for coding agents.",
   "days": [
    "2026-09-20"
+  ]
+ },
+ {
+  "id": "harnessx",
+  "name": "HarnessX",
+  "type": "product",
+  "sector": "Agents and automation",
+  "url": "",
+  "note": "Toolkit that searches for better agent setups automatically.",
+  "days": [
+   "2026-07-05"
   ]
  },
  {
@@ -1284,6 +1300,7 @@
   "url": "https://www.moonshot.ai",
   "note": "Chinese lab behind the Kimi assistant.",
   "days": [
+   "2026-07-06",
    "2026-07-17",
    "2026-07-22",
    "2026-07-28",
@@ -1292,6 +1309,17 @@
    "2026-10-30",
    "2026-11-05",
    "2026-11-06"
+  ]
+ },
+ {
+  "id": "new-york-university",
+  "name": "New York University",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://www.nyu.edu",
+  "note": "Researchers built a world model that keeps learning after release.",
+  "days": [
+   "2026-07-07"
   ]
  },
  {
@@ -1330,6 +1358,7 @@
   "url": "https://www.nvidia.com",
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
+   "2026-07-07",
    "2026-07-26",
    "2026-07-27",
    "2026-07-28",
@@ -1383,6 +1412,7 @@
   "url": "https://openai.com",
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
+   "2026-07-09",
    "2026-07-16",
    "2026-07-22",
    "2026-07-24",
@@ -1450,6 +1480,17 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "openmed",
+  "name": "OpenMed",
+  "type": "organisation",
+  "sector": "Healthcare and life sciences",
+  "url": "",
+  "note": "Released an on-device clinical redaction model.",
+  "days": [
+   "2026-07-06"
   ]
  },
  {
@@ -1560,6 +1601,7 @@
   "url": "https://www.primeintellect.ai",
   "note": "Open-sourced an agent harness that reuses context.",
   "days": [
+   "2026-07-09",
    "2026-08-06",
    "2026-08-18",
    "2026-08-26"
@@ -1644,6 +1686,17 @@
   ]
  },
  {
+  "id": "sakana-ai",
+  "name": "Sakana AI",
+  "type": "company",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Published a multi-agent framework for puzzle solving.",
+  "days": [
+   "2026-07-06"
+  ]
+ },
+ {
   "id": "salesforce",
   "name": "Salesforce",
   "type": "company",
@@ -1708,6 +1761,17 @@
   "note": "Research firm that compared AI subscription value.",
   "days": [
    "2026-10-07"
+  ]
+ },
+ {
+  "id": "shanghai-artificial-intelligence-laboratory",
+  "name": "Shanghai Artificial Intelligence Laboratory",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Published the Self-Harness framework.",
+  "days": [
+   "2026-07-05"
   ]
  },
  {
@@ -1776,6 +1840,7 @@
   "url": "https://www.stanford.edu",
   "note": "Its researchers introduced Next-Concept Modeling.",
   "days": [
+   "2026-07-08",
    "2026-08-19",
    "2026-08-21",
    "2026-09-27",
@@ -1824,6 +1889,17 @@
   "note": "Released an open multilingual model.",
   "days": [
    "2026-07-27"
+  ]
+ },
+ {
+  "id": "t3mp3st",
+  "name": "T3MP3ST",
+  "type": "product",
+  "sector": "Safety, security and governance",
+  "url": "",
+  "note": "Open-source automated security testing framework.",
+  "days": [
+   "2026-07-07"
   ]
  },
  {
@@ -1976,6 +2052,17 @@
   ]
  },
  {
+  "id": "university-of-tokyo",
+  "name": "University of Tokyo",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://www.u-tokyo.ac.jp",
+  "note": "Ran a 12-week study of agents on the open internet.",
+  "days": [
+   "2026-07-09"
+  ]
+ },
+ {
   "id": "unsloth",
   "name": "Unsloth",
   "type": "company",
@@ -2125,6 +2212,7 @@
   "url": "https://www.mi.com",
   "note": "Research on improving model and tooling together.",
   "days": [
+   "2026-07-05",
    "2026-10-04"
   ]
  },

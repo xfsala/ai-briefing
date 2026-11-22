@@ -240,7 +240,8 @@
       "2026-08-02",
       "2026-07-28",
       "2026-07-19",
-      "2026-07-16"
+      "2026-07-16",
+      "2026-07-06"
      ],
      "children": [
       {
@@ -261,6 +262,10 @@
       },
       {
        "name": "DeepSeek",
+       "kind": "entity"
+      },
+      {
+       "name": "GitHub",
        "kind": "entity"
       },
       {
@@ -410,7 +415,8 @@
      "days": [
       "2026-08-07",
       "2026-07-29",
-      "2026-07-17"
+      "2026-07-17",
+      "2026-07-07"
      ],
      "children": [
       {
@@ -453,7 +459,8 @@
       "2026-09-01",
       "2026-08-18",
       "2026-08-17",
-      "2026-08-10"
+      "2026-08-10",
+      "2026-07-09"
      ],
      "children": [
       {
@@ -470,6 +477,10 @@
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "University of Tokyo",
        "kind": "entity"
       },
       {
@@ -609,15 +620,21 @@
      "kind": "concept",
      "summary": "Smarter models need shorter, clearer prompts rather than heavy step-by-step guidance.",
      "audience": [
-      "builder"
+      "builder",
+      "decision"
      ],
      "days": [
       "2026-09-14",
-      "2026-08-23"
+      "2026-08-23",
+      "2026-07-05"
      ],
      "children": [
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "Xiaomi",
        "kind": "entity"
       }
      ]
@@ -628,7 +645,8 @@
      "summary": "Agents that work for hours or days and build up huge working memories.",
      "audience": [
       "builder",
-      "decision"
+      "decision",
+      "lay"
      ],
      "days": [
       "2026-11-08",
@@ -636,11 +654,16 @@
       "2026-10-01",
       "2026-08-21",
       "2026-08-06",
-      "2026-08-03"
+      "2026-08-03",
+      "2026-07-08"
      ],
      "children": [
       {
        "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
+       "name": "Anthropic",
        "kind": "entity"
       },
       {
@@ -689,7 +712,8 @@
       "2026-08-18",
       "2026-08-01",
       "2026-07-23",
-      "2026-07-21"
+      "2026-07-21",
+      "2026-07-08"
      ],
      "children": [
       {
@@ -772,7 +796,8 @@
       "2026-11-20",
       "2026-09-25",
       "2026-08-04",
-      "2026-07-24"
+      "2026-07-24",
+      "2026-07-09"
      ],
      "children": [
       {
@@ -1349,7 +1374,8 @@
       "2026-08-13",
       "2026-08-03",
       "2026-07-20",
-      "2026-07-19"
+      "2026-07-19",
+      "2026-07-08"
      ],
      "children": [
       {
@@ -1362,6 +1388,10 @@
       },
       {
        "name": "DeepSeek",
+       "kind": "entity"
+      },
+      {
+       "name": "Google",
        "kind": "entity"
       },
       {
@@ -1466,14 +1496,20 @@
      "kind": "concept",
      "summary": "AI layers that connect patient records, billing and guidelines for staff.",
      "audience": [
+      "builder",
       "decision"
      ],
      "days": [
-      "2026-11-11"
+      "2026-11-11",
+      "2026-07-06"
      ],
      "children": [
       {
        "name": "Google Cloud",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenMed",
        "kind": "entity"
       }
      ]
@@ -1938,7 +1974,8 @@
       "2026-07-30",
       "2026-07-29",
       "2026-07-23",
-      "2026-07-16"
+      "2026-07-16",
+      "2026-07-07"
      ],
      "children": [
       {
@@ -1955,6 +1992,10 @@
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "T3MP3ST",
        "kind": "entity"
       },
       {
@@ -2191,13 +2232,20 @@
      "kind": "concept",
      "summary": "Models may reason in ways not visible in their answers.",
      "audience": [
+      "builder",
       "decision",
       "lay"
      ],
      "days": [
-      "2026-07-20"
+      "2026-07-20",
+      "2026-07-07"
      ],
-     "children": []
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
     },
     {
      "name": "Human override and shutdown",
@@ -2232,6 +2280,7 @@
      "kind": "concept",
      "summary": "Outside groups testing models for hidden risks before and after release.",
      "audience": [
+      "builder",
       "decision"
      ],
      "days": [
@@ -2242,7 +2291,8 @@
       "2026-09-29",
       "2026-09-21",
       "2026-09-18",
-      "2026-09-15"
+      "2026-09-15",
+      "2026-07-09"
      ],
      "children": [
       {
@@ -2448,7 +2498,8 @@
       "decision"
      ],
      "days": [
-      "2026-11-04"
+      "2026-11-04",
+      "2026-07-05"
      ],
      "children": [
       {
@@ -2457,6 +2508,14 @@
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "Shanghai Artificial Intelligence Laboratory",
+       "kind": "entity"
+      },
+      {
+       "name": "Xiaomi",
        "kind": "entity"
       }
      ]
@@ -2626,7 +2685,8 @@
       "2026-09-10",
       "2026-09-07",
       "2026-09-02",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-07-06"
      ],
      "children": [
       {
