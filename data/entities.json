@@ -29,6 +29,7 @@
   "url": "https://www.alibabagroup.com",
   "note": "Chinese group behind the open Qwen model family.",
   "days": [
+   "2026-10-11",
    "2026-10-27",
    "2026-10-29",
    "2026-11-09"
@@ -42,6 +43,7 @@
   "url": "https://alphasignal.ai",
   "note": "Daily AI news for developers, founded by Lior Alexander.",
   "days": [
+   "2026-10-11",
    "2026-10-16",
    "2026-10-18",
    "2026-10-19",
@@ -102,6 +104,9 @@
    "2026-10-02",
    "2026-10-05",
    "2026-10-06",
+   "2026-10-07",
+   "2026-10-08",
+   "2026-10-09",
    "2026-10-16",
    "2026-10-19",
    "2026-10-20",
@@ -147,6 +152,17 @@
   "note": "Tightening Mac file-access permissions for AI agents.",
   "days": [
    "2026-10-05"
+  ]
+ },
+ {
+  "id": "arena",
+  "name": "Arena",
+  "type": "company",
+  "sector": "Business and markets",
+  "url": "",
+  "note": "Runs a popular AI model leaderboard.",
+  "days": [
+   "2026-10-09"
   ]
  },
  {
@@ -214,6 +230,17 @@
   "days": [
    "2026-11-02",
    "2026-11-13"
+  ]
+ },
+ {
+  "id": "danaher",
+  "name": "Danaher",
+  "type": "company",
+  "sector": "Healthcare and life sciences",
+  "url": "https://www.danaher.com",
+  "note": "Life-science firm planning an autonomous research lab.",
+  "days": [
+   "2026-10-08"
   ]
  },
  {
@@ -339,6 +366,17 @@
   ]
  },
  {
+  "id": "goodfire",
+  "name": "Goodfire",
+  "type": "company",
+  "sector": "Safety, security and governance",
+  "url": "https://www.goodfire.ai",
+  "note": "Builds tools that monitor model internals.",
+  "days": [
+   "2026-10-09"
+  ]
+ },
+ {
   "id": "google",
   "name": "Google",
   "type": "company",
@@ -348,6 +386,9 @@
   "days": [
    "2026-10-02",
    "2026-10-04",
+   "2026-10-07",
+   "2026-10-08",
+   "2026-10-09",
    "2026-11-02",
    "2026-11-10"
   ]
@@ -523,6 +564,7 @@
   "url": "https://mistral.ai",
   "note": "French AI lab, maker of the Timestral forecasting models.",
   "days": [
+   "2026-10-07",
    "2026-11-01"
   ]
  },
@@ -573,6 +615,7 @@
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
    "2026-10-05",
+   "2026-10-11",
    "2026-10-22",
    "2026-10-26",
    "2026-10-30",
@@ -599,6 +642,9 @@
    "2026-10-02",
    "2026-10-05",
    "2026-10-06",
+   "2026-10-07",
+   "2026-10-08",
+   "2026-10-09",
    "2026-10-19",
    "2026-10-21",
    "2026-10-22",
@@ -631,6 +677,17 @@
   "note": "Web browser maker proposing on-device AI for websites.",
   "days": [
    "2026-10-28"
+  ]
+ },
+ {
+  "id": "parallel-systems",
+  "name": "Parallel Systems",
+  "type": "company",
+  "sector": "Robotics and physical AI",
+  "url": "",
+  "note": "Builds autonomous battery-powered freight rail vehicles.",
+  "days": [
+   "2026-10-08"
   ]
  },
  {
@@ -730,6 +787,17 @@
   "note": "US biomedical research institute.",
   "days": [
    "2026-10-23"
+  ]
+ },
+ {
+  "id": "semianalysis",
+  "name": "SemiAnalysis",
+  "type": "organisation",
+  "sector": "Business and markets",
+  "url": "https://semianalysis.com",
+  "note": "Research firm that compared AI subscription value.",
+  "days": [
+   "2026-10-07"
   ]
  },
  {
@@ -843,6 +911,17 @@
   "note": "Web platform company whose lab released agent-desktop.",
   "days": [
    "2026-11-02"
+  ]
+ },
+ {
+  "id": "wikimedia-foundation",
+  "name": "Wikimedia Foundation",
+  "type": "organisation",
+  "sector": "Consumer and media",
+  "url": "https://wikimediafoundation.org",
+  "note": "Runs Wikipedia; reported unauthorised agent activity.",
+  "days": [
+   "2026-10-07"
   ]
  },
  {

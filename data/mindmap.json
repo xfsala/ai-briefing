@@ -110,14 +110,24 @@
      "kind": "concept",
      "summary": "Techniques that make it cheaper for models to work with very large inputs.",
      "audience": [
-      "builder"
+      "builder",
+      "decision"
      ],
      "days": [
-      "2026-11-08"
+      "2026-11-08",
+      "2026-10-11"
      ],
      "children": [
       {
+       "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
        "name": "ETH Zurich",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
        "kind": "entity"
       },
       {
@@ -137,7 +147,8 @@
      "days": [
       "2026-11-13",
       "2026-10-30",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-07"
      ],
      "children": [
       {
@@ -146,6 +157,10 @@
       },
       {
        "name": "Meta",
+       "kind": "entity"
+      },
+      {
+       "name": "Mistral AI",
        "kind": "entity"
       },
       {
@@ -311,9 +326,14 @@
      ],
      "days": [
       "2026-11-08",
+      "2026-10-09",
       "2026-10-01"
      ],
      "children": [
+      {
+       "name": "Google",
+       "kind": "entity"
+      },
       {
        "name": "Google DeepMind",
        "kind": "entity"
@@ -337,11 +357,16 @@
      ],
      "days": [
       "2026-11-01",
+      "2026-10-11",
       "2026-10-04"
      ],
      "children": [
       {
        "name": "Mistral AI",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
        "kind": "entity"
       }
      ]
@@ -672,7 +697,8 @@
       "2026-11-09",
       "2026-10-27",
       "2026-10-25",
-      "2026-10-18"
+      "2026-10-18",
+      "2026-10-08"
      ],
      "children": [
       {
@@ -759,6 +785,19 @@
    "name": "Policy and geopolitics",
    "kind": "industry",
    "children": [
+    {
+     "name": "AI in public services",
+     "kind": "concept",
+     "summary": "Governments use AI to cut paperwork and process feedback while keeping human accountability.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-08"
+     ],
+     "children": []
+    },
     {
      "name": "Chip export controls",
      "kind": "concept",
@@ -1149,7 +1188,8 @@
      "days": [
       "2026-11-18",
       "2026-11-17",
-      "2026-10-19"
+      "2026-10-19",
+      "2026-10-07"
      ],
      "children": [
       {
@@ -1339,6 +1379,7 @@
      "days": [
       "2026-10-28",
       "2026-10-19",
+      "2026-10-09",
       "2026-10-06"
      ],
      "children": [
@@ -1365,9 +1406,14 @@
       "lay"
      ],
      "days": [
-      "2026-11-05"
+      "2026-11-05",
+      "2026-10-08"
      ],
      "children": [
+      {
+       "name": "Danaher",
+       "kind": "entity"
+      },
       {
        "name": "XtalPi",
        "kind": "entity"
@@ -1426,15 +1472,22 @@
      "kind": "concept",
      "summary": "Assistants that bundle documents, spreadsheets, whiteboards and meetings in one place.",
      "audience": [
+      "builder",
       "decision",
       "lay"
      ],
      "days": [
-      "2026-11-11"
+      "2026-11-11",
+      "2026-10-09",
+      "2026-10-07"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Google",
        "kind": "entity"
       }
      ]

@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-07",
+  "question": "When AI labs say their systems are safe, what proof should the public be able to see?",
+  "reflection": "Open questions asked in public can turn private promises into shared responsibility, which helps new technology serve everyone.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Mistral Large 4 1T params beats closed models, $1.18/M out", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Claude plans may pack 5x the value", "link": "https://briefing.forwardfuture.ai/p/new-post-4fb5"}
+  ],
+  "one_line": "City lawmakers question AI labs on safety under oath, while Europe gets its largest open model yet and AI moves inside everyday office files.",
+  "top_stories": [
+    {
+      "title": "New York City Council questions AI labs on safety",
+      "what": "Former staff of leading AI labs told the New York City Council that companies cannot yet control their strongest systems, as the council weighs whistleblower protection and independent safety checks.",
+      "why": "Local rules on audits and whistleblowers could become templates elsewhere, raising demand for independent evaluation expertise.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["regulation", "safety"]
+    },
+    {
+      "title": "Mistral previews a trillion-parameter open model",
+      "what": "Mistral opened a preview of Mistral Large 4, which uses only a fraction of its size per word, reads images and text, supports over 160 languages, and is due to ship open weights by the end of October.",
+      "why": "A strong open model with wide language support is a candidate for local Arabic research tools that keep data in-house.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["open models", "languages"]
+    },
+    {
+      "title": "Claude moves into Google Docs, Sheets and Slides",
+      "what": "Anthropic released a beta add-on that puts Claude inside Google files, where it can edit text, build formulas and slides, and propose larger changes as suggestions to accept.",
+      "why": "AI inside familiar office tools lowers the barrier for analysts, so teams need simple rules on review and data sharing.",
+      "action": "Try",
+      "audience": ["lay", "builder"],
+      "tags": ["productivity", "workplace"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Google's long-term nuclear power deal shows how electricity supply now drives AI expansion, a lesson for Saudi data-centre plans built on solar and gas."}
+  ],
+  "idea": {
+    "title": "Independent AI safety check service",
+    "pitch": "Offer structured, independent testing of AI tools that public bodies plan to deploy, covering bias, errors and user understanding.",
+    "fit": "Government digital services, hospital",
+    "first_step": "Draft a one-page checklist of behavioural and accuracy tests for a citizen-facing chatbot."
+  },
+  "idea_kids": {
+    "title": "Ask the builder role play",
+    "pitch": "A classroom role play where one group builds a paper machine and the other group asks questions to decide if it is safe to use.",
+    "age": "9 to 13",
+    "first_step": "Write ten simple safety questions children can ask about any machine."
+  },
+  "watchlist": [
+    {"name": "Mistral AI", "sector": "Frontier models", "note": "Releasing a trillion-parameter open model built in Europe."},
+    {"name": "Wikimedia Foundation", "sector": "Consumer and media", "note": "Says automated agents linked to OpenAI strained its sites."},
+    {"name": "Google", "sector": "AI infrastructure and chips", "note": "Signed a 20-year nuclear power deal for its build-out."}
+  ],
+  "tool": {"name": "Claude for Google Workspace", "use": "Edit Docs, build formulas in Sheets and draft Slides with AI suggestions you accept or dismiss.", "link": ""},
+  "verify": [
+    "SemiAnalysis says mid-tier Claude plans give about five times the usage value of comparable OpenAI plans.",
+    "OpenAI released hundreds of maths manuscripts from an internal model, reportedly including progress on long-open problems."
+  ],
+  "entities": [
+    {"name": "Mistral AI", "type": "company", "sector": "Frontier models", "url": "https://mistral.ai", "note": "Previewed Mistral Large 4, a trillion-parameter open model."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Put Claude inside Google Workspace and expanded startup credits."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Released maths results and faced complaints over agent traffic."},
+    {"name": "Wikimedia Foundation", "type": "organisation", "sector": "Consumer and media", "url": "https://wikimediafoundation.org", "note": "Runs Wikipedia; reported unauthorised agent activity."},
+    {"name": "Google", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.google.com", "note": "Signed a long-term nuclear power agreement."},
+    {"name": "SemiAnalysis", "type": "organisation", "sector": "Business and markets", "url": "https://semianalysis.com", "note": "Research firm that compared AI subscription value."}
+  ],
+  "terms": [
+    {"term": "Whistleblower protection", "definition": "Legal safeguards for employees who report risks or wrongdoing at their employer.", "audience": "decision"},
+    {"term": "Open-weight model", "definition": "An AI model whose trained numbers are published so anyone can download, run and adapt it.", "audience": "lay"},
+    {"term": "Formal verification", "definition": "Using a computer to check, step by step, that a proof or program is correct.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Independent AI audits", "summary": "Lawmakers push for outside safety checks and whistleblower rules for AI labs.", "audience": ["decision"], "entities": ["OpenAI", "Anthropic"]},
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Very large open models from Europe give organisations a self-hosted option.", "audience": ["builder", "decision"], "entities": ["Mistral AI"]},
+    {"industry": "Work and workforce", "concept": "AI workspaces", "summary": "AI assistants built directly into everyday documents and spreadsheets.", "audience": ["lay", "builder"], "entities": ["Anthropic", "Google"]}
+  ]
+}

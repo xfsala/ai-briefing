@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-09",
+  "question": "When AI produces results faster than experts can check them, how do we decide what to trust?",
+  "reflection": "Careful checking is slow, but it is how new knowledge becomes something everyone can safely build on.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Dashboards, OpenAI Decisions API, Claude Pen Testing", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Google is building AI coworkers", "link": "https://briefing.forwardfuture.ai/p/openai-safety-concerns-google-s-gemini-agent-ai-math-research"}
+  ],
+  "one_line": "AI output is outpacing human review, from a flood of unchecked maths papers to persistent agents that work for days as digital coworkers.",
+  "top_stories": [
+    {
+      "title": "OpenAI's maths papers outpace peer review",
+      "what": "Most of OpenAI's 700-plus AI-written maths manuscripts have not been independently reviewed, few show the model's reasoning, and one high-profile proof reportedly has a computer check that does not match its written argument.",
+      "why": "Any team using AI to draft research needs clear review steps, because a confident output and a verified result are not the same thing.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["science", "verification"]
+    },
+    {
+      "title": "Google launches Gemini agents that act like coworkers",
+      "what": "Google introduced business Gemini agents that keep working for hours or days, carry memory across apps, and can get their own email, storage, permissions and audit trail.",
+      "why": "Treating an agent as a team member raises practical questions on responsibility, access and how staff feel about working alongside it.",
+      "action": "Pitch",
+      "audience": ["decision", "builder"],
+      "tags": ["agents", "workplace"]
+    },
+    {
+      "title": "Claude adds live dashboards and animation",
+      "what": "Anthropic released Claude Dashboards, which turn plain questions into live charts from company data, and Claude Motion, which builds editable animations from reports.",
+      "why": "Analysts without coding skills can now build and refresh data views quickly, so data governance matters more than ever.",
+      "action": "Try",
+      "audience": ["builder", "lay"],
+      "tags": ["data", "productivity"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "As Saudi entities adopt AI agents with their own accounts and permissions, national data and cybersecurity rules will need clear guidance on agent identities and audit trails."}
+  ],
+  "idea": {
+    "title": "Working with AI coworkers study",
+    "pitch": "Interview and survey staff in organisations piloting AI agents on trust, workload and who they think is responsible when things go wrong.",
+    "fit": "Government services, consultancy, hospital",
+    "first_step": "Draft an interview guide with eight questions on trust, control and accountability."
+  },
+  "idea_kids": {
+    "title": "Check my answer game",
+    "pitch": "Pairs of children solve simple puzzles, then swap and check each other's work step by step before any answer is accepted.",
+    "age": "8 to 12",
+    "first_step": "Print ten short puzzles with space for a checker's tick at each step."
+  },
+  "watchlist": [
+    {"name": "Google", "sector": "Agents and automation", "note": "Pushing persistent agents with their own work accounts."},
+    {"name": "Goodfire", "sector": "Safety, security and governance", "note": "Testing monitors that watch inside models for harmful behaviour."},
+    {"name": "Arena", "sector": "Business and markets", "note": "AI evaluation firm that raised a large round."}
+  ],
+  "tool": {"name": "OpenAI Decisions API", "use": "Get fast yes or no, category or score answers from text or images, useful for classifying survey responses.", "link": ""},
+  "verify": [
+    "OpenAI's annualised revenue is reported to be near $50 billion, about $20 billion below an earlier figure shared with investors.",
+    "Partners in Anthropic's security programme reportedly found over 129,000 verified software vulnerabilities."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Its AI maths release faces review concerns."},
+    {"name": "Google", "type": "company", "sector": "Agents and automation", "url": "https://www.google.com", "note": "Launched persistent Gemini agents for business."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Released Dashboards and Motion and tightened its usage policy."},
+    {"name": "Goodfire", "type": "company", "sector": "Safety, security and governance", "url": "https://www.goodfire.ai", "note": "Builds tools that monitor model internals."},
+    {"name": "Arena", "type": "company", "sector": "Business and markets", "url": "", "note": "Runs a popular AI model leaderboard."}
+  ],
+  "terms": [
+    {"term": "Peer review", "definition": "When independent experts check research before it is accepted as reliable.", "audience": "lay"},
+    {"term": "Formal verification", "definition": "Using a computer to check, step by step, that a proof or program is correct.", "audience": "builder"},
+    {"term": "Audit trail", "definition": "A record of who or what did each action in a system, so mistakes can be traced.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "AI produces research faster than peer review can check it.", "audience": ["decision", "lay"], "entities": ["OpenAI"]},
+    {"industry": "Agents and automation", "concept": "Long-running agents", "summary": "Agents that keep working for days with their own accounts and memory.", "audience": ["decision", "builder"], "entities": ["Google"]},
+    {"industry": "Work and workforce", "concept": "AI workspaces", "summary": "AI suites that turn questions into documents, dashboards and animations.", "audience": ["lay", "builder"], "entities": ["Anthropic"]}
+  ]
+}

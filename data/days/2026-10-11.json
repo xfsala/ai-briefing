@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-11",
+  "question": "When several AI models share one task, how do we make sure nothing important is lost between them?",
+  "reflection": "Good handovers matter for machines as much as for people, and learning to pass knowledge cleanly helps every team work better.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "KV cache techniques for faster, cheaper multi-model AI agents", "link": ""}
+  ],
+  "one_line": "Researchers are finding ways for AI models to hand work to each other by sharing their internal memory instead of rewriting everything as text.",
+  "top_stories": [
+    {
+      "title": "Faster handovers between AI models",
+      "what": "NVIDIA researchers reportedly convert one model's internal working memory so a larger model can continue a task without rereading everything, cutting handover time by up to 25 times on long inputs, with some accuracy trade-off.",
+      "why": "Cheaper handovers make it practical to use a small model for routine coding of data and a larger one only for hard cases.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["agents", "efficiency"]
+    },
+    {
+      "title": "Models that pass notes without words",
+      "what": "A separate method lets one model inject what it understood directly into another model's memory, reportedly improving accuracy by a few points and speeding up handovers about 2.5 times compared with text messages.",
+      "why": "These methods need open models you run yourself, another reason to keep self-hosted options in view for sensitive work.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "open models"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today."}
+  ],
+  "idea": {
+    "title": "Small and large model routing pilot",
+    "pitch": "Route easy text classification to a small local model and send only unclear cases to a larger one, then measure cost and accuracy.",
+    "fit": "Consultancy, government digital services",
+    "first_step": "Label 300 open-ended survey answers by hand to use as a benchmark."
+  },
+  "idea_kids": {
+    "title": "Pass the message relay",
+    "pitch": "Teams pass a drawing description down a line using words only, then try again with a sketch, and compare how much detail survives.",
+    "age": "7 to 12",
+    "first_step": "Choose three simple pictures and set a time limit for each round."
+  },
+  "watchlist": [
+    {"name": "NVIDIA", "sector": "AI infrastructure and chips", "note": "Research on reusing working memory across models."}
+  ],
+  "tool": null,
+  "verify": [
+    "Cross-model memory transfer reportedly cuts handover time by up to 25 times on a 32,000-token input."
+  ],
+  "entities": [
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Developed a method to transfer working memory between models."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Published a deep dive on multi-model agent handovers."},
+    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Its Qwen models were used in the handover experiments."}
+  ],
+  "terms": [
+    {"term": "KV cache", "definition": "The working memory a model builds while reading input, so it does not have to reread everything for each new word.", "audience": "builder"},
+    {"term": "Model routing", "definition": "Sending each request to the cheapest model that can handle it well.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Multi-model agent design", "summary": "Cheaper handovers between small and large models in one agent system.", "audience": ["builder"], "entities": ["NVIDIA"]},
+    {"industry": "AI infrastructure and chips", "concept": "Long-context efficiency", "summary": "Reusing internal memory to avoid repeated computation on long inputs.", "audience": ["builder", "decision"], "entities": ["NVIDIA", "Alibaba"]}
+  ]
+}

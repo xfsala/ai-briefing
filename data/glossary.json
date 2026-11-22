@@ -83,6 +83,15 @@
   ]
  },
  {
+  "id": "audit-trail",
+  "term": "Audit trail",
+  "definition": "A record of who or what did each action in a system, so mistakes can be traced.",
+  "audience": "decision",
+  "days": [
+   "2026-10-09"
+  ]
+ },
+ {
   "id": "autoregressive-model",
   "term": "Autoregressive model",
   "definition": "A model that writes text one small piece at a time, each piece based on everything written before it.",
@@ -249,10 +258,21 @@
  {
   "id": "formal-verification",
   "term": "Formal verification",
-  "definition": "Using computer-checked mathematics to prove that a proof or program is correct.",
+  "definition": "Using a computer to check, step by step, that a proof or program is correct.",
   "audience": "builder",
   "days": [
+   "2026-10-07",
+   "2026-10-09",
    "2026-10-28"
+  ]
+ },
+ {
+  "id": "generative-interface",
+  "term": "Generative interface",
+  "definition": "When an AI builds buttons, charts or forms on the spot to answer a question, instead of replying only in text.",
+  "audience": "lay",
+  "days": [
+   "2026-10-08"
   ]
  },
  {
@@ -293,6 +313,15 @@
   ]
  },
  {
+  "id": "kv-cache",
+  "term": "KV cache",
+  "definition": "The working memory a model builds while reading input, so it does not have to reread everything for each new word.",
+  "audience": "builder",
+  "days": [
+   "2026-10-11"
+  ]
+ },
+ {
   "id": "legal-personhood",
   "term": "Legal personhood",
   "definition": "The status that lets an entity, such as a company, hold rights, sign contracts and be sued.",
@@ -330,6 +359,15 @@
   ]
  },
  {
+  "id": "model-routing",
+  "term": "Model routing",
+  "definition": "Sending each request to the cheapest model that can handle it well.",
+  "audience": "builder",
+  "days": [
+   "2026-10-11"
+  ]
+ },
+ {
   "id": "model-weights",
   "term": "Model weights",
   "definition": "The learned numbers inside an AI model that hold what it has learned; whoever has them can run the model.",
@@ -356,6 +394,7 @@
   "audience": "lay",
   "days": [
    "2026-10-02",
+   "2026-10-07",
    "2026-10-16",
    "2026-11-05",
    "2026-11-09"
@@ -377,6 +416,15 @@
   "audience": "builder",
   "days": [
    "2026-10-01"
+  ]
+ },
+ {
+  "id": "peer-review",
+  "term": "Peer review",
+  "definition": "When independent experts check research before it is accepted as reliable.",
+  "audience": "lay",
+  "days": [
+   "2026-10-09"
   ]
  },
  {
@@ -521,9 +569,10 @@
  {
   "id": "self-driving-lab",
   "term": "Self-driving lab",
-  "definition": "A laboratory where AI plans experiments and robots run them, so tests can continue day and night with little human help.",
+  "definition": "A laboratory where robots and AI plan, run and analyse experiments with little human input.",
   "audience": "lay",
   "days": [
+   "2026-10-08",
    "2026-11-05"
   ]
  },
@@ -554,6 +603,15 @@
   "audience": "builder",
   "days": [
    "2026-11-08"
+  ]
+ },
+ {
+  "id": "subagent",
+  "term": "Subagent",
+  "definition": "A smaller AI helper that a main agent hands a part of a task to.",
+  "audience": "builder",
+  "days": [
+   "2026-10-08"
   ]
  },
  {
@@ -686,6 +744,15 @@
   "audience": "lay",
   "days": [
    "2026-10-06"
+  ]
+ },
+ {
+  "id": "whistleblower-protection",
+  "term": "Whistleblower protection",
+  "definition": "Legal safeguards for employees who report risks or wrongdoing at their employer.",
+  "audience": "decision",
+  "days": [
+   "2026-10-07"
   ]
  },
  {

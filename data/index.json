@@ -426,6 +426,60 @@
   ]
  },
  {
+  "date": "2026-10-11",
+  "question": "When several AI models share one task, how do we make sure nothing important is lost between them?",
+  "one_line": "Researchers are finding ways for AI models to hand work to each other by sharing their internal memory instead of rewriting everything as text.",
+  "titles": [
+   "Faster handovers between AI models",
+   "Models that pass notes without words"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-10-09",
+  "question": "When AI produces results faster than experts can check them, how do we decide what to trust?",
+  "one_line": "AI output is outpacing human review, from a flood of unchecked maths papers to persistent agents that work for days as digital coworkers.",
+  "titles": [
+   "OpenAI's maths papers outpace peer review",
+   "Google launches Gemini agents that act like coworkers",
+   "Claude adds live dashboards and animation"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-08",
+  "question": "If AI can make public services faster, how do we keep human judgment and accountability in the process?",
+  "one_line": "AI is getting cheaper and more visual, and the bigger question is where it can remove paperwork in government without hiding who is responsible.",
+  "titles": [
+   "Governments use AI to speed up public services",
+   "Cheap small models and answers that become mini apps",
+   "A life-science firm plans a self-running lab"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-07",
+  "question": "When AI labs say their systems are safe, what proof should the public be able to see?",
+  "one_line": "City lawmakers question AI labs on safety under oath, while Europe gets its largest open model yet and AI moves inside everyday office files.",
+  "titles": [
+   "New York City Council questions AI labs on safety",
+   "Mistral previews a trillion-parameter open model",
+   "Claude moves into Google Docs, Sheets and Slides"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
   "date": "2026-10-06",
   "question": "If many voters now ask chatbots about elections, how do we keep their choices truly their own?",
   "one_line": "Knowing where text and information come from is becoming a real requirement, as OpenAI watermarks ChatGPT text in Europe and voters turn to chatbots for election advice.",
