@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-04",
+  "question": "If AI agents learn to improve themselves, what should people decide must never change?",
+  "reflection": "Systems that learn from their own mistakes can help us too, if we stay clear about the goals we measure them against.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "How AI Agents Are Learning to Rewrite Their Own Stack", "link": ""}
+  ],
+  "one_line": "Researchers are turning the parts around an AI model, its instructions, tools and test settings, into things the agent can rewrite and improve on its own.",
+  "top_stories": [
+    {
+      "title": "Agents that rewrite their own instructions",
+      "what": "Research teams at Microsoft, Google and others describe loops where an agent reviews its past runs, edits its own instruction files or tooling, and keeps only changes that score better on held-out tests.",
+      "why": "Self-improving agents still depend on the measures people choose, so good evaluation design becomes the key human skill.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "self-improvement"]
+    },
+    {
+      "title": "A simple rule for where to start",
+      "what": "The overview suggests fixing the narrowest layer first: instructions for repeated procedural errors, tooling for memory or verification failures, and training settings only when the agent stops learning.",
+      "why": "Teams piloting agents for research tasks can use this order to improve results without retraining a model.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "practice"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today."}
+  ],
+  "idea": {
+    "title": "Evaluation sets for research agents",
+    "pitch": "Build a small, trusted test set of survey coding and literature tasks in Arabic and English, so any agent a team uses can be checked before and after changes.",
+    "fit": "Consultancy, government digital services",
+    "first_step": "Collect twenty past coding tasks with agreed correct answers to use as a held-out test."
+  },
+  "idea_kids": {
+    "title": "Improve the recipe game",
+    "pitch": "Children follow a simple paper-plane recipe, test how far planes fly, then change one step at a time and keep only changes that help.",
+    "age": "8 to 12",
+    "first_step": "Write a five-step plane recipe card and a simple distance score sheet."
+  },
+  "watchlist": [
+    {"name": "Microsoft", "sector": "Agents and automation", "note": "Research on agents that tune their own skill files."},
+    {"name": "Meta", "sector": "Agents and automation", "note": "Work on agents whose improvement process can itself change."},
+    {"name": "Xiaomi", "sector": "Agents and automation", "note": "Training models on the behaviour their own tooling discovers."}
+  ],
+  "tool": null,
+  "verify": [
+    "One self-improving tooling method reportedly delivered relative gains of up to 132% on agent benchmarks."
+  ],
+  "entities": [
+    {"name": "Microsoft", "type": "company", "sector": "Agents and automation", "url": "https://www.microsoft.com", "note": "Research on self-optimising agent skills."},
+    {"name": "Google", "type": "company", "sector": "Agents and automation", "url": "https://www.google.com", "note": "Research on storing agent experience in a structured wiki."},
+    {"name": "Meta", "type": "company", "sector": "Agents and automation", "url": "https://about.meta.com", "note": "Research on agents that modify their own improvement process."},
+    {"name": "Xiaomi", "type": "company", "sector": "Agents and automation", "url": "https://www.mi.com", "note": "Research on improving model and tooling together."}
+  ],
+  "terms": [
+    {"term": "Agent harness", "definition": "The software around an AI model that gives it instructions, tools, memory and rules for handling errors.", "audience": "builder"},
+    {"term": "Execution trace", "definition": "A step-by-step record of what an agent did during a task, used to find where it went wrong.", "audience": "builder"},
+    {"term": "Held-out test set", "definition": "Examples kept aside and not used for training, so they give a fair check of whether a change really helps.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Science and research", "concept": "AI-accelerated AI research", "summary": "Agents that study their own runs and improve their own tooling without hand tuning.", "audience": ["builder", "decision"], "entities": ["Microsoft", "Google", "Meta", "Xiaomi"]},
+    {"industry": "Agents and automation", "concept": "Multi-model agent design", "summary": "Choosing which layer of an agent system to change first: instructions, tooling, model or environment.", "audience": ["builder"], "entities": []}
+  ]
+}

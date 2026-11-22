@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-02",
+  "question": "If robots can do many tasks but cost more than people, how should we plan for work?",
+  "reflection": "When we measure carefully what machines can and cannot do yet, we gain time to prepare people for the changes ahead.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude Code Plugins, OpenAI Codex Security Scanning, De", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Google is sending AI chips into orbit", "link": "https://briefing.forwardfuture.ai/p/ai-hacking-effective-altruism-google-s-space-based-ai-chips"}
+  ],
+  "one_line": "Open AI models are proving strong at finding security holes, while new research suggests robots are capable but still too costly to replace most physical work.",
+  "top_stories": [
+    {
+      "title": "Robots are capable but rarely cheaper than people",
+      "what": "Anthropic estimates robots can do about three quarters of physical job tasks, yet they are cheaper than human workers for only a tiny share of work today.",
+      "why": "Cost, not capability, may set the pace of automation, which changes how workforce studies should model job risk.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["robotics", "workforce"]
+    },
+    {
+      "title": "Open models win a hacking contest",
+      "what": "A security firm reportedly won an authorised bug-hunting contest using teams of agents built on open-weight models from a Chinese lab, finding flaws in live systems.",
+      "why": "Organisations holding personal data need to assume attackers now have cheap AI help, and test their own systems more often.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["security", "open models"]
+    },
+    {
+      "title": "China sets rules for AI companions",
+      "what": "New Chinese rules require AI companion services to say clearly they are not human, protect minors and avoid encouraging emotional dependence.",
+      "why": "These rules give a ready list of behavioural safeguards that other regulators and product teams can test and adapt.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["regulation", "wellbeing"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "China's companion rules offer a reference point for Saudi regulators considering how to protect young users of AI chat apps."},
+    {"text": "Slow robot cost declines suggest Saudi automation plans in logistics and construction may still rely on human workers for years."}
+  ],
+  "idea": {
+    "title": "Task automation cost study",
+    "pitch": "Score common physical jobs by what robots can do and what it would cost, to give a realistic timeline of automation risk.",
+    "fit": "Labour-market agency, government services",
+    "first_step": "Pick ten common job titles and list their main tasks from an occupational database."
+  },
+  "idea_kids": {
+    "title": "Robot or helper card game",
+    "pitch": "Children sort cards showing everyday jobs into what a robot could do, what a person does best, and what needs both.",
+    "age": "6 to 10",
+    "first_step": "Draw twenty simple job cards, such as cooking, cleaning, teaching and fixing a bike."
+  },
+  "watchlist": [
+    {"name": "Z.ai", "sector": "Frontier models", "note": "Its open GLM models were used by a winning team in an authorised hacking contest."},
+    {"name": "Google", "sector": "AI infrastructure and chips", "note": "Testing AI chips on satellites to explore solar-powered computing in space."},
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Publishing economic research on robots and jobs, and opening its coding tool to mods."}
+  ],
+  "tool": null,
+  "verify": [
+    "Anthropic estimates robots can perform tasks equal to about a third of US working hours but are cheaper than people for only 0.3% of work.",
+    "Google DeepMind is reportedly building a scoring system for signs of consciousness in AI."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Published an estimate of robot capability versus cost."},
+    {"name": "Z.ai", "type": "company", "sector": "Frontier models", "url": "", "note": "Chinese lab behind the open-weight GLM models."},
+    {"name": "Google", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.google.com", "note": "Sending its TPU chips to orbit on test satellites."},
+    {"name": "SpaceX", "type": "company", "sector": "Space", "url": "https://www.spacex.com", "note": "Launching the satellites that carry Google's AI chips."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Added always-on repository security scanning to Codex."}
+  ],
+  "terms": [
+    {"term": "Open-weight model", "definition": "An AI model whose trained numbers are published so anyone can download, run and adapt it.", "audience": "lay"},
+    {"term": "TPU", "definition": "A chip designed by Google specifically to run AI workloads.", "audience": "builder"},
+    {"term": "Emotional dependence", "definition": "When a person comes to rely on a system, such as a chatbot, for comfort in a way that crowds out human support.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Robotics and physical AI", "concept": "Robot cost versus capability", "summary": "Robots can technically do many tasks, but cost keeps most physical work in human hands for now.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "AI agents find software flaws faster, helping both defenders and attackers.", "audience": ["decision", "builder"], "entities": ["Z.ai", "OpenAI"]},
+    {"industry": "Consumer and media", "concept": "AI companionship", "summary": "People forming emotional bonds with chatbots, now drawing specific regulation.", "audience": ["lay", "decision"], "entities": []}
+  ]
+}

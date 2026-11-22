@@ -424,5 +424,73 @@
    "AlphaSignal",
    "Forward Future"
   ]
+ },
+ {
+  "date": "2026-10-06",
+  "question": "If many voters now ask chatbots about elections, how do we keep their choices truly their own?",
+  "one_line": "Knowing where text and information come from is becoming a real requirement, as OpenAI watermarks ChatGPT text in Europe and voters turn to chatbots for election advice.",
+  "titles": [
+   "OpenAI adds hidden watermarks to ChatGPT text",
+   "One in five US voters consult chatbots on elections",
+   "AI agents shortlist new magnetic materials in days"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-05",
+  "question": "Before we let an AI agent into our files and email, what should it be allowed to see?",
+  "one_line": "Access is the theme of the day: Apple tightens what agents can reach on a Mac, while gray markets route around limits on US AI models and chips.",
+  "titles": [
+   "Apple raises the bar for agents reading your files",
+   "A gray market for US AI models in China",
+   "European open model with a very long memory"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-04",
+  "question": "If AI agents learn to improve themselves, what should people decide must never change?",
+  "one_line": "Researchers are turning the parts around an AI model, its instructions, tools and test settings, into things the agent can rewrite and improve on its own.",
+  "titles": [
+   "Agents that rewrite their own instructions",
+   "A simple rule for where to start"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-10-02",
+  "question": "If robots can do many tasks but cost more than people, how should we plan for work?",
+  "one_line": "Open AI models are proving strong at finding security holes, while new research suggests robots are capable but still too costly to replace most physical work.",
+  "titles": [
+   "Robots are capable but rarely cheaper than people",
+   "Open models win a hacking contest",
+   "China sets rules for AI companions"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-01",
+  "question": "When AI agents can act for us online, who should check that they act safely?",
+  "one_line": "US regulators start looking hard at AI agent safety, while Google and OpenAI release models built for long, unbroken agent work.",
+  "titles": [
+   "US consumer regulator opens an AI safety inquiry",
+   "Google and OpenAI ship models for long agent tasks",
+   "Building AI needs more skilled trades than exist"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
  }
 ]

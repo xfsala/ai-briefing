@@ -310,9 +310,18 @@
       "decision"
      ],
      "days": [
-      "2026-11-08"
+      "2026-11-08",
+      "2026-10-01"
      ],
      "children": [
+      {
+       "name": "Google DeepMind",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      },
       {
        "name": "Prefrontal AI",
        "kind": "entity"
@@ -327,7 +336,8 @@
       "builder"
      ],
      "days": [
-      "2026-11-01"
+      "2026-11-01",
+      "2026-10-04"
      ],
      "children": [
       {
@@ -465,7 +475,8 @@
       "lay"
      ],
      "days": [
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-02"
      ],
      "children": [
       {
@@ -507,7 +518,8 @@
       "lay"
      ],
      "days": [
-      "2026-11-04"
+      "2026-11-04",
+      "2026-10-06"
      ],
      "children": []
     },
@@ -761,9 +773,14 @@
       "2026-11-12",
       "2026-11-10",
       "2026-11-06",
-      "2026-10-19"
+      "2026-10-19",
+      "2026-10-05"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "DeepSeek",
        "kind": "entity"
@@ -774,6 +791,10 @@
       },
       {
        "name": "Moonshot AI",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
        "kind": "entity"
       },
       {
@@ -887,9 +908,14 @@
       "decision"
      ],
      "days": [
-      "2026-10-30"
+      "2026-10-30",
+      "2026-10-05"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "DeepSeek",
        "kind": "entity"
@@ -927,6 +953,24 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "Robot cost versus capability",
+     "kind": "concept",
+     "summary": "Robots can technically do many tasks, but cost keeps most physical work in human hands for now.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-02"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      }
+     ]
     }
    ]
   },
@@ -934,6 +978,24 @@
    "name": "Safety, security and governance",
    "kind": "industry",
    "children": [
+    {
+     "name": "AI content provenance",
+     "kind": "concept",
+     "summary": "Watermarks and labels to show when text or media was made by AI.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-06"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
     {
      "name": "AI for cybersecurity",
      "kind": "concept",
@@ -945,7 +1007,8 @@
      "days": [
       "2026-11-06",
       "2026-10-22",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-02"
      ],
      "children": [
       {
@@ -954,6 +1017,10 @@
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "Z.ai",
        "kind": "entity"
       }
      ]
@@ -1009,11 +1076,42 @@
      ],
      "days": [
       "2026-11-19",
-      "2026-10-29"
+      "2026-10-29",
+      "2026-10-01"
      ],
      "children": [
       {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Federal Trade Commission",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
        "name": "Salesforce",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Agent permissions",
+     "kind": "concept",
+     "summary": "Operating systems and teams rethink what agents may access on a computer.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-05"
+     ],
+     "children": [
+      {
+       "name": "Apple",
        "kind": "entity"
       }
      ]
@@ -1194,11 +1292,13 @@
      "kind": "concept",
      "summary": "AI tools doing a growing share of the work of building the next AI models.",
      "audience": [
+      "builder",
       "decision",
       "lay"
      ],
      "days": [
-      "2026-11-06"
+      "2026-11-06",
+      "2026-10-04"
      ],
      "children": [
       {
@@ -1206,7 +1306,23 @@
        "kind": "entity"
       },
       {
+       "name": "Google",
+       "kind": "entity"
+      },
+      {
        "name": "METR",
+       "kind": "entity"
+      },
+      {
+       "name": "Meta",
+       "kind": "entity"
+      },
+      {
+       "name": "Microsoft",
+       "kind": "entity"
+      },
+      {
+       "name": "Xiaomi",
        "kind": "entity"
       }
      ]
@@ -1216,12 +1332,14 @@
      "kind": "concept",
      "summary": "AI models producing original proofs and findings that experts must verify.",
      "audience": [
+      "builder",
       "decision",
       "lay"
      ],
      "days": [
       "2026-10-28",
-      "2026-10-19"
+      "2026-10-19",
+      "2026-10-06"
      ],
      "children": [
       {
@@ -1230,6 +1348,10 @@
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "Vals",
        "kind": "entity"
       }
      ]
@@ -1285,7 +1407,8 @@
      ],
      "days": [
       "2026-11-13",
-      "2026-10-27"
+      "2026-10-27",
+      "2026-10-01"
      ],
      "children": [
       {

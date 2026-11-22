@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-05",
+  "question": "Before we let an AI agent into our files and email, what should it be allowed to see?",
+  "reflection": "Careful limits on what our tools can reach let us enjoy their help while keeping our private lives in our own hands.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "image-blaster turns one photo into a 3D world in 5 min", "link": ""},
+    {"newsletter": "Forward Future", "subject": "China's AI resellers + Apple tightens Mac access", "link": "https://briefing.forwardfuture.ai/p/china-s-ai-gray-market-restricted-nvidia-chips-apple-s-security-push"}
+  ],
+  "one_line": "Access is the theme of the day: Apple tightens what agents can reach on a Mac, while gray markets route around limits on US AI models and chips.",
+  "top_stories": [
+    {
+      "title": "Apple raises the bar for agents reading your files",
+      "what": "Apple says granting an app full access to files, mail and messages on a Mac will need a very explicit user action, because agents can now act across the whole computer.",
+      "why": "How people grant permissions to agents is a consent and trust question that behavioural design can improve.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["privacy", "agents"]
+    },
+    {
+      "title": "A gray market for US AI models in China",
+      "what": "Thousands of small resellers reportedly sell pooled access to Claude and other US models in China, some used to train rival models by imitation, while Anthropic bans suspicious accounts.",
+      "why": "Data sent through such resellers can be exposed, a reminder to check exactly where any AI service sends sensitive research data.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["geopolitics", "security"]
+    },
+    {
+      "title": "European open model with a very long memory",
+      "what": "Aleph Alpha released Kolibri-1, an open-weight model under a permissive licence that switches on only a small part of itself per word and reportedly reads up to a million tokens.",
+      "why": "Open models that run on your own servers suit organisations that must keep data local.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["open models", "local AI"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Export-control enforcement against chip smuggling routes through Asia matters for Saudi Arabia, which needs to show strict controls to keep access to advanced US chips."}
+  ],
+  "idea": {
+    "title": "Agent permission audit kit",
+    "pitch": "A short workshop and checklist that helps teams list what each AI agent can reach, the worst realistic failure, and which human approvals must stay.",
+    "fit": "Government digital services, hospital, consultancy",
+    "first_step": "Draft a one-page permission table with Allow, Limit and Deny columns and test it on one tool your team uses."
+  },
+  "idea_kids": {
+    "title": "Who gets the key? story book",
+    "pitch": "A picture book where a family robot asks for keys to different rooms, and children decide which rooms it really needs to enter and why.",
+    "age": "5 to 9",
+    "first_step": "Write a short draft with six rooms and one question per page."
+  },
+  "watchlist": [
+    {"name": "Apple", "sector": "Safety, security and governance", "note": "Changing operating system permissions because of AI agents."},
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Fighting unauthorised resale of its models in China."},
+    {"name": "Aleph Alpha", "sector": "Frontier models", "note": "Releasing European open models for local use."}
+  ],
+  "tool": {"name": "Kolibri-1", "use": "An open-weight reasoning model for long documents that you can run on your own hardware.", "link": ""},
+  "verify": [
+    "US prosecutors allege one company owner routed more than $300 million of restricted AI servers to China; these are allegations, not findings.",
+    "Chinese state-linked financing reportedly helped buy servers with NVIDIA chips banned for sale to China."
+  ],
+  "entities": [
+    {"name": "Apple", "type": "company", "sector": "Consumer and media", "url": "https://www.apple.com", "note": "Tightening Mac file-access permissions for AI agents."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Banning accounts tied to Chinese resellers of Claude."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Its restricted chips keep turning up in China."},
+    {"name": "Aleph Alpha", "type": "company", "sector": "Frontier models", "url": "https://aleph-alpha.com", "note": "German lab that released the open Kolibri-1 model."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "A safety staff member resigned, criticising its culture."}
+  ],
+  "terms": [
+    {"term": "Distillation", "definition": "Training one model to copy the answers of another, often a stronger one.", "audience": "lay"},
+    {"term": "Export controls", "definition": "Government rules that limit which products, such as advanced chips, can be sold to certain countries.", "audience": "decision"},
+    {"term": "Mixture of experts", "definition": "A model design where only a small set of specialist parts switch on for each request, so a huge model runs at the cost of a smaller one.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Policy and geopolitics", "concept": "Chip export controls", "summary": "Restricted chips and model access keep leaking through resellers and third countries.", "audience": ["decision"], "entities": ["NVIDIA", "Anthropic"]},
+    {"industry": "Policy and geopolitics", "concept": "Model distillation disputes", "summary": "Labs fight unauthorised use of their models to train rivals.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "Agent permissions", "summary": "Operating systems and teams rethink what agents may access on a computer.", "audience": ["lay", "decision"], "entities": ["Apple"]}
+  ]
+}

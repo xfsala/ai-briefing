@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-01",
+  "question": "When AI agents can act for us online, who should check that they act safely?",
+  "reflection": "Rules and oversight can help powerful tools earn trust, so that more people can share their benefits with less fear.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Google Gemini 4 Argon hits 1M output tokens, restricted launch", "link": ""},
+    {"newsletter": "Forward Future", "subject": "OpenAI's billion-user race to catch up", "link": "https://briefing.forwardfuture.ai/p/ai-s-physical-singularity-openai-s-devday-strategy-ftc-scrutiny"}
+  ],
+  "one_line": "US regulators start looking hard at AI agent safety, while Google and OpenAI release models built for long, unbroken agent work.",
+  "top_stories": [
+    {
+      "title": "US consumer regulator opens an AI safety inquiry",
+      "what": "The US Federal Trade Commission is reportedly seeking records from OpenAI, Anthropic and the evaluator METR about the risks of agents that browse and act for users.",
+      "why": "Regulators asking how agents behave creates demand for evidence on user trust, consent and harm, which is behavioural research territory.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["regulation", "agents"]
+    },
+    {
+      "title": "Google and OpenAI ship models for long agent tasks",
+      "what": "Google's Gemini 4 Argon can reportedly write up to a million tokens in one answer but is limited to vetted security partners for now, while OpenAI added GPT-6.1 Sol and a paid high-speed tier.",
+      "why": "Longer and faster outputs make it practical to run full document reviews or coding of large qualitative datasets in one pass.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["frontier models", "agents"]
+    },
+    {
+      "title": "Building AI needs more skilled trades than exist",
+      "what": "An industry report says the US needs about 1.7 million new tradespeople a year to 2035, while training covers only about half that need.",
+      "why": "Skills gaps behind the AI build-out are a workforce planning question that labour-market agencies can study with real data.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["workforce", "infrastructure"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi Arabia is building large data centres too, so the shortage of electricians and cooling technicians is a local planning issue for technical colleges and the labour market."}
+  ],
+  "idea": {
+    "title": "Data-centre trades skills map",
+    "pitch": "Estimate how many electricians, cooling technicians and mechanics planned data centres will need, and compare that with current training output.",
+    "fit": "Labour-market agency, technical education",
+    "first_step": "List announced data-centre projects in the Kingdom and the trades each one typically needs."
+  },
+  "idea_kids": {
+    "title": "Build a city power board game",
+    "pitch": "A board game where children place homes, schools and a data centre on a map and share limited power and workers between them.",
+    "age": "9 to 13",
+    "first_step": "Sketch a simple grid map and make cards for power units and worker types."
+  },
+  "watchlist": [
+    {"name": "Federal Trade Commission", "sector": "Safety, security and governance", "note": "Its inquiry could shape how agent products are tested and disclosed."},
+    {"name": "Google DeepMind", "sector": "Frontier models", "note": "Releasing its strongest model first to security defenders only."},
+    {"name": "OpenAI", "sector": "Frontier models", "note": "Leaning on its large user base to catch up on agent features."}
+  ],
+  "tool": {"name": "Exa", "use": "A web search service built for AI agents that returns page text, highlights and citations.", "link": "https://exa.ai"},
+  "verify": [
+    "OpenAI says ChatGPT has 1.2 billion weekly active users.",
+    "A new method reportedly lets models manage their own context and beat hand-designed strategies by about 47%."
+  ],
+  "entities": [
+    {"name": "Federal Trade Commission", "type": "organisation", "sector": "Policy and geopolitics", "url": "https://www.ftc.gov", "note": "US consumer protection agency, investigating AI agent risks."},
+    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Released Gemini 4 Argon to a limited group of security partners."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Launched GPT-6.1 Sol, a speed tier and persistent agents at DevDay."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Named in the FTC inquiry; its IPO filing lists serious AI risks."},
+    {"name": "METR", "type": "organisation", "sector": "Safety, security and governance", "url": "https://metr.org", "note": "AI evaluation group also asked for records by the FTC."}
+  ],
+  "terms": [
+    {"term": "AI agent", "definition": "An AI system that can take steps on its own, such as browsing, using software or buying things, to finish a task for a person.", "audience": "lay"},
+    {"term": "Output tokens", "definition": "The pieces of text a model writes in its answer; a higher limit means it can produce longer work in one go.", "audience": "builder"},
+    {"term": "Context window", "definition": "How much text a model can read and keep in mind at one time.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Agent liability", "summary": "Regulators begin asking who answers for harm when AI agents act for users.", "audience": ["decision"], "entities": ["Federal Trade Commission", "OpenAI", "Anthropic"]},
+    {"industry": "Agents and automation", "concept": "Long-running agents", "summary": "Models built to produce very long outputs so agents can finish big tasks without stopping.", "audience": ["builder", "decision"], "entities": ["Google DeepMind", "OpenAI"]},
+    {"industry": "Work and workforce", "concept": "AI labour disruption", "summary": "The AI build-out creates shortages of skilled trades as well as pressure on office jobs.", "audience": ["decision"], "entities": []}
+  ]
+}

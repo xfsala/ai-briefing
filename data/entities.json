@@ -11,6 +11,17 @@
   ]
  },
  {
+  "id": "aleph-alpha",
+  "name": "Aleph Alpha",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://aleph-alpha.com",
+  "note": "German lab that released the open Kolibri-1 model.",
+  "days": [
+   "2026-10-05"
+  ]
+ },
+ {
   "id": "alibaba",
   "name": "Alibaba",
   "type": "company",
@@ -87,6 +98,10 @@
   "url": "https://www.anthropic.com",
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
+   "2026-10-01",
+   "2026-10-02",
+   "2026-10-05",
+   "2026-10-06",
    "2026-10-16",
    "2026-10-19",
    "2026-10-20",
@@ -121,6 +136,17 @@
   "days": [
    "2026-11-17",
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "apple",
+  "name": "Apple",
+  "type": "company",
+  "sector": "Consumer and media",
+  "url": "https://www.apple.com",
+  "note": "Tightening Mac file-access permissions for AI agents.",
+  "days": [
+   "2026-10-05"
   ]
  },
  {
@@ -250,6 +276,17 @@
   ]
  },
  {
+  "id": "federal-trade-commission",
+  "name": "Federal Trade Commission",
+  "type": "organisation",
+  "sector": "Policy and geopolitics",
+  "url": "https://www.ftc.gov",
+  "note": "US consumer protection agency, investigating AI agent risks.",
+  "days": [
+   "2026-10-01"
+  ]
+ },
+ {
   "id": "forward-future",
   "name": "Forward Future",
   "type": "organisation",
@@ -309,6 +346,8 @@
   "url": "https://www.google.com",
   "note": "Designs its own TPU chips for AI work.",
   "days": [
+   "2026-10-02",
+   "2026-10-04",
    "2026-11-02",
    "2026-11-10"
   ]
@@ -332,6 +371,7 @@
   "url": "https://deepmind.google",
   "note": "Google's AI lab behind the Gemini models.",
   "days": [
+   "2026-10-01",
    "2026-10-20",
    "2026-10-28",
    "2026-11-11",
@@ -427,6 +467,8 @@
   "url": "https://about.meta.com",
   "note": "Its FAIR research lab maintains the FAISS search library.",
   "days": [
+   "2026-10-04",
+   "2026-10-06",
    "2026-10-16",
    "2026-10-21",
    "2026-11-09",
@@ -452,6 +494,7 @@
   "url": "https://metr.org",
   "note": "Independent research group that evaluates the abilities and risks of frontier models.",
   "days": [
+   "2026-10-01",
    "2026-10-19",
    "2026-11-06",
    "2026-11-18"
@@ -465,6 +508,8 @@
   "url": "https://www.microsoft.com",
   "note": "Sells Copilot in Office and is a major Anthropic partner and investor.",
   "days": [
+   "2026-10-04",
+   "2026-10-06",
    "2026-10-26",
    "2026-10-27",
    "2026-11-17"
@@ -527,6 +572,7 @@
   "url": "https://www.nvidia.com",
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
+   "2026-10-05",
    "2026-10-22",
    "2026-10-26",
    "2026-10-30",
@@ -549,6 +595,10 @@
   "url": "https://openai.com",
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
+   "2026-10-01",
+   "2026-10-02",
+   "2026-10-05",
+   "2026-10-06",
    "2026-10-19",
    "2026-10-21",
    "2026-10-22",
@@ -614,6 +664,17 @@
   "note": "Corporate card company that publishes business spending trends.",
   "days": [
    "2026-11-09"
+  ]
+ },
+ {
+  "id": "reflection-ai",
+  "name": "Reflection AI",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://reflection.ai",
+  "note": "Released Beam, a large open-weight model.",
+  "days": [
+   "2026-10-06"
   ]
  },
  {
@@ -701,6 +762,7 @@
   "url": "https://www.spacex.com",
   "note": "Space company expanding into large AI data centres.",
   "days": [
+   "2026-10-02",
    "2026-10-22",
    "2026-11-05"
   ]
@@ -768,6 +830,7 @@
   "url": "https://www.vals.ai",
   "note": "AI evaluation company testing model behaviour on real-world tasks.",
   "days": [
+   "2026-10-06",
    "2026-11-18"
   ]
  },
@@ -794,6 +857,17 @@
   ]
  },
  {
+  "id": "xiaomi",
+  "name": "Xiaomi",
+  "type": "company",
+  "sector": "Agents and automation",
+  "url": "https://www.mi.com",
+  "note": "Research on improving model and tooling together.",
+  "days": [
+   "2026-10-04"
+  ]
+ },
+ {
   "id": "xtalpi",
   "name": "XtalPi",
   "type": "company",
@@ -813,6 +887,17 @@
   "note": "Startup accelerator whose lab ran the 50-agent experiment.",
   "days": [
    "2026-11-04"
+  ]
+ },
+ {
+  "id": "z-ai",
+  "name": "Z.ai",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "Chinese lab behind the open-weight GLM models.",
+  "days": [
+   "2026-10-02"
   ]
  },
  {
