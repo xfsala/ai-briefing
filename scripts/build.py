@@ -39,6 +39,9 @@ def check(day, path):
     raw = path.read_text(encoding="utf-8")
     if "—" in raw:
         errors.append("contains an em-dash (U+2014); use a colon, comma or full stop")
+    q = day.get("question")
+    if q is not None and not str(q).strip().endswith("?"):
+        errors.append("question must end with a question mark")
     for s in day.get("top_stories", []):
         if s.get("action") not in ACTIONS:
             errors.append(f"story '{s.get('title')}' has action {s.get('action')!r}")
@@ -77,8 +80,13 @@ def main():
 
     days.sort(key=lambda d: d["date"], reverse=True)
 
+    missing = [d["date"] for d in days if not d.get("question") or not d.get("reflection")]
+    if missing:
+        print(f"NOTE: {len(missing)} day(s) have no question/reflection yet: {', '.join(sorted(missing))}")
+
     index = [{
         "date": d["date"],
+        "question": d.get("question", ""),
         "one_line": d["one_line"],
         "titles": [s["title"] for s in d["top_stories"]],
         "newsletters": sorted({s["newsletter"] for s in d["sources"]}),

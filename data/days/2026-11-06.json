@@ -1,8 +1,18 @@
 {
   "date": "2026-11-06",
+  "question": "If change keeps speeding up, how do we make sure people are not left behind?",
+  "reflection": "Faster tools matter most when they make knowledge, care and opportunity reach more people sooner.",
   "sources": [
-    {"newsletter": "AlphaSignal", "subject": "OpenAI GPT-6 Cyber: 81 Firefox bugs, 948 Linux exploits", "link": ""},
-    {"newsletter": "Forward Future", "subject": "AI's Next Big Leap Could Be in Healthcare", "link": "https://briefing.forwardfuture.ai/p/anthropic-s-ai-speedup-metr-s-hidden-findings-openai-s-health-forecast"}
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "OpenAI GPT-6 Cyber: 81 Firefox bugs, 948 Linux exploits",
+      "link": ""
+    },
+    {
+      "newsletter": "Forward Future",
+      "subject": "AI's Next Big Leap Could Be in Healthcare",
+      "link": "https://briefing.forwardfuture.ai/p/anthropic-s-ai-speedup-metr-s-hidden-findings-openai-s-health-forecast"
+    }
   ],
   "one_line": "An outside review suggests AI is now speeding up the building of AI itself, so the pace of change is likely to keep rising.",
   "top_stories": [
@@ -11,29 +21,51 @@
       "what": "The evaluation group METR studied Anthropic for about three months and estimates its models now improve roughly twice as fast as before, mostly because staff use Claude for research work.",
       "why": "If progress compounds, plans and policies written around today's AI abilities will age quickly, so clients need shorter review cycles.",
       "action": "Watch",
-      "audience": ["decision", "lay"],
-      "tags": ["research", "frontier"]
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "tags": [
+        "research",
+        "frontier"
+      ]
     },
     {
       "title": "OpenAI releases a model built for security teams",
       "what": "GPT-6 Cyber is a vetted-access model for finding and fixing software flaws; OpenAI says it found dozens of serious Firefox bugs and stays within its assigned scope over 99% of the time.",
       "why": "Public bodies holding citizen data will face attackers using similar tools, which makes security testing of government digital services more urgent.",
       "action": "Watch",
-      "audience": ["builder", "decision"],
-      "tags": ["security", "cyber"]
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "security",
+        "cyber"
+      ]
     },
     {
       "title": "Claude starts reading your bank transactions",
       "what": "Anthropic launched a US beta that links bank accounts to Claude so it can analyse up to two years of spending, without being able to move money.",
       "why": "AI money coaching is a live testing ground for behavioural nudges on saving and spending, a core topic for behavioural research.",
       "action": "Pitch",
-      "audience": ["lay", "decision"],
-      "tags": ["finance", "consumer"]
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "tags": [
+        "finance",
+        "consumer"
+      ]
     }
   ],
   "saudi_lens": [
-    {"text": "A Chinese AI lab reportedly looked at renting European data centres to reach restricted Nvidia chips, a reminder that Gulf data centres sit inside the same export-control debate."},
-    {"text": "AI money coaching could support Saudi financial literacy goals, but any local version would need consent rules for open banking data."}
+    {
+      "text": "A Chinese AI lab reportedly looked at renting European data centres to reach restricted Nvidia chips, a reminder that Gulf data centres sit inside the same export-control debate."
+    },
+    {
+      "text": "AI money coaching could support Saudi financial literacy goals, but any local version would need consent rules for open banking data."
+    }
   ],
   "idea": {
     "title": "Nudges from an AI money coach",
@@ -42,34 +74,149 @@
     "first_step": "Draft three versions of a monthly spending summary (neutral, goal-framed, peer-comparison) and pilot them with five volunteers."
   },
   "watchlist": [
-    {"name": "METR", "sector": "AI evaluation", "note": "Independent group measuring how fast frontier AI is improving."},
-    {"name": "Moonshot AI", "sector": "Frontier models", "note": "Maker of Kimi, reportedly seeking chip capacity in Europe."},
-    {"name": "Nvidia", "sector": "AI chips", "note": "Shares fell sharply in a wide tech sell-off driven by doubts over AI returns."}
+    {
+      "name": "METR",
+      "sector": "AI evaluation",
+      "note": "Independent group measuring how fast frontier AI is improving."
+    },
+    {
+      "name": "Moonshot AI",
+      "sector": "Frontier models",
+      "note": "Maker of Kimi, reportedly seeking chip capacity in Europe."
+    },
+    {
+      "name": "Nvidia",
+      "sector": "AI chips",
+      "note": "Shares fell sharply in a wide tech sell-off driven by doubts over AI returns."
+    }
   ],
-  "tool": {"name": "Personal Finance in Claude", "use": "Charts and summaries of your own spending history, read-only (US beta).", "link": ""},
+  "tool": {
+    "name": "Personal Finance in Claude",
+    "use": "Charts and summaries of your own spending history, read-only (US beta).",
+    "link": ""
+  },
   "verify": [
     "METR's estimate that Anthropic's progress has doubled rests on a report Anthropic heavily redacted.",
     "OpenAI's president predicted major AI health breakthroughs within 12 to 18 months.",
     "The Nasdaq 100 reportedly fell more than 6% in one day on doubts about AI returns."
   ],
   "entities": [
-    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; studied by METR and launching a personal finance beta."},
-    {"name": "METR", "type": "organisation", "sector": "AI evaluation", "url": "https://metr.org", "note": "Nonprofit that measures the capabilities and risks of AI models."},
-    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT; released the security model GPT-6 Cyber."},
-    {"name": "Moonshot AI", "type": "company", "sector": "Frontier models", "url": "", "note": "Chinese lab behind the Kimi assistant."},
-    {"name": "Nvidia", "type": "company", "sector": "AI chips", "url": "https://www.nvidia.com", "note": "Leading maker of AI chips such as Blackwell."},
-    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
-    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Maker of Claude; studied by METR and launching a personal finance beta."
+    },
+    {
+      "name": "METR",
+      "type": "organisation",
+      "sector": "AI evaluation",
+      "url": "https://metr.org",
+      "note": "Nonprofit that measures the capabilities and risks of AI models."
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://openai.com",
+      "note": "Maker of ChatGPT; released the security model GPT-6 Cyber."
+    },
+    {
+      "name": "Moonshot AI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "",
+      "note": "Chinese lab behind the Kimi assistant."
+    },
+    {
+      "name": "Nvidia",
+      "type": "company",
+      "sector": "AI chips",
+      "url": "https://www.nvidia.com",
+      "note": "Leading maker of AI chips such as Blackwell."
+    },
+    {
+      "name": "Forward Future",
+      "type": "organisation",
+      "sector": "AI media",
+      "url": "https://www.forwardfuture.ai",
+      "note": "Daily AI briefing by Matthew Berman and Nick Wentz."
+    },
+    {
+      "name": "AlphaSignal",
+      "type": "organisation",
+      "sector": "AI media",
+      "url": "https://alphasignal.ai",
+      "note": "Daily AI news for developers, founded by Lior Alexander."
+    }
   ],
   "terms": [
-    {"term": "Recursive self-improvement", "definition": "When AI systems help design and train the next, better AI systems, which can make progress speed up over time.", "audience": "lay"},
-    {"term": "Vulnerability", "definition": "A flaw in software that an attacker could use to break in, steal data or disrupt a service.", "audience": "lay"},
-    {"term": "Export controls", "definition": "Government rules that limit which countries or companies may buy certain technologies, such as advanced AI chips.", "audience": "decision"}
+    {
+      "term": "Recursive self-improvement",
+      "definition": "When AI systems help design and train the next, better AI systems, which can make progress speed up over time.",
+      "audience": "lay"
+    },
+    {
+      "term": "Vulnerability",
+      "definition": "A flaw in software that an attacker could use to break in, steal data or disrupt a service.",
+      "audience": "lay"
+    },
+    {
+      "term": "Export controls",
+      "definition": "Government rules that limit which countries or companies may buy certain technologies, such as advanced AI chips.",
+      "audience": "decision"
+    }
   ],
   "concepts": [
-    {"industry": "Science and research", "concept": "AI-accelerated AI research", "summary": "AI tools doing a growing share of the work of building the next AI models.", "audience": ["decision", "lay"], "entities": ["Anthropic", "METR"]},
-    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "Models that find and fix software flaws, usable by defenders and attackers alike.", "audience": ["builder", "decision"], "entities": ["OpenAI"]},
-    {"industry": "Consumer and media", "concept": "AI personal finance", "summary": "Assistants that read your accounts and explain your spending.", "audience": ["lay", "decision"], "entities": ["Anthropic"]},
-    {"industry": "Policy and geopolitics", "concept": "Chip export controls", "summary": "Rules deciding which countries and companies can access advanced AI chips.", "audience": ["decision"], "entities": ["Moonshot AI", "Nvidia"]}
+    {
+      "industry": "Science and research",
+      "concept": "AI-accelerated AI research",
+      "summary": "AI tools doing a growing share of the work of building the next AI models.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "Anthropic",
+        "METR"
+      ]
+    },
+    {
+      "industry": "Safety, security and governance",
+      "concept": "AI for cybersecurity",
+      "summary": "Models that find and fix software flaws, usable by defenders and attackers alike.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "OpenAI"
+      ]
+    },
+    {
+      "industry": "Consumer and media",
+      "concept": "AI personal finance",
+      "summary": "Assistants that read your accounts and explain your spending.",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "entities": [
+        "Anthropic"
+      ]
+    },
+    {
+      "industry": "Policy and geopolitics",
+      "concept": "Chip export controls",
+      "summary": "Rules deciding which countries and companies can access advanced AI chips.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "Moonshot AI",
+        "Nvidia"
+      ]
+    }
   ]
 }

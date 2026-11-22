@@ -1,7 +1,13 @@
 {
   "date": "2026-11-08",
+  "question": "What becomes possible when machines can read a whole library as easily as a page?",
+  "reflection": "Cheaper ways to understand vast knowledge could open research to many more curious minds.",
   "sources": [
-    {"newsletter": "AlphaSignal", "subject": "Latent Sparse Attention Speeds Up 10M-Token AI Contexts by 9x", "link": ""}
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Latent Sparse Attention Speeds Up 10M-Token AI Contexts by 9x",
+      "link": ""
+    }
   ],
   "one_line": "Researchers found a cheaper way for AI models to search very long inputs, which could make agents that work for hours on huge document sets more affordable.",
   "top_stories": [
@@ -10,20 +16,33 @@
       "what": "Researchers at Prefrontal AI and ETH Zurich describe Latent Sparse Attention, which sorts a model's memory into clusters so it only searches the most promising ones, reportedly cutting the wait for a first answer by up to nine times on 10-million-token tasks.",
       "why": "Research projects often mean feeding AI thousands of interview transcripts or policy documents at once, and lower costs at that scale make such analysis practical.",
       "action": "Watch",
-      "audience": ["builder"],
-      "tags": ["research", "long context"]
+      "audience": [
+        "builder"
+      ],
+      "tags": [
+        "research",
+        "long context"
+      ]
     },
     {
       "title": "Open code lets teams test it now",
       "what": "The team released the code and ready-made add-ons for two open models under a permissive licence, while noting the speed gains shrink on shorter inputs and one model lost some accuracy.",
       "why": "An in-house data team could test it on a real archive before paying for a commercial long-context service.",
       "action": "Try",
-      "audience": ["builder", "decision"],
-      "tags": ["open source", "infrastructure"]
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "open source",
+        "infrastructure"
+      ]
     }
   ],
   "saudi_lens": [
-    {"text": "No direct Saudi link today. Indirectly, cheaper long-context processing on open models helps organisations that must keep large Arabic archives on local servers."}
+    {
+      "text": "No direct Saudi link today. Indirectly, cheaper long-context processing on open models helps organisations that must keep large Arabic archives on local servers."
+    }
   ],
   "idea": {
     "title": "Whole-archive question answering",
@@ -32,25 +51,85 @@
     "first_step": "Pick ten questions that need facts from several old reports and record how long a person takes to answer them."
   },
   "watchlist": [
-    {"name": "Prefrontal AI", "sector": "AI research", "note": "Co-developed Latent Sparse Attention and published the code openly."},
-    {"name": "ETH Zurich", "sector": "Research university", "note": "Co-authored the long-context attention work."}
+    {
+      "name": "Prefrontal AI",
+      "sector": "AI research",
+      "note": "Co-developed Latent Sparse Attention and published the code openly."
+    },
+    {
+      "name": "ETH Zurich",
+      "sector": "Research university",
+      "note": "Co-authored the long-context attention work."
+    }
   ],
   "tool": null,
   "verify": [
     "Reported speed-ups of 9 times for first-token time come from the researchers' own tests on 10-million-token tasks and may be far smaller on normal inputs."
   ],
   "entities": [
-    {"name": "Prefrontal AI", "type": "company", "sector": "AI research", "url": "", "note": "Research company behind Latent Sparse Attention."},
-    {"name": "ETH Zurich", "type": "organisation", "sector": "Research university", "url": "https://ethz.ch", "note": "Swiss technical university and research partner on the work."},
-    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+    {
+      "name": "Prefrontal AI",
+      "type": "company",
+      "sector": "AI research",
+      "url": "",
+      "note": "Research company behind Latent Sparse Attention."
+    },
+    {
+      "name": "ETH Zurich",
+      "type": "organisation",
+      "sector": "Research university",
+      "url": "https://ethz.ch",
+      "note": "Swiss technical university and research partner on the work."
+    },
+    {
+      "name": "AlphaSignal",
+      "type": "organisation",
+      "sector": "AI media",
+      "url": "https://alphasignal.ai",
+      "note": "Daily AI news for developers, founded by Lior Alexander."
+    }
   ],
   "terms": [
-    {"term": "Context window", "definition": "How much text, code or data an AI model can take in and consider at one time.", "audience": "lay"},
-    {"term": "Sparse attention", "definition": "A way for an AI model to look only at the most relevant parts of its input instead of every word, which saves time and computing power.", "audience": "builder"},
-    {"term": "Time to first token", "definition": "How long you wait before an AI model starts producing its answer.", "audience": "builder"}
+    {
+      "term": "Context window",
+      "definition": "How much text, code or data an AI model can take in and consider at one time.",
+      "audience": "lay"
+    },
+    {
+      "term": "Sparse attention",
+      "definition": "A way for an AI model to look only at the most relevant parts of its input instead of every word, which saves time and computing power.",
+      "audience": "builder"
+    },
+    {
+      "term": "Time to first token",
+      "definition": "How long you wait before an AI model starts producing its answer.",
+      "audience": "builder"
+    }
   ],
   "concepts": [
-    {"industry": "AI infrastructure and chips", "concept": "Long-context efficiency", "summary": "Techniques that make it cheaper for models to work with very large inputs.", "audience": ["builder"], "entities": ["Prefrontal AI", "ETH Zurich"]},
-    {"industry": "Agents and automation", "concept": "Long-running agents", "summary": "Agents that work for hours or days and build up huge working memories.", "audience": ["builder", "decision"], "entities": ["Prefrontal AI"]}
+    {
+      "industry": "AI infrastructure and chips",
+      "concept": "Long-context efficiency",
+      "summary": "Techniques that make it cheaper for models to work with very large inputs.",
+      "audience": [
+        "builder"
+      ],
+      "entities": [
+        "Prefrontal AI",
+        "ETH Zurich"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Long-running agents",
+      "summary": "Agents that work for hours or days and build up huge working memories.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "Prefrontal AI"
+      ]
+    }
   ]
 }

@@ -1,6 +1,7 @@
 [
  {
   "date": "2026-11-20",
+  "question": "When every app can do the same clever trick, what makes your work truly valuable?",
   "one_line": "AI features are turning into free buttons inside big platforms, so the lasting value is moving to data, relationships and real-world know-how.",
   "titles": [
    "AI startups face their first wave of extinction",
@@ -14,6 +15,7 @@
  },
  {
   "date": "2026-11-19",
+  "question": "If an assistant can act before we ask, how do we stay the ones who decide?",
   "one_line": "Personal AI assistants are becoming proactive, but the privacy and liability rules around them are still being written.",
   "titles": [
    "Proactive assistants: helpful, but not yet reliable",
@@ -27,6 +29,7 @@
  },
  {
   "date": "2026-11-18",
+  "question": "If AI already understands what we want, what still stands in the way of getting it done?",
   "one_line": "Models keep getting cheaper and smarter, but connecting them to messy real-world systems is now the hard part.",
   "titles": [
    "Agents are limited by the real world, not by intelligence",
@@ -40,6 +43,7 @@
  },
  {
   "date": "2026-11-17",
+  "question": "Can rules keep up with technology that crosses borders in seconds?",
   "one_line": "Washington now polices where AI chips are used, not just where they are shipped, which puts data centres in third countries under a brighter light.",
   "titles": [
    "US targets remote access to restricted chips",
@@ -53,6 +57,7 @@
  },
  {
   "date": "2026-11-16",
+  "question": "Would you trust an assistant to spend your money for you?",
   "one_line": "Chip export rules look leakier than hoped, while AI assistants take their first real steps toward paying for things on our behalf.",
   "titles": [
    "Top Chinese models reportedly trained on banned chips",
@@ -66,6 +71,7 @@
  },
  {
   "date": "2026-11-15",
+  "question": "Is forgetting sometimes the smartest way to stay focused?",
   "one_line": "AI agents often work as well, or better, when they forget most of their history and keep only a short note of where the task stands.",
   "titles": [
    "Agents do fine with a short memory",
@@ -78,6 +84,7 @@
  },
  {
   "date": "2026-11-13",
+  "question": "How do we protect workers through the disruption before the gains arrive?",
   "one_line": "AI agents are moving inside organisations' own systems, while central bankers warn that workers may feel the disruption before the gains.",
   "titles": [
    "Claude agents can now run on a company's own cloud",
@@ -91,6 +98,7 @@
  },
  {
   "date": "2026-11-12",
+  "question": "What changes when an AI belongs to the whole team rather than to one person?",
   "one_line": "AI is shifting from a personal helper to a shared team member, while the know-how used to train it slips past rules built for chips.",
   "titles": [
    "Grok Bot becomes a shared team assistant",
@@ -104,6 +112,7 @@
  },
  {
   "date": "2026-11-11",
+  "question": "Can a promise of safety stay strong when shareholders are watching?",
   "one_line": "Anthropic is heading to the stock market with safety as part of its sales pitch, while AI assistants grow into full workspaces for teams.",
   "titles": [
    "Anthropic pitches safety to investors",
@@ -117,6 +126,7 @@
  },
  {
   "date": "2026-11-10",
+  "question": "If software can be built from a paragraph, what will we choose to build?",
   "one_line": "Anthropic's new Fable 5.2 model reportedly builds working software from short prompts, while labs start adding emergency brakes for their own experiments.",
   "titles": [
    "Fable 5.2 raises the bar for AI-built software",
@@ -130,6 +140,7 @@
  },
  {
   "date": "2026-11-09",
+  "question": "Who should decide how much power and land the AI boom is allowed to use?",
   "one_line": "US politics is turning against data centres just as companies get more AI work done for the same money, putting pressure on the AI spending boom.",
   "titles": [
    "US midterms put AI rules back on the table",
@@ -143,6 +154,7 @@
  },
  {
   "date": "2026-11-08",
+  "question": "What becomes possible when machines can read a whole library as easily as a page?",
   "one_line": "Researchers found a cheaper way for AI models to search very long inputs, which could make agents that work for hours on huge document sets more affordable.",
   "titles": [
    "A library-style shortcut for very long AI inputs",
@@ -154,6 +166,7 @@
  },
  {
   "date": "2026-11-06",
+  "question": "If change keeps speeding up, how do we make sure people are not left behind?",
   "one_line": "An outside review suggests AI is now speeding up the building of AI itself, so the pace of change is likely to keep rising.",
   "titles": [
    "AI is helping Anthropic build AI faster",
@@ -167,6 +180,7 @@
  },
  {
   "date": "2026-11-05",
+  "question": "Why do people keep familiar habits even when a smarter option is one click away?",
   "one_line": "Shopping agents are barely being used by real customers, a reminder that convenient technology still has to beat habits that already work.",
   "titles": [
    "Almost nobody lets agents book their rides",
@@ -180,6 +194,7 @@
  },
  {
   "date": "2026-11-04",
+  "question": "What do we learn about ourselves when AI agents start organising like a small society?",
   "one_line": "AI is starting to repair other AI models directly and to organise itself in groups, which makes careful testing of what these systems actually do more important.",
   "titles": [
    "One AI model repairs another",
@@ -193,6 +208,7 @@
  },
  {
   "date": "2026-11-03",
+  "question": "If machines start helping to build their own successors, what should only humans decide?",
   "one_line": "Anthropic says AI that speeds up its own development may be close, and it is recruiting people from outside machine learning to help keep it safe.",
   "titles": [
    "Anthropic flags self-improving AI as near",
@@ -206,6 +222,7 @@
  },
  {
   "date": "2026-11-02",
+  "question": "When an AI nudges our thinking without our noticing, whose judgment are we really using?",
   "one_line": "A new experiment suggests AI agents quietly tilt the choices of expert analysts, who then repeat the agent's reasoning as their own.",
   "titles": [
    "AI agents nudge expert judgment without credit",
@@ -219,6 +236,7 @@
  },
  {
   "date": "2026-11-01",
+  "question": "Do we need one giant mind for every task, or many small ones that each do one thing well?",
   "one_line": "Small models trained for one job, like forecasting or reading tables, are becoming a cheap alternative to asking a giant chatbot to do everything.",
   "titles": [
    "Mistral releases a tiny forecasting model",

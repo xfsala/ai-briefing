@@ -1,8 +1,18 @@
 {
   "date": "2026-11-09",
+  "question": "Who should decide how much power and land the AI boom is allowed to use?",
+  "reflection": "Technology serves humanity best when communities have a voice in what it costs them.",
   "sources": [
-    {"newsletter": "AlphaSignal", "subject": "Nous Research drops Qwen3 bias from 22% to 1%: no RL", "link": ""},
-    {"newsletter": "Forward Future", "subject": "Your ChatGPT Workflow Is Due for an Upgrade", "link": "https://briefing.forwardfuture.ai/p/ai-market-selloff-india-s-stock-rally-meta-s-muse-spaces"}
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Nous Research drops Qwen3 bias from 22% to 1%: no RL",
+      "link": ""
+    },
+    {
+      "newsletter": "Forward Future",
+      "subject": "Your ChatGPT Workflow Is Due for an Upgrade",
+      "link": "https://briefing.forwardfuture.ai/p/ai-market-selloff-india-s-stock-rally-meta-s-muse-spaces"
+    }
   ],
   "one_line": "US politics is turning against data centres just as companies get more AI work done for the same money, putting pressure on the AI spending boom.",
   "top_stories": [
@@ -11,29 +21,49 @@
       "what": "After Democrats won Congress, tech stocks fell and lawmakers signalled bills on data-centre power costs, independent model testing and company liability.",
       "why": "Independent testing and liability rules in the US would shape the standards Gulf regulators and buyers expect from AI vendors.",
       "action": "Watch",
-      "audience": ["decision"],
-      "tags": ["policy", "markets"]
+      "audience": [
+        "decision"
+      ],
+      "tags": [
+        "policy",
+        "markets"
+      ]
     },
     {
       "title": "Political bias in an open model is easy to strip out",
       "what": "Nous Research retrained Alibaba's open Qwen model into Arete-27B and says pro-Beijing answers fell from about 22% to under 1% with no loss in general skill.",
       "why": "If a model's values can be reshaped with modest training, any organisation deploying open models should test them for bias on locally sensitive topics.",
       "action": "Try",
-      "audience": ["builder", "decision"],
-      "tags": ["open source", "bias"]
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "open source",
+        "bias"
+      ]
     },
     {
       "title": "Firms use more AI but spend about the same",
       "what": "Spending data from the card firm Ramp reportedly shows AI usage still rising while customer spending grew only 1.5% over two months, thanks to price cuts and discounts.",
       "why": "Cheaper AI makes large-scale text and survey analysis affordable for smaller public projects.",
       "action": "Watch",
-      "audience": ["decision"],
-      "tags": ["business", "costs"]
+      "audience": [
+        "decision"
+      ],
+      "tags": [
+        "business",
+        "costs"
+      ]
     }
   ],
   "saudi_lens": [
-    {"text": "As US communities resist new data centres over power and water, Saudi Arabia's offer of land, energy and fast approvals becomes more attractive to AI builders."},
-    {"text": "The Arete work shows that Arabic-language models deployed in the Kingdom can and should be checked for whose values they reflect."}
+    {
+      "text": "As US communities resist new data centres over power and water, Saudi Arabia's offer of land, energy and fast approvals becomes more attractive to AI builders."
+    },
+    {
+      "text": "The Arete work shows that Arabic-language models deployed in the Kingdom can and should be checked for whose values they reflect."
+    }
   ],
   "idea": {
     "title": "Values audit for Arabic AI answers",
@@ -42,33 +72,149 @@
     "first_step": "Write 20 test questions with a panel of three colleagues and agree on what a balanced answer looks like."
   },
   "watchlist": [
-    {"name": "Nous Research", "sector": "Open-source models", "note": "Published Arete-27B with its data and test set openly."},
-    {"name": "Meta", "sector": "Consumer AI", "note": "Gave its Muse agent ongoing project workspaces called Spaces."},
-    {"name": "Ramp", "sector": "Fintech", "note": "Its spending data is becoming a closely watched gauge of business AI demand."}
+    {
+      "name": "Nous Research",
+      "sector": "Open-source models",
+      "note": "Published Arete-27B with its data and test set openly."
+    },
+    {
+      "name": "Meta",
+      "sector": "Consumer AI",
+      "note": "Gave its Muse agent ongoing project workspaces called Spaces."
+    },
+    {
+      "name": "Ramp",
+      "sector": "Fintech",
+      "note": "Its spending data is becoming a closely watched gauge of business AI demand."
+    }
   ],
-  "tool": {"name": "Sakutto", "use": "Free browser extension that translates web pages on your own laptop, so text never leaves the device.", "link": ""},
+  "tool": {
+    "name": "Sakutto",
+    "use": "Free browser extension that translates web pages on your own laptop, so text never leaves the device.",
+    "link": ""
+  },
   "verify": [
     "A US intelligence memo reportedly alleges China tried to use a business contact to spy on Nvidia's CEO; Nvidia rejects any wrongdoing.",
     "Arete-27B's drop in propaganda answers is measured on Nous Research's own test set."
   ],
   "entities": [
-    {"name": "Nous Research", "type": "company", "sector": "Open-source models", "url": "https://nousresearch.com", "note": "Maker of the open Hermes and Arete models."},
-    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Chinese group behind the open Qwen model family."},
-    {"name": "Meta", "type": "company", "sector": "Consumer AI", "url": "https://about.meta.com", "note": "Owner of Facebook and Instagram, building the Muse agent."},
-    {"name": "Ramp", "type": "company", "sector": "Fintech", "url": "https://ramp.com", "note": "Corporate card company that publishes business spending trends."},
-    {"name": "Nvidia", "type": "company", "sector": "AI chips", "url": "https://www.nvidia.com", "note": "Leading AI chipmaker, named in a reported spying memo."},
-    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
-    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+    {
+      "name": "Nous Research",
+      "type": "company",
+      "sector": "Open-source models",
+      "url": "https://nousresearch.com",
+      "note": "Maker of the open Hermes and Arete models."
+    },
+    {
+      "name": "Alibaba",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.alibabagroup.com",
+      "note": "Chinese group behind the open Qwen model family."
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "sector": "Consumer AI",
+      "url": "https://about.meta.com",
+      "note": "Owner of Facebook and Instagram, building the Muse agent."
+    },
+    {
+      "name": "Ramp",
+      "type": "company",
+      "sector": "Fintech",
+      "url": "https://ramp.com",
+      "note": "Corporate card company that publishes business spending trends."
+    },
+    {
+      "name": "Nvidia",
+      "type": "company",
+      "sector": "AI chips",
+      "url": "https://www.nvidia.com",
+      "note": "Leading AI chipmaker, named in a reported spying memo."
+    },
+    {
+      "name": "Forward Future",
+      "type": "organisation",
+      "sector": "AI media",
+      "url": "https://www.forwardfuture.ai",
+      "note": "Daily AI briefing by Matthew Berman and Nick Wentz."
+    },
+    {
+      "name": "AlphaSignal",
+      "type": "organisation",
+      "sector": "AI media",
+      "url": "https://alphasignal.ai",
+      "note": "Daily AI news for developers, founded by Lior Alexander."
+    }
   ],
   "terms": [
-    {"term": "Fine-tuning", "definition": "Extra training on a smaller, chosen set of examples to change how an existing AI model behaves.", "audience": "builder"},
-    {"term": "Open-weight model", "definition": "An AI model whose trained files are published, so anyone can download, run and modify it.", "audience": "lay"},
-    {"term": "Third-party evaluation", "definition": "Testing of an AI model by an independent group rather than by the company that built it.", "audience": "decision"}
+    {
+      "term": "Fine-tuning",
+      "definition": "Extra training on a smaller, chosen set of examples to change how an existing AI model behaves.",
+      "audience": "builder"
+    },
+    {
+      "term": "Open-weight model",
+      "definition": "An AI model whose trained files are published, so anyone can download, run and modify it.",
+      "audience": "lay"
+    },
+    {
+      "term": "Third-party evaluation",
+      "definition": "Testing of an AI model by an independent group rather than by the company that built it.",
+      "audience": "decision"
+    }
   ],
   "concepts": [
-    {"industry": "Policy and geopolitics", "concept": "Data-centre backlash", "summary": "Local and political resistance to AI data centres over power, water and costs.", "audience": ["decision", "lay"], "entities": ["Nvidia"]},
-    {"industry": "Safety, security and governance", "concept": "Model bias and values", "summary": "Measuring and changing whose views an AI model reflects in its answers.", "audience": ["decision", "builder"], "entities": ["Nous Research", "Alibaba"]},
-    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Each new model generation does more for less money per task.", "audience": ["builder", "decision", "lay"], "entities": ["Ramp"]},
-    {"industry": "Agents and automation", "concept": "Proactive personal assistants", "summary": "Assistants that watch your work and offer to act before being asked.", "audience": ["decision", "lay"], "entities": ["Meta"]}
+    {
+      "industry": "Policy and geopolitics",
+      "concept": "Data-centre backlash",
+      "summary": "Local and political resistance to AI data centres over power, water and costs.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "Nvidia"
+      ]
+    },
+    {
+      "industry": "Safety, security and governance",
+      "concept": "Model bias and values",
+      "summary": "Measuring and changing whose views an AI model reflects in its answers.",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "entities": [
+        "Nous Research",
+        "Alibaba"
+      ]
+    },
+    {
+      "industry": "Frontier models",
+      "concept": "Falling cost of intelligence",
+      "summary": "Each new model generation does more for less money per task.",
+      "audience": [
+        "builder",
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "Ramp"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Proactive personal assistants",
+      "summary": "Assistants that watch your work and offer to act before being asked.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "Meta"
+      ]
+    }
   ]
 }

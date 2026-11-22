@@ -41,6 +41,8 @@ public, so the rules on copyright and privacy below are not optional.
     {"newsletter": "AlphaSignal", "subject": "...", "link": ""},
     {"newsletter": "Forward Future", "subject": "...", "link": "https://briefing.forwardfuture.ai/p/..."}
   ],
+  "question": "An open question that opens the page and makes the reader think about the day's main theme?",
+  "reflection": "A short original line on how today's news could serve human growth, progress and development.",
   "one_line": "The single most important shift of the day, in one plain sentence.",
   "top_stories": [
     {
@@ -83,6 +85,16 @@ public, so the rules on copyright and privacy below are not optional.
 ```
 
 Field notes:
+
+- `question`: the page opens with it. One question, under 20 words, ending
+  with a question mark. It should invite reflection on the day's main theme
+  from a human point of view (for example: "If an assistant can act before we
+  ask, how do we stay the ones who decide?"). Not a quiz, not rhetorical hype.
+- `reflection`: shown as a quote under the question. One sentence, under 25
+  words, written fresh in your own words (never a quote from a real person, a
+  book or the newsletters, and no attribution). Hopeful but grounded: how the
+  day's developments could help people grow, societies progress, or humanity
+  do better, without ignoring the risks.
 
 - `top_stories`: exactly 3 on a normal day (fewer only if the day is thin).
 - `action`: Watch = keep an eye on it; Try = test it yourself; Pitch = could

@@ -1,8 +1,18 @@
 {
   "date": "2026-11-19",
+  "question": "If an assistant can act before we ask, how do we stay the ones who decide?",
+  "reflection": "Helpful technology should give us back time and attention, while leaving the final choice in human hands.",
   "sources": [
-    {"newsletter": "AlphaSignal", "subject": "Gemini 4 Neon, OpenAI Chip Model +14% PPA, Devin Bots", "link": ""},
-    {"newsletter": "Forward Future", "subject": "Claude Duet Wants to Be Your AI Chief of Staff. Is It Ready?", "link": "https://briefing.forwardfuture.ai/p/muse-exposes-chats-california-safety-crackdown-anthropic-s-ipo"}
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Gemini 4 Neon, OpenAI Chip Model +14% PPA, Devin Bots",
+      "link": ""
+    },
+    {
+      "newsletter": "Forward Future",
+      "subject": "Claude Duet Wants to Be Your AI Chief of Staff. Is It Ready?",
+      "link": "https://briefing.forwardfuture.ai/p/muse-exposes-chats-california-safety-crackdown-anthropic-s-ipo"
+    }
   ],
   "one_line": "Personal AI assistants are becoming proactive, but the privacy and liability rules around them are still being written.",
   "top_stories": [
@@ -11,29 +21,51 @@
       "what": "Forward Future tested Claude Duet, an assistant that reads email and calendars to spot work before you ask; it caught forgotten tasks but also made odd mistakes.",
       "why": "How people decide when to trust a proactive assistant is a behavioural question that most AI companies are not measuring.",
       "action": "Pitch",
-      "audience": ["lay", "decision"],
-      "tags": ["agents", "trust"]
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "tags": [
+        "agents",
+        "trust"
+      ]
     },
     {
       "title": "Banks say customers carry the risk of AI agents",
       "what": "Several large US banks now warn that customers may be liable for payments made by third-party AI agents, even if the agent is hacked.",
       "why": "Liability is becoming the real brake on agent adoption; regulators and financial institutions everywhere will face the same question.",
       "action": "Watch",
-      "audience": ["decision", "lay"],
-      "tags": ["finance", "governance"]
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "tags": [
+        "finance",
+        "governance"
+      ]
     },
     {
       "title": "AI starts to design the chips that run AI",
       "what": "OpenAI and AMD reported that OpenAI's models improved the efficiency of an AMD GPU design by up to 14%, and some changes are already headed to manufacturing.",
       "why": "AI is speeding up its own supply chain, which keeps pushing computing costs down for everyone who uses it.",
       "action": "Watch",
-      "audience": ["decision", "builder"],
-      "tags": ["chips", "infrastructure"]
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "tags": [
+        "chips",
+        "infrastructure"
+      ]
     }
   ],
   "saudi_lens": [
-    {"text": "A new US rule requires licences to ship advanced chips to five countries where Chinese firms could rent computing power, so compliance is becoming a condition for any country that wants to be a trusted AI hub."},
-    {"text": "The bank liability debate is a preview for Saudi fintech and open banking: who is responsible when an AI agent pays on a customer's behalf will need a clear local answer."}
+    {
+      "text": "A new US rule requires licences to ship advanced chips to five countries where Chinese firms could rent computing power, so compliance is becoming a condition for any country that wants to be a trusted AI hub."
+    },
+    {
+      "text": "The bank liability debate is a preview for Saudi fintech and open banking: who is responsible when an AI agent pays on a customer's behalf will need a clear local answer."
+    }
   ],
   "idea": {
     "title": "Trust calibration study for AI assistants",
@@ -42,9 +74,21 @@
     "first_step": "Draft 10 assistant suggestions, half correct and half wrong, and design two versions of how they are presented."
   },
   "watchlist": [
-    {"name": "Cognition", "sector": "AI software engineering", "note": "Devin Bots let an AI manager split coding work across many agents."},
-    {"name": "Meta Muse", "sector": "Personal AI assistants", "note": "Reported privacy failures, including surfacing private messages; Meta calls them isolated."},
-    {"name": "AMD", "sector": "AI infrastructure and chips", "note": "Using AI-assisted design in production chips with OpenAI."}
+    {
+      "name": "Cognition",
+      "sector": "AI software engineering",
+      "note": "Devin Bots let an AI manager split coding work across many agents."
+    },
+    {
+      "name": "Meta Muse",
+      "sector": "Personal AI assistants",
+      "note": "Reported privacy failures, including surfacing private messages; Meta calls them isolated."
+    },
+    {
+      "name": "AMD",
+      "sector": "AI infrastructure and chips",
+      "note": "Using AI-assisted design in production chips with OpenAI."
+    }
   ],
   "tool": null,
   "verify": [
@@ -52,22 +96,113 @@
     "Claims that OpenAI's chip-design model saved roughly a year of engineering work."
   ],
   "entities": [
-    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Launched Claude Duet, a proactive personal assistant, and went public on Nasdaq."},
-    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Used its models to improve chip designs with AMD."},
-    {"name": "AMD", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.amd.com", "note": "Chipmaker working with OpenAI on AI-assisted chip design."},
-    {"name": "Cognition", "type": "company", "sector": "AI software engineering", "url": "https://cognition.ai", "note": "Maker of the Devin coding agent and Devin Bots."},
-    {"name": "Meta Muse", "type": "product", "sector": "Personal AI assistants", "url": "https://www.meta.com", "note": "Meta's personal AI agent with long-term memory; facing privacy concerns."},
-    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future."}
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Launched Claude Duet, a proactive personal assistant, and went public on Nasdaq."
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://openai.com",
+      "note": "Used its models to improve chip designs with AMD."
+    },
+    {
+      "name": "AMD",
+      "type": "company",
+      "sector": "AI infrastructure and chips",
+      "url": "https://www.amd.com",
+      "note": "Chipmaker working with OpenAI on AI-assisted chip design."
+    },
+    {
+      "name": "Cognition",
+      "type": "company",
+      "sector": "AI software engineering",
+      "url": "https://cognition.ai",
+      "note": "Maker of the Devin coding agent and Devin Bots."
+    },
+    {
+      "name": "Meta Muse",
+      "type": "product",
+      "sector": "Personal AI assistants",
+      "url": "https://www.meta.com",
+      "note": "Meta's personal AI agent with long-term memory; facing privacy concerns."
+    },
+    {
+      "name": "Nvidia",
+      "type": "company",
+      "sector": "AI infrastructure and chips",
+      "url": "https://www.nvidia.com",
+      "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future."
+    }
   ],
   "terms": [
-    {"term": "Proactive assistant", "definition": "An AI assistant that notices what needs doing from your email, calendar or files and offers to do it, instead of waiting for a request.", "audience": "lay"},
-    {"term": "Trust calibration", "definition": "How well a person's trust in a system matches how reliable it really is: trusting it when it is right and doubting it when it is wrong.", "audience": "decision"},
-    {"term": "Export controls", "definition": "Government rules that limit which countries or companies may buy certain technologies, such as advanced AI chips.", "audience": "decision"}
+    {
+      "term": "Proactive assistant",
+      "definition": "An AI assistant that notices what needs doing from your email, calendar or files and offers to do it, instead of waiting for a request.",
+      "audience": "lay"
+    },
+    {
+      "term": "Trust calibration",
+      "definition": "How well a person's trust in a system matches how reliable it really is: trusting it when it is right and doubting it when it is wrong.",
+      "audience": "decision"
+    },
+    {
+      "term": "Export controls",
+      "definition": "Government rules that limit which countries or companies may buy certain technologies, such as advanced AI chips.",
+      "audience": "decision"
+    }
   ],
   "concepts": [
-    {"industry": "Agents and automation", "concept": "Proactive personal assistants", "summary": "Assistants that watch your work and offer to act before being asked.", "audience": ["lay", "decision"], "entities": ["Anthropic", "Meta Muse"]},
-    {"industry": "Safety, security and governance", "concept": "Agent liability", "summary": "Who pays when an AI agent acting for a person makes a mistake or is hacked.", "audience": ["decision", "lay"], "entities": []},
-    {"industry": "AI infrastructure and chips", "concept": "AI-designed chips", "summary": "Using AI models to improve the design of the processors that run AI.", "audience": ["decision", "builder"], "entities": ["OpenAI", "AMD"]},
-    {"industry": "Policy and geopolitics", "concept": "Chip export controls", "summary": "Rules deciding which countries and companies can access advanced AI chips.", "audience": ["decision"], "entities": ["Nvidia"]}
+    {
+      "industry": "Agents and automation",
+      "concept": "Proactive personal assistants",
+      "summary": "Assistants that watch your work and offer to act before being asked.",
+      "audience": [
+        "lay",
+        "decision"
+      ],
+      "entities": [
+        "Anthropic",
+        "Meta Muse"
+      ]
+    },
+    {
+      "industry": "Safety, security and governance",
+      "concept": "Agent liability",
+      "summary": "Who pays when an AI agent acting for a person makes a mistake or is hacked.",
+      "audience": [
+        "decision",
+        "lay"
+      ],
+      "entities": []
+    },
+    {
+      "industry": "AI infrastructure and chips",
+      "concept": "AI-designed chips",
+      "summary": "Using AI models to improve the design of the processors that run AI.",
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "entities": [
+        "OpenAI",
+        "AMD"
+      ]
+    },
+    {
+      "industry": "Policy and geopolitics",
+      "concept": "Chip export controls",
+      "summary": "Rules deciding which countries and companies can access advanced AI chips.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "Nvidia"
+      ]
+    }
   ]
 }

@@ -1,8 +1,18 @@
 {
   "date": "2026-11-20",
+  "question": "When every app can do the same clever trick, what makes your work truly valuable?",
+  "reflection": "As tools become common to everyone, human insight, trust and care become the rarest and most valuable gifts.",
   "sources": [
-    {"newsletter": "AlphaSignal", "subject": "Nous Hermes in Teams, Gemini 4 Neon API, OpenAI GPT-Live-1.1", "link": ""},
-    {"newsletter": "Forward Future", "subject": "AI's First Extinction Event Is Here", "link": "https://briefing.forwardfuture.ai/p/nvidia-chips-in-china-anthropic-s-ipo-ai-safety-pledge"}
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Nous Hermes in Teams, Gemini 4 Neon API, OpenAI GPT-Live-1.1",
+      "link": ""
+    },
+    {
+      "newsletter": "Forward Future",
+      "subject": "AI's First Extinction Event Is Here",
+      "link": "https://briefing.forwardfuture.ai/p/nvidia-chips-in-china-anthropic-s-ipo-ai-safety-pledge"
+    }
   ],
   "one_line": "AI features are turning into free buttons inside big platforms, so the lasting value is moving to data, relationships and real-world know-how.",
   "top_stories": [
@@ -11,29 +21,52 @@
       "what": "Forward Future argues that many AI products are dying as their main feature gets built into ChatGPT, Gemini and similar platforms, or as costs outrun revenue.",
       "why": "A consultancy should not build thin AI tools; its defensible assets are local data, field-experiment skills, trusted relationships and cultural knowledge.",
       "action": "Watch",
-      "audience": ["decision", "builder"],
-      "tags": ["business", "strategy"]
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "tags": [
+        "business",
+        "strategy"
+      ]
     },
     {
       "title": "Agents move into the chat tools teams already use",
       "what": "Nous Research launched Hermes Enterprise, an open-source agent that works inside Microsoft Teams, can run inside a company's own Azure account, and saves a team's best workflows as reusable skills.",
       "why": "Agents that live inside existing tools and stay inside an organisation's own cloud are the kind public-sector bodies can actually approve.",
       "action": "Try",
-      "audience": ["builder", "decision"],
-      "tags": ["agents", "enterprise", "open source"]
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "agents",
+        "enterprise",
+        "open source"
+      ]
     },
     {
       "title": "Cheaper voice agents that pause when callers go quiet",
       "what": "OpenAI made its GPT-Live-1.1 voice model available to developers, with a standby mode that reportedly cuts the cost of silent call time by about 60%.",
       "why": "Lower idle costs make AI-run phone surveys and service lines more realistic, which opens up research on how people respond to an AI interviewer.",
       "action": "Pitch",
-      "audience": ["builder", "decision"],
-      "tags": ["voice", "surveys"]
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "voice",
+        "surveys"
+      ]
     }
   ],
   "saudi_lens": [
-    {"text": "Self-hosted agents such as Hermes running inside an organisation's own cloud fit Saudi data-residency expectations, where sensitive government data must stay in the Kingdom."},
-    {"text": "As AI features get bundled into global platforms, Saudi value is more likely to come from Arabic-first services, local data and adoption programmes than from copying generic AI apps."}
+    {
+      "text": "Self-hosted agents such as Hermes running inside an organisation's own cloud fit Saudi data-residency expectations, where sensitive government data must stay in the Kingdom."
+    },
+    {
+      "text": "As AI features get bundled into global platforms, Saudi value is more likely to come from Arabic-first services, local data and adoption programmes than from copying generic AI apps."
+    }
   ],
   "idea": {
     "title": "AI interviewer versus human interviewer",
@@ -42,32 +75,140 @@
     "first_step": "Pick a 5-question survey you already run and list which questions might be answered differently to a machine."
   },
   "watchlist": [
-    {"name": "Nous Research", "sector": "Open-source agents", "note": "Open-source enterprise agent that keeps team know-how as shared skills."},
-    {"name": "Google DeepMind", "sector": "Frontier models", "note": "Gemini 4 Neon sits between its cheap and flagship models at a mid-range price."},
-    {"name": "Anthropic", "sector": "Frontier models", "note": "Now listed on Nasdaq; its CEO publicly pledged not to rush unsafe releases."}
+    {
+      "name": "Nous Research",
+      "sector": "Open-source agents",
+      "note": "Open-source enterprise agent that keeps team know-how as shared skills."
+    },
+    {
+      "name": "Google DeepMind",
+      "sector": "Frontier models",
+      "note": "Gemini 4 Neon sits between its cheap and flagship models at a mid-range price."
+    },
+    {
+      "name": "Anthropic",
+      "sector": "Frontier models",
+      "note": "Now listed on Nasdaq; its CEO publicly pledged not to rush unsafe releases."
+    }
   ],
-  "tool": {"name": "Gemini 4 Neon", "use": "Long-document analysis: it accepts very long inputs such as whole reports, spreadsheets and recordings in one go.", "link": "https://aistudio.google.com"},
+  "tool": {
+    "name": "Gemini 4 Neon",
+    "use": "Long-document analysis: it accepts very long inputs such as whole reports, spreadsheets and recordings in one go.",
+    "link": "https://aistudio.google.com"
+  },
   "verify": [
     "Anthropic's IPO could eventually send up to $156 billion to charity (based on pledges, not commitments).",
     "Reports that Nvidia chips bought by an Alibaba-backed firm sit close to military-linked research; the companies deny any improper use."
   ],
   "entities": [
-    {"name": "Nous Research", "type": "company", "sector": "Open-source agents", "url": "https://nousresearch.com", "note": "Maker of the open-source Hermes models and the Hermes Enterprise agent."},
-    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models."},
-    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Google's AI lab behind the Gemini models."},
-    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; began trading on Nasdaq in November 2026."},
-    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
-    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+    {
+      "name": "Nous Research",
+      "type": "company",
+      "sector": "Open-source agents",
+      "url": "https://nousresearch.com",
+      "note": "Maker of the open-source Hermes models and the Hermes Enterprise agent."
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://openai.com",
+      "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models."
+    },
+    {
+      "name": "Google DeepMind",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://deepmind.google",
+      "note": "Google's AI lab behind the Gemini models."
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Maker of Claude; began trading on Nasdaq in November 2026."
+    },
+    {
+      "name": "Forward Future",
+      "type": "organisation",
+      "sector": "AI media",
+      "url": "https://www.forwardfuture.ai",
+      "note": "Daily AI briefing by Matthew Berman and Nick Wentz."
+    },
+    {
+      "name": "AlphaSignal",
+      "type": "organisation",
+      "sector": "AI media",
+      "url": "https://alphasignal.ai",
+      "note": "Daily AI news for developers, founded by Lior Alexander."
+    }
   ],
   "terms": [
-    {"term": "AI agent", "definition": "An AI system that carries out tasks step by step on your behalf, such as searching, filling in forms or drafting documents, rather than only answering questions.", "audience": "lay"},
-    {"term": "Self-hosted", "definition": "Software that runs on an organisation's own servers or cloud account, so its data does not pass through the vendor's systems.", "audience": "decision"},
-    {"term": "Platform bundling", "definition": "When a large platform adds a feature for free that smaller companies were selling on its own, often putting those companies out of business.", "audience": "decision"}
+    {
+      "term": "AI agent",
+      "definition": "An AI system that carries out tasks step by step on your behalf, such as searching, filling in forms or drafting documents, rather than only answering questions.",
+      "audience": "lay"
+    },
+    {
+      "term": "Self-hosted",
+      "definition": "Software that runs on an organisation's own servers or cloud account, so its data does not pass through the vendor's systems.",
+      "audience": "decision"
+    },
+    {
+      "term": "Platform bundling",
+      "definition": "When a large platform adds a feature for free that smaller companies were selling on its own, often putting those companies out of business.",
+      "audience": "decision"
+    }
   ],
   "concepts": [
-    {"industry": "Business and markets", "concept": "AI startup consolidation", "summary": "Standalone AI products are being absorbed or replaced by features inside big platforms.", "audience": ["decision"], "entities": ["OpenAI", "Google DeepMind"]},
-    {"industry": "Agents and automation", "concept": "Agents inside workplace chat", "summary": "AI agents that work inside Teams, Slack and meetings as shared team members.", "audience": ["builder", "decision"], "entities": ["Nous Research"]},
-    {"industry": "Agents and automation", "concept": "Voice agents", "summary": "AI that holds spoken conversations on calls, now cheap enough for surveys and service lines.", "audience": ["builder", "decision", "lay"], "entities": ["OpenAI"]},
-    {"industry": "Policy and geopolitics", "concept": "Data residency and sovereign AI", "summary": "Keeping data and AI processing inside national borders and under national rules.", "audience": ["decision"], "entities": ["Nous Research"]}
+    {
+      "industry": "Business and markets",
+      "concept": "AI startup consolidation",
+      "summary": "Standalone AI products are being absorbed or replaced by features inside big platforms.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "OpenAI",
+        "Google DeepMind"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Agents inside workplace chat",
+      "summary": "AI agents that work inside Teams, Slack and meetings as shared team members.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "Nous Research"
+      ]
+    },
+    {
+      "industry": "Agents and automation",
+      "concept": "Voice agents",
+      "summary": "AI that holds spoken conversations on calls, now cheap enough for surveys and service lines.",
+      "audience": [
+        "builder",
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "OpenAI"
+      ]
+    },
+    {
+      "industry": "Policy and geopolitics",
+      "concept": "Data residency and sovereign AI",
+      "summary": "Keeping data and AI processing inside national borders and under national rules.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "Nous Research"
+      ]
+    }
   ]
 }

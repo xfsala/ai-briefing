@@ -1,8 +1,18 @@
 {
   "date": "2026-11-12",
+  "question": "What changes when an AI belongs to the whole team rather than to one person?",
+  "reflection": "Shared tools can strengthen shared knowledge, if teams still take the time to learn from one another.",
   "sources": [
-    {"newsletter": "AlphaSignal", "subject": "Grok Bot joins Slack teams; Gemini 4 Carbon runs days", "link": ""},
-    {"newsletter": "Forward Future", "subject": "OpenAI takes aim at China's AI pricing", "link": "https://briefing.forwardfuture.ai/p/ai-training-in-china-nvidia-s-400b-web-openai-s-price-war"}
+    {
+      "newsletter": "AlphaSignal",
+      "subject": "Grok Bot joins Slack teams; Gemini 4 Carbon runs days",
+      "link": ""
+    },
+    {
+      "newsletter": "Forward Future",
+      "subject": "OpenAI takes aim at China's AI pricing",
+      "link": "https://briefing.forwardfuture.ai/p/ai-training-in-china-nvidia-s-400b-web-openai-s-price-war"
+    }
   ],
   "one_line": "AI is shifting from a personal helper to a shared team member, while the know-how used to train it slips past rules built for chips.",
   "top_stories": [
@@ -11,28 +21,47 @@
       "what": "xAI released Grok Bot 1.0, one assistant a whole team can use in Slack, Teams and video calls, with shared memory and meeting summaries, gated by admin approval.",
       "why": "Team-level AI changes how knowledge is shared at work, a live topic for studies on collaboration, trust and who gets credit for work.",
       "action": "Watch",
-      "audience": ["decision", "builder"],
-      "tags": ["agents", "workplace"]
+      "audience": [
+        "decision",
+        "builder"
+      ],
+      "tags": [
+        "agents",
+        "workplace"
+      ]
     },
     {
       "title": "Training tasks for AI are reaching Chinese labs",
       "what": "A ChinaTalk report says US vendors sell reinforcement-learning environments, scored practice tasks that teach models useful work, to Chinese AI labs, though some sourcing is anonymous.",
       "why": "Export rules focus on chips and model weights, so skills and data services are a growing grey zone that any AI policy advice must cover.",
       "action": "Watch",
-      "audience": ["decision"],
-      "tags": ["policy", "export controls"]
+      "audience": [
+        "decision"
+      ],
+      "tags": [
+        "policy",
+        "export controls"
+      ]
     },
     {
       "title": "OpenAI pushes prices down to rival Chinese models",
       "what": "OpenAI's finance chief called China's low-price lead a myth, pointing to GPT-6 Luna at about $0.10 per million input tokens for high-volume work.",
       "why": "Very cheap models make large text-coding jobs, such as sorting thousands of open survey answers, affordable for small research teams.",
       "action": "Try",
-      "audience": ["builder", "decision"],
-      "tags": ["pricing", "models"]
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "tags": [
+        "pricing",
+        "models"
+      ]
     }
   ],
   "saudi_lens": [
-    {"text": "Saudi Arabia buys advanced chips under US export rules; if those rules widen to cover training services and data, local AI projects may face new paperwork and vendor checks."}
+    {
+      "text": "Saudi Arabia buys advanced chips under US export rules; if those rules widen to cover training services and data, local AI projects may face new paperwork and vendor checks."
+    }
   ],
   "idea": {
     "title": "Shared AI teammate trial",
@@ -41,32 +70,139 @@
     "first_step": "Draft five survey questions on trust and workload to ask a team before and after a one-month assistant pilot."
   },
   "watchlist": [
-    {"name": "Anthropic", "sector": "Frontier models", "note": "Told investors its models may soon speed up AI research enough to trigger stricter safeguards."},
-    {"name": "Nvidia", "sector": "AI infrastructure and chips", "note": "Its loans, guarantees and investments reportedly tie it to hundreds of billions in AI projects."},
-    {"name": "Google DeepMind", "sector": "Frontier models", "note": "Launched Gemini 4 Carbon for long agent tasks and AlphaGenome 2 for reading DNA."}
+    {
+      "name": "Anthropic",
+      "sector": "Frontier models",
+      "note": "Told investors its models may soon speed up AI research enough to trigger stricter safeguards."
+    },
+    {
+      "name": "Nvidia",
+      "sector": "AI infrastructure and chips",
+      "note": "Its loans, guarantees and investments reportedly tie it to hundreds of billions in AI projects."
+    },
+    {
+      "name": "Google DeepMind",
+      "sector": "Frontier models",
+      "note": "Launched Gemini 4 Carbon for long agent tasks and AlphaGenome 2 for reading DNA."
+    }
   ],
-  "tool": {"name": "FAISS e-means", "use": "A faster drop-in for k-means clustering, handy for grouping large sets of text embeddings such as open survey answers.", "link": "https://github.com/facebookresearch/faiss"},
+  "tool": {
+    "name": "FAISS e-means",
+    "use": "A faster drop-in for k-means clustering, handy for grouping large sets of text embeddings such as open survey answers.",
+    "link": "https://github.com/facebookresearch/faiss"
+  },
   "verify": [
     "Nvidia's total financial obligations to AI projects are near $400 billion (one academic's estimate).",
     "Anthropic says its models are close to materially accelerating AI research itself."
   ],
   "entities": [
-    {"name": "xAI", "type": "company", "sector": "Frontier models", "url": "https://x.ai", "note": "Maker of the Grok models and Grok Bot."},
-    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT; launched the low-cost GPT-6 Luna model."},
-    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude, run under its Responsible Scaling Policy."},
-    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Leading maker of AI chips, now also a major AI financier."},
-    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Google's AI lab behind Gemini and AlphaGenome."},
-    {"name": "Meta", "type": "company", "sector": "Frontier models", "url": "https://www.meta.com", "note": "Its FAIR research lab maintains the FAISS search library."}
+    {
+      "name": "xAI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://x.ai",
+      "note": "Maker of the Grok models and Grok Bot."
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://openai.com",
+      "note": "Maker of ChatGPT; launched the low-cost GPT-6 Luna model."
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.anthropic.com",
+      "note": "Maker of Claude, run under its Responsible Scaling Policy."
+    },
+    {
+      "name": "Nvidia",
+      "type": "company",
+      "sector": "AI infrastructure and chips",
+      "url": "https://www.nvidia.com",
+      "note": "Leading maker of AI chips, now also a major AI financier."
+    },
+    {
+      "name": "Google DeepMind",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://deepmind.google",
+      "note": "Google's AI lab behind Gemini and AlphaGenome."
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "sector": "Frontier models",
+      "url": "https://www.meta.com",
+      "note": "Its FAIR research lab maintains the FAISS search library."
+    }
   ],
   "terms": [
-    {"term": "Reinforcement-learning environment", "definition": "A practice task with a score, used to train an AI model by rewarding it when it does the task well.", "audience": "builder"},
-    {"term": "Export controls", "definition": "Government rules limiting which countries or companies can buy certain technologies, such as advanced AI chips.", "audience": "decision"},
-    {"term": "Clustering", "definition": "Grouping similar items together automatically, for example sorting thousands of comments into common themes.", "audience": "lay"}
+    {
+      "term": "Reinforcement-learning environment",
+      "definition": "A practice task with a score, used to train an AI model by rewarding it when it does the task well.",
+      "audience": "builder"
+    },
+    {
+      "term": "Export controls",
+      "definition": "Government rules limiting which countries or companies can buy certain technologies, such as advanced AI chips.",
+      "audience": "decision"
+    },
+    {
+      "term": "Clustering",
+      "definition": "Grouping similar items together automatically, for example sorting thousands of comments into common themes.",
+      "audience": "lay"
+    }
   ],
   "concepts": [
-    {"industry": "Agents and automation", "concept": "Agents inside workplace chat", "summary": "AI agents that work inside Teams, Slack and meetings as shared team members.", "audience": ["builder", "decision"], "entities": ["xAI"]},
-    {"industry": "Policy and geopolitics", "concept": "Chip export controls", "summary": "Rules deciding which countries and companies can access advanced AI chips, now stretched by training services.", "audience": ["decision"], "entities": ["Nvidia"]},
-    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Each new model generation does more for less money per task.", "audience": ["builder", "decision", "lay"], "entities": ["OpenAI"]},
-    {"industry": "Business and markets", "concept": "AI financing risk", "summary": "Chipmakers and investors lending to and guaranteeing AI projects, linking AI demand to wider financial risk.", "audience": ["decision"], "entities": ["Nvidia"]}
+    {
+      "industry": "Agents and automation",
+      "concept": "Agents inside workplace chat",
+      "summary": "AI agents that work inside Teams, Slack and meetings as shared team members.",
+      "audience": [
+        "builder",
+        "decision"
+      ],
+      "entities": [
+        "xAI"
+      ]
+    },
+    {
+      "industry": "Policy and geopolitics",
+      "concept": "Chip export controls",
+      "summary": "Rules deciding which countries and companies can access advanced AI chips, now stretched by training services.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "Nvidia"
+      ]
+    },
+    {
+      "industry": "Frontier models",
+      "concept": "Falling cost of intelligence",
+      "summary": "Each new model generation does more for less money per task.",
+      "audience": [
+        "builder",
+        "decision",
+        "lay"
+      ],
+      "entities": [
+        "OpenAI"
+      ]
+    },
+    {
+      "industry": "Business and markets",
+      "concept": "AI financing risk",
+      "summary": "Chipmakers and investors lending to and guaranteeing AI projects, linking AI demand to wider financial risk.",
+      "audience": [
+        "decision"
+      ],
+      "entities": [
+        "Nvidia"
+      ]
+    }
   ]
 }
