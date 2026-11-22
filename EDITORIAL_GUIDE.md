@@ -88,8 +88,12 @@ Field notes:
 
 - `question`: the page opens with it. One question, under 20 words, ending
   with a question mark. It should invite reflection on the day's main theme
-  from a human point of view (for example: "If an assistant can act before we
-  ask, how do we stay the ones who decide?"). Not a quiz, not rhetorical hype.
+  from a human point of view (for example: "If an AI assistant can act before
+  we ask it to, how do we make sure we still make the final decisions?"). Not
+  a quiz, not rhetorical hype. Use plain, literal wording that a reader whose
+  first language is not English understands on first reading: no idioms,
+  wordplay or clever phrasing.
+- `reflection` follows the same plain-language rule.
 - `reflection`: shown as a quote under the question. One sentence, under 25
   words, written fresh in your own words (never a quote from a real person, a
   book or the newsletters, and no attribution). Hopeful but grounded: how the
