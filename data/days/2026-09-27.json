@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-27",
+  "question": "When an AI tool makes a quick choice for us, how do we know when to trust it and when to ask a person?",
+  "reflection": "Tools that say how sure they are can help people focus their care on the hard cases, where human judgement matters most.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "System One models are carving out a new layer in the AI stack", "link": ""}
+  ],
+  "one_line": "A new kind of small AI model that picks from fixed options, instead of writing text, promises much cheaper and faster decisions.",
+  "top_stories": [
+    {
+      "title": "Decision models that choose instead of write",
+      "what": "A startup released Jev, a model that returns a choice from options you define, with a confidence score, and reportedly costs far less than a full language model for such tasks.",
+      "why": "Sorting survey answers, complaints or support requests into set categories could become cheap and measurable, with unsure cases sent to people.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["models", "cost"]
+    },
+    {
+      "title": "Open alternatives appear quickly",
+      "what": "An open-source model called Laya and a research model called CLM-8B take similar approaches, and the researchers report CLM ran faster in their own tests.",
+      "why": "Open options let teams run such classifiers on their own servers, which helps when data must stay in the country.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["open source", "models"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today, though self-hosted decision models could help agencies sort Arabic citizen feedback while keeping data inside the Kingdom."}
+  ],
+  "idea": {
+    "title": "Confidence-based feedback triage",
+    "pitch": "Pilot a small decision model that sorts public feedback into categories, auto-routes confident cases and sends uncertain ones to staff.",
+    "fit": "Government digital services",
+    "first_step": "Write a clear, complete list of categories for one feedback channel and label 100 past messages by hand."
+  },
+  "idea_kids": {
+    "title": "How sure are you? sorting game",
+    "pitch": "Children sort picture cards into boxes and hold up a number from one to five showing how sure they feel, then discuss the unsure ones together.",
+    "age": "6 to 10",
+    "first_step": "Prepare thirty picture cards, including a few that could fit in two boxes."
+  },
+  "watchlist": [
+    {"name": "TypeSafe AI", "sector": "Data and analytics", "note": "Its Jev model started a new class of low-cost decision models."}
+  ],
+  "tool": {"name": "Laya", "use": "Open-source model that picks or scores answers from a list you define, and can run on modest hardware.", "link": ""},
+  "verify": [
+    "TypeSafe claims Jev is 40 to 200 times faster than frontier models for decision tasks.",
+    "TypeSafe claims cost savings of over 400 times for such tasks."
+  ],
+  "entities": [
+    {"name": "TypeSafe AI", "type": "company", "sector": "Data and analytics", "url": "", "note": "Released the Jev decision model."},
+    {"name": "Stanford University", "type": "organisation", "sector": "Science and research", "url": "https://www.stanford.edu", "note": "Co-developed the CLM-8B decision model."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Co-developed the CLM-8B decision model."}
+  ],
+  "terms": [
+    {"term": "Autoregressive model", "definition": "A model that writes its output one piece at a time, each piece based on what came before.", "audience": "builder"},
+    {"term": "Calibrated confidence", "definition": "When a model's stated certainty matches how often it is actually right.", "audience": "decision"},
+    {"term": "LLM-as-a-judge", "definition": "Using one AI model to score or check the answers produced by another.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Data and analytics", "concept": "Specialised foundation models", "summary": "Small models built only to choose, score or rank, at a fraction of the cost of general models.", "audience": ["builder", "decision"], "entities": ["TypeSafe AI", "Stanford University", "NVIDIA"]},
+    {"industry": "Data and analytics", "concept": "AI-assisted data coding", "summary": "Fast classifiers sort open text into categories and flag uncertain cases for people.", "audience": ["builder", "decision"], "entities": ["TypeSafe AI"]}
+  ]
+}

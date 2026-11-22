@@ -604,6 +604,46 @@
   ]
  },
  {
+  "date": "2026-09-27",
+  "question": "When an AI tool makes a quick choice for us, how do we know when to trust it and when to ask a person?",
+  "one_line": "A new kind of small AI model that picks from fixed options, instead of writing text, promises much cheaper and faster decisions.",
+  "titles": [
+   "Decision models that choose instead of write",
+   "Open alternatives appear quickly"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-09-25",
+  "question": "When people talk to AI about stress or sadness, how should we judge whether the AI is helping them?",
+  "one_line": "OpenAI publishes an open test for how chatbots handle mental health conversations, as assistants begin to phone businesses for users.",
+  "titles": [
+   "An open test for mental health conversations",
+   "Assistants now phone businesses for you",
+   "White House reportedly delays UK model testing"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-24",
+  "question": "If AI agents can help find new things in science, how do we make sure people still check and understand the results?",
+  "one_line": "AI agents report a first biology discovery, while US lawmakers propose banning superintelligence and tech leaders warn the UN.",
+  "titles": [
+   "Hundreds of AI agents flag a new enzyme system",
+   "US bill would ban superintelligence",
+   "Daily AI users are still worried"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
   "date": "2026-09-23",
   "question": "When powerful AI becomes much cheaper, who gains the most, and who might be left behind?",
   "one_line": "Anthropic and OpenAI cut the price of top-tier models on the same day, while local resistance to data centres grows in the US.",

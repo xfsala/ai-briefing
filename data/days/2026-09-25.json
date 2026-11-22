@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-25",
+  "question": "When people talk to AI about stress or sadness, how should we judge whether the AI is helping them?",
+  "reflection": "Good tests built with care experts can help AI support people gently, while knowing when to point them to real human help.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Your next business call could be Gemini", "link": "https://briefing.forwardfuture.ai/p/ai-security-reviews-google-s-space-chips-gemini-calls"},
+    {"newsletter": "AlphaSignal", "subject": "Claude Marketplace launches with 2,000+ plugins and unified billing", "link": ""}
+  ],
+  "one_line": "OpenAI publishes an open test for how chatbots handle mental health conversations, as assistants begin to phone businesses for users.",
+  "top_stories": [
+    {
+      "title": "An open test for mental health conversations",
+      "what": "OpenAI released an open benchmark of about 1,200 synthetic conversations, built with more than 80 clinicians in 19 languages, covering everyday stress through to crisis.",
+      "why": "This gives health and wellbeing services a ready starting point to check AI tools, including in Arabic, before using them with the public.",
+      "action": "Try",
+      "audience": ["decision", "builder"],
+      "tags": ["health", "evaluation"]
+    },
+    {
+      "title": "Assistants now phone businesses for you",
+      "what": "Google's Gemini can reportedly call local businesses, wait on hold and handle bookings for paying US users on its newest phones, with a live transcript.",
+      "why": "When customers send agents instead of calling themselves, service centres will need new rules and staff guidance.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["agents", "consumer"]
+    },
+    {
+      "title": "White House reportedly delays UK model testing",
+      "what": "The US government has reportedly asked OpenAI and Anthropic to hold back new models from British safety testers until a US security review is done.",
+      "why": "If allies cannot test models early, countries relying on outside evaluations may need their own testing capacity.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["policy", "evaluation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "The mental health benchmark covers many languages, so Saudi health bodies could check how well it reflects Arabic and local norms before using it to judge chatbots."}
+  ],
+  "idea": {
+    "title": "Arabic wellbeing chatbot review",
+    "pitch": "Adapt open mental health test conversations to Saudi Arabic and cultural context, then score popular chatbots with local clinicians.",
+    "fit": "Health, hospital, government digital services",
+    "first_step": "Review a sample of the benchmark conversations with two local clinicians and note what needs adapting."
+  },
+  "idea_kids": {
+    "title": "Feelings helper cards",
+    "pitch": "A card set that helps children name a feeling, pick a calming step and choose a trusted adult to talk to.",
+    "age": "5 to 9",
+    "first_step": "Draw eight simple feeling faces and write one calming idea for each."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Agents and automation", "note": "Opened a marketplace of plugins and agents, and signed a large cloud deal with Akamai."},
+    {"name": "Google", "sector": "AI infrastructure and chips", "note": "Preparing to test its AI chips on satellites in orbit."},
+    {"name": "Databricks", "sector": "Data and analytics", "note": "Adding live spreadsheets to its AI data assistant."}
+  ],
+  "tool": {"name": "Nemotron 3 Diarization", "use": "Small open NVIDIA model that labels who is speaking in a recording, useful for focus group and interview transcripts.", "link": ""},
+  "verify": [
+    "Researchers report they can tell which model wrote an answer with over 80% accuracy using personality tests.",
+    "Insurers say AI-assisted medical billing added about $942 million in costs over two years."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Healthcare and life sciences", "url": "https://openai.com", "note": "Released an open mental health benchmark."},
+    {"name": "Google", "type": "company", "sector": "Agents and automation", "url": "https://about.google", "note": "Gemini can now call businesses; testing AI chips in orbit."},
+    {"name": "Anthropic", "type": "company", "sector": "Agents and automation", "url": "https://www.anthropic.com", "note": "Launched Claude Marketplace."},
+    {"name": "Akamai", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.akamai.com", "note": "Signed a multi-year cloud deal with Anthropic."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Released an open speaker-labelling model."},
+    {"name": "Databricks", "type": "company", "sector": "Data and analytics", "url": "https://www.databricks.com", "note": "Bought Row Zero to add spreadsheets to its AI assistant."}
+  ],
+  "terms": [
+    {"term": "Speaker diarization", "definition": "Working out who spoke when in an audio recording with several people.", "audience": "builder"},
+    {"term": "Benchmark", "definition": "A fixed set of tasks used to measure and compare how well AI systems perform.", "audience": "lay"},
+    {"term": "Third-party evaluation", "definition": "Testing of an AI system by an independent group rather than by the company that built it.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Healthcare and life sciences", "concept": "AI mental health support", "summary": "Open tests check how chatbots respond to stress, distress and crisis.", "audience": ["decision", "builder"], "entities": ["OpenAI"]},
+    {"industry": "Agents and automation", "concept": "Voice agents", "summary": "Assistants place phone calls to businesses on behalf of users.", "audience": ["lay", "decision"], "entities": ["Google"]},
+    {"industry": "Policy and geopolitics", "concept": "Pre-release model testing access", "summary": "Governments argue over who may test new models before release.", "audience": ["decision"], "entities": ["OpenAI", "Anthropic"]}
+  ]
+}

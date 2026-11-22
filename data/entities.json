@@ -22,6 +22,17 @@
   ]
  },
  {
+  "id": "akamai",
+  "name": "Akamai",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.akamai.com",
+  "note": "Signed a multi-year cloud deal with Anthropic.",
+  "days": [
+   "2026-09-25"
+  ]
+ },
+ {
   "id": "aleph-alpha",
   "name": "Aleph Alpha",
   "type": "company",
@@ -130,6 +141,8 @@
    "2026-09-18",
    "2026-09-20",
    "2026-09-23",
+   "2026-09-24",
+   "2026-09-25",
    "2026-10-01",
    "2026-10-02",
    "2026-10-05",
@@ -302,6 +315,17 @@
   ]
  },
  {
+  "id": "databricks",
+  "name": "Databricks",
+  "type": "company",
+  "sector": "Data and analytics",
+  "url": "https://www.databricks.com",
+  "note": "Bought Row Zero to add spreadsheets to its AI assistant.",
+  "days": [
+   "2026-09-25"
+  ]
+ },
+ {
   "id": "deep-principle",
   "name": "Deep Principle",
   "type": "company",
@@ -424,6 +448,17 @@
   ]
  },
  {
+  "id": "gallup",
+  "name": "Gallup",
+  "type": "organisation",
+  "sector": "Work and workforce",
+  "url": "https://www.gallup.com",
+  "note": "Surveyed worry among daily AI users.",
+  "days": [
+   "2026-09-24"
+  ]
+ },
+ {
   "id": "gartner",
   "name": "Gartner",
   "type": "company",
@@ -467,6 +502,7 @@
    "2026-09-17",
    "2026-09-21",
    "2026-09-22",
+   "2026-09-25",
    "2026-10-02",
    "2026-10-04",
    "2026-10-07",
@@ -766,6 +802,8 @@
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
    "2026-09-16",
+   "2026-09-25",
+   "2026-09-27",
    "2026-10-05",
    "2026-10-11",
    "2026-10-12",
@@ -810,6 +848,8 @@
    "2026-09-20",
    "2026-09-22",
    "2026-09-23",
+   "2026-09-24",
+   "2026-09-25",
    "2026-10-01",
    "2026-10-02",
    "2026-10-05",
@@ -1028,6 +1068,7 @@
   "url": "https://www.stanford.edu",
   "note": "Its researchers introduced Next-Concept Modeling.",
   "days": [
+   "2026-09-27",
    "2026-10-18"
   ]
  },
@@ -1061,6 +1102,7 @@
   "url": "",
   "note": "Maker of Jev, a decision model valued at $7.5 billion.",
   "days": [
+   "2026-09-27",
    "2026-10-13"
   ]
  },
@@ -1072,6 +1114,7 @@
   "url": "https://www.uber.com",
   "note": "Ride and delivery platform reporting very low agent bookings.",
   "days": [
+   "2026-09-24",
    "2026-11-05"
   ]
  },
@@ -1084,6 +1127,17 @@
   "note": "Its scientific panel urged early safeguards for AI agents.",
   "days": [
    "2026-09-22"
+  ]
+ },
+ {
+  "id": "united-nations-security-council",
+  "name": "United Nations Security Council",
+  "type": "organisation",
+  "sector": "Policy and geopolitics",
+  "url": "https://www.un.org/securitycouncil",
+  "note": "Heard warnings from AI leaders.",
+  "days": [
+   "2026-09-24"
   ]
  },
  {
@@ -1185,6 +1239,17 @@
   "note": "Startup accelerator whose lab ran the 50-agent experiment.",
   "days": [
    "2026-11-04"
+  ]
+ },
+ {
+  "id": "youtube",
+  "name": "YouTube",
+  "type": "company",
+  "sector": "Consumer and media",
+  "url": "https://www.youtube.com",
+  "note": "Launched AI agents for creators.",
+  "days": [
+   "2026-09-24"
   ]
  },
  {

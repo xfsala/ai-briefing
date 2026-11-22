@@ -459,9 +459,14 @@
       "lay"
      ],
      "days": [
-      "2026-11-20"
+      "2026-11-20",
+      "2026-09-25"
      ],
      "children": [
+      {
+       "name": "Google",
+       "kind": "entity"
+      },
       {
        "name": "OpenAI",
        "kind": "entity"
@@ -674,6 +679,24 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "Public trust in AI",
+     "kind": "concept",
+     "summary": "Many people use AI daily while remaining worried about it.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-09-24"
+     ],
+     "children": [
+      {
+       "name": "Gallup",
+       "kind": "entity"
+      }
+     ]
     }
    ]
   },
@@ -690,11 +713,16 @@
       "decision"
      ],
      "days": [
-      "2026-11-17"
+      "2026-11-17",
+      "2026-09-27"
      ],
      "children": [
       {
        "name": "Liquid AI",
+       "kind": "entity"
+      },
+      {
+       "name": "TypeSafe AI",
        "kind": "entity"
       }
      ]
@@ -709,7 +737,8 @@
      ],
      "days": [
       "2026-11-01",
-      "2026-10-13"
+      "2026-10-13",
+      "2026-09-27"
      ],
      "children": [
       {
@@ -721,7 +750,15 @@
        "kind": "entity"
       },
       {
+       "name": "NVIDIA",
+       "kind": "entity"
+      },
+      {
        "name": "Prior Labs",
+       "kind": "entity"
+      },
+      {
+       "name": "Stanford University",
        "kind": "entity"
       },
       {
@@ -872,6 +909,24 @@
      "children": [
       {
        "name": "Google Cloud",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "AI mental health support",
+     "kind": "concept",
+     "summary": "Open tests check how chatbots respond to stress, distress and crisis.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-09-25"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -1038,7 +1093,8 @@
       "decision"
      ],
      "days": [
-      "2026-10-21"
+      "2026-10-21",
+      "2026-09-24"
      ],
      "children": [
       {
@@ -1047,6 +1103,10 @@
       },
       {
        "name": "Sam Altman",
+       "kind": "entity"
+      },
+      {
+       "name": "United Nations Security Council",
        "kind": "entity"
       }
      ]
@@ -1074,6 +1134,27 @@
       },
       {
        "name": "Moonshot AI",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Pre-release model testing access",
+     "kind": "concept",
+     "summary": "Governments argue over who may test new models before release.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-09-25"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
        "kind": "entity"
       },
       {
@@ -1631,7 +1712,8 @@
       "2026-10-28",
       "2026-10-19",
       "2026-10-09",
-      "2026-10-06"
+      "2026-10-06",
+      "2026-09-24"
      ],
      "children": [
       {

@@ -122,10 +122,20 @@
  {
   "id": "autoregressive-model",
   "term": "Autoregressive model",
-  "definition": "A model that writes text one small piece at a time, each piece based on everything written before it.",
+  "definition": "A model that writes its output one piece at a time, each piece based on what came before.",
   "audience": "builder",
   "days": [
+   "2026-09-27",
    "2026-10-18"
+  ]
+ },
+ {
+  "id": "benchmark",
+  "term": "Benchmark",
+  "definition": "A fixed set of tasks used to measure and compare how well AI systems perform.",
+  "audience": "lay",
+  "days": [
+   "2026-09-25"
   ]
  },
  {
@@ -140,9 +150,10 @@
  {
   "id": "calibrated-confidence",
   "term": "Calibrated confidence",
-  "definition": "When a model's stated certainty matches reality, so answers marked 80% sure are right about 80% of the time.",
-  "audience": "builder",
+  "definition": "When a model's stated certainty matches how often it is actually right.",
+  "audience": "decision",
   "days": [
+   "2026-09-27",
    "2026-11-17"
   ]
  },
@@ -212,6 +223,15 @@
   "audience": "decision",
   "days": [
    "2026-10-20"
+  ]
+ },
+ {
+  "id": "crispr",
+  "term": "CRISPR",
+  "definition": "A natural system in bacteria that scientists use as a tool to cut and edit DNA.",
+  "audience": "lay",
+  "days": [
+   "2026-09-24"
   ]
  },
  {
@@ -422,6 +442,15 @@
   "audience": "decision",
   "days": [
    "2026-10-29"
+  ]
+ },
+ {
+  "id": "llm-as-a-judge",
+  "term": "LLM-as-a-judge",
+  "definition": "Using one AI model to score or check the answers produced by another.",
+  "audience": "builder",
+  "days": [
+   "2026-09-27"
   ]
  },
  {
@@ -768,6 +797,15 @@
   ]
  },
  {
+  "id": "speaker-diarization",
+  "term": "Speaker diarization",
+  "definition": "Working out who spoke when in an audio recording with several people.",
+  "audience": "builder",
+  "days": [
+   "2026-09-25"
+  ]
+ },
+ {
   "id": "subagent",
   "term": "Subagent",
   "definition": "A smaller AI helper that a main agent hands a part of a task to.",
@@ -779,9 +817,10 @@
  {
   "id": "superintelligence",
   "term": "Superintelligence",
-  "definition": "A hypothetical AI system that is more capable than humans at most mental tasks.",
+  "definition": "A hypothetical AI that is far more capable than humans across most tasks.",
   "audience": "lay",
   "days": [
+   "2026-09-24",
    "2026-10-21"
   ]
  },
@@ -836,6 +875,7 @@
   "definition": "Testing of an AI system by an independent group rather than by the company that built it.",
   "audience": "decision",
   "days": [
+   "2026-09-25",
    "2026-10-19",
    "2026-11-09",
    "2026-11-17",
@@ -916,6 +956,15 @@
   "audience": "lay",
   "days": [
    "2026-10-06"
+  ]
+ },
+ {
+  "id": "wet-lab",
+  "term": "Wet lab",
+  "definition": "A laboratory where experiments are done with real biological samples and chemicals.",
+  "audience": "lay",
+  "days": [
+   "2026-09-24"
   ]
  },
  {
