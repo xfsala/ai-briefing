@@ -1,0 +1,84 @@
+{
+  "date": "2026-07-28",
+  "question": "When a free AI model has hidden licence rules, how do we know if we are allowed to use it?",
+  "reflection": "Open sharing of powerful tools can spread opportunity widely, as long as the terms are clear enough for everyone to use them fairly.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "SSI secures $5B NVIDIA deal, Kimi K3 ships 2.8T params, OptMem", "link": ""}
+  ],
+  "one_line": "Computing power is the race: Nvidia backs a secretive safety-focused lab, while a huge open model arrives with licence strings attached.",
+  "top_stories": [
+    {
+      "title": "Nvidia invests in Safe Superintelligence",
+      "what": "Nvidia is investing several billion dollars in Ilya Sutskever's Safe Superintelligence, giving it access to Nvidia's next chips and about ten times more computing power within a year.",
+      "why": "Big bets on long-term safety research show where top talent and money are moving.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["investment", "compute"]
+    },
+    {
+      "title": "Kimi K3 weights released, with conditions",
+      "what": "Moonshot AI released its 2.8 trillion parameter Kimi K3, but the licence requires a commercial deal for companies with revenue above $20 million a year.",
+      "why": "Open weights do not always mean free for business use, so licences must be read before any client project.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["open models", "licensing"]
+    },
+    {
+      "title": "Simple long-term memory for agents",
+      "what": "A developer released OptMem, which keeps every agent memory in a log and builds a short, compressed summary that the agent reads at the start of each session.",
+      "why": "Simple, readable memory files make it easier to check what an agent remembers about a project.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "memory"]
+    },
+    {
+      "title": "Small models get better at agent tasks",
+      "what": "A new 3B model reportedly beats much larger open models on agent tasks, and a coding tool server claims large cuts in token use.",
+      "why": "Smaller, cheaper models make AI tools more affordable for small teams.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["cost", "open models"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Large Saudi entities using open models should check revenue-based licence clauses, as some open models now treat big organisations differently."}
+  ],
+  "idea": {
+    "title": "Open model licence checklist",
+    "pitch": "Create a one-page checklist that reviews any open model's licence for revenue limits, branding rules and data terms before use.",
+    "fit": "Consultancy, government digital services",
+    "first_step": "Compare the licences of three open models used this year and note every condition."
+  },
+  "idea_kids": {
+    "title": "Share with rules",
+    "pitch": "A classroom game where children share toys under different written rules and talk about which rules feel fair and clear.",
+    "age": "5 to 9",
+    "first_step": "Write four sharing rule cards, from very simple to confusing."
+  },
+  "watchlist": [
+    {"name": "Safe Superintelligence", "sector": "Frontier models", "note": "Ended its silence with a major compute deal."},
+    {"name": "Moonshot AI", "sector": "Frontier models", "note": "Licence model for very large open weights."}
+  ],
+  "tool": {"name": "OptMem", "use": "Plain-text long-term memory that any coding agent can use.", "link": ""},
+  "verify": [
+    "Nvidia's investment in SSI is reportedly about $5 billion.",
+    "An open coding tool server reportedly cuts token costs by 95%."
+  ],
+  "entities": [
+    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Investing in SSI and sharing next-generation chips."},
+    {"name": "Safe Superintelligence", "type": "company", "sector": "Frontier models", "url": "https://ssi.inc", "note": "Research lab focused on safe superintelligence."},
+    {"name": "Ilya Sutskever", "type": "person", "sector": "Frontier models", "url": "", "note": "Co-founder of SSI."},
+    {"name": "Moonshot AI", "type": "company", "sector": "Frontier models", "url": "https://www.moonshot.ai", "note": "Released Kimi K3 weights with a revenue-based licence."},
+    {"name": "Kimi K3", "type": "model", "sector": "Frontier models", "url": "", "note": "2.8T open-weight model."}
+  ],
+  "terms": [
+    {"term": "Superintelligence", "definition": "A hypothetical AI that is far more capable than humans across almost all tasks.", "audience": "lay"},
+    {"term": "Agent memory", "definition": "How an AI agent stores and recalls information between sessions.", "audience": "builder"},
+    {"term": "Model weights", "definition": "The learned numbers inside an AI model that decide how it responds.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "AI infrastructure and chips", "concept": "AI hardware supply squeeze", "summary": "Labs secure future chips through investment deals.", "audience": ["decision"], "entities": ["Nvidia", "Safe Superintelligence"]},
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Open weights arrive with licences that limit big companies.", "audience": ["decision", "builder"], "entities": ["Moonshot AI", "Kimi K3"]},
+    {"industry": "Agents and automation", "concept": "Agent memory management", "summary": "Simple compressed logs give agents memory across sessions.", "audience": ["builder"], "entities": []}
+  ]
+}

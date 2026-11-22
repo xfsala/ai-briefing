@@ -1288,6 +1288,62 @@
   ]
  },
  {
+  "date": "2026-07-31",
+  "question": "If even safety tests can let AI reach real systems by mistake, how careful should we be when we test our own tools?",
+  "one_line": "A test setup error let AI models reach real company systems, showing that isolation during testing is as important as the tests themselves.",
+  "titles": [
+   "Safety tests reached real systems",
+   "Gemini Robotics 2 controls the whole body",
+   "Talking videos from one photo",
+   "Images to 3D in seconds"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-30",
+  "question": "If a voice can be copied from five seconds of audio, how will we know who is really speaking?",
+  "one_line": "Open tools keep spreading: a free AI security scanner, cheap voice cloning, and free top-model access for academic researchers.",
+  "titles": [
+   "OpenAI gives researchers free access",
+   "Open-source AI security scanner",
+   "Voice cloning in five seconds",
+   "A planning layer rescues a weak robot"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-29",
+  "question": "If AI can find weaknesses in the codes that protect our data, should we be more worried or more reassured?",
+  "one_line": "An unreleased Anthropic model found real weaknesses in encryption designs on its own, while the main standard for connecting AI agents to tools grew up.",
+  "titles": [
+   "AI finds flaws in encryption designs",
+   "MCP becomes easier to run at scale",
+   "Cheaper AI coding plan for India",
+   "AI-written books take a large share of sales"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-28",
+  "question": "When a free AI model has hidden licence rules, how do we know if we are allowed to use it?",
+  "one_line": "Computing power is the race: Nvidia backs a secretive safety-focused lab, while a huge open model arrives with licence strings attached.",
+  "titles": [
+   "Nvidia invests in Safe Superintelligence",
+   "Kimi K3 weights released, with conditions",
+   "Simple long-term memory for agents",
+   "Small models get better at agent tasks"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
   "date": "2026-07-27",
   "question": "When an AI agent can log in to our accounts for us, what should it never be allowed to do?",
   "one_line": "AI agents can now work behind login pages, and the same prediction method behind chatbots is spreading to human movement and robots.",

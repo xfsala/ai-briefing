@@ -1,0 +1,83 @@
+{
+  "date": "2026-07-31",
+  "question": "If even safety tests can let AI reach real systems by mistake, how careful should we be when we test our own tools?",
+  "reflection": "Honest reporting of mistakes helps everyone learn faster and build the careful habits that make new technology safer for all.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude hacked real systems in 141K safety test sessions", "link": ""}
+  ],
+  "one_line": "A test setup error let AI models reach real company systems, showing that isolation during testing is as important as the tests themselves.",
+  "top_stories": [
+    {
+      "title": "Safety tests reached real systems",
+      "what": "Anthropic disclosed that in three out of about 141,000 hacking test sessions, models reached real organisations because a test environment was wrongly connected to the internet, and it paused these tests.",
+      "why": "Any pilot that gives AI tools access to systems needs the isolation itself checked, not just assumed.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["security", "safety"]
+    },
+    {
+      "title": "Gemini Robotics 2 controls the whole body",
+      "what": "Google DeepMind released Gemini Robotics 2, which turns text instructions into full-body movement for humanoid robots, plus a planning model and an on-device version.",
+      "why": "Robots that plan and correct themselves may reach warehouses and hospitals sooner than expected.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["robotics"]
+    },
+    {
+      "title": "Talking videos from one photo",
+      "what": "Meituan open-sourced LongCat-Avatar, which turns a single photo and an audio clip into a talking video several minutes long.",
+      "why": "Realistic talking videos are now free to make, which raises misuse risks and new uses in training content.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["media", "deepfakes"]
+    },
+    {
+      "title": "Images to 3D in seconds",
+      "what": "Microsoft open-sourced a small model that turns an image into a 3D object in about three seconds.",
+      "why": "Quick 3D assets could help museums and educators create digital collections.",
+      "action": "Try",
+      "audience": ["builder", "lay"],
+      "tags": ["3D", "open source"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Fast image-to-3D tools could help Saudi museums and heritage projects digitise collections, while talking-photo tools call for stronger media literacy campaigns."}
+  ],
+  "idea": {
+    "title": "Heritage objects in 3D",
+    "pitch": "Pilot turning photos of heritage objects into simple 3D models for an online exhibit and test how visitors engage with them.",
+    "fit": "Culture sector",
+    "first_step": "Photograph five objects from several angles and test an open image-to-3D model."
+  },
+  "idea_kids": {
+    "title": "Real or made up?",
+    "pitch": "A card game with pairs of real and edited photos where children look for clues and discuss why checking sources matters.",
+    "age": "9 to 14",
+    "first_step": "Collect ten photo pairs, one original and one clearly edited, from free image libraries."
+  },
+  "watchlist": [
+    {"name": "Google DeepMind", "sector": "Robotics and physical AI", "note": "Full-body robot control from one model."},
+    {"name": "Meituan", "sector": "Consumer and media", "note": "Open-source long talking-video model."}
+  ],
+  "tool": null,
+  "verify": [
+    "Three incidents were reportedly found among 141,006 test sessions.",
+    "Microsoft's model reportedly converts an image to 3D in about three seconds."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Disclosed test incidents and paused cyber evaluations."},
+    {"name": "Google DeepMind", "type": "organisation", "sector": "Robotics and physical AI", "url": "https://deepmind.google", "note": "Released Gemini Robotics 2."},
+    {"name": "Meituan", "type": "company", "sector": "Consumer and media", "url": "https://www.meituan.com", "note": "Released LongCat-Avatar."},
+    {"name": "Microsoft", "type": "company", "sector": "Frontier models", "url": "https://www.microsoft.com", "note": "Open-sourced an image-to-3D model."}
+  ],
+  "terms": [
+    {"term": "Air gap", "definition": "Keeping a computer system fully cut off from the internet and other networks for safety.", "audience": "lay"},
+    {"term": "Red-teaming", "definition": "Deliberately attacking a system to find its weak points before real attackers do.", "audience": "lay"},
+    {"term": "Synthetic media", "definition": "Text, images, audio or video created by AI rather than recorded or written by people.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Model containment", "summary": "Test environments must truly isolate capable models.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "AI misuse disclosure", "summary": "A lab publicly reported test incidents and paused testing.", "audience": ["decision", "lay"], "entities": ["Anthropic"]},
+    {"industry": "Robotics and physical AI", "concept": "General models controlling robots", "summary": "One model controls a humanoid's whole body.", "audience": ["decision", "builder"], "entities": ["Google DeepMind"]}
+  ]
+}

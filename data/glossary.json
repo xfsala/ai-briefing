@@ -53,9 +53,10 @@
  {
   "id": "agent-memory",
   "term": "Agent memory",
-  "definition": "Information an AI agent keeps from earlier steps so it can continue work without starting over.",
-  "audience": "lay",
+  "definition": "How an AI agent stores and recalls information between sessions.",
+  "audience": "builder",
   "days": [
+   "2026-07-28",
    "2026-08-06",
    "2026-08-18",
    "2026-08-26",
@@ -109,9 +110,10 @@
  {
   "id": "air-gap",
   "term": "Air gap",
-  "definition": "Keeping a computer or system physically cut off from the internet so it cannot be reached or misused online.",
+  "definition": "Keeping a computer system fully cut off from the internet and other networks for safety.",
   "audience": "lay",
   "days": [
+   "2026-07-31",
    "2026-10-15"
   ]
  },
@@ -412,9 +414,10 @@
  {
   "id": "deepfake",
   "term": "Deepfake",
-  "definition": "Video, audio or images made by AI to look like a real person saying or doing something they did not.",
+  "definition": "Fake but realistic audio, video or images of a real person made with AI.",
   "audience": "lay",
   "days": [
+   "2026-07-30",
    "2026-08-21",
    "2026-09-14",
    "2026-09-18"
@@ -714,6 +717,7 @@
   "audience": "builder",
   "days": [
    "2026-07-17",
+   "2026-07-29",
    "2026-08-07",
    "2026-08-24",
    "2026-08-28",
@@ -770,9 +774,10 @@
  {
   "id": "model-weights",
   "term": "Model weights",
-  "definition": "The learned numbers inside an AI model that hold what it has learned; whoever has them can run the model.",
+  "definition": "The learned numbers inside an AI model that decide how it responds.",
   "audience": "lay",
   "days": [
+   "2026-07-28",
    "2026-10-19",
    "2026-11-04",
    "2026-11-16"
@@ -887,6 +892,15 @@
   "audience": "lay",
   "days": [
    "2026-07-20"
+  ]
+ },
+ {
+  "id": "post-quantum-cryptography",
+  "term": "Post-quantum cryptography",
+  "definition": "Methods of protecting data designed to stay secure even against future quantum computers.",
+  "audience": "lay",
+  "days": [
+   "2026-07-29"
   ]
  },
  {
@@ -1047,6 +1061,7 @@
   "audience": "lay",
   "days": [
    "2026-07-16",
+   "2026-07-31",
    "2026-08-17",
    "2026-10-26"
   ]
@@ -1235,9 +1250,10 @@
  {
   "id": "superintelligence",
   "term": "Superintelligence",
-  "definition": "A hypothetical AI that is far better than humans at almost every mental task.",
+  "definition": "A hypothetical AI that is far more capable than humans across almost all tasks.",
   "audience": "lay",
   "days": [
+   "2026-07-28",
    "2026-09-04",
    "2026-09-15",
    "2026-09-24",
@@ -1267,9 +1283,11 @@
  {
   "id": "synthetic-media",
   "term": "Synthetic media",
-  "definition": "Images, audio or video created or heavily altered by AI rather than captured from real life.",
+  "definition": "Text, images, audio or video created by AI rather than recorded or written by people.",
   "audience": "lay",
   "days": [
+   "2026-07-29",
+   "2026-07-31",
    "2026-11-04"
   ]
  },
@@ -1289,6 +1307,7 @@
   "definition": "Technology that turns written text into spoken audio.",
   "audience": "lay",
   "days": [
+   "2026-07-30",
    "2026-10-14"
   ]
  },
@@ -1382,6 +1401,7 @@
   "audience": "lay",
   "days": [
    "2026-07-23",
+   "2026-07-30",
    "2026-10-20",
    "2026-11-06"
   ]

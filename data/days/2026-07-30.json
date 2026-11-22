@@ -1,0 +1,82 @@
+{
+  "date": "2026-07-30",
+  "question": "If a voice can be copied from five seconds of audio, how will we know who is really speaking?",
+  "reflection": "Free access to strong research tools could help scientists everywhere move faster on problems that matter to their own communities.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "OpenAI Codex CLI, Fish Audio S2.1 Pro, GPT-5 Academic Access", "link": ""}
+  ],
+  "one_line": "Open tools keep spreading: a free AI security scanner, cheap voice cloning, and free top-model access for academic researchers.",
+  "top_stories": [
+    {
+      "title": "OpenAI gives researchers free access",
+      "what": "OpenAI launched a free programme for academic researchers, starting with 10,000 seats and aiming for 100,000 by 2027, with its strongest models and research tools.",
+      "why": "Research partners at universities may soon expect top AI tools in joint projects.",
+      "action": "Try",
+      "audience": ["decision", "lay"],
+      "tags": ["research", "education"]
+    },
+    {
+      "title": "Open-source AI security scanner",
+      "what": "OpenAI quietly released Codex Security CLI, a free tool that scans code for security holes, checks them and suggests fixes.",
+      "why": "Small analytics teams can add an automated security check to their projects at low cost.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["security", "open source"]
+    },
+    {
+      "title": "Voice cloning in five seconds",
+      "what": "Fish Audio released a fast voice model that copies a voice from a short clip and controls emotion word by word, and raised $52 million.",
+      "why": "Cheap, realistic voice copies raise fraud and consent risks that organisations must plan for.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["voice", "deepfakes"]
+    },
+    {
+      "title": "A planning layer rescues a weak robot",
+      "what": "Researchers report that adding a reasoning layer around a fixed robot control model raised its task success from about 17 to 97 percent.",
+      "why": "Better results may come from smarter coordination of existing tools, not always new models.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["robotics", "research"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi universities may qualify for free research access programmes; and voice cloning in Arabic makes phone-based identity checks in banks and government services more risky."}
+  ],
+  "idea": {
+    "title": "Voice consent guidelines",
+    "pitch": "Draft simple guidelines for recording, storing and reusing voices in research interviews now that voices can be copied easily.",
+    "fit": "Health, labour market, culture sector",
+    "first_step": "Review current consent forms and add a clause on voice data and AI use."
+  },
+  "idea_kids": {
+    "title": "Who said that?",
+    "pitch": "A listening game where children hear recorded voices of family members and impressions by others, and learn to check with a question before trusting a voice.",
+    "age": "6 to 12",
+    "first_step": "Record five short familiar phrases from family members, with permission."
+  },
+  "watchlist": [
+    {"name": "Fish Audio", "sector": "Consumer and media", "note": "Fast growth in voice AI from an open-source start."},
+    {"name": "OpenAI", "sector": "Science and research", "note": "Large free access programme for academics."}
+  ],
+  "tool": {"name": "Codex Security CLI", "use": "Free open-source tool that scans code for security problems.", "link": ""},
+  "verify": [
+    "Codex Security CLI has reportedly helped fix over 3,000 critical vulnerabilities.",
+    "Fish Audio reportedly reached $21 million in annual revenue within a year."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Launched academic access and a security scanner."},
+    {"name": "Fish Audio", "type": "company", "sector": "Consumer and media", "url": "https://fish.audio", "note": "Released a fast voice cloning model."},
+    {"name": "Codex Security CLI", "type": "product", "sector": "Safety, security and governance", "url": "", "note": "Open-source code security scanner."}
+  ],
+  "terms": [
+    {"term": "Deepfake", "definition": "Fake but realistic audio, video or images of a real person made with AI.", "audience": "lay"},
+    {"term": "Text-to-speech", "definition": "Technology that turns written text into spoken audio.", "audience": "lay"},
+    {"term": "Vulnerability", "definition": "A weakness in software that an attacker could use to cause harm.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Consumer and media", "concept": "Deepfake moderation", "summary": "Cheap voice cloning makes fake voices easy to create.", "audience": ["decision", "lay"], "entities": ["Fish Audio"]},
+    {"industry": "Science and research", "concept": "AI-accelerated AI research", "summary": "Free top-model access for academic scientists.", "audience": ["decision"], "entities": ["OpenAI"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "Free AI scanners find and fix code weaknesses.", "audience": ["builder"], "entities": ["Codex Security CLI"]}
+  ]
+}

@@ -108,6 +108,7 @@
   "url": "https://www.amazon.com",
   "note": "Launched Bee AI wearables and promotes ambient computing.",
   "days": [
+   "2026-07-29",
    "2026-08-07",
    "2026-08-11",
    "2026-09-10",
@@ -166,6 +167,8 @@
    "2026-07-23",
    "2026-07-24",
    "2026-07-27",
+   "2026-07-29",
+   "2026-07-31",
    "2026-08-03",
    "2026-08-06",
    "2026-08-10",
@@ -433,6 +436,17 @@
   ]
  },
  {
+  "id": "codex-security-cli",
+  "name": "Codex Security CLI",
+  "type": "product",
+  "sector": "Safety, security and governance",
+  "url": "",
+  "note": "Open-source code security scanner.",
+  "days": [
+   "2026-07-30"
+  ]
+ },
+ {
   "id": "cognition",
   "name": "Cognition",
   "type": "company",
@@ -476,6 +490,7 @@
   "days": [
    "2026-07-21",
    "2026-07-23",
+   "2026-07-29",
    "2026-08-05",
    "2026-08-21",
    "2026-09-01",
@@ -671,6 +686,7 @@
   "url": "https://fish.audio",
   "note": "Released the open Drama 3 voice model.",
   "days": [
+   "2026-07-30",
    "2026-10-14"
   ]
  },
@@ -811,6 +827,7 @@
   "url": "https://deepmind.google",
   "note": "Google's AI lab behind the Gemini models.",
   "days": [
+   "2026-07-31",
    "2026-08-19",
    "2026-08-31",
    "2026-09-07",
@@ -890,6 +907,17 @@
    "2026-10-18",
    "2026-10-30",
    "2026-11-03"
+  ]
+ },
+ {
+  "id": "ilya-sutskever",
+  "name": "Ilya Sutskever",
+  "type": "person",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "Co-founder of SSI.",
+  "days": [
+   "2026-07-28"
   ]
  },
  {
@@ -991,6 +1019,7 @@
   "days": [
    "2026-07-17",
    "2026-07-20",
+   "2026-07-28",
    "2026-08-02"
   ]
  },
@@ -1117,6 +1146,7 @@
   "url": "https://www.meituan.com",
   "note": "Released the LongCat talking-avatar video model.",
   "days": [
+   "2026-07-31",
    "2026-08-21"
   ]
  },
@@ -1184,6 +1214,7 @@
   "note": "Sells Copilot in Office and is a major Anthropic partner and investor.",
   "days": [
    "2026-07-23",
+   "2026-07-31",
    "2026-08-07",
    "2026-09-23",
    "2026-09-28",
@@ -1235,6 +1266,17 @@
   ]
  },
  {
+  "id": "model-context-protocol",
+  "name": "Model Context Protocol",
+  "type": "product",
+  "sector": "Agents and automation",
+  "url": "https://modelcontextprotocol.io",
+  "note": "Standard for linking AI agents to tools; became stateless.",
+  "days": [
+   "2026-07-29"
+  ]
+ },
+ {
   "id": "moonshot-ai",
   "name": "Moonshot AI",
   "type": "company",
@@ -1244,6 +1286,7 @@
   "days": [
    "2026-07-17",
    "2026-07-22",
+   "2026-07-28",
    "2026-08-02",
    "2026-10-26",
    "2026-10-30",
@@ -1289,6 +1332,7 @@
   "days": [
    "2026-07-26",
    "2026-07-27",
+   "2026-07-28",
    "2026-08-11",
    "2026-08-24",
    "2026-08-26",
@@ -1343,6 +1387,7 @@
    "2026-07-22",
    "2026-07-24",
    "2026-07-27",
+   "2026-07-30",
    "2026-08-04",
    "2026-08-07",
    "2026-08-10",
@@ -1585,6 +1630,17 @@
   "note": "Released the Solaris interface model in early access.",
   "days": [
    "2026-09-01"
+  ]
+ },
+ {
+  "id": "safe-superintelligence",
+  "name": "Safe Superintelligence",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://ssi.inc",
+  "note": "Research lab focused on safe superintelligence.",
+  "days": [
+   "2026-07-28"
   ]
  },
  {

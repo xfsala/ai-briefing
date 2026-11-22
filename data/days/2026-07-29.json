@@ -1,0 +1,84 @@
+{
+  "date": "2026-07-29",
+  "question": "If AI can find weaknesses in the codes that protect our data, should we be more worried or more reassured?",
+  "reflection": "Using AI to test our protections before attackers do could make the systems people rely on every day stronger and safer.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Claude autonomously broke post-quantum encryption experts missed for 2 years", "link": ""}
+  ],
+  "one_line": "An unreleased Anthropic model found real weaknesses in encryption designs on its own, while the main standard for connecting AI agents to tools grew up.",
+  "top_stories": [
+    {
+      "title": "AI finds flaws in encryption designs",
+      "what": "Anthropic says its unreleased Claude Mythos Preview found a weakness in HAWK, a signature scheme designed to resist quantum computers, and a faster attack on a weakened research version of AES.",
+      "why": "Neither affects systems in use today, but AI is becoming a serious tool for testing security before deployment.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["security", "research"]
+    },
+    {
+      "title": "MCP becomes easier to run at scale",
+      "what": "The Model Context Protocol, the standard that links AI agents to tools, no longer needs a fixed session per user and adds central login control and a deprecation policy.",
+      "why": "Agent connections to organisational systems can now be managed like normal web services with central access control.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "standards"]
+    },
+    {
+      "title": "Cheaper AI coding plan for India",
+      "what": "Cursor launched a low-cost plan priced for India, where its users tripled to over three million, though it leaves out top models from the biggest labs.",
+      "why": "Regional pricing shows how AI tools may adapt to large emerging markets.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["markets", "coding"]
+    },
+    {
+      "title": "AI-written books take a large share of sales",
+      "what": "A study reportedly finds that AI-written books now make up about a fifth of sales in some Amazon categories, hurting human authors.",
+      "why": "This matters for cultural policy and for protecting local writers and publishers.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["culture", "media"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "The flood of AI-written books is relevant to Saudi efforts to grow Arabic publishing; clear labelling and support for human authors may become policy questions."},
+    {"text": "Regional pricing in India hints that AI tool makers could offer Gulf-specific plans as regional demand grows."}
+  ],
+  "idea": {
+    "title": "AI content in publishing study",
+    "pitch": "Measure how much AI-generated content appears in Arabic e-book and children's book listings, and how readers react to labels.",
+    "fit": "Culture sector",
+    "first_step": "Sample 100 recent Arabic e-book listings and code signs of AI generation."
+  },
+  "idea_kids": {
+    "title": "Secret code club",
+    "pitch": "Children make simple cipher wheels, send coded notes, then try to crack each other's codes to learn why strong codes matter.",
+    "age": "8 to 12",
+    "first_step": "Print two paper circles with the Arabic or English alphabet and a split pin."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Safety, security and governance", "note": "Using unreleased models for security research."},
+    {"name": "Cursor", "sector": "Agents and automation", "note": "Testing regional pricing in large markets."}
+  ],
+  "tool": null,
+  "verify": [
+    "Claude Mythos Preview reportedly halved the security strength of HAWK in 60 hours.",
+    "AI-written books reportedly take about 20 percent of some Amazon sales."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Its Mythos Preview found flaws in encryption designs."},
+    {"name": "Model Context Protocol", "type": "product", "sector": "Agents and automation", "url": "https://modelcontextprotocol.io", "note": "Standard for linking AI agents to tools; became stateless."},
+    {"name": "Cursor", "type": "company", "sector": "Agents and automation", "url": "https://cursor.com", "note": "Launched a low-price plan for India."},
+    {"name": "Amazon", "type": "company", "sector": "Consumer and media", "url": "https://www.amazon.com", "note": "Marketplace where AI-written books are gaining share."}
+  ],
+  "terms": [
+    {"term": "Post-quantum cryptography", "definition": "Methods of protecting data designed to stay secure even against future quantum computers.", "audience": "lay"},
+    {"term": "MCP server", "definition": "A connector that lets an AI tool read from or act in another app or data source in a standard way.", "audience": "builder"},
+    {"term": "Synthetic media", "definition": "Text, images, audio or video created by AI rather than recorded or written by people.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "AI finds weaknesses in encryption before it is deployed.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Agents and automation", "concept": "Agent plugin standards", "summary": "The main agent tool standard becomes easier to scale and govern.", "audience": ["builder"], "entities": ["Model Context Protocol"]},
+    {"industry": "Consumer and media", "concept": "Creator compensation for AI training", "summary": "AI-written books compete with human authors for sales.", "audience": ["lay", "decision"], "entities": ["Amazon"]}
+  ]
+}
