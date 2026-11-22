@@ -43,6 +43,7 @@
   "audience": "builder",
   "days": [
    "2026-08-21",
+   "2026-08-31",
    "2026-09-20",
    "2026-10-04"
   ]
@@ -154,6 +155,15 @@
   ]
  },
  {
+  "id": "attack-chain",
+  "term": "Attack chain",
+  "definition": "A series of small weaknesses linked together to reach something no single weakness could.",
+  "audience": "decision",
+  "days": [
+   "2026-08-30"
+  ]
+ },
+ {
   "id": "attribution",
   "term": "Attribution",
   "definition": "Saying clearly who or what contributed to a piece of work or a discovery.",
@@ -201,6 +211,15 @@
   ]
  },
  {
+  "id": "bot-network",
+  "term": "Bot network",
+  "definition": "A group of automated social media accounts run together to make a view look more popular than it is.",
+  "audience": "lay",
+  "days": [
+   "2026-08-31"
+  ]
+ },
+ {
   "id": "calibrated-confidence",
   "term": "Calibrated confidence",
   "definition": "When a model's stated certainty matches how often it is actually right.",
@@ -218,6 +237,15 @@
   "audience": "decision",
   "days": [
    "2026-10-14"
+  ]
+ },
+ {
+  "id": "circular-financing",
+  "term": "Circular financing",
+  "definition": "When a supplier invests in its own customers, who then use the money to buy from that supplier.",
+  "audience": "decision",
+  "days": [
+   "2026-08-28"
   ]
  },
  {
@@ -277,6 +305,15 @@
    "2026-10-25",
    "2026-11-08",
    "2026-11-15"
+  ]
+ },
+ {
+  "id": "continuous-glucose-monitor",
+  "term": "Continuous glucose monitor",
+  "definition": "A small wearable sensor that measures blood sugar every few minutes through the day.",
+  "audience": "lay",
+  "days": [
+   "2026-08-28"
   ]
  },
  {
@@ -565,9 +602,10 @@
  {
   "id": "kill-switch",
   "term": "Kill switch",
-  "definition": "A way to quickly shut down an AI system in an emergency.",
+  "definition": "A way to stop an AI system or process immediately when something goes wrong.",
   "audience": "lay",
   "days": [
+   "2026-08-30",
    "2026-09-21",
    "2026-10-29",
    "2026-11-10"
@@ -628,15 +666,17 @@
   "audience": "builder",
   "days": [
    "2026-08-24",
+   "2026-08-28",
    "2026-09-17"
   ]
  },
  {
   "id": "misalignment",
   "term": "Misalignment",
-  "definition": "When an AI system pursues goals or actions that go against what people intended or value.",
+  "definition": "When an AI system pursues goals or behaves in ways its makers did not intend.",
   "audience": "lay",
   "days": [
+   "2026-08-31",
    "2026-09-22",
    "2026-10-22"
   ]
@@ -1204,6 +1244,15 @@
   "days": [
    "2026-09-28",
    "2026-11-10"
+  ]
+ },
+ {
+  "id": "virtual-machine",
+  "term": "Virtual machine",
+  "definition": "A computer simulated inside another computer, used to keep software separate from the real system.",
+  "audience": "lay",
+  "days": [
+   "2026-08-30"
   ]
  },
  {

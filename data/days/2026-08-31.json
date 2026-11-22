@@ -1,0 +1,78 @@
+{
+  "date": "2026-08-31",
+  "question": "If people ask AI about faith and meaning, who should shape the answers it gives?",
+  "reflection": "AI could free religious and community leaders for more time with people, while the deepest bonds stay human and face to face.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "200 bot accounts, one very real backlash", "link": "https://briefing.forwardfuture.ai/p/ai-and-religion-cybersecurity-agents-data-center-jobs"}
+  ],
+  "one_line": "AI is reaching into personal and public life, from questions of faith to fierce local fights over data centres.",
+  "top_stories": [
+    {
+      "title": "Faith groups want a say in AI",
+      "what": "A report says chatbots now answer spiritual questions and help clergy with research and admin, and faith groups, governments and companies are building tools aligned with religious values.",
+      "why": "How people seek meaning and advice from AI is a rich topic for behavioural and cultural research.",
+      "action": "Pitch",
+      "audience": ["lay", "decision"],
+      "tags": ["society", "culture"]
+    },
+    {
+      "title": "Data centre fight turns to jobs",
+      "what": "US building unions warn that slowing data centre projects could cost thousands of jobs, while X says about 200 foreign-linked bot accounts amplified local opposition.",
+      "why": "Public opinion on AI infrastructure is shaped by both real worries and organised influence, which surveys must separate.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["policy", "infrastructure"]
+    },
+    {
+      "title": "Automated researchers fix AI misbehaviour",
+      "what": "An Anthropic paper says AI research agents improved a model on all ten misbehaviour tests and beat experienced people on average within six hours at a fraction of the cost.",
+      "why": "If true, safety research could scale quickly, though human review of the results stays essential.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["safety", "research"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Interest in AI tools aligned with religious values is directly relevant in Saudi Arabia, where trusted Islamic scholarship could guide how such tools are built and checked."}
+  ],
+  "idea": {
+    "title": "How people seek guidance from AI",
+    "pitch": "A respectful study of when and why people ask AI about values and daily ethical choices, and what sources they trust in return.",
+    "fit": "Culture sector, consultancy",
+    "first_step": "Draft an interview guide with eight open questions and review it with a cultural adviser."
+  },
+  "idea_kids": {
+    "title": "Ask a person, ask a book, ask a machine",
+    "pitch": "A classroom activity where children sort questions into those best asked to a parent or teacher, a book, or a computer, and explain why.",
+    "age": "8 to 12",
+    "first_step": "Write twenty child-friendly question cards and three sorting baskets."
+  },
+  "watchlist": [
+    {"name": "Visa", "sector": "Safety, security and governance", "note": "Open-sourced a framework that it says cuts some security fix cycles from weeks to hours."},
+    {"name": "Hugging Face", "sector": "Robotics and physical AI", "note": "Selling a small, low-cost open robot built with Pollen Robotics."},
+    {"name": "Google DeepMind", "sector": "Science and research", "note": "Says its model predicts hurricane changes earlier than standard systems."}
+  ],
+  "tool": null,
+  "verify": [
+    "A US judge reportedly ruled that the government illegally blacklisted Anthropic in retaliation for its speech.",
+    "Anthropic's automated researchers are said to cost about $4 an hour against about $150 for people."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Safety, security and governance", "url": "https://www.anthropic.com", "note": "Won a court ruling and published work on automated alignment research."},
+    {"name": "X", "type": "company", "sector": "Consumer and media", "url": "https://x.com", "note": "Reported a bot network amplifying opposition to data centres."},
+    {"name": "Visa", "type": "company", "sector": "Safety, security and governance", "url": "https://www.visa.com", "note": "Released an open security agent framework."},
+    {"name": "Hugging Face", "type": "company", "sector": "Robotics and physical AI", "url": "https://huggingface.co", "note": "Unveiled the Microduck robot."},
+    {"name": "Pollen Robotics", "type": "company", "sector": "Robotics and physical AI", "url": "https://www.pollen-robotics.com", "note": "Co-developed the Microduck robot."},
+    {"name": "Google DeepMind", "type": "organisation", "sector": "Science and research", "url": "https://deepmind.google", "note": "Improved hurricane forecasts with AI."}
+  ],
+  "terms": [
+    {"term": "Bot network", "definition": "A group of automated social media accounts run together to make a view look more popular than it is.", "audience": "lay"},
+    {"term": "Misalignment", "definition": "When an AI system pursues goals or behaves in ways its makers did not intend.", "audience": "lay"},
+    {"term": "Agent harness", "definition": "The software around a model that gives it tools, memory and a loop for carrying out tasks.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Model bias and values", "summary": "Faith groups seek influence over how chatbots handle religion.", "audience": ["lay", "decision"], "entities": []},
+    {"industry": "Policy and geopolitics", "concept": "Data-centre backlash", "summary": "Local opposition meets union pressure and foreign bot amplification.", "audience": ["decision"], "entities": ["X"]},
+    {"industry": "Safety, security and governance", "concept": "Recursive self-improvement risk", "summary": "AI agents now run parts of safety research on other models.", "audience": ["decision", "builder"], "entities": ["Anthropic"]}
+  ]
+}

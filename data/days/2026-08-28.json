@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-28",
+  "question": "When AI tools make more work but not more results, how do we measure what really helps?",
+  "reflection": "AI that guides a surgeon's eye or runs a careful lab test could help many people, if we judge it by real outcomes rather than activity.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Meta could spend $10B on its AI rival", "link": "https://briefing.forwardfuture.ai/p/meta-s-10b-anthropic-bet-ai-brain-surgery-nvidia-s-ecosystem"},
+    {"newsletter": "AlphaSignal", "subject": "Anthropic MHS, LAION 10M-Hour Video Dataset, Google GlucoFM Model", "link": ""}
+  ],
+  "one_line": "AI is moving into operating rooms and labs, while one large company's experience shows that more AI output does not always mean more value.",
+  "top_stories": [
+    {
+      "title": "More code, few more features at Meta",
+      "what": "Meta's AI tools reportedly produced over three times more code changes but only about a third more features for users, and plans for deep team cuts were pulled back after staff pushback and a rise in incidents.",
+      "why": "This is a useful case for any organisation that measures AI success by activity instead of outcomes.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["work", "productivity"]
+    },
+    {
+      "title": "AI watches live video during brain surgery",
+      "what": "Surgeons at a London hospital removed a pituitary tumour while an AI tool reviewed the live camera feed to point out hidden vessels and nerves, with surgeons fully in charge.",
+      "why": "Hospitals will want trial evidence on how surgeons use and trust such real-time prompts.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["health", "surgery"]
+    },
+    {
+      "title": "A shared plug for AI and lab machines",
+      "what": "Anthropic released a preview standard that lets AI agents control lab equipment without custom code, and early partners report experiments shortened from weeks to a day.",
+      "why": "Labs could automate routine experiments, but safety checks on physical actions become essential.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["science", "agents"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi hospitals expanding surgical capacity could follow the UK trial closely as a model for testing real-time AI support with surgeons in control."}
+  ],
+  "idea": {
+    "title": "Outcome metrics for AI at work",
+    "pitch": "Help organisations replace activity counts with outcome measures when judging AI tools, using staff interviews and before-and-after data.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Draft a one-page list of output versus outcome measures for a typical office team."
+  },
+  "idea_kids": {
+    "title": "Busy or useful?",
+    "pitch": "A classroom challenge where teams build a paper bridge and learn that more pieces does not always mean a stronger result.",
+    "age": "8 to 12",
+    "first_step": "Prepare paper, tape and a small weight to test each bridge."
+  },
+  "watchlist": [
+    {"name": "NVIDIA", "sector": "Business and markets", "note": "Says investing in its own customers widens growth; critics see linked risks."},
+    {"name": "Google", "sector": "Healthcare and life sciences", "note": "Released a small model that reads glucose sensor data to predict diabetes risk."},
+    {"name": "LAION", "sector": "Science and research", "note": "Published about ten million hours of open video for training."}
+  ],
+  "tool": null,
+  "verify": [
+    "Meta reportedly considered cutting some teams by up to 60% before retreating.",
+    "AI labs backed by NVIDIA money could make up about a quarter of its business next year."
+  ],
+  "entities": [
+    {"name": "Meta", "type": "company", "sector": "Work and workforce", "url": "https://about.meta.com", "note": "Reported mixed results from heavy AI coding use and spends heavily on a rival's models."},
+    {"name": "Anthropic", "type": "company", "sector": "Science and research", "url": "https://www.anthropic.com", "note": "Released a hardware control standard and is a major supplier to Meta."},
+    {"name": "University College London Hospital", "type": "organisation", "sector": "Healthcare and life sciences", "url": "https://www.uclh.nhs.uk", "note": "Performed AI-assisted brain tumour surgery."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Defended its investments in customers and supports Chinese models."},
+    {"name": "Google", "type": "company", "sector": "Healthcare and life sciences", "url": "https://about.google", "note": "Released the GlucoFM model."},
+    {"name": "LAION", "type": "organisation", "sector": "Science and research", "url": "https://laion.ai", "note": "Released a large open video dataset."}
+  ],
+  "terms": [
+    {"term": "Circular financing", "definition": "When a supplier invests in its own customers, who then use the money to buy from that supplier.", "audience": "decision"},
+    {"term": "Continuous glucose monitor", "definition": "A small wearable sensor that measures blood sugar every few minutes through the day.", "audience": "lay"},
+    {"term": "MCP server", "definition": "A connector that lets an AI assistant use an outside tool or data source through a shared standard.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Work and workforce", "concept": "Workplace AI adoption", "summary": "More AI output did not turn into the same rise in useful results.", "audience": ["decision"], "entities": ["Meta"]},
+    {"industry": "Healthcare and life sciences", "concept": "AI diagnosis support", "summary": "AI reads live surgical video to point out structures surgeons must avoid.", "audience": ["decision", "lay"], "entities": ["University College London Hospital"]},
+    {"industry": "Science and research", "concept": "Automated science labs", "summary": "A shared standard lets agents run lab equipment.", "audience": ["builder", "decision"], "entities": ["Anthropic"]},
+    {"industry": "Business and markets", "concept": "AI financing risk", "summary": "Chip makers investing in their own customers tie the industry's fortunes together.", "audience": ["decision"], "entities": ["NVIDIA"]}
+  ]
+}

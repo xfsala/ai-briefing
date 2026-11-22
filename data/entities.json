@@ -152,6 +152,8 @@
    "2026-08-24",
    "2026-08-25",
    "2026-08-26",
+   "2026-08-28",
+   "2026-08-31",
    "2026-09-01",
    "2026-09-02",
    "2026-09-03",
@@ -664,6 +666,7 @@
   "days": [
    "2026-08-19",
    "2026-08-23",
+   "2026-08-28",
    "2026-09-01",
    "2026-09-03",
    "2026-09-15",
@@ -700,6 +703,7 @@
   "note": "Google's AI lab behind the Gemini models.",
   "days": [
    "2026-08-19",
+   "2026-08-31",
    "2026-09-07",
    "2026-09-09",
    "2026-09-16",
@@ -746,6 +750,8 @@
   "days": [
    "2026-08-19",
    "2026-08-27",
+   "2026-08-30",
+   "2026-08-31",
    "2026-09-04",
    "2026-09-07",
    "2026-09-18",
@@ -818,6 +824,17 @@
   "note": "Builds foundation models for relational databases.",
   "days": [
    "2026-11-01"
+  ]
+ },
+ {
+  "id": "laion",
+  "name": "LAION",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://laion.ai",
+  "note": "Released a large open video dataset.",
+  "days": [
+   "2026-08-28"
   ]
  },
  {
@@ -908,6 +925,7 @@
   "note": "Its FAIR research lab maintains the FAISS search library.",
   "days": [
    "2026-08-16",
+   "2026-08-28",
    "2026-09-03",
    "2026-09-04",
    "2026-09-08",
@@ -1056,6 +1074,7 @@
   "days": [
    "2026-08-24",
    "2026-08-26",
+   "2026-08-28",
    "2026-09-02",
    "2026-09-03",
    "2026-09-04",
@@ -1107,6 +1126,7 @@
    "2026-08-21",
    "2026-08-26",
    "2026-08-27",
+   "2026-08-30",
    "2026-09-01",
    "2026-09-02",
    "2026-09-04",
@@ -1223,6 +1243,17 @@
   "days": [
    "2026-09-09",
    "2026-09-21"
+  ]
+ },
+ {
+  "id": "pollen-robotics",
+  "name": "Pollen Robotics",
+  "type": "company",
+  "sector": "Robotics and physical AI",
+  "url": "https://www.pollen-robotics.com",
+  "note": "Co-developed the Microduck robot.",
+  "days": [
+   "2026-08-31"
   ]
  },
  {
@@ -1488,6 +1519,17 @@
   ]
  },
  {
+  "id": "trail-of-bits",
+  "name": "Trail of Bits",
+  "type": "company",
+  "sector": "Safety, security and governance",
+  "url": "https://www.trailofbits.com",
+  "note": "Tested whether an agent could escape a virtual machine.",
+  "days": [
+   "2026-08-30"
+  ]
+ },
+ {
   "id": "tsmc",
   "name": "TSMC",
   "type": "company",
@@ -1567,6 +1609,17 @@
   ]
  },
  {
+  "id": "university-college-london-hospital",
+  "name": "University College London Hospital",
+  "type": "organisation",
+  "sector": "Healthcare and life sciences",
+  "url": "https://www.uclh.nhs.uk",
+  "note": "Performed AI-assisted brain tumour surgery.",
+  "days": [
+   "2026-08-28"
+  ]
+ },
+ {
   "id": "upguard",
   "name": "UpGuard",
   "type": "company",
@@ -1612,6 +1665,17 @@
   ]
  },
  {
+  "id": "visa",
+  "name": "Visa",
+  "type": "company",
+  "sector": "Safety, security and governance",
+  "url": "https://www.visa.com",
+  "note": "Released an open security agent framework.",
+  "days": [
+   "2026-08-31"
+  ]
+ },
+ {
   "id": "voicestudio",
   "name": "VoiceStudio",
   "type": "product",
@@ -1642,6 +1706,17 @@
   "note": "Runs Wikipedia; reported unauthorised agent activity.",
   "days": [
    "2026-10-07"
+  ]
+ },
+ {
+  "id": "x",
+  "name": "X",
+  "type": "company",
+  "sector": "Consumer and media",
+  "url": "https://x.com",
+  "note": "Reported a bot network amplifying opposition to data centres.",
+  "days": [
+   "2026-08-31"
   ]
  },
  {

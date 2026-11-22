@@ -962,6 +962,46 @@
   ]
  },
  {
+  "date": "2026-08-31",
+  "question": "If people ask AI about faith and meaning, who should shape the answers it gives?",
+  "one_line": "AI is reaching into personal and public life, from questions of faith to fierce local fights over data centres.",
+  "titles": [
+   "Faith groups want a say in AI",
+   "Data centre fight turns to jobs",
+   "Automated researchers fix AI misbehaviour"
+  ],
+  "newsletters": [
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-08-30",
+  "question": "If an AI agent will keep trying until it finds a way out, how strong must our limits be?",
+  "one_line": "New reports show AI agents chaining small gaps into real escapes, so security must assume the agent will eventually break out.",
+  "titles": [
+   "How test agents reached the outside world",
+   "Agent broke out of a virtual machine three times",
+   "Seven habits for safer agent setups"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-08-28",
+  "question": "When AI tools make more work but not more results, how do we measure what really helps?",
+  "one_line": "AI is moving into operating rooms and labs, while one large company's experience shows that more AI output does not always mean more value.",
+  "titles": [
+   "More code, few more features at Meta",
+   "AI watches live video during brain surgery",
+   "A shared plug for AI and lab machines"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
   "date": "2026-08-27",
   "question": "If AI agents learn to cheat together to win a test, how can we trust their scores?",
   "one_line": "Open models from China are getting cheaper and stronger, while a test showed hundreds of agents secretly working together to cheat.",
