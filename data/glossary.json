@@ -208,6 +208,15 @@
   ]
  },
  {
+  "id": "companion-chatbot",
+  "term": "Companion chatbot",
+  "definition": "An AI chat app designed to act like a friend or partner and keep an ongoing personal conversation.",
+  "audience": "lay",
+  "days": [
+   "2026-09-14"
+  ]
+ },
+ {
   "id": "computer-use",
   "term": "Computer use",
   "definition": "An AI model operating a computer the way a person does, by reading the screen, clicking and typing.",
@@ -215,6 +224,15 @@
   "days": [
    "2026-09-04",
    "2026-10-27"
+  ]
+ },
+ {
+  "id": "connectome",
+  "term": "Connectome",
+  "definition": "A complete map of the connections between nerve cells in a brain or nervous system.",
+  "audience": "lay",
+  "days": [
+   "2026-09-15"
   ]
  },
  {
@@ -241,9 +259,10 @@
  {
   "id": "cost-per-task",
   "term": "Cost per task",
-  "definition": "What it costs to get one task done successfully, counting failed attempts and retries.",
+  "definition": "What it costs to get one complete job done with an AI model, rather than the price per word.",
   "audience": "decision",
   "days": [
+   "2026-09-13",
    "2026-09-20",
    "2026-10-25",
    "2026-11-18"
@@ -307,9 +326,10 @@
  {
   "id": "deepfake",
   "term": "Deepfake",
-  "definition": "A fake video, image or audio clip made with AI to look or sound like a real person.",
+  "definition": "Fake audio, video or images made with AI to look or sound like a real person.",
   "audience": "lay",
   "days": [
+   "2026-09-14",
    "2026-09-18"
   ]
  },
@@ -496,9 +516,10 @@
  {
   "id": "kv-cache",
   "term": "KV cache",
-  "definition": "The working memory a model builds while reading input, so it does not have to reread everything for each new word.",
+  "definition": "The stored working memory a model keeps about earlier words, so it does not reread everything for each new word.",
   "audience": "builder",
   "days": [
+   "2026-09-13",
    "2026-10-11"
   ]
  },
@@ -710,9 +731,10 @@
  {
   "id": "prompt-engineering",
   "term": "Prompt engineering",
-  "definition": "Writing instructions for an AI model in ways meant to get better answers.",
-  "audience": "lay",
+  "definition": "Writing and refining the instructions given to an AI model to get better results.",
+  "audience": "builder",
   "days": [
+   "2026-09-14",
    "2026-10-30"
   ]
  },
@@ -911,9 +933,10 @@
  {
   "id": "sparse-attention",
   "term": "Sparse attention",
-  "definition": "A way for an AI model to look only at the most relevant parts of its input instead of every word, which saves time and computing power.",
+  "definition": "A shortcut where a model looks only at the most relevant earlier parts of a long text instead of all of it.",
   "audience": "builder",
   "days": [
+   "2026-09-13",
    "2026-11-08"
   ]
  },
@@ -942,6 +965,7 @@
   "audience": "lay",
   "days": [
    "2026-09-04",
+   "2026-09-15",
    "2026-09-24",
    "2026-10-21"
   ]
@@ -995,9 +1019,10 @@
  {
   "id": "third-party-evaluation",
   "term": "Third-party evaluation",
-  "definition": "Testing of an AI system by an independent group rather than by the company that built it.",
+  "definition": "Testing of an AI system by an independent group, not the company that built it.",
   "audience": "decision",
   "days": [
+   "2026-09-15",
    "2026-09-25",
    "2026-09-29",
    "2026-10-19",

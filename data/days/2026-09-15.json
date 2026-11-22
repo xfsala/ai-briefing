@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-15",
+  "question": "Should AI makers slow down so that human checks can keep up, even if progress costs more?",
+  "reflection": "Choosing a steady pace, with people still in charge, can make new tools something societies trust and benefit from for longer.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Siri has entered its useful era", "link": "https://briefing.forwardfuture.ai/p/ai-slowdown-superintelligence-ban-apple-s-smarter-siri"},
+    {"newsletter": "AlphaSignal", "subject": "Frank Fly Brain, ByteDance Self-Improving AI, Bolt Open Model", "link": ""}
+  ],
+  "one_line": "Leaders inside the AI industry reportedly called for a slower, human-controlled pace, and markets and lawmakers reacted quickly.",
+  "top_stories": [
+    {
+      "title": "Anthropic's chief calls for pacing frontier AI",
+      "what": "Dario Amodei argues development should slow enough for oversight to keep up, and says Anthropic will give independent evaluators ongoing access to its safety work.",
+      "why": "Embedded outside reviewers create demand for evidence on how people inside labs report incidents and act on warnings.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["safety", "governance"]
+    },
+    {
+      "title": "US bill proposes banning superintelligent AI",
+      "what": "Two US lawmakers introduced a bill to permanently ban artificial superintelligence, pause advanced development and create a new federal AI agency.",
+      "why": "Even if it does not pass, it signals how far the policy debate has moved, which matters for any country writing its own AI rules.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["policy", "superintelligence"]
+    },
+    {
+      "title": "Siri finally handles complex requests",
+      "what": "Apple's rebuilt Siri, running on Google Gemini models, can reportedly follow multistep requests and use what is on the screen, in files and in messages.",
+      "why": "A phone assistant that reads personal content raises fresh questions about consent and trust for millions of everyday users.",
+      "action": "Try",
+      "audience": ["lay", "builder"],
+      "tags": ["assistants", "consumer"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Calls for independent evaluators and pacing among democratic labs could shape the testing expectations Saudi bodies set for imported frontier models."},
+    {"text": "A sharp drop in chip stocks reportedly followed the slowdown calls, a reminder that Gulf investments in AI infrastructure are exposed to shifts in safety sentiment."}
+  ],
+  "idea": {
+    "title": "Pacing readiness review",
+    "pitch": "Help an organisation decide which AI uses to speed up and which to slow down, based on risk to people and ability to oversee them.",
+    "fit": "Government digital services, hospital, consultancy",
+    "first_step": "List current AI pilots and rate each one on impact and on how easily a human can check its output."
+  },
+  "idea_kids": {
+    "title": "Slow and steady robot race",
+    "pitch": "A board game where robot pieces move faster only after players complete a safety check card, so careful teams often win.",
+    "age": "6 to 11",
+    "first_step": "Draw a simple track and write fifteen short safety check cards, such as counting to ten or asking a teammate."
+  },
+  "watchlist": [
+    {"name": "Microsoft AI", "sector": "Safety, security and governance", "note": "Published a long code that keeps models under human control and rejects a superintelligence race."},
+    {"name": "Janelia Research Campus", "sector": "Science and research", "note": "Co-produced a full fruit fly wiring map that a hobbyist used to drive a walking robot."},
+    {"name": "Waymo", "sector": "Robotics and physical AI", "note": "Opened robotaxi service in Las Vegas, its fifteenth market."}
+  ],
+  "tool": null,
+  "verify": [
+    "A US chip stock index reportedly fell nearly 6% after AI leaders called for slower development.",
+    "The proposed bill would allow prison terms of up to 20 years for violations."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Its CEO called for pacing and committed to embedded evaluators."},
+    {"name": "Dario Amodei", "type": "person", "sector": "Frontier models", "url": "", "note": "Anthropic CEO who wrote the pacing essay."},
+    {"name": "Apple", "type": "company", "sector": "Consumer and media", "url": "https://www.apple.com", "note": "Shipped a rebuilt Siri in iOS 27."},
+    {"name": "Google", "type": "company", "sector": "Frontier models", "url": "https://www.google.com", "note": "Its Gemini models power the new Siri."},
+    {"name": "Microsoft AI", "type": "organisation", "sector": "Safety, security and governance", "url": "https://www.microsoft.com", "note": "Released a human-control code for model development."},
+    {"name": "Janelia Research Campus", "type": "organisation", "sector": "Science and research", "url": "https://www.janelia.org", "note": "Helped publish the complete fruit fly connectome."},
+    {"name": "Waymo", "type": "company", "sector": "Robotics and physical AI", "url": "https://waymo.com", "note": "Expanded robotaxi service to Las Vegas."}
+  ],
+  "terms": [
+    {"term": "Superintelligence", "definition": "A hypothetical AI system that is far more capable than humans at almost every task.", "audience": "lay"},
+    {"term": "Third-party evaluation", "definition": "Testing of an AI system by an independent group, not the company that built it.", "audience": "decision"},
+    {"term": "Connectome", "definition": "A complete map of the connections between nerve cells in a brain or nervous system.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Independent AI audits", "summary": "Labs invite outside evaluators to check safety practices on an ongoing basis.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Policy and geopolitics", "concept": "Governing superintelligence", "summary": "Lawmakers propose bans and new agencies to stop the most powerful AI systems.", "audience": ["decision", "lay"], "entities": []},
+    {"industry": "Agents and automation", "concept": "Proactive personal assistants", "summary": "Phone assistants act across apps using on-screen and personal context.", "audience": ["lay"], "entities": ["Apple", "Google"]}
+  ]
+}

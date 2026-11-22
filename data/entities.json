@@ -150,6 +150,7 @@
    "2026-09-08",
    "2026-09-10",
    "2026-09-11",
+   "2026-09-15",
    "2026-09-16",
    "2026-09-17",
    "2026-09-18",
@@ -217,6 +218,7 @@
   "days": [
    "2026-09-02",
    "2026-09-10",
+   "2026-09-15",
    "2026-09-17",
    "2026-10-05"
   ]
@@ -241,6 +243,7 @@
   "note": "Independent AI model benchmarking firm.",
   "days": [
    "2026-09-08",
+   "2026-09-13",
    "2026-10-29"
   ]
  },
@@ -359,6 +362,17 @@
   ]
  },
  {
+  "id": "dario-amodei",
+  "name": "Dario Amodei",
+  "type": "person",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "Anthropic CEO who wrote the pacing essay.",
+  "days": [
+   "2026-09-15"
+  ]
+ },
+ {
   "id": "data-center-watch",
   "name": "Data Center Watch",
   "type": "organisation",
@@ -401,6 +415,7 @@
   "days": [
    "2026-09-10",
    "2026-09-11",
+   "2026-09-13",
    "2026-10-19",
    "2026-10-20",
    "2026-10-21",
@@ -538,6 +553,17 @@
   ]
  },
  {
+  "id": "gavin-newsom",
+  "name": "Gavin Newsom",
+  "type": "person",
+  "sector": "Policy and geopolitics",
+  "url": "",
+  "note": "California governor who signed the child online safety package.",
+  "days": [
+   "2026-09-14"
+  ]
+ },
+ {
   "id": "github",
   "name": "GitHub",
   "type": "company",
@@ -569,6 +595,7 @@
   "days": [
    "2026-09-01",
    "2026-09-03",
+   "2026-09-15",
    "2026-09-17",
    "2026-09-21",
    "2026-09-22",
@@ -676,6 +703,17 @@
   ]
  },
  {
+  "id": "janelia-research-campus",
+  "name": "Janelia Research Campus",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://www.janelia.org",
+  "note": "Helped publish the complete fruit fly connectome.",
+  "days": [
+   "2026-09-15"
+  ]
+ },
+ {
   "id": "jpmorgan-chase",
   "name": "JPMorgan Chase",
   "type": "company",
@@ -717,6 +755,17 @@
   "note": "Makes open-source tools for building AI agents.",
   "days": [
    "2026-11-16"
+  ]
+ },
+ {
+  "id": "librechat",
+  "name": "LibreChat",
+  "type": "product",
+  "sector": "Agents and automation",
+  "url": "",
+  "note": "Open-source self-hosted chat interface for many models.",
+  "days": [
+   "2026-09-14"
   ]
  },
  {
@@ -831,6 +880,17 @@
    "2026-10-26",
    "2026-10-27",
    "2026-11-17"
+  ]
+ },
+ {
+  "id": "microsoft-ai",
+  "name": "Microsoft AI",
+  "type": "organisation",
+  "sector": "Safety, security and governance",
+  "url": "https://www.microsoft.com",
+  "note": "Released a human-control code for model development.",
+  "days": [
+   "2026-09-15"
   ]
  },
  {
@@ -960,6 +1020,7 @@
    "2026-09-09",
    "2026-09-10",
    "2026-09-11",
+   "2026-09-14",
    "2026-09-16",
    "2026-09-17",
    "2026-09-18",
@@ -1166,6 +1227,17 @@
   "note": "US biomedical research institute.",
   "days": [
    "2026-10-23"
+  ]
+ },
+ {
+  "id": "sebastian-raschka",
+  "name": "Sebastian Raschka",
+  "type": "person",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Commented on the scale of the redesign.",
+  "days": [
+   "2026-09-13"
   ]
  },
  {
@@ -1418,6 +1490,28 @@
   ]
  },
  {
+  "id": "voicestudio",
+  "name": "VoiceStudio",
+  "type": "product",
+  "sector": "Consumer and media",
+  "url": "",
+  "note": "Open-source local voice cloning and dubbing app.",
+  "days": [
+   "2026-09-14"
+  ]
+ },
+ {
+  "id": "waymo",
+  "name": "Waymo",
+  "type": "company",
+  "sector": "Robotics and physical AI",
+  "url": "https://waymo.com",
+  "note": "Expanded robotaxi service to Las Vegas.",
+  "days": [
+   "2026-09-15"
+  ]
+ },
+ {
   "id": "wikimedia-foundation",
   "name": "Wikimedia Foundation",
   "type": "organisation",
@@ -1438,6 +1532,7 @@
   "days": [
    "2026-09-01",
    "2026-09-04",
+   "2026-09-14",
    "2026-09-22",
    "2026-09-29",
    "2026-11-12"
@@ -1508,6 +1603,17 @@
   "note": "US platform for booking doctor appointments.",
   "days": [
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "zoox",
+  "name": "Zoox",
+  "type": "company",
+  "sector": "Robotics and physical AI",
+  "url": "https://zoox.com",
+  "note": "Amazon-owned robotaxi firm entering San Francisco.",
+  "days": [
+   "2026-09-14"
   ]
  }
 ]

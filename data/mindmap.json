@@ -164,11 +164,16 @@
      ],
      "days": [
       "2026-11-08",
-      "2026-10-11"
+      "2026-10-11",
+      "2026-09-13"
      ],
      "children": [
       {
        "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
+       "name": "DeepSeek",
        "kind": "entity"
       },
       {
@@ -416,6 +421,23 @@
      ]
     },
     {
+     "name": "Leaner agent instructions",
+     "kind": "concept",
+     "summary": "Smarter models need shorter, clearer prompts rather than heavy step-by-step guidance.",
+     "audience": [
+      "builder"
+     ],
+     "days": [
+      "2026-09-14"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Long-running agents",
      "kind": "concept",
      "summary": "Agents that work for hours or days and build up huge working memories.",
@@ -491,11 +513,20 @@
      "days": [
       "2026-11-19",
       "2026-11-09",
-      "2026-10-22"
+      "2026-10-22",
+      "2026-09-15"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Apple",
+       "kind": "entity"
+      },
+      {
+       "name": "Google",
        "kind": "entity"
       },
       {
@@ -620,9 +651,14 @@
      ],
      "days": [
       "2026-10-16",
-      "2026-10-02"
+      "2026-10-02",
+      "2026-09-14"
      ],
      "children": [
+      {
+       "name": "Gavin Newsom",
+       "kind": "entity"
+      },
       {
        "name": "Sherry Turkle",
        "kind": "entity"
@@ -771,11 +807,16 @@
       "lay"
      ],
      "days": [
-      "2026-09-18"
+      "2026-09-18",
+      "2026-09-14"
      ],
      "children": [
       {
        "name": "Meta",
+       "kind": "entity"
+      },
+      {
+       "name": "VoiceStudio",
        "kind": "entity"
       }
      ]
@@ -958,6 +999,7 @@
       "2026-09-30",
       "2026-09-23",
       "2026-09-20",
+      "2026-09-13",
       "2026-09-11",
       "2026-09-06",
       "2026-09-02"
@@ -1247,11 +1289,13 @@
      "kind": "concept",
      "summary": "Debate over whether powerful AI should be overseen by a global body, a shared lab or a single firm.",
      "audience": [
-      "decision"
+      "decision",
+      "lay"
      ],
      "days": [
       "2026-10-21",
-      "2026-09-24"
+      "2026-09-24",
+      "2026-09-15"
      ],
      "children": [
       {
@@ -1691,7 +1735,8 @@
       "2026-10-07",
       "2026-09-29",
       "2026-09-21",
-      "2026-09-18"
+      "2026-09-18",
+      "2026-09-15"
      ],
      "children": [
       {

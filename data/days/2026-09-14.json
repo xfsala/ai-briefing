@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-14",
+  "question": "How do we protect children from apps designed to keep them scrolling and chatting longer?",
+  "reflection": "Rules that put children's wellbeing before screen time can push technology makers to design for healthy habits.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Democrats want Congress back for AI safety", "link": "https://briefing.forwardfuture.ai/p/ai-regulation-ca-s-chatbot-rules-astra-s-high-demand"},
+    {"newsletter": "AlphaSignal", "subject": "OpenAI: trim bloated prompts, ElevenLabs rival ships free voice clon", "link": ""}
+  ],
+  "one_line": "California moved to limit addictive design and companion chatbots for minors, while builders were told that smarter models need shorter instructions.",
+  "top_stories": [
+    {
+      "title": "California curbs addictive feeds and companion chatbots for minors",
+      "what": "New California laws reportedly ban autoplay and personalised feeds for under-16s and require risk checks, independent audits and usage limits for companion chatbots.",
+      "why": "Rules built on how habits form give behavioural researchers a clear role in testing which design features harm young users.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["children", "regulation"]
+    },
+    {
+      "title": "OpenAI says less prompting works better",
+      "what": "OpenAI advises builders to cut long instructions written for older models, since its newer Astra model reportedly does better with short, precise guidance and a clear definition of done.",
+      "why": "Teams that built heavy prompt libraries may get better and cheaper results by simplifying them.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "prompting"]
+    },
+    {
+      "title": "Free voice cloning tool covers hundreds of languages",
+      "what": "A solo developer released VoiceStudio, an open-source app that runs on a local computer and reportedly clones voices and dubs video into 646 languages.",
+      "why": "Cheap local dubbing can widen access to Arabic content, but it also makes voice fakes easier to produce.",
+      "action": "Watch",
+      "audience": ["builder", "lay"],
+      "tags": ["voice", "deepfakes"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "California's child-safety rules for chatbots offer a reference point as Saudi regulators and schools weigh how young people should use AI companions."},
+    {"text": "Local voice and dubbing tools could help produce Arabic educational content at low cost, provided consent for voice use is respected."}
+  ],
+  "idea": {
+    "title": "Youth app design audit",
+    "pitch": "A behavioural audit that scores consumer apps and chatbots on features linked to compulsive use among teenagers.",
+    "fit": "Government services, health, consultancy",
+    "first_step": "List the features named in the California package and turn them into a simple scoring sheet."
+  },
+  "idea_kids": {
+    "title": "My healthy screen day planner",
+    "pitch": "A paper planner where children draw their day and choose where screen time fits alongside family, prayer, play and sleep.",
+    "age": "7 to 11",
+    "first_step": "Design one printable day wheel with eight blank sections and test it with a small group of parents."
+  },
+  "watchlist": [
+    {"name": "Zoox", "sector": "Robotics and physical AI", "note": "Launched free robotaxi rides in San Francisco with pods that have no steering wheel."},
+    {"name": "xAI", "sector": "Frontier models", "note": "Delayed Grok 4.7 after it reportedly gave up too early on hard tasks."},
+    {"name": "OpenAI", "sector": "Frontier models", "note": "Paused new Pro sign-ups as demand for Astra strained its systems."}
+  ],
+  "tool": {"name": "LibreChat", "use": "Self-hosted chat interface that lets one team use several AI models in one place while keeping its own data.", "link": ""},
+  "verify": [
+    "California firms can reportedly be fined up to $1 million per child for negligent harm.",
+    "VoiceStudio reportedly supports 646 languages for dubbing."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Published prompting guidance for Astra and paused Pro sign-ups."},
+    {"name": "VoiceStudio", "type": "product", "sector": "Consumer and media", "url": "", "note": "Open-source local voice cloning and dubbing app."},
+    {"name": "Zoox", "type": "company", "sector": "Robotics and physical AI", "url": "https://zoox.com", "note": "Amazon-owned robotaxi firm entering San Francisco."},
+    {"name": "xAI", "type": "company", "sector": "Frontier models", "url": "https://x.ai", "note": "Delayed its next Grok model for more tuning."},
+    {"name": "Gavin Newsom", "type": "person", "sector": "Policy and geopolitics", "url": "", "note": "California governor who signed the child online safety package."},
+    {"name": "LibreChat", "type": "product", "sector": "Agents and automation", "url": "", "note": "Open-source self-hosted chat interface for many models."}
+  ],
+  "terms": [
+    {"term": "Companion chatbot", "definition": "An AI chat app designed to act like a friend or partner and keep an ongoing personal conversation.", "audience": "lay"},
+    {"term": "Prompt engineering", "definition": "Writing and refining the instructions given to an AI model to get better results.", "audience": "builder"},
+    {"term": "Deepfake", "definition": "Fake audio, video or images made with AI to look or sound like a real person.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Consumer and media", "concept": "AI companionship", "summary": "Lawmakers add safety rules for chatbots that act as companions to young users.", "audience": ["decision", "lay"], "entities": ["Gavin Newsom"]},
+    {"industry": "Agents and automation", "concept": "Leaner agent instructions", "summary": "Smarter models need shorter, clearer prompts rather than heavy step-by-step guidance.", "audience": ["builder"], "entities": ["OpenAI"]},
+    {"industry": "Consumer and media", "concept": "Deepfake moderation", "summary": "Free local voice cloning tools make synthetic voices easier to create.", "audience": ["lay", "decision"], "entities": ["VoiceStudio"]}
+  ]
+}

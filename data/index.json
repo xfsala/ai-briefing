@@ -782,6 +782,47 @@
   ]
  },
  {
+  "date": "2026-09-15",
+  "question": "Should AI makers slow down so that human checks can keep up, even if progress costs more?",
+  "one_line": "Leaders inside the AI industry reportedly called for a slower, human-controlled pace, and markets and lawmakers reacted quickly.",
+  "titles": [
+   "Anthropic's chief calls for pacing frontier AI",
+   "US bill proposes banning superintelligent AI",
+   "Siri finally handles complex requests"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-14",
+  "question": "How do we protect children from apps designed to keep them scrolling and chatting longer?",
+  "one_line": "California moved to limit addictive design and companion chatbots for minors, while builders were told that smarter models need shorter instructions.",
+  "titles": [
+   "California curbs addictive feeds and companion chatbots for minors",
+   "OpenAI says less prompting works better",
+   "Free voice cloning tool covers hundreds of languages"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-13",
+  "question": "If AI gets cheaper by choosing what to remember and what to forget, what should it keep?",
+  "one_line": "A deep look at DeepSeek's newest model suggests AI costs now depend more on clever memory design than on raw model size.",
+  "titles": [
+   "A bigger DeepSeek model that is cheaper to run",
+   "Memory, not size, drives the cost of agents",
+   "New questions for choosing a model"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
   "date": "2026-09-11",
   "question": "When the same scientific help can save lives or cause harm, who should decide what an AI answers?",
   "one_line": "AI misuse moved from theory to case files, as a major lab reportedly detailed real attempts to turn its model toward weapons, hacking and surveillance.",

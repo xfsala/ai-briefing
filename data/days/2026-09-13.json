@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-13",
+  "question": "If AI gets cheaper by choosing what to remember and what to forget, what should it keep?",
+  "reflection": "Smarter engineering that cuts waste can put capable tools within reach of smaller teams, schools and public bodies.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "What DeepSeek-V4.1-Flash teaches us about efficient AI", "link": ""}
+  ],
+  "one_line": "A deep look at DeepSeek's newest model suggests AI costs now depend more on clever memory design than on raw model size.",
+  "top_stories": [
+    {
+      "title": "A bigger DeepSeek model that is cheaper to run",
+      "what": "DeepSeek's V4.1-Flash is reportedly almost twice the size of the previous version yet stores about four times less working memory per conversation.",
+      "why": "Lower serving costs make long research and analysis tasks with AI affordable for smaller organisations, not only big tech firms.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["models", "efficiency"]
+    },
+    {
+      "title": "Memory, not size, drives the cost of agents",
+      "what": "The model splits reading and writing into separate stages and lets layers share stored context, so long agent sessions take far less memory to keep and restore.",
+      "why": "Agents that work for hours on documents and interviews become practical only when keeping their context is cheap.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["agents", "infrastructure"]
+    },
+    {
+      "title": "New questions for choosing a model",
+      "what": "The analysis argues buyers should look at active parameters, memory per word and the cost of pausing a session, not just the headline parameter count.",
+      "why": "Procurement teams in public bodies need simple, fair criteria to compare AI offers on running cost.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["procurement", "costs"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi or regional link in today's newsletter."}
+  ],
+  "idea": {
+    "title": "Plain-language AI cost checklist",
+    "pitch": "A one-page checklist that helps non-technical managers compare AI services on running cost, memory needs and data handling.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Turn the four questions from today's analysis into plain wording and test them with two procurement staff."
+  },
+  "idea_kids": {
+    "title": "What to keep in the backpack",
+    "pitch": "A classroom game where children pack a small backpack for a trip and must choose which items to keep and which to leave, then explain why.",
+    "age": "5 to 9",
+    "first_step": "Collect twenty picture cards of everyday items and a paper backpack that fits only eight."
+  },
+  "watchlist": [
+    {"name": "DeepSeek", "sector": "Frontier models", "note": "Its memory-saving design may be copied by other open model makers."},
+    {"name": "Sebastian Raschka", "sector": "Science and research", "note": "Well-known AI educator who reportedly called the release a major overhaul."}
+  ],
+  "tool": null,
+  "verify": [
+    "DeepSeek's model reportedly scores close to a leading Google model on an independent index at about a quarter of the cost per task."
+  ],
+  "entities": [
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Released V4.1-Flash with a new memory-saving design."},
+    {"name": "Sebastian Raschka", "type": "person", "sector": "Science and research", "url": "", "note": "Commented on the scale of the redesign."},
+    {"name": "Artificial Analysis", "type": "organisation", "sector": "Data and analytics", "url": "", "note": "Runs the independent index used to compare the model."}
+  ],
+  "terms": [
+    {"term": "KV cache", "definition": "The stored working memory a model keeps about earlier words, so it does not reread everything for each new word.", "audience": "builder"},
+    {"term": "Sparse attention", "definition": "A shortcut where a model looks only at the most relevant earlier parts of a long text instead of all of it.", "audience": "builder"},
+    {"term": "Cost per task", "definition": "What it costs to get one complete job done with an AI model, rather than the price per word.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "AI infrastructure and chips", "concept": "Long-context efficiency", "summary": "New model designs cut the memory needed to work with very long inputs.", "audience": ["builder", "decision"], "entities": ["DeepSeek"]},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Strong models get cheaper to run through better design, not only better chips.", "audience": ["decision"], "entities": ["DeepSeek"]}
+  ]
+}
