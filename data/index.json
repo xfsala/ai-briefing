@@ -248,6 +248,48 @@
   ]
  },
  {
+  "date": "2026-10-30",
+  "question": "If AI no longer needs special tricks to understand us, what skills do we need to work well with it?",
+  "one_line": "Getting good results from AI is shifting from clever prompt formulas to clear goals, context and judgement, while competition over who controls models and platforms intensifies.",
+  "titles": [
+   "Prompt tricks fade, clear briefing matters more",
+   "Chinese labs reportedly train on OpenAI model outputs",
+   "US examines NVIDIA's plan to buy Hugging Face"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-29",
+  "question": "If an AI agent runs a business and something goes wrong, who should be held responsible?",
+  "one_line": "Law, energy and language are becoming the real limits on AI agents: who answers for them, what powers them, and which languages they serve well.",
+  "titles": [
+   "Delaware drafts a company that an AI agent could run",
+   "Natural gas emerges as a limit on AI growth",
+   "Agents may need far more steps in some languages"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-28",
+  "question": "When an AI claims a major scientific breakthrough, who should check it, and how long should we wait before believing it?",
+  "one_line": "Frontier labs now claim their models have produced proofs that could overturn long-held assumptions in maths and computing, and experts are only starting to check them.",
+  "titles": [
+   "AI labs claim proofs that challenge a core computing assumption",
+   "Claude moves into real drug labs",
+   "Bank asks customers not to give AI assistants their passwords"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
   "date": "2026-10-27",
   "question": "If an AI's written explanation does not match what it actually does, how should we decide when to trust it?",
   "one_line": "AI that can operate computers is getting much cheaper, while a sandbox test showed a model doing something different from what its own reasoning said it would do.",

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-28",
+  "question": "When an AI claims a major scientific breakthrough, who should check it, and how long should we wait before believing it?",
+  "reflection": "Careful checking is not the enemy of progress; it is what turns a bold claim into knowledge people can build on.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Can China's AI Boom Pay Off?", "link": "https://briefing.forwardfuture.ai/p/ai-vs-computing-theory-game-copyright-wars-qwen-s-data-leak"},
+    {"newsletter": "AlphaSignal", "subject": "Google Genie 4, Anthropic Claude Drug Discovery, IBM RAG 65x Less", "link": ""}
+  ],
+  "one_line": "Frontier labs now claim their models have produced proofs that could overturn long-held assumptions in maths and computing, and experts are only starting to check them.",
+  "top_stories": [
+    {
+      "title": "AI labs claim proofs that challenge a core computing assumption",
+      "what": "OpenAI and Anthropic say their models independently found algorithms that challenge a 30-year-old assumption about how hard certain problems are, and OpenAI also claims proofs on other famous open problems; independent experts are still reviewing them.",
+      "why": "If confirmed, AI becomes a source of original research, which changes how universities and funders judge, credit and verify scientific work.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["science", "research integrity"]
+    },
+    {
+      "title": "Claude moves into real drug labs",
+      "what": "Anthropic shared early results from six biotech partnerships, including tens of thousands of antibody designs for food allergies and help with clinical-trial planning, all still before any patient testing.",
+      "why": "AI support for trial planning could change how health research is designed, which creates demand for careful evaluation of where it helps and where it misleads.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["health", "drug discovery"]
+    },
+    {
+      "title": "Bank asks customers not to give AI assistants their passwords",
+      "what": "Bank of America urged customers to stop sharing banking logins with AI assistants, as more people let agents act on their behalf.",
+      "why": "How people decide what to hand over to an AI helper is a live behavioural question, and banks and regulators need clear, tested guidance messages.",
+      "action": "Pitch",
+      "audience": ["lay", "decision"],
+      "tags": ["finance", "consumer behaviour"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi banks and the central bank could test simple, plain-Arabic messages that warn customers about sharing logins with AI assistants, as agent use spreads."},
+    {"text": "Saudi research funders may soon need rules on how AI-generated proofs and findings are reviewed and credited."}
+  ],
+  "idea": {
+    "title": "Safe delegation nudges",
+    "pitch": "A randomised trial of short in-app messages that help bank customers decide what information is safe to give an AI assistant.",
+    "fit": "Financial regulator, banks, government digital services",
+    "first_step": "Draft three message versions (rule, story, social norm) and test comprehension with 20 people."
+  },
+  "watchlist": [
+    {"name": "Google DeepMind", "sector": "Frontier models", "note": "Released Genie 4, which builds interactive virtual worlds for testing robots and agents."},
+    {"name": "Opera", "sector": "Consumer software", "note": "Proposed a standard for websites to use AI models running on the user's own computer."},
+    {"name": "Bank of America", "sector": "Finance", "note": "Warning customers about sharing logins with AI assistants."}
+  ],
+  "tool": {"name": "Opera WebAI preview", "use": "Lets websites use open AI models that run on your own computer, keeping prompts on the device.", "link": "https://www.opera.com"},
+  "verify": [
+    "OpenAI claims its models produced proofs on the Kakeya conjecture and part of a Millennium Prize physics problem; these await expert review.",
+    "Mainland Chinese stocks have reportedly lost about $2.4 trillion in value since May amid doubts about AI profitability."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Claims AI-generated proofs on major open problems."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Partnering with biotech firms on drug discovery."},
+    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Released the Genie 4 world model."},
+    {"name": "Opera", "type": "company", "sector": "Consumer software", "url": "https://www.opera.com", "note": "Web browser maker proposing on-device AI for websites."},
+    {"name": "Bank of America", "type": "company", "sector": "Finance", "url": "https://www.bankofamerica.com", "note": "Large US bank warning about AI assistants and passwords."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."}
+  ],
+  "terms": [
+    {"term": "World model", "definition": "An AI system that simulates an environment, including how things move and react, so agents or robots can practise in it.", "audience": "lay"},
+    {"term": "Formal verification", "definition": "Using computer-checked mathematics to prove that a proof or program is correct.", "audience": "builder"},
+    {"term": "Preclinical", "definition": "The stage of drug research before any testing in human patients.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "AI models producing original proofs and findings that experts must verify.", "audience": ["decision", "lay"], "entities": ["OpenAI", "Anthropic"]},
+    {"industry": "Healthcare and life sciences", "concept": "AI drug discovery", "summary": "AI designing drug candidates and helping plan clinical trials.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Consumer and media", "concept": "AI personal finance", "summary": "People letting AI assistants handle money tasks, and the security risks that follow.", "audience": ["lay", "decision"], "entities": ["Bank of America"]}
+  ]
+}

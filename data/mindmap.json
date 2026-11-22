@@ -66,9 +66,14 @@
      ],
      "days": [
       "2026-11-11",
+      "2026-10-29",
       "2026-10-22"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "Envision",
        "kind": "entity"
@@ -131,11 +136,20 @@
      ],
      "days": [
       "2026-11-13",
+      "2026-10-30",
       "2026-10-16"
      ],
      "children": [
       {
+       "name": "Hugging Face",
+       "kind": "entity"
+      },
+      {
        "name": "Meta",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
        "kind": "entity"
       },
       {
@@ -463,15 +477,21 @@
     {
      "name": "AI language gaps",
      "kind": "concept",
-     "summary": "AI quality varies widely between languages, regardless of how many people speak them.",
+     "summary": "Agents perform and cost differently across languages.",
      "audience": [
+      "builder",
       "decision",
       "lay"
      ],
      "days": [
+      "2026-10-29",
       "2026-10-23"
      ],
      "children": [
+      {
+       "name": "Alibaba",
+       "kind": "entity"
+      },
       {
        "name": "Forward Future",
        "kind": "entity"
@@ -500,11 +520,16 @@
       "lay"
      ],
      "days": [
-      "2026-11-06"
+      "2026-11-06",
+      "2026-10-28"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Bank of America",
        "kind": "entity"
       }
      ]
@@ -676,6 +701,7 @@
      ],
      "days": [
       "2026-11-18",
+      "2026-10-28",
       "2026-10-23",
       "2026-10-21"
      ],
@@ -852,6 +878,31 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "Model distillation disputes",
+     "kind": "concept",
+     "summary": "Labs accusing rivals of copying their models through API outputs.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-10-30"
+     ],
+     "children": [
+      {
+       "name": "DeepSeek",
+       "kind": "entity"
+      },
+      {
+       "name": "Moonshot AI",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
     }
    ]
   },
@@ -957,9 +1008,15 @@
       "lay"
      ],
      "days": [
-      "2026-11-19"
+      "2026-11-19",
+      "2026-10-29"
      ],
-     "children": []
+     "children": [
+      {
+       "name": "Salesforce",
+       "kind": "entity"
+      }
+     ]
     },
     {
      "name": "Human override and shutdown",
@@ -1157,15 +1214,20 @@
     {
      "name": "AI-generated science",
      "kind": "concept",
-     "summary": "AI systems producing research results faster than humans can verify them.",
+     "summary": "AI models producing original proofs and findings that experts must verify.",
      "audience": [
       "decision",
       "lay"
      ],
      "days": [
+      "2026-10-28",
       "2026-10-19"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "OpenAI",
        "kind": "entity"
@@ -1259,13 +1321,19 @@
      "kind": "concept",
      "summary": "Which AI assistants people actually use day to day at work.",
      "audience": [
-      "decision"
+      "decision",
+      "lay"
      ],
      "days": [
       "2026-11-17",
+      "2026-10-30",
       "2026-10-23"
      ],
      "children": [
+      {
+       "name": "Forward Future",
+       "kind": "entity"
+      },
       {
        "name": "Gartner",
        "kind": "entity"

@@ -55,6 +55,15 @@
   ]
  },
  {
+  "id": "antitrust-review",
+  "term": "Antitrust review",
+  "definition": "A government check on whether a deal or business practice would unfairly reduce competition.",
+  "audience": "decision",
+  "days": [
+   "2026-10-30"
+  ]
+ },
+ {
   "id": "api-key",
   "term": "API key",
   "definition": "A secret code that lets software use a paid online service; if stolen, others can run up charges.",
@@ -70,6 +79,15 @@
   "audience": "builder",
   "days": [
    "2026-10-18"
+  ]
+ },
+ {
+  "id": "benchmark-contamination",
+  "term": "Benchmark contamination",
+  "definition": "When a model has already seen test questions during training, so its score looks better than its real ability.",
+  "audience": "builder",
+  "days": [
+   "2026-10-29"
   ]
  },
  {
@@ -167,6 +185,15 @@
   ]
  },
  {
+  "id": "distillation",
+  "term": "Distillation",
+  "definition": "Training a new model to copy the answers of an existing, stronger model.",
+  "audience": "builder",
+  "days": [
+   "2026-10-30"
+  ]
+ },
+ {
   "id": "export-controls",
   "term": "Export controls",
   "definition": "Government rules that limit which goods or technologies can be sold or sent to other countries.",
@@ -186,6 +213,15 @@
   "audience": "builder",
   "days": [
    "2026-11-09"
+  ]
+ },
+ {
+  "id": "formal-verification",
+  "term": "Formal verification",
+  "definition": "Using computer-checked mathematics to prove that a proof or program is correct.",
+  "audience": "builder",
+  "days": [
+   "2026-10-28"
   ]
  },
  {
@@ -209,10 +245,20 @@
  {
   "id": "kill-switch",
   "term": "Kill switch",
-  "definition": "A control that lets people stop an AI system quickly if it starts behaving in harmful or unexpected ways.",
-  "audience": "lay",
+  "definition": "A control that lets people stop an AI system immediately if it misbehaves.",
+  "audience": "decision",
   "days": [
+   "2026-10-29",
    "2026-11-10"
+  ]
+ },
+ {
+  "id": "legal-personhood",
+  "term": "Legal personhood",
+  "definition": "The status that lets an entity, such as a company, hold rights, sign contracts and be sued.",
+  "audience": "decision",
+  "days": [
+   "2026-10-29"
   ]
  },
  {
@@ -292,6 +338,15 @@
   ]
  },
  {
+  "id": "preclinical",
+  "term": "Preclinical",
+  "definition": "The stage of drug research before any testing in human patients.",
+  "audience": "lay",
+  "days": [
+   "2026-10-28"
+  ]
+ },
+ {
   "id": "proactive-assistant",
   "term": "Proactive assistant",
   "definition": "An AI helper that notices what you might need and acts or suggests before you ask.",
@@ -308,6 +363,15 @@
   "audience": "builder",
   "days": [
    "2026-11-15"
+  ]
+ },
+ {
+  "id": "prompt-engineering",
+  "term": "Prompt engineering",
+  "definition": "Writing instructions for an AI model in ways meant to get better answers.",
+  "audience": "lay",
+  "days": [
+   "2026-10-30"
   ]
  },
  {
@@ -543,6 +607,15 @@
   "days": [
    "2026-10-20",
    "2026-11-06"
+  ]
+ },
+ {
+  "id": "world-model",
+  "term": "World model",
+  "definition": "An AI system that simulates an environment, including how things move and react, so agents or robots can practise in it.",
+  "audience": "lay",
+  "days": [
+   "2026-10-28"
   ]
  },
  {

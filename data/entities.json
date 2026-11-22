@@ -19,6 +19,7 @@
   "note": "Chinese group behind the open Qwen model family.",
   "days": [
    "2026-10-27",
+   "2026-10-29",
    "2026-11-09"
   ]
  },
@@ -40,6 +41,9 @@
    "2026-10-25",
    "2026-10-26",
    "2026-10-27",
+   "2026-10-28",
+   "2026-10-29",
+   "2026-10-30",
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
@@ -91,6 +95,8 @@
    "2026-10-23",
    "2026-10-25",
    "2026-10-27",
+   "2026-10-28",
+   "2026-10-29",
    "2026-11-02",
    "2026-11-03",
    "2026-11-05",
@@ -115,6 +121,28 @@
   "days": [
    "2026-11-17",
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "artificial-analysis",
+  "name": "Artificial Analysis",
+  "type": "company",
+  "sector": "AI evaluation",
+  "url": "https://artificialanalysis.ai",
+  "note": "Independent AI model benchmarking firm.",
+  "days": [
+   "2026-10-29"
+  ]
+ },
+ {
+  "id": "bank-of-america",
+  "name": "Bank of America",
+  "type": "company",
+  "sector": "Finance",
+  "url": "https://www.bankofamerica.com",
+  "note": "Large US bank warning about AI assistants and passwords.",
+  "days": [
+   "2026-10-28"
   ]
  },
  {
@@ -184,6 +212,7 @@
    "2026-10-19",
    "2026-10-20",
    "2026-10-21",
+   "2026-10-30",
    "2026-11-16"
   ]
  },
@@ -236,6 +265,9 @@
    "2026-10-23",
    "2026-10-26",
    "2026-10-27",
+   "2026-10-28",
+   "2026-10-29",
+   "2026-10-30",
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
@@ -301,6 +333,7 @@
   "note": "Google's AI lab behind the Gemini models.",
   "days": [
    "2026-10-20",
+   "2026-10-28",
    "2026-11-11",
    "2026-11-12",
    "2026-11-20"
@@ -315,6 +348,7 @@
   "note": "Open AI platform whose biology team released Carbon-X.",
   "days": [
    "2026-10-18",
+   "2026-10-30",
    "2026-11-03"
   ]
  },
@@ -370,6 +404,7 @@
   "url": "https://www.liquid.ai",
   "note": "Builds small, efficient models, including the d1.2 decision models.",
   "days": [
+   "2026-10-29",
    "2026-11-17"
   ]
  },
@@ -466,6 +501,7 @@
   "note": "Chinese lab behind the Kimi assistant.",
   "days": [
    "2026-10-26",
+   "2026-10-30",
    "2026-11-05",
    "2026-11-06"
   ]
@@ -493,6 +529,7 @@
   "days": [
    "2026-10-22",
    "2026-10-26",
+   "2026-10-30",
    "2026-11-06",
    "2026-11-09",
    "2026-11-10",
@@ -519,6 +556,8 @@
    "2026-10-25",
    "2026-10-26",
    "2026-10-27",
+   "2026-10-28",
+   "2026-10-30",
    "2026-11-03",
    "2026-11-04",
    "2026-11-06",
@@ -531,6 +570,17 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "opera",
+  "name": "Opera",
+  "type": "company",
+  "sector": "Consumer software",
+  "url": "https://www.opera.com",
+  "note": "Web browser maker proposing on-device AI for websites.",
+  "days": [
+   "2026-10-28"
   ]
  },
  {
@@ -575,6 +625,17 @@
   "note": "Coding platform whose CEO champions agent-run companies.",
   "days": [
    "2026-10-19"
+  ]
+ },
+ {
+  "id": "salesforce",
+  "name": "Salesforce",
+  "type": "company",
+  "sector": "Agents and automation",
+  "url": "https://www.salesforce.com",
+  "note": "Business software firm adding controls for autonomous agents.",
+  "days": [
+   "2026-10-29"
   ]
  },
  {

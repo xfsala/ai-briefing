@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-30",
+  "question": "If AI no longer needs special tricks to understand us, what skills do we need to work well with it?",
+  "reflection": "Explaining clearly what we want and why is a human skill that improves our work with machines and with each other.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Prompt engineering is dead. Here's what works now", "link": "https://briefing.forwardfuture.ai/p/ai-breakthroughs-china-s-480b-ai-sell-off-nvidia-spy-plot"},
+    {"newsletter": "AlphaSignal", "subject": "Claude Mobile Update, OpenAI API Credits, DeepSeek 1M Tokens", "link": ""}
+  ],
+  "one_line": "Getting good results from AI is shifting from clever prompt formulas to clear goals, context and judgement, while competition over who controls models and platforms intensifies.",
+  "top_stories": [
+    {
+      "title": "Prompt tricks fade, clear briefing matters more",
+      "what": "Forward Future's team says old techniques such as assigning the AI an expert role now add little, and the real skill is explaining what you want, why it matters and what a good result looks like.",
+      "why": "This turns AI training for staff into a communication and judgement skill, which fits behavioural and learning design better than technical prompt courses.",
+      "action": "Try",
+      "audience": ["lay", "decision"],
+      "tags": ["skills", "adoption"]
+    },
+    {
+      "title": "Chinese labs reportedly train on OpenAI model outputs",
+      "what": "DeepSeek and Moonshot AI are reportedly using answers from OpenAI's GPT-6 Astra to train their own models, a practice called distillation, after Anthropic tightened its defences against it.",
+      "why": "Copying model behaviour through outputs is becoming a front in the US-China AI race and may lead to tighter access rules for API users abroad.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["geopolitics", "models"]
+    },
+    {
+      "title": "US examines NVIDIA's plan to buy Hugging Face",
+      "what": "The US Justice Department is reviewing NVIDIA's planned $12.93 billion purchase of Hugging Face, the main platform for sharing open models and datasets, and its wider sales practices.",
+      "why": "Many research teams rely on Hugging Face for open models, so a change in ownership could affect access and neutrality.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["competition", "open models"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi digital-skills programmes could shift AI training from prompt formulas towards problem framing, context giving and checking results."},
+    {"text": "Saudi teams that rely on open models from Hugging Face should keep local copies of key models in case access terms change."}
+  ],
+  "idea": {
+    "title": "Briefing skills for AI at work",
+    "pitch": "A short workshop and pre-post test that teaches staff to state goal, context and quality criteria when using AI, then measures output quality.",
+    "fit": "Government services, labour-market agency, consultancy",
+    "first_step": "Write a one-page template with three prompts: what I want, why it matters, what good looks like."
+  },
+  "watchlist": [
+    {"name": "NVIDIA", "sector": "AI infrastructure and chips", "note": "Seeking to buy Hugging Face under antitrust review; released a strong open transcription model."},
+    {"name": "Hugging Face", "sector": "AI platforms", "note": "Central hub for open models, now subject to an acquisition review."},
+    {"name": "Moonshot AI", "sector": "Frontier models", "note": "Reportedly linked to large-scale distillation from OpenAI outputs."}
+  ],
+  "tool": {"name": "Nemotron 3.5 Transcribe", "use": "Free, open transcription model that handles long recordings, many languages and up to eight speakers; useful for interview and focus-group transcripts.", "link": "https://huggingface.co"},
+  "verify": [
+    "OpenAI says it found a coordinated Moonshot-linked campaign to copy its model outputs in September.",
+    "Alphabet's quarterly revenue reportedly rose 25% to $127.6 billion but missed analyst estimates."
+  ],
+  "entities": [
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Leading AI chipmaker; plans to buy Hugging Face."},
+    {"name": "Hugging Face", "type": "company", "sector": "AI platforms", "url": "https://huggingface.co", "note": "Platform for sharing AI models and datasets."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Its model outputs are reportedly used to train rival models."},
+    {"name": "DeepSeek", "type": "company", "sector": "Frontier models", "url": "https://www.deepseek.com", "note": "Chinese lab releasing low-cost open-weight models."},
+    {"name": "Moonshot AI", "type": "company", "sector": "Frontier models", "url": "https://www.moonshot.ai", "note": "Chinese lab behind the Kimi models."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "Prompt engineering", "definition": "Writing instructions for an AI model in ways meant to get better answers.", "audience": "lay"},
+    {"term": "Distillation", "definition": "Training a new model to copy the answers of an existing, stronger model.", "audience": "builder"},
+    {"term": "Antitrust review", "definition": "A government check on whether a deal or business practice would unfairly reduce competition.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Work and workforce", "concept": "Workplace AI adoption", "summary": "Good AI use now depends on clear goals and judgement rather than prompt tricks.", "audience": ["lay", "decision"], "entities": ["Forward Future"]},
+    {"industry": "Policy and geopolitics", "concept": "Model distillation disputes", "summary": "Labs accusing rivals of copying their models through API outputs.", "audience": ["decision"], "entities": ["OpenAI", "DeepSeek", "Moonshot AI"]},
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Who owns the platforms that host open models affects access for everyone.", "audience": ["decision", "builder"], "entities": ["NVIDIA", "Hugging Face"]}
+  ]
+}

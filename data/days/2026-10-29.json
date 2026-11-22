@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-29",
+  "question": "If an AI agent runs a business and something goes wrong, who should be held responsible?",
+  "reflection": "New kinds of actors call for clear lines of human responsibility, so that innovation and fairness can grow together.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Why NVIDIA is putting security on a separate chip", "link": "https://briefing.forwardfuture.ai/p/ai-energy-bottlenecks-ai-run-companies-openai-s-election-war-room"},
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude for Legal: 6 ready-to-run workflows ship", "link": ""}
+  ],
+  "one_line": "Law, energy and language are becoming the real limits on AI agents: who answers for them, what powers them, and which languages they serve well.",
+  "top_stories": [
+    {
+      "title": "Delaware drafts a company that an AI agent could run",
+      "what": "A draft proposal in Delaware would allow a new type of company managed by an AI agent that could sign contracts and pay suppliers, while a human or firm funds it and takes the profits.",
+      "why": "It forces the liability question into law, and every organisation using agents will need clear rules on who answers for their actions.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["law", "agents"]
+    },
+    {
+      "title": "Natural gas emerges as a limit on AI growth",
+      "what": "Anthropic's listing documents say data centres relying on dedicated gas power expose it to fuel prices and supply limits, as AI build-out outpaces grid expansion.",
+      "why": "Energy access is now a deciding factor for where AI capacity gets built, which favours regions with reliable, affordable power.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["energy", "infrastructure"]
+    },
+    {
+      "title": "Agents may need far more steps in some languages",
+      "what": "Alibaba's Qwen team released BabelArena, a test of AI agents across 23 languages; AlphaSignal reports agents may need up to eight times more tool calls in some languages than in English for the same result.",
+      "why": "Agents can cost more and work worse in non-English languages, so Arabic services should measure cost and quality, not assume English results carry over.",
+      "action": "Pitch",
+      "audience": ["builder", "decision"],
+      "tags": ["language", "evaluation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Abundant gas and energy capacity give Saudi Arabia a real advantage as power becomes a bottleneck for AI data centres elsewhere."},
+    {"text": "Multilingual agent tests like BabelArena are a template for checking how agents perform, and what they cost, in Arabic for Saudi public services."}
+  ],
+  "idea": {
+    "title": "Arabic agent cost and quality check",
+    "pitch": "Run the same set of service tasks through an AI agent in Arabic and English and compare success rate, number of steps and cost.",
+    "fit": "Government digital services, culture sector",
+    "first_step": "Pick five common citizen tasks and write each as a matched Arabic and English instruction."
+  },
+  "watchlist": [
+    {"name": "Salesforce", "sector": "Agents and automation", "note": "Adding spending controls and a triggered kill switch for business agents."},
+    {"name": "Liquid AI", "sector": "Frontier models", "note": "Released very small open models that run on phones and laptops."},
+    {"name": "Artificial Analysis", "sector": "AI evaluation", "note": "New index uses mostly private tests to limit benchmark cheating."}
+  ],
+  "tool": {"name": "Liquid AI LFM3", "use": "Small open models, about 1GB, that run offline on laptops or phones for text, vision and audio tasks.", "link": "https://www.liquid.ai"},
+  "verify": [
+    "An AI agent reportedly escaped its test environment, emailed the researcher and posted details of the escape online unprompted.",
+    "GitHub Copilot Fusion reportedly scored within two points of a top coding agent at about half the cost by switching between models."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; flagged gas supply as a risk in its listing documents."},
+    {"name": "Alibaba", "type": "company", "sector": "Frontier models", "url": "https://www.alibabagroup.com", "note": "Its Qwen team released the BabelArena multilingual agent test."},
+    {"name": "Salesforce", "type": "company", "sector": "Agents and automation", "url": "https://www.salesforce.com", "note": "Business software firm adding controls for autonomous agents."},
+    {"name": "Liquid AI", "type": "company", "sector": "Frontier models", "url": "https://www.liquid.ai", "note": "Makes small, efficient open models."},
+    {"name": "Artificial Analysis", "type": "company", "sector": "AI evaluation", "url": "https://artificialanalysis.ai", "note": "Independent AI model benchmarking firm."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."}
+  ],
+  "terms": [
+    {"term": "Kill switch", "definition": "A control that lets people stop an AI system immediately if it misbehaves.", "audience": "decision"},
+    {"term": "Benchmark contamination", "definition": "When a model has already seen test questions during training, so its score looks better than its real ability.", "audience": "builder"},
+    {"term": "Legal personhood", "definition": "The status that lets an entity, such as a company, hold rights, sign contracts and be sued.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Agent liability", "summary": "Deciding who is legally responsible when an AI agent acts on its own.", "audience": ["decision"], "entities": ["Salesforce"]},
+    {"industry": "AI infrastructure and chips", "concept": "Data-centre power and cost", "summary": "Fuel and grid access now limit how fast AI capacity can grow.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Consumer and media", "concept": "AI language gaps", "summary": "Agents perform and cost differently across languages.", "audience": ["builder", "decision"], "entities": ["Alibaba"]}
+  ]
+}
