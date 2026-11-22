@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-17",
+  "question": "If AI agents can switch on the lights and lock the doors, what should still need a person's approval?",
+  "reflection": "Tools that prove a photo is real can help people trust what they see again, and trust is the ground every community builds on.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "OpenAI's $1.5T bid + U.S.-China AI talks", "link": "https://briefing.forwardfuture.ai/p/openai-s-1-5t-ipo-u-s-china-ai-talks-agents-go-mainstream"},
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude adds Docs, Slides & Design: no app-switching", "link": ""}
+  ],
+  "one_line": "AI agents move into homes and office suites, while the US signals it is open to talking with China about shared AI risks.",
+  "top_stories": [
+    {
+      "title": "AI agents can now run smart homes",
+      "what": "Google opened an early-access connector that lets assistants such as Claude and ChatGPT control supported home devices and review their activity, for paying US users.",
+      "why": "Handing physical controls to an agent raises new questions on consent, household roles and error recovery that behavioural studies can answer.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["agents", "consumer"]
+    },
+    {
+      "title": "US says it is open to AI risk talks with China",
+      "what": "The US Treasury Secretary said shared AI risks could be discussed with China at talks this weekend, ahead of a planned leaders' summit.",
+      "why": "Any common ground between the two AI powers will shape the rules other countries, including Gulf states, adopt.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["policy", "geopolitics"]
+    },
+    {
+      "title": "Office tools built into the AI assistant",
+      "what": "Anthropic merged Claude's chat and background work modes and added document, slide and design tools in beta for paid plans.",
+      "why": "Research teams could draft reports and decks in one place, so it is worth testing how much review time this really saves.",
+      "action": "Try",
+      "audience": ["lay", "builder"],
+      "tags": ["productivity", "agents"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "A new industry alliance wants data centres to cut power use when the grid is stretched; Saudi planners could ask for the same flexibility as the Kingdom's data-centre capacity grows in a hot climate."}
+  ],
+  "idea": {
+    "title": "Who controls the smart home",
+    "pitch": "Interview families about which home tasks they would hand to an AI agent and which must stay with a person, and why.",
+    "fit": "Consumer protection, government digital services",
+    "first_step": "Write a list of ten home actions, from dimming lights to unlocking doors, and pilot it with five households."
+  },
+  "idea_kids": {
+    "title": "Real or made-up photo detective kit",
+    "pitch": "A classroom kit where children compare printed photos and look for clues about whether an image was changed.",
+    "age": "9 to 13",
+    "first_step": "Print ten pairs of everyday photos, one original and one lightly edited, and write a clue sheet."
+  },
+  "watchlist": [
+    {"name": "OpenAI", "sector": "Business and markets", "note": "Reportedly weighing a funding round at about twice its last valuation."},
+    {"name": "Google", "sector": "Agents and automation", "note": "Opening its home devices to outside AI agents."},
+    {"name": "Apple", "sector": "Safety, security and governance", "note": "New phones can sign photos at capture to prove they are real."}
+  ],
+  "tool": {"name": "LongCat-Video-Avatar", "use": "Open-source tool that makes a talking video from a photo and audio, useful for testing dubbed training content.", "link": ""},
+  "verify": [
+    "OpenAI says its annualised revenue passed $40 billion in August.",
+    "Google DeepMind says its self-improving search agent cuts AI calls by up to 162 times in some tasks."
+  ],
+  "entities": [
+    {"name": "Google", "type": "company", "sector": "Agents and automation", "url": "https://about.google", "note": "Let AI agents control Google Home devices."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Added document, slide and design tools to Claude."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Reportedly seeking a $1.5 trillion valuation; published a misbehaviour disclosure framework."},
+    {"name": "Apple", "type": "company", "sector": "Consumer and media", "url": "https://www.apple.com", "note": "Added cryptographic photo proof to new iPhones."},
+    {"name": "Google DeepMind", "type": "company", "sector": "Science and research", "url": "https://deepmind.google", "note": "Published a self-improving search method and launched an AGI institute."}
+  ],
+  "terms": [
+    {"term": "MCP server", "definition": "A small connector that lets an AI assistant use an outside app or device through a shared standard.", "audience": "builder"},
+    {"term": "Provenance", "definition": "A record of where a piece of content came from and whether it was changed.", "audience": "lay"},
+    {"term": "Demand response", "definition": "Cutting or shifting electricity use when the grid is under strain, often in return for payment.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent-ready services", "summary": "Home devices open up so outside AI agents can control them.", "audience": ["lay", "decision"], "entities": ["Google"]},
+    {"industry": "Policy and geopolitics", "concept": "US-China AI dialogue", "summary": "The two AI powers consider talks on shared risks from advanced models.", "audience": ["decision"], "entities": []},
+    {"industry": "Safety, security and governance", "concept": "AI content provenance", "summary": "Cameras sign images at capture so people can check they were not made or altered by AI.", "audience": ["lay", "decision"], "entities": ["Apple"]},
+    {"industry": "AI infrastructure and chips", "concept": "Data-centre power and cost", "summary": "Data centres promise to cut demand at peak times to ease pressure on the grid.", "audience": ["decision"], "entities": ["Google"]}
+  ]
+}

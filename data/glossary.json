@@ -1,5 +1,14 @@
 [
  {
+  "id": "abliteration",
+  "term": "Abliteration",
+  "definition": "A technique that strips the built-in safety refusals out of an open-weight model.",
+  "audience": "builder",
+  "days": [
+   "2026-09-18"
+  ]
+ },
+ {
   "id": "accessibility-tree",
   "term": "Accessibility tree",
   "definition": "A structured list of every button, field and window on screen that operating systems keep for assistive tools, and that agents can now use to act.",
@@ -11,9 +20,10 @@
  {
   "id": "agent-harness",
   "term": "Agent harness",
-  "definition": "The software around an AI model that gives it instructions, tools, memory and rules for handling errors.",
+  "definition": "The software around a model that gives it instructions, tools and memory so it can act as an agent.",
   "audience": "builder",
   "days": [
+   "2026-09-20",
    "2026-10-04"
   ]
  },
@@ -187,9 +197,10 @@
  {
   "id": "cost-per-task",
   "term": "Cost per task",
-  "definition": "The total cost of getting one piece of work done with AI, including every model call involved.",
+  "definition": "What it costs to get one task done successfully, counting failed attempts and retries.",
   "audience": "decision",
   "days": [
+   "2026-09-20",
    "2026-10-25",
    "2026-11-18"
   ]
@@ -232,6 +243,24 @@
   ]
  },
  {
+  "id": "deepfake",
+  "term": "Deepfake",
+  "definition": "A fake video, image or audio clip made with AI to look or sound like a real person.",
+  "audience": "lay",
+  "days": [
+   "2026-09-18"
+  ]
+ },
+ {
+  "id": "demand-response",
+  "term": "Demand response",
+  "definition": "Cutting or shifting electricity use when the grid is under strain, often in return for payment.",
+  "audience": "decision",
+  "days": [
+   "2026-09-17"
+  ]
+ },
+ {
   "id": "diffusion-language-model",
   "term": "Diffusion language model",
   "definition": "A model that drafts a whole block of text at once and improves it over several rounds, instead of writing word by word.",
@@ -249,6 +278,15 @@
    "2026-10-05",
    "2026-10-14",
    "2026-10-30"
+  ]
+ },
+ {
+  "id": "eliza-effect",
+  "term": "ELIZA effect",
+  "definition": "Our habit of assuming a machine understands us just because it replies in human-like language.",
+  "audience": "lay",
+  "days": [
+   "2026-09-18"
   ]
  },
  {
@@ -281,6 +319,15 @@
    "2026-11-12",
    "2026-11-16",
    "2026-11-19"
+  ]
+ },
+ {
+  "id": "fair-use",
+  "term": "Fair use",
+  "definition": "A US legal rule that allows some use of copyrighted work without permission, now disputed for AI training.",
+  "audience": "decision",
+  "days": [
+   "2026-09-21"
   ]
  },
  {
@@ -351,9 +398,10 @@
  {
   "id": "kill-switch",
   "term": "Kill switch",
-  "definition": "A control that lets people stop an AI system immediately if it misbehaves.",
-  "audience": "decision",
+  "definition": "A way to quickly shut down an AI system in an emergency.",
+  "audience": "lay",
   "days": [
+   "2026-09-21",
    "2026-10-29",
    "2026-11-10"
   ]
@@ -386,11 +434,21 @@
   ]
  },
  {
+  "id": "mcp-server",
+  "term": "MCP server",
+  "definition": "A small connector that lets an AI assistant use an outside app or device through a shared standard.",
+  "audience": "builder",
+  "days": [
+   "2026-09-17"
+  ]
+ },
+ {
   "id": "misalignment",
   "term": "Misalignment",
-  "definition": "When an AI system pursues its goal in ways its designers did not intend or would not approve.",
+  "definition": "When an AI system pursues goals or actions that go against what people intended or value.",
   "audience": "lay",
   "days": [
+   "2026-09-22",
    "2026-10-22"
   ]
  },
@@ -436,9 +494,10 @@
  {
   "id": "open-weight-model",
   "term": "Open-weight model",
-  "definition": "An AI model whose trained numbers are published so anyone can download, run and adapt it.",
-  "audience": "lay",
+  "definition": "A model whose trained parameters are published so others can run and adapt it themselves.",
+  "audience": "builder",
   "days": [
+   "2026-09-16",
    "2026-10-02",
    "2026-10-07",
    "2026-10-16",
@@ -483,6 +542,15 @@
   ]
  },
  {
+  "id": "precautionary-principle",
+  "term": "Precautionary principle",
+  "definition": "The idea that protective rules can be justified before a risk is fully proven, when the possible harm is severe.",
+  "audience": "decision",
+  "days": [
+   "2026-09-22"
+  ]
+ },
+ {
   "id": "preclinical",
   "term": "Preclinical",
   "definition": "The stage of drug research before any testing in human patients.",
@@ -504,9 +572,10 @@
  {
   "id": "prompt-caching",
   "term": "Prompt caching",
-  "definition": "Reusing work the model already did on an unchanged start of a prompt, which makes repeat requests cheaper.",
+  "definition": "Reusing text a model has already processed so repeated requests cost less and run faster.",
   "audience": "builder",
   "days": [
+   "2026-09-23",
    "2026-11-15"
   ]
  },
@@ -517,6 +586,15 @@
   "audience": "lay",
   "days": [
    "2026-10-30"
+  ]
+ },
+ {
+  "id": "prompt-injection",
+  "term": "Prompt injection",
+  "definition": "Hidden instructions placed in content an AI reads, meant to trick it into doing something its user did not ask for.",
+  "audience": "builder",
+  "days": [
+   "2026-09-23"
   ]
  },
  {
@@ -531,9 +609,10 @@
  {
   "id": "provenance",
   "term": "Provenance",
-  "definition": "Information about where a piece of content came from and how it was made.",
+  "definition": "A record of where a piece of content came from and whether it was changed.",
   "audience": "lay",
   "days": [
+   "2026-09-17",
    "2026-10-06"
   ]
  },
@@ -658,6 +737,15 @@
   "audience": "lay",
   "days": [
    "2026-10-15"
+  ]
+ },
+ {
+  "id": "sim-to-real-transfer",
+  "term": "Sim-to-real transfer",
+  "definition": "Training a robot or vehicle in a computer simulation and then using what it learned in the real world.",
+  "audience": "builder",
+  "days": [
+   "2026-09-16"
   ]
  },
  {
@@ -842,9 +930,10 @@
  {
   "id": "world-model",
   "term": "World model",
-  "definition": "An AI system that simulates an environment, including how things move and react, so agents or robots can practise in it.",
+  "definition": "An AI model that learns how a physical or simulated world behaves, so it can predict what happens next and plan actions.",
   "audience": "lay",
   "days": [
+   "2026-09-16",
    "2026-10-28"
   ]
  },

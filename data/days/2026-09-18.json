@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-18",
+  "question": "When a fake video of a real person spreads online, who should be responsible for stopping the harm?",
+  "reflection": "Clear labels and fair rules for fake media can protect people's dignity and keep public debate honest for everyone.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Amazon tests AI safety + Huawei races toward NVIDIA", "link": "https://briefing.forwardfuture.ai/p/ai-safety-uk-deepfakes-huawei-s-nvidia-challenge"},
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude Code runs parallel cloud threads while your laptop is", "link": ""}
+  ],
+  "one_line": "Pressure grows on platforms and labs to prove their AI is safe, while AI tools for specific professions such as law arrive.",
+  "top_stories": [
+    {
+      "title": "Meta told its deepfake safeguards fall short",
+      "what": "Meta's Oversight Board ordered the removal of AI-made videos that falsely showed two real people in the UK, and called the company's deepfake protections inadequate.",
+      "why": "Clear rules for labelling and demoting fake media are a public-trust issue that behavioural research can test before they are rolled out.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["deepfakes", "governance"]
+    },
+    {
+      "title": "A legal edition of a frontier model",
+      "what": "OpenAI launched a version of GPT-6 Astra for law firms, linked to a daily-updated index of US case law and rules, with access for approved firms first.",
+      "why": "Profession-specific models show where general chatbots fall short, and the same path could follow for policy or social research.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["frontier models", "legal"]
+    },
+    {
+      "title": "Amazon and others push for testing before release",
+      "what": "Amazon said models should launch only after rigorous safety testing, and a new partnership with Hugging Face plans open safety tools for open-weight models.",
+      "why": "Growing demand for evidence of safety opens a role for independent evaluation, including tests of how real users behave with a model.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["safety", "evaluation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Huawei is bringing forward its next AI chip, which may widen the choice of hardware suppliers that Gulf data-centre projects can consider, within the limits of export rules."}
+  ],
+  "idea": {
+    "title": "Deepfake label test",
+    "pitch": "Test which warning labels on AI-made videos actually change whether Arabic-speaking viewers believe and share them.",
+    "fit": "Government digital services, media regulator, culture sector",
+    "first_step": "Prepare three label wordings and one harmless sample clip for a small online experiment."
+  },
+  "idea_kids": {
+    "title": "The machine that only pretends to listen",
+    "pitch": "A short picture book about a child who talks to a simple chatbot and slowly learns it matches words without truly understanding.",
+    "age": "6 to 10",
+    "first_step": "Write a ten-page story outline with one simple rule the chatbot follows on each page."
+  },
+  "watchlist": [
+    {"name": "Huawei", "sector": "AI infrastructure and chips", "note": "Moved its next AI chip launch earlier to compete with NVIDIA."},
+    {"name": "CoreWeave", "sector": "Business and markets", "note": "Raising billions in debt and stock to fund data-centre growth."},
+    {"name": "Hugging Face", "sector": "Safety, security and governance", "note": "Joining a project to build safety checks for open models."}
+  ],
+  "tool": {"name": "Browser Use", "use": "Open-source agent that operates a web browser from a plain-language goal, reading the page as a list of buttons and fields.", "link": "https://browser-use.com"},
+  "verify": [
+    "Hugging Face reportedly hosts more than 6,000 models with safety controls removed.",
+    "Huawei says its next Ascend chip will double performance."
+  ],
+  "entities": [
+    {"name": "Meta", "type": "company", "sector": "Consumer and media", "url": "https://about.meta.com", "note": "Ordered by its Oversight Board to remove deepfake videos."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Launched a legal version of GPT-6 Astra."},
+    {"name": "Amazon", "type": "company", "sector": "Business and markets", "url": "https://www.amazon.com", "note": "Called for rigorous testing before model releases."},
+    {"name": "Huawei", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.huawei.com", "note": "Brought forward its next AI chip."},
+    {"name": "CoreWeave", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.coreweave.com", "note": "Raising money for AI data centres."},
+    {"name": "Hugging Face", "type": "company", "sector": "Safety, security and governance", "url": "https://huggingface.co", "note": "Partner in an open-model safety effort."},
+    {"name": "Anthropic", "type": "company", "sector": "Agents and automation", "url": "https://www.anthropic.com", "note": "Released coding projects that run parallel cloud threads."}
+  ],
+  "terms": [
+    {"term": "Deepfake", "definition": "A fake video, image or audio clip made with AI to look or sound like a real person.", "audience": "lay"},
+    {"term": "Abliteration", "definition": "A technique that strips the built-in safety refusals out of an open-weight model.", "audience": "builder"},
+    {"term": "ELIZA effect", "definition": "Our habit of assuming a machine understands us just because it replies in human-like language.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Consumer and media", "concept": "Deepfake moderation", "summary": "Platforms face pressure to label, demote and remove AI-made fakes of real people.", "audience": ["decision", "lay"], "entities": ["Meta"]},
+    {"industry": "Safety, security and governance", "concept": "Independent AI audits", "summary": "Calls grow for proof of safety testing before models are released.", "audience": ["decision"], "entities": ["Amazon", "Hugging Face"]},
+    {"industry": "Frontier models", "concept": "Domain-specific frontier models", "summary": "Top labs tune their general models for single professions such as law.", "audience": ["decision", "builder"], "entities": ["OpenAI"]}
+  ]
+}

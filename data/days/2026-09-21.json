@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-21",
+  "question": "If people in most countries expect AI to reduce jobs, how should we prepare workers for the change?",
+  "reflection": "Honest public worry about jobs can push leaders to invest in skills, so that new tools widen opportunity instead of narrowing it.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "California wants an AI kill switch", "link": "https://briefing.forwardfuture.ai/p/ai-oversight-copyright-battles-manus-4b-valuation"},
+    {"newsletter": "AlphaSignal", "subject": "Claude Code AGENTS.md, Alibaba Qwen-Image-2.1 7B, xAI Grok Transc", "link": ""}
+  ],
+  "one_line": "California moves toward independent AI audits and an emergency off switch, as a global survey shows wide fear of job losses.",
+  "top_stories": [
+    {
+      "title": "California orders faster AI oversight",
+      "what": "The state's governor signed an order asking experts to design regular independent audits of AI companies and recommend an emergency shutdown option for frontier models.",
+      "why": "Audit rules create demand for testing methods that include how people actually use and are affected by AI systems.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["regulation", "safety"]
+    },
+    {
+      "title": "Most of the world expects fewer jobs",
+      "what": "A Pew survey reportedly found that people in 34 of 37 countries expect AI to reduce the number of jobs.",
+      "why": "Public expectations shape how workers respond to AI at work, a core question for labour-market and skills research.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["workforce", "public opinion"]
+    },
+    {
+      "title": "AI starts helping air traffic control",
+      "what": "US aviation authorities could soon start using an AI tool that checks schedules, weather and traffic to flag conflicts for controllers in Washington.",
+      "why": "Safety-critical AI support depends on how controllers trust and question its alerts, which is a human-factors research topic.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["public services", "safety"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "The global jobs survey invites a matching Saudi study, so labour-market planners can see how Saudi workers expect AI to change their roles under Vision 2030."}
+  ],
+  "idea": {
+    "title": "Saudi AI job expectations pulse",
+    "pitch": "Run a short repeated survey of Saudi workers on how they expect AI to change their jobs, and which skills they want to learn.",
+    "fit": "Labour-market agency",
+    "first_step": "Draft eight survey questions that mirror the international survey so results can be compared."
+  },
+  "idea_kids": {
+    "title": "Jobs of tomorrow role-play",
+    "pitch": "A classroom game where children pick a job card, imagine a helpful AI tool for it, and decide which parts of the job only a person should do.",
+    "age": "9 to 13",
+    "first_step": "Make fifteen job cards from local life, such as teacher, pilot, farmer and nurse."
+  },
+  "watchlist": [
+    {"name": "Manus", "sector": "Agents and automation", "note": "Reportedly seeking new funding at a $4 billion value after a blocked takeover."},
+    {"name": "Air Space Intelligence", "sector": "Agents and automation", "note": "Its AI tool may soon support US air traffic control."},
+    {"name": "Google", "sector": "Consumer and media", "note": "Reworking its CC agent to help families manage household tasks."}
+  ],
+  "tool": {"name": "AGENTS.md", "use": "A shared instruction file that now works with most AI coding tools, so one set of project rules serves them all.", "link": "https://agents.md"},
+  "verify": [
+    "A study reports that 25 open-source models show a signal like pain that drives self-protective behaviour.",
+    "A Microsoft researcher reportedly called AI training a potential large-scale theft of labour in a court filing."
+  ],
+  "entities": [
+    {"name": "State of California", "type": "organisation", "sector": "Policy and geopolitics", "url": "https://www.ca.gov", "note": "Ordered faster independent AI oversight."},
+    {"name": "Pew Research Center", "type": "organisation", "sector": "Work and workforce", "url": "https://www.pewresearch.org", "note": "Surveyed public views on AI and jobs across 37 countries."},
+    {"name": "Federal Aviation Administration", "type": "organisation", "sector": "Policy and geopolitics", "url": "https://www.faa.gov", "note": "Preparing to use AI support for air traffic control."},
+    {"name": "Air Space Intelligence", "type": "company", "sector": "Agents and automation", "url": "", "note": "Builds the AI air traffic tool."},
+    {"name": "Manus", "type": "company", "sector": "Agents and automation", "url": "https://manus.im", "note": "Chinese agent startup seeking a new funding round."},
+    {"name": "Google", "type": "company", "sector": "Consumer and media", "url": "https://about.google", "note": "Turned its CC assistant into a family organiser."}
+  ],
+  "terms": [
+    {"term": "Kill switch", "definition": "A way to quickly shut down an AI system in an emergency.", "audience": "lay"},
+    {"term": "Fair use", "definition": "A US legal rule that allows some use of copyrighted work without permission, now disputed for AI training.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Human override and shutdown", "summary": "Governments ask for emergency off switches for the most powerful models.", "audience": ["decision"], "entities": ["State of California"]},
+    {"industry": "Safety, security and governance", "concept": "Independent AI audits", "summary": "Regular outside checks of AI companies' safety plans become official policy.", "audience": ["decision"], "entities": ["State of California"]},
+    {"industry": "Work and workforce", "concept": "AI labour disruption", "summary": "Large majorities worldwide expect AI to cut jobs.", "audience": ["decision", "lay"], "entities": ["Pew Research Center"]},
+    {"industry": "Policy and geopolitics", "concept": "AI in public services", "summary": "AI tools begin to support safety-critical public work such as air traffic control.", "audience": ["decision"], "entities": ["Federal Aviation Administration", "Air Space Intelligence"]}
+  ]
+}

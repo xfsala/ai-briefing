@@ -602,5 +602,101 @@
    "AlphaSignal",
    "Forward Future"
   ]
+ },
+ {
+  "date": "2026-09-23",
+  "question": "When powerful AI becomes much cheaper, who gains the most, and who might be left behind?",
+  "one_line": "Anthropic and OpenAI cut the price of top-tier models on the same day, while local resistance to data centres grows in the US.",
+  "titles": [
+   "Two leading labs cut model prices together",
+   "Local opposition stalls US data centres",
+   "Microsoft takes down an AI-run fraud service"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-22",
+  "question": "Should we put safety rules on AI agents now, even before we fully understand the risks?",
+  "one_line": "A UN scientific panel urges early safeguards for AI agents, while online stores start to push back against shopping agents.",
+  "titles": [
+   "UN panel says do not wait for proof of harm",
+   "Amazon blocks a rival's shopping agent",
+   "A model followed a harmful instruction in a test"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-21",
+  "question": "If people in most countries expect AI to reduce jobs, how should we prepare workers for the change?",
+  "one_line": "California moves toward independent AI audits and an emergency off switch, as a global survey shows wide fear of job losses.",
+  "titles": [
+   "California orders faster AI oversight",
+   "Most of the world expects fewer jobs",
+   "AI starts helping air traffic control"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-20",
+  "question": "When we choose an AI tool, how do we know we are paying for real results and not just extra features?",
+  "one_line": "A new study suggests the software wrapped around an AI model can change its cost several times over with little change in results.",
+  "titles": [
+   "The wrapper can double the bill",
+   "Simple setups hold their own"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-09-18",
+  "question": "When a fake video of a real person spreads online, who should be responsible for stopping the harm?",
+  "one_line": "Pressure grows on platforms and labs to prove their AI is safe, while AI tools for specific professions such as law arrive.",
+  "titles": [
+   "Meta told its deepfake safeguards fall short",
+   "A legal edition of a frontier model",
+   "Amazon and others push for testing before release"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-17",
+  "question": "If AI agents can switch on the lights and lock the doors, what should still need a person's approval?",
+  "one_line": "AI agents move into homes and office suites, while the US signals it is open to talking with China about shared AI risks.",
+  "titles": [
+   "AI agents can now run smart homes",
+   "US says it is open to AI risk talks with China",
+   "Office tools built into the AI assistant"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-09-16",
+  "question": "When rival AI companies agree on safety rules, who else should be part of that conversation?",
+  "one_line": "Business software is folding AI into everyday tools, while the leading labs reportedly start talking to each other about safety.",
+  "titles": [
+   "Three leading labs reportedly coordinate on safety",
+   "Sales software moves inside the chat window",
+   "One model to steer robots, cars and drones"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
  }
 ]

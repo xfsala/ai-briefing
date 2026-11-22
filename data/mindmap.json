@@ -81,7 +81,8 @@
       "2026-11-11",
       "2026-10-29",
       "2026-10-22",
-      "2026-10-14"
+      "2026-10-14",
+      "2026-09-17"
      ],
      "children": [
       {
@@ -90,6 +91,10 @@
       },
       {
        "name": "Envision",
+       "kind": "entity"
+      },
+      {
+       "name": "Google",
        "kind": "entity"
       },
       {
@@ -273,16 +278,22 @@
      "summary": "Designing services so AI agents can complete them on a person's behalf.",
      "audience": [
       "builder",
-      "decision"
+      "decision",
+      "lay"
      ],
      "days": [
       "2026-11-18",
       "2026-11-16",
-      "2026-10-23"
+      "2026-10-23",
+      "2026-09-17"
      ],
      "children": [
       {
        "name": "1Password",
+       "kind": "entity"
+      },
+      {
+       "name": "Google",
        "kind": "entity"
       },
       {
@@ -323,7 +334,8 @@
      "days": [
       "2026-11-20",
       "2026-11-13",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-09-16"
      ],
      "children": [
       {
@@ -332,6 +344,10 @@
       },
       {
        "name": "Nous Research",
+       "kind": "entity"
+      },
+      {
+       "name": "Salesforce",
        "kind": "entity"
       },
       {
@@ -377,20 +393,30 @@
      "kind": "concept",
      "summary": "Agents that combine a reasoning model, specialist models and plain code, each doing what it does best.",
      "audience": [
-      "builder"
+      "builder",
+      "decision"
      ],
      "days": [
       "2026-11-01",
       "2026-10-11",
-      "2026-10-04"
+      "2026-10-04",
+      "2026-09-20"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "Mistral AI",
        "kind": "entity"
       },
       {
        "name": "NVIDIA",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -630,6 +656,24 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "Deepfake moderation",
+     "kind": "concept",
+     "summary": "Platforms face pressure to label, demote and remove AI-made fakes of real people.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-09-18"
+     ],
+     "children": [
+      {
+       "name": "Meta",
+       "kind": "entity"
+      }
+     ]
     }
    ]
   },
@@ -715,6 +759,24 @@
      ]
     },
     {
+     "name": "Domain-specific frontier models",
+     "kind": "concept",
+     "summary": "Top labs tune their general models for single professions such as law.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-09-18"
+     ],
+     "children": [
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Falling cost of intelligence",
      "kind": "concept",
      "summary": "Each new model generation does more for less money per task.",
@@ -731,7 +793,9 @@
       "2026-10-27",
       "2026-10-25",
       "2026-10-18",
-      "2026-10-08"
+      "2026-10-08",
+      "2026-09-23",
+      "2026-09-20"
      ],
      "children": [
       {
@@ -827,9 +891,19 @@
       "lay"
      ],
      "days": [
-      "2026-10-08"
+      "2026-10-08",
+      "2026-09-21"
      ],
-     "children": []
+     "children": [
+      {
+       "name": "Air Space Intelligence",
+       "kind": "entity"
+      },
+      {
+       "name": "Federal Aviation Administration",
+       "kind": "entity"
+      }
+     ]
     },
     {
      "name": "Chip export controls",
@@ -942,9 +1016,14 @@
       "lay"
      ],
      "days": [
-      "2026-11-09"
+      "2026-11-09",
+      "2026-09-23"
      ],
      "children": [
+      {
+       "name": "Data Center Watch",
+       "kind": "entity"
+      },
       {
        "name": "Nvidia",
        "kind": "entity"
@@ -1002,6 +1081,35 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "Precautionary AI regulation",
+     "kind": "concept",
+     "summary": "International bodies urge safeguards before AI risks are fully understood.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-09-22"
+     ],
+     "children": [
+      {
+       "name": "United Nations",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "US-China AI dialogue",
+     "kind": "concept",
+     "summary": "The two AI powers consider talks on shared risks from advanced models.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-09-17"
+     ],
+     "children": []
     }
    ]
   },
@@ -1018,9 +1126,14 @@
       "decision"
      ],
      "days": [
-      "2026-11-16"
+      "2026-11-16",
+      "2026-09-16"
      ],
      "children": [
+      {
+       "name": "Odyssey",
+       "kind": "entity"
+      },
       {
        "name": "OpenAI",
        "kind": "entity"
@@ -1078,9 +1191,14 @@
       "lay"
      ],
      "days": [
-      "2026-10-06"
+      "2026-10-06",
+      "2026-09-17"
      ],
      "children": [
+      {
+       "name": "Apple",
+       "kind": "entity"
+      },
       {
        "name": "OpenAI",
        "kind": "entity"
@@ -1093,18 +1211,24 @@
      "summary": "Models that find and fix software flaws, usable by defenders and attackers alike.",
      "audience": [
       "builder",
-      "decision"
+      "decision",
+      "lay"
      ],
      "days": [
       "2026-11-06",
       "2026-10-22",
       "2026-10-20",
       "2026-10-12",
-      "2026-10-02"
+      "2026-10-02",
+      "2026-09-23"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Microsoft",
        "kind": "entity"
       },
       {
@@ -1205,15 +1329,49 @@
      ],
      "days": [
       "2026-10-15",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-09-22"
      ],
      "children": [
+      {
+       "name": "Amazon",
+       "kind": "entity"
+      },
       {
        "name": "Apple",
        "kind": "entity"
       },
       {
        "name": "JPMorgan Chase",
+       "kind": "entity"
+      },
+      {
+       "name": "Meta",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "Cross-lab safety cooperation",
+     "kind": "concept",
+     "summary": "Competing AI labs talk directly about shared safety measures.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-09-16"
+     ],
+     "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Google DeepMind",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -1228,7 +1386,8 @@
      ],
      "days": [
       "2026-11-10",
-      "2026-10-22"
+      "2026-10-22",
+      "2026-09-21"
      ],
      "children": [
       {
@@ -1237,6 +1396,10 @@
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "State of California",
        "kind": "entity"
       }
      ]
@@ -1252,9 +1415,15 @@
       "2026-11-18",
       "2026-11-17",
       "2026-10-19",
-      "2026-10-07"
+      "2026-10-07",
+      "2026-09-21",
+      "2026-09-18"
      ],
      "children": [
+      {
+       "name": "Amazon",
+       "kind": "entity"
+      },
       {
        "name": "Anthropic",
        "kind": "entity"
@@ -1264,11 +1433,19 @@
        "kind": "entity"
       },
       {
+       "name": "Hugging Face",
+       "kind": "entity"
+      },
+      {
        "name": "METR",
        "kind": "entity"
       },
       {
        "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "State of California",
        "kind": "entity"
       },
       {
@@ -1286,7 +1463,8 @@
       "decision"
      ],
      "days": [
-      "2026-11-09"
+      "2026-11-09",
+      "2026-09-22"
      ],
      "children": [
       {
@@ -1295,6 +1473,10 @@
       },
       {
        "name": "Nous Research",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
        "kind": "entity"
       }
      ]
@@ -1523,7 +1705,8 @@
      "days": [
       "2026-11-13",
       "2026-10-27",
-      "2026-10-01"
+      "2026-10-01",
+      "2026-09-21"
      ],
      "children": [
       {
@@ -1532,6 +1715,10 @@
       },
       {
        "name": "Microsoft",
+       "kind": "entity"
+      },
+      {
+       "name": "Pew Research Center",
        "kind": "entity"
       }
      ]

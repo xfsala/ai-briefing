@@ -11,6 +11,17 @@
   ]
  },
  {
+  "id": "air-space-intelligence",
+  "name": "Air Space Intelligence",
+  "type": "company",
+  "sector": "Agents and automation",
+  "url": "",
+  "note": "Builds the AI air traffic tool.",
+  "days": [
+   "2026-09-21"
+  ]
+ },
+ {
   "id": "aleph-alpha",
   "name": "Aleph Alpha",
   "type": "company",
@@ -78,6 +89,8 @@
   "url": "https://www.amazon.com",
   "note": "Launched Bee AI wearables and promotes ambient computing.",
   "days": [
+   "2026-09-18",
+   "2026-09-22",
    "2026-10-13",
    "2026-10-16"
   ]
@@ -112,6 +125,11 @@
   "url": "https://www.anthropic.com",
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
+   "2026-09-16",
+   "2026-09-17",
+   "2026-09-18",
+   "2026-09-20",
+   "2026-09-23",
    "2026-10-01",
    "2026-10-02",
    "2026-10-05",
@@ -167,6 +185,7 @@
   "url": "https://www.apple.com",
   "note": "Tightening Mac file-access permissions for AI agents.",
   "days": [
+   "2026-09-17",
    "2026-10-05"
   ]
  },
@@ -244,6 +263,7 @@
   "url": "https://www.coreweave.com",
   "note": "Cloud provider renting AI chips, heavily funded by debt.",
   "days": [
+   "2026-09-18",
    "2026-10-20"
   ]
  },
@@ -268,6 +288,17 @@
   "note": "Life-science firm planning an autonomous research lab.",
   "days": [
    "2026-10-08"
+  ]
+ },
+ {
+  "id": "data-center-watch",
+  "name": "Data Center Watch",
+  "type": "organisation",
+  "sector": "Policy and geopolitics",
+  "url": "",
+  "note": "Tracks local opposition to US data centres.",
+  "days": [
+   "2026-09-23"
   ]
  },
  {
@@ -316,6 +347,17 @@
   "note": "Swiss technical university and research partner on the work.",
   "days": [
    "2026-11-08"
+  ]
+ },
+ {
+  "id": "federal-aviation-administration",
+  "name": "Federal Aviation Administration",
+  "type": "organisation",
+  "sector": "Policy and geopolitics",
+  "url": "https://www.faa.gov",
+  "note": "Preparing to use AI support for air traffic control.",
+  "days": [
+   "2026-09-21"
   ]
  },
  {
@@ -419,9 +461,12 @@
   "name": "Google",
   "type": "company",
   "sector": "AI chips",
-  "url": "https://www.google.com",
+  "url": "https://about.google",
   "note": "Designs its own TPU chips for AI work.",
   "days": [
+   "2026-09-17",
+   "2026-09-21",
+   "2026-09-22",
    "2026-10-02",
    "2026-10-04",
    "2026-10-07",
@@ -450,6 +495,8 @@
   "url": "https://deepmind.google",
   "note": "Google's AI lab behind the Gemini models.",
   "days": [
+   "2026-09-16",
+   "2026-09-17",
    "2026-10-01",
    "2026-10-14",
    "2026-10-15",
@@ -461,6 +508,28 @@
   ]
  },
  {
+  "id": "harnesstax",
+  "name": "HarnessTax",
+  "type": "product",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Study comparing model and wrapper combinations for coding agents.",
+  "days": [
+   "2026-09-20"
+  ]
+ },
+ {
+  "id": "huawei",
+  "name": "Huawei",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "https://www.huawei.com",
+  "note": "Brought forward its next AI chip.",
+  "days": [
+   "2026-09-18"
+  ]
+ },
+ {
   "id": "hugging-face",
   "name": "Hugging Face",
   "type": "company",
@@ -468,6 +537,7 @@
   "url": "https://huggingface.co",
   "note": "Open AI platform whose biology team released Carbon-X.",
   "days": [
+   "2026-09-18",
    "2026-10-18",
    "2026-10-30",
    "2026-11-03"
@@ -542,6 +612,17 @@
   ]
  },
  {
+  "id": "manus",
+  "name": "Manus",
+  "type": "company",
+  "sector": "Agents and automation",
+  "url": "https://manus.im",
+  "note": "Chinese agent startup seeking a new funding round.",
+  "days": [
+   "2026-09-21"
+  ]
+ },
+ {
   "id": "megaspeed",
   "name": "Megaspeed",
   "type": "company",
@@ -560,6 +641,9 @@
   "url": "https://about.meta.com",
   "note": "Its FAIR research lab maintains the FAISS search library.",
   "days": [
+   "2026-09-16",
+   "2026-09-18",
+   "2026-09-22",
    "2026-10-04",
    "2026-10-06",
    "2026-10-12",
@@ -602,6 +686,7 @@
   "url": "https://www.microsoft.com",
   "note": "Sells Copilot in Office and is a major Anthropic partner and investor.",
   "days": [
+   "2026-09-23",
    "2026-10-04",
    "2026-10-06",
    "2026-10-13",
@@ -618,6 +703,7 @@
   "url": "https://mistral.ai",
   "note": "French AI lab, maker of the Timestral forecasting models.",
   "days": [
+   "2026-09-16",
    "2026-10-07",
    "2026-11-01"
   ]
@@ -679,6 +765,7 @@
   "url": "https://www.nvidia.com",
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
+   "2026-09-16",
    "2026-10-05",
    "2026-10-11",
    "2026-10-12",
@@ -699,6 +786,17 @@
   ]
  },
  {
+  "id": "odyssey",
+  "name": "Odyssey",
+  "type": "company",
+  "sector": "Robotics and physical AI",
+  "url": "",
+  "note": "Released the Odyssey-3 world model.",
+  "days": [
+   "2026-09-16"
+  ]
+ },
+ {
   "id": "openai",
   "name": "OpenAI",
   "type": "company",
@@ -706,6 +804,12 @@
   "url": "https://openai.com",
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
+   "2026-09-16",
+   "2026-09-17",
+   "2026-09-18",
+   "2026-09-20",
+   "2026-09-22",
+   "2026-09-23",
    "2026-10-01",
    "2026-10-02",
    "2026-10-05",
@@ -757,6 +861,17 @@
   "note": "Builds autonomous battery-powered freight rail vehicles.",
   "days": [
    "2026-10-08"
+  ]
+ },
+ {
+  "id": "pew-research-center",
+  "name": "Pew Research Center",
+  "type": "organisation",
+  "sector": "Work and workforce",
+  "url": "https://www.pewresearch.org",
+  "note": "Surveyed public views on AI and jobs across 37 countries.",
+  "days": [
+   "2026-09-21"
   ]
  },
  {
@@ -822,6 +937,7 @@
   "url": "https://www.salesforce.com",
   "note": "Business software firm adding controls for autonomous agents.",
   "days": [
+   "2026-09-16",
    "2026-10-29"
   ]
  },
@@ -916,6 +1032,17 @@
   ]
  },
  {
+  "id": "state-of-california",
+  "name": "State of California",
+  "type": "organisation",
+  "sector": "Policy and geopolitics",
+  "url": "https://www.ca.gov",
+  "note": "Ordered faster independent AI oversight.",
+  "days": [
+   "2026-09-21"
+  ]
+ },
+ {
   "id": "tsmc",
   "name": "TSMC",
   "type": "company",
@@ -946,6 +1073,17 @@
   "note": "Ride and delivery platform reporting very low agent bookings.",
   "days": [
    "2026-11-05"
+  ]
+ },
+ {
+  "id": "united-nations",
+  "name": "United Nations",
+  "type": "organisation",
+  "sector": "Policy and geopolitics",
+  "url": "https://www.un.org",
+  "note": "Its scientific panel urged early safeguards for AI agents.",
+  "days": [
+   "2026-09-22"
   ]
  },
  {
@@ -1012,6 +1150,7 @@
   "url": "https://x.ai",
   "note": "Maker of the Grok models and Grok Bot.",
   "days": [
+   "2026-09-22",
    "2026-11-12"
   ]
  },

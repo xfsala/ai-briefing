@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-16",
+  "question": "When rival AI companies agree on safety rules, who else should be part of that conversation?",
+  "reflection": "When competitors share what they learn about risk, safety can become a common good instead of a trade secret.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Meta turns AI tools into a subscription", "link": "https://briefing.forwardfuture.ai/p/enterprise-ai-openai-safety-talks-meta-s-ai-subscriptions"},
+    {"newsletter": "AlphaSignal", "subject": "Salesforce+Claude CRM, Odyssey-3 Universal Robot Brain, LongCat Av", "link": ""}
+  ],
+  "one_line": "Business software is folding AI into everyday tools, while the leading labs reportedly start talking to each other about safety.",
+  "top_stories": [
+    {
+      "title": "Three leading labs reportedly coordinate on safety",
+      "what": "OpenAI's policy chief says the company has been talking with Anthropic and Google DeepMind for several weeks about shared safety measures.",
+      "why": "Shared safety norms will need evidence on how people actually use and misuse AI, which behavioural research can supply.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["safety", "governance"]
+    },
+    {
+      "title": "Sales software moves inside the chat window",
+      "what": "Salesforce data can now be read and updated from inside Claude in an open beta, and Salesforce also launched its own business reasoning model, Koa, built with NVIDIA.",
+      "why": "When staff work through a chat assistant instead of screens, how they trust and check its answers becomes a design question worth studying.",
+      "action": "Try",
+      "audience": ["decision", "builder"],
+      "tags": ["agents", "enterprise"]
+    },
+    {
+      "title": "One model to steer robots, cars and drones",
+      "what": "Odyssey released Odyssey-3, a world model that reportedly controls many kinds of machines from one shared core and trains them in simulated worlds.",
+      "why": "Training machines in simulation lowers the cost of testing, which matters for countries planning robotics and smart transport.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["robotics", "world models"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "An energy major is funding custom AI models for oil and gas exploration with a European lab, a model that Saudi energy and research bodies could study for their own subsurface data."}
+  ],
+  "idea": {
+    "title": "Trust in chat-based work tools",
+    "pitch": "Study how employees decide when to accept or double-check answers from an AI assistant connected to company records.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Draft five realistic tasks and a short survey on confidence before and after checking the AI's answer."
+  },
+  "idea_kids": {
+    "title": "Robot rules card game",
+    "pitch": "Children play robot makers from rival teams who must agree on three safety rules before any robot can leave the factory.",
+    "age": "8 to 12",
+    "first_step": "Write twelve robot cards, each with one useful power and one possible risk."
+  },
+  "watchlist": [
+    {"name": "Odyssey", "sector": "Robotics and physical AI", "note": "Public access to its multi-machine model is promised within weeks."},
+    {"name": "Mistral AI", "sector": "Frontier models", "note": "Building industry-specific models with large energy firms."},
+    {"name": "Meta", "sector": "Consumer and media", "note": "Testing whether people will pay monthly for AI image and video tools."}
+  ],
+  "tool": {"name": "LongCat-Video-Avatar", "use": "Open-source model that turns a photo and an audio clip into a talking video; needs a large GPU.", "link": ""},
+  "verify": [
+    "OpenAI says it does not need an antitrust waiver to coordinate on safety with rivals.",
+    "Meta's Instagram subscription revenue reportedly rose 475% in one week."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Says it is coordinating with rivals on safety."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Part of the safety talks; launched a Salesforce integration for Claude."},
+    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Part of the safety talks; released a live voice and vision model."},
+    {"name": "Salesforce", "type": "company", "sector": "Business and markets", "url": "https://www.salesforce.com", "note": "Released the Koa reasoning model and opened its CRM to Claude."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Its open Nemotron model is the base for Koa."},
+    {"name": "Odyssey", "type": "company", "sector": "Robotics and physical AI", "url": "", "note": "Released the Odyssey-3 world model."},
+    {"name": "Mistral AI", "type": "company", "sector": "Frontier models", "url": "https://mistral.ai", "note": "Partnering with an energy major on exploration models."},
+    {"name": "Meta", "type": "company", "sector": "Consumer and media", "url": "https://about.meta.com", "note": "Launched a paid AI tools bundle across its apps."}
+  ],
+  "terms": [
+    {"term": "World model", "definition": "An AI model that learns how a physical or simulated world behaves, so it can predict what happens next and plan actions.", "audience": "lay"},
+    {"term": "Sim-to-real transfer", "definition": "Training a robot or vehicle in a computer simulation and then using what it learned in the real world.", "audience": "builder"},
+    {"term": "Open-weight model", "definition": "A model whose trained parameters are published so others can run and adapt it themselves.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Cross-lab safety cooperation", "summary": "Competing AI labs talk directly about shared safety measures.", "audience": ["decision"], "entities": ["OpenAI", "Anthropic", "Google DeepMind"]},
+    {"industry": "Agents and automation", "concept": "Agents inside workplace chat", "summary": "Business systems are used through a chat assistant instead of their own screens.", "audience": ["decision", "builder"], "entities": ["Salesforce", "Anthropic"]},
+    {"industry": "Robotics and physical AI", "concept": "General models controlling robots", "summary": "One shared model is adapted to control many kinds of machines.", "audience": ["builder"], "entities": ["Odyssey"]}
+  ]
+}

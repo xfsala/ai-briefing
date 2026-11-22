@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-20",
+  "question": "When we choose an AI tool, how do we know we are paying for real results and not just extra features?",
+  "reflection": "Careful testing on our own tasks, rather than trusting habit or reputation, helps every team spend wisely and learn faster.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Understanding the \"harness tax\" behind coding agents", "link": ""}
+  ],
+  "one_line": "A new study suggests the software wrapped around an AI model can change its cost several times over with little change in results.",
+  "top_stories": [
+    {
+      "title": "The wrapper can double the bill",
+      "what": "Researchers tested seven models in three coding-agent wrappers and report that the same model on the same task cost up to five times more in some wrappers, with similar success rates.",
+      "why": "Any team buying AI agents should compare cost per successful task on its own work, not rely on the vendor's default setup.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "cost"]
+    },
+    {
+      "title": "Simple setups hold their own",
+      "what": "A minimal wrapper with only four basic tools reportedly matched or beat feature-rich ones on value, and models did not always do best in their own vendor's wrapper.",
+      "why": "Starting simple and adding features only when they fix a real problem is a sound rule for public-sector AI pilots too.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["agents", "evaluation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today, though the lesson on testing cost per result applies to any government agency procuring AI agents."}
+  ],
+  "idea": {
+    "title": "AI pilot cost-per-result check",
+    "pitch": "Offer a short audit that compares two or three AI tool setups on a client's real tasks and reports cost per successful outcome.",
+    "fit": "Government digital services, consultancy",
+    "first_step": "Pick ten routine tasks from one project and define what a successful result looks like for each."
+  },
+  "idea_kids": {
+    "title": "Same job, different tools challenge",
+    "pitch": "Children build the same paper tower with different sets of tools and materials, then count what each set cost and how tall it got.",
+    "age": "8 to 12",
+    "first_step": "Prepare three tool kits with simple prices and a score sheet for height and cost."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Agents and automation", "note": "Its coding agent was one of the wrappers tested for cost."},
+    {"name": "OpenAI", "sector": "Agents and automation", "note": "Its coding agent was also compared in the study."}
+  ],
+  "tool": null,
+  "verify": [
+    "The study reports one model scored almost the same in two wrappers while one cost about double the other per attempt.",
+    "An outside wrapper reportedly gave the best success rate in nine of twelve comparisons."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude Code, one of the tested wrappers."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of Codex CLI, one of the tested wrappers."},
+    {"name": "HarnessTax", "type": "product", "sector": "Science and research", "url": "", "note": "Study comparing model and wrapper combinations for coding agents."}
+  ],
+  "terms": [
+    {"term": "Agent harness", "definition": "The software around a model that gives it instructions, tools and memory so it can act as an agent.", "audience": "builder"},
+    {"term": "Cost per task", "definition": "What it costs to get one task done successfully, counting failed attempts and retries.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Multi-model agent design", "summary": "The choice of model and the wrapper around it should be tested together.", "audience": ["builder", "decision"], "entities": ["Anthropic", "OpenAI"]},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Smarter setup choices can cut AI spending without losing quality.", "audience": ["decision"], "entities": []}
+  ]
+}

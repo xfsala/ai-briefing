@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-23",
+  "question": "When powerful AI becomes much cheaper, who gains the most, and who might be left behind?",
+  "reflection": "Cheaper intelligence can open doors for small teams and poorer regions, if we also invest in the skills to use it well.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "Claude Opus 5.5 cuts costs, boosts coding", "link": "https://briefing.forwardfuture.ai/p/anthropic-s-claude-5-5-openai-s-gpt-6-ai-copyright"},
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude Opus 5.5: 40% cheaper, 30% faster output", "link": ""}
+  ],
+  "one_line": "Anthropic and OpenAI cut the price of top-tier models on the same day, while local resistance to data centres grows in the US.",
+  "top_stories": [
+    {
+      "title": "Two leading labs cut model prices together",
+      "what": "Anthropic released Claude Opus 5.5, which it says costs about 40% less on typical work, and OpenAI released cheaper GPT-6 Sol and Luna models at half the earlier API prices.",
+      "why": "Lower prices make large text analysis projects, such as coding thousands of survey answers, affordable for small research teams.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["frontier models", "cost"]
+    },
+    {
+      "title": "Local opposition stalls US data centres",
+      "what": "A tracking group reports that local opposition has blocked or delayed 45 US data-centre projects worth about $68 billion, over power, water and land.",
+      "why": "Community acceptance is becoming a real constraint on AI infrastructure, and it can be studied and planned for.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["infrastructure", "public opinion"]
+    },
+    {
+      "title": "Microsoft takes down an AI-run fraud service",
+      "what": "Microsoft says it disrupted a criminal service that used AI to read stolen inboxes, pick impersonation targets and plan payment fraud across thousands of organisations.",
+      "why": "AI is making email fraud more targeted, so staff training on trust cues and verification needs updating.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["cybersecurity"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "The US backlash shows that data-centre plans need community buy-in on water and power; Saudi projects can plan early engagement and clear local benefits to avoid similar friction."}
+  ],
+  "idea": {
+    "title": "Data-centre community acceptance study",
+    "pitch": "Map what nearby residents worry about and value when a large data centre is planned, and test which local benefits build trust.",
+    "fit": "Government services, infrastructure planning, consultancy",
+    "first_step": "Collect public reasons given for blocked projects and group them into a short list of concerns."
+  },
+  "idea_kids": {
+    "title": "Spot the trick email game",
+    "pitch": "A card game where children compare pairs of messages and find the clues that show which one is a trick asking for secrets.",
+    "age": "10 to 14",
+    "first_step": "Write ten message pairs in Arabic and English with one clear warning sign in each fake."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Smaller Claude 5.5 models are due in the coming weeks."},
+    {"name": "OpenAI", "sector": "Frontier models", "note": "Pricing its new everyday models far below earlier ones."},
+    {"name": "Microsoft", "sector": "Safety, security and governance", "note": "Its crime unit acted for the first time against a full AI-run fraud service."}
+  ],
+  "tool": {"name": "GPT-6 Luna", "use": "A very low-cost model for high-volume tasks such as summarising documents or sorting short answers.", "link": ""},
+  "verify": [
+    "Anthropic says Opus 5.5 costs about 40% less on typical workloads and replies over 30% faster.",
+    "A study reports em-dash use in medical preprints rose from about 4% to nearly 20% after ChatGPT launched."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Released Claude Opus 5.5; asked Australia to ease training limits."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Released GPT-6 Sol and Luna at lower prices."},
+    {"name": "Microsoft", "type": "company", "sector": "Safety, security and governance", "url": "https://www.microsoft.com", "note": "Disrupted the EvilTokens fraud service."},
+    {"name": "Data Center Watch", "type": "organisation", "sector": "Policy and geopolitics", "url": "", "note": "Tracks local opposition to US data centres."}
+  ],
+  "terms": [
+    {"term": "Prompt caching", "definition": "Reusing text a model has already processed so repeated requests cost less and run faster.", "audience": "builder"},
+    {"term": "Prompt injection", "definition": "Hidden instructions placed in content an AI reads, meant to trick it into doing something its user did not ask for.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Top labs cut prices sharply for models near the frontier.", "audience": ["decision", "builder"], "entities": ["Anthropic", "OpenAI"]},
+    {"industry": "Policy and geopolitics", "concept": "Data-centre backlash", "summary": "Local groups block or delay data centres over power, water and land.", "audience": ["decision"], "entities": ["Data Center Watch"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "Criminals use AI to scale fraud, and companies use legal and technical action to stop them.", "audience": ["decision", "lay"], "entities": ["Microsoft"]}
+  ]
+}
