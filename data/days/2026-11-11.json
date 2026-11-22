@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-11",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude Fable 5.2 solves 23-year physics problem", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Anthropic wants investors to buy its safety argument", "link": "https://briefing.forwardfuture.ai/p/rethinking-ai-china-s-cheap-ai-infrastructure-factory-robots"}
+  ],
+  "one_line": "Anthropic is heading to the stock market with safety as part of its sales pitch, while AI assistants grow into full workspaces for teams.",
+  "top_stories": [
+    {
+      "title": "Anthropic pitches safety to investors",
+      "what": "Anthropic's IPO filing presents its safety research as both a mission and a commercial advantage, with reported sales of $33.2 billion in nine months and a quarter of revenue from five customers.",
+      "why": "When vendors sell trust as a feature, buyers need their own way to test safety claims rather than relying on the brand.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["markets", "safety"]
+    },
+    {
+      "title": "Claude grows into a team workspace",
+      "what": "Anthropic added shared whiteboards, spreadsheets, a data tool that links to business systems, and a meetings feature that turns discussions into plans and tasks.",
+      "why": "Research teams could run planning, analysis and reporting in one assistant, which raises questions about where project data is stored.",
+      "action": "Try",
+      "audience": ["lay", "builder", "decision"],
+      "tags": ["workplace", "productivity"]
+    },
+    {
+      "title": "Google brings Gemini into hospital operations",
+      "what": "Google Cloud previewed Gemini for healthcare, which connects health records, billing, clinical guidelines and public datasets for compliant use.",
+      "why": "Hospitals will soon be offered AI layers across their records, creating demand for studies of how staff actually use and trust them.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["health", "enterprise"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "A Chinese AI campus was reportedly built at about a fifth of US costs by owning its own power supply, a model close to Saudi plans that pair data centres with cheap energy."},
+    {"text": "Healthcare AI platforms built around US privacy rules would need adapting to Saudi health data regulations before local hospitals could adopt them."}
+  ],
+  "idea": {
+    "title": "Clinician trust in AI records tools",
+    "pitch": "Study how doctors and administrators check, accept or override AI summaries of patient records, and which interface cues build appropriate trust.",
+    "fit": "Hospital, health ministry programmes",
+    "first_step": "Map the three record-handling tasks where staff lose most time and ask five clinicians how they would verify an AI summary of each."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Frontier models", "note": "IPO filing out; workspace tools and meetings feature in beta."},
+    {"name": "OpenAI", "sector": "Frontier models", "note": "Lets businesses claim profiles and run their own agents inside ChatGPT."},
+    {"name": "Envision", "sector": "Energy and data centres", "note": "Built a large Chinese AI campus with its own wind power at low cost."}
+  ],
+  "tool": {"name": "Claude Sheets", "use": "Ask for a tracker or budget in plain language and get a working spreadsheet that exports to Excel (beta).", "link": ""},
+  "verify": [
+    "Anthropic says Fable 5.2 solved two open black-hole physics problems, one unsolved for 23 years.",
+    "Anthropic's IPO could value it above $1 trillion, according to press reports.",
+    "Google DeepMind says a humanoid robot sorted parts with 96% success on a live car production line."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; filed its IPO prospectus in November 2026."},
+    {"name": "Google Cloud", "type": "company", "sector": "Cloud and AI", "url": "https://cloud.google.com", "note": "Google's cloud business, launching Gemini for healthcare."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT, now hosting business agents."},
+    {"name": "Envision", "type": "company", "sector": "Energy and data centres", "url": "", "note": "Chinese energy firm behind the Galaxy AI campus in Inner Mongolia."},
+    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Google's AI lab behind Gemini and Gemini Robotics."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "IPO prospectus", "definition": "The official document a company publishes before selling shares to the public, describing its business, finances and risks.", "audience": "decision"},
+    {"term": "Customer concentration", "definition": "When a large share of a company's revenue comes from a few customers, making it vulnerable if one leaves.", "audience": "decision"},
+    {"term": "Trust calibration", "definition": "Helping people trust an AI system exactly as much as it deserves, no more and no less.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Business and markets", "concept": "AI lab IPOs", "summary": "Frontier AI developers raising money on public stock markets.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Work and workforce", "concept": "AI workspaces", "summary": "Assistants that bundle documents, spreadsheets, whiteboards and meetings in one place.", "audience": ["lay", "decision"], "entities": ["Anthropic"]},
+    {"industry": "Healthcare and life sciences", "concept": "AI in hospital operations", "summary": "AI layers that connect patient records, billing and guidelines for staff.", "audience": ["decision"], "entities": ["Google Cloud"]},
+    {"industry": "AI infrastructure and chips", "concept": "Data-centre power and cost", "summary": "Electricity supply and building cost as the deciding factors in the AI build-out.", "audience": ["decision"], "entities": ["Envision"]}
+  ]
+}

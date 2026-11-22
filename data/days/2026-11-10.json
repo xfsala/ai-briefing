@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-10",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Claude Fable 5.2: 30% faster, half cost", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Fable 5.2 Can Build Almost Anything", "link": "https://briefing.forwardfuture.ai/p/nvidia-smuggling-probe-ukraine-s-ai-warfare-google-s-new-chips"}
+  ],
+  "one_line": "Anthropic's new Fable 5.2 model reportedly builds working software from short prompts, while labs start adding emergency brakes for their own experiments.",
+  "top_stories": [
+    {
+      "title": "Fable 5.2 raises the bar for AI-built software",
+      "what": "Anthropic released Fable 5.2 and a sister model, Mythos 5.2, saying they are 30% faster and cheaper, and Forward Future's testers built working copies of spreadsheet and video-editing apps from brief prompts.",
+      "why": "Small research teams could build custom survey tools, dashboards and field apps in days, but they will still need people who can check what was built.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["models", "coding"]
+    },
+    {
+      "title": "OpenAI adds a fast off-switch for risky experiments",
+      "what": "OpenAI described Control Room, an internal system that can stop a misbehaving research job within about 35 seconds by cutting its permission to produce output.",
+      "why": "It is a concrete example of the human-override controls that public bodies should demand before letting agents act on their behalf.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["safety", "governance"]
+    },
+    {
+      "title": "Nvidia's ties cloud a chip-smuggling probe",
+      "what": "A US inquiry into whether Singapore firm Megaspeed moved Nvidia chips to China was handed to prosecutors after Nvidia contacted investigators, and Nvidia's board is reviewing its CEO's links to a Megaspeed executive.",
+      "why": "Tighter scrutiny of chip routes through Asian hubs may bring stricter checks on Gulf buyers too.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["chips", "policy"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Any widening of US enforcement against chip diversion will shape the conditions attached to advanced chip shipments to Saudi data centres."},
+    {"text": "Google's new TPU built for confidential processing could suit Saudi agencies that need cloud AI without exposing sensitive data."}
+  ],
+  "idea": {
+    "title": "Prototype-first research tools",
+    "pitch": "Use a strong coding model to build a working prototype of a client's data-collection app in one sprint, then test it with real users before any tender.",
+    "fit": "Government digital services, health, labour market",
+    "first_step": "Choose one paper-based form a client still uses and ask a coding model to turn it into a clickable app."
+  },
+  "watchlist": [
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Fable 5.2 and Mythos 5.2 launched; also buying gas turbines for power."},
+    {"name": "Google", "sector": "AI chips", "note": "Two new TPUs: one for very long inputs, one for confidential processing."},
+    {"name": "Megaspeed", "sector": "Data centres", "note": "Singapore firm at the centre of a US chip-smuggling inquiry."}
+  ],
+  "tool": {"name": "Uizard", "use": "Turns sketches, screenshots or text into editable interface designs and clickable prototypes.", "link": "https://uizard.io"},
+  "verify": [
+    "A team of 1,000 Fable agents reportedly completed a full computer check of Fermat's Last Theorem in 30 hours.",
+    "Waymo robotaxis reportedly kept passing stopped school buses after a software fix, according to US regulators."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude, including the new Fable 5.2 and Mythos 5.2 models."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT; built the Control Room shutdown system."},
+    {"name": "Nvidia", "type": "company", "sector": "AI chips", "url": "https://www.nvidia.com", "note": "Leading AI chipmaker, linked to a US smuggling inquiry."},
+    {"name": "Megaspeed", "type": "company", "sector": "Data centres", "url": "", "note": "Singapore data-centre firm under US criminal investigation."},
+    {"name": "Google", "type": "company", "sector": "AI chips", "url": "https://www.google.com", "note": "Designs its own TPU chips for AI work."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "Kill switch", "definition": "A control that lets people stop an AI system quickly if it starts behaving in harmful or unexpected ways.", "audience": "lay"},
+    {"term": "TPU", "definition": "Tensor processing unit: a chip Google designed specifically for running and training AI models.", "audience": "lay"},
+    {"term": "Vibe coding", "definition": "Building software by describing what you want in plain language and letting an AI write the code.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Frontier models", "concept": "AI-built software", "summary": "Models that can produce whole working applications from short instructions.", "audience": ["builder", "decision"], "entities": ["Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "Human override and shutdown", "summary": "Controls that let people halt AI systems quickly when something goes wrong.", "audience": ["decision", "builder"], "entities": ["OpenAI"]},
+    {"industry": "Policy and geopolitics", "concept": "Chip export controls", "summary": "Rules deciding which countries and companies can access advanced AI chips.", "audience": ["decision"], "entities": ["Nvidia", "Megaspeed"]},
+    {"industry": "AI infrastructure and chips", "concept": "Custom AI chips", "summary": "Specialised processors built by cloud firms as alternatives to general-purpose GPUs.", "audience": ["builder", "decision"], "entities": ["Google"]}
+  ]
+}
