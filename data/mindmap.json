@@ -26,11 +26,24 @@
       "decision"
      ],
      "days": [
-      "2026-11-19"
+      "2026-11-19",
+      "2026-10-15"
      ],
      "children": [
       {
        "name": "AMD",
+       "kind": "entity"
+      },
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "ChipAgents",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
        "kind": "entity"
       },
       {
@@ -67,7 +80,8 @@
      "days": [
       "2026-11-11",
       "2026-10-29",
-      "2026-10-22"
+      "2026-10-22",
+      "2026-10-14"
      ],
      "children": [
       {
@@ -76,6 +90,10 @@
       },
       {
        "name": "Envision",
+       "kind": "entity"
+      },
+      {
+       "name": "NTT Data",
        "kind": "entity"
       },
       {
@@ -190,9 +208,15 @@
      ],
      "days": [
       "2026-11-05",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-14",
+      "2026-10-12"
      ],
      "children": [
+      {
+       "name": "Andrej Karpathy",
+       "kind": "entity"
+      },
       {
        "name": "Google DeepMind",
        "kind": "entity"
@@ -640,7 +664,8 @@
       "decision"
      ],
      "days": [
-      "2026-11-01"
+      "2026-11-01",
+      "2026-10-13"
      ],
      "children": [
       {
@@ -653,6 +678,14 @@
       },
       {
        "name": "Prior Labs",
+       "kind": "entity"
+      },
+      {
+       "name": "TypeSafe AI",
+       "kind": "entity"
+      },
+      {
+       "name": "Z.ai",
        "kind": "entity"
       }
      ]
@@ -948,6 +981,7 @@
      ],
      "days": [
       "2026-10-30",
+      "2026-10-14",
       "2026-10-05"
      ],
      "children": [
@@ -1010,6 +1044,24 @@
        "kind": "entity"
       }
      ]
+    },
+    {
+     "name": "Robots in the workplace",
+     "kind": "concept",
+     "summary": "Warehouse robots change injury patterns and the kinds of jobs people do.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-13"
+     ],
+     "children": [
+      {
+       "name": "Amazon",
+       "kind": "entity"
+      }
+     ]
     }
    ]
   },
@@ -1047,6 +1099,7 @@
       "2026-11-06",
       "2026-10-22",
       "2026-10-20",
+      "2026-10-12",
       "2026-10-02"
      ],
      "children": [
@@ -1116,6 +1169,7 @@
      "days": [
       "2026-11-19",
       "2026-10-29",
+      "2026-10-12",
       "2026-10-01"
      ],
      "children": [
@@ -1125,6 +1179,10 @@
       },
       {
        "name": "Federal Trade Commission",
+       "kind": "entity"
+      },
+      {
+       "name": "Meta",
        "kind": "entity"
       },
       {
@@ -1140,17 +1198,22 @@
     {
      "name": "Agent permissions",
      "kind": "concept",
-     "summary": "Operating systems and teams rethink what agents may access on a computer.",
+     "summary": "Banks and others decide which actions agents may take on people's behalf.",
      "audience": [
       "decision",
       "lay"
      ],
      "days": [
+      "2026-10-15",
       "2026-10-05"
      ],
      "children": [
       {
        "name": "Apple",
+       "kind": "entity"
+      },
+      {
+       "name": "JPMorgan Chase",
        "kind": "entity"
       }
      ]
@@ -1246,11 +1309,17 @@
      ],
      "days": [
       "2026-10-27",
-      "2026-10-26"
+      "2026-10-26",
+      "2026-10-15",
+      "2026-10-13"
      ],
      "children": [
       {
        "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
+       "name": "Anthropic",
        "kind": "entity"
       },
       {

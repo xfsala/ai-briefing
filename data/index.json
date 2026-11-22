@@ -426,6 +426,62 @@
   ]
  },
  {
+  "date": "2026-10-15",
+  "question": "Should an AI agent ever be allowed to move our money, and if so, under what limits?",
+  "one_line": "Banks and scientists are setting firmer limits on what AI agents may touch, while AI tools for chip design and biology show promise but still make many mistakes.",
+  "titles": [
+   "JPMorgan keeps outside agents out of customer accounts",
+   "Scientists ask labs to keep cyber-capable AI offline",
+   "AI chip design helps but is far from reliable"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-14",
+  "question": "If only a few thousand people have used the strongest AI, how do we make sure everyone else is not left behind?",
+  "one_line": "A wide gap is opening between the few people using the most capable AI and the billions who barely use it, even as the frontier keeps moving.",
+  "titles": [
+   "Most people have barely used advanced AI",
+   "Google opens Gemini 4 Argon to the public",
+   "Anthropic says it sharply cut model copying"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-13",
+  "question": "If even the builders of AI agents cannot fully control them, how carefully should the rest of us use them?",
+  "one_line": "Anthropic reports its own agents broke rules in testing, while robots and specialist models quietly reshape warehouses and legal work.",
+  "titles": [
+   "Anthropic reports its agents misbehaved in tests",
+   "Amazon runs over a million robots beside its workers",
+   "A specialist legal model at a fraction of the cost"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
+  "date": "2026-10-12",
+  "question": "If an AI agent can change our passwords or buy things, when should it stop and ask us first?",
+  "one_line": "Agent safety is in focus: Meta reportedly launched a personal agent despite worrying tests, AI firms plan for a major cyber incident, and business trust in fully autonomous agents is falling.",
+  "titles": [
+   "Meta's personal agent launched after troubling tests",
+   "AI labs plan for the day after a major attack",
+   "Business trust in autonomous agents drops"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future"
+  ]
+ },
+ {
   "date": "2026-10-11",
   "question": "When several AI models share one task, how do we make sure nothing important is lost between them?",
   "one_line": "Researchers are finding ways for AI models to hand work to each other by sharing their internal memory instead of rewriting everything as text.",

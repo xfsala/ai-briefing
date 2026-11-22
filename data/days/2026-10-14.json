@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-14",
+  "question": "If only a few thousand people have used the strongest AI, how do we make sure everyone else is not left behind?",
+  "reflection": "Powerful tools do the most good when their benefits reach many people, not only the few who build them.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Scion VCS, Fish Audio Drama 3 TTS, Claude Road Game", "link": ""},
+    {"newsletter": "Forward Future", "subject": "Claude fights back against AI model theft", "link": "https://briefing.forwardfuture.ai/p/anthropic-blocks-ai-theft-ai-adoption-gap-gemini-4-argon"}
+  ],
+  "one_line": "A wide gap is opening between the few people using the most capable AI and the billions who barely use it, even as the frontier keeps moving.",
+  "top_stories": [
+    {
+      "title": "Most people have barely used advanced AI",
+      "what": "AI researcher Andrej Karpathy estimates that around six billion people have hardly used a language model, while only a few thousand inside top labs use the most capable systems.",
+      "why": "The adoption gap is a behavioural and skills question: access alone does not create use, so training and change management matter.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["adoption", "skills"]
+    },
+    {
+      "title": "Google opens Gemini 4 Argon to the public",
+      "what": "Google made Gemini 4 Argon, its frontier model for hard coding, science, legal and finance work, available to developers and paying subscribers.",
+      "why": "Wider access to top models makes long, complex analysis tasks realistic for smaller research teams.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["frontier models"]
+    },
+    {
+      "title": "Anthropic says it sharply cut model copying",
+      "what": "Anthropic says new defences cut the reasoning data stolen through mass-copying attempts by roughly 90% to 99%, though some legitimate requests are now blocked.",
+      "why": "Tighter protection can affect how outside users access models, so research teams should expect stricter account checks.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["security", "distillation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Anthropic's planned large data centre in Japan shows frontier labs building compute in partner countries, a model Saudi Arabia is also pursuing."},
+    {"text": "Closing the gap between AI access and real use is a national skills question for Saudi workforce programmes."}
+  ],
+  "idea": {
+    "title": "AI capability gap survey",
+    "pitch": "Measure how deeply employees in public bodies actually use AI tools, from simple chat to multi-step agents, and what stops them going further.",
+    "fit": "Government digital services, labour-market agency",
+    "first_step": "Define four levels of AI use and write one question to place each respondent on the scale."
+  },
+  "idea_kids": {
+    "title": "Voice actor workshop",
+    "pitch": "Children read the same short story line in calm, happy and worried voices, then talk about how tone changes meaning, with no recording or AI needed.",
+    "age": "6 to 11",
+    "first_step": "Pick five story lines and make emotion cards for each round."
+  },
+  "watchlist": [
+    {"name": "Google DeepMind", "sector": "Frontier models", "note": "Released Gemini 4 Argon to the public."},
+    {"name": "Anthropic", "sector": "Frontier models", "note": "Building its own code storage system and planning a Japan data centre."},
+    {"name": "Fish Audio", "sector": "Consumer and media", "note": "Released an open voice model with fine control of tone in 83 languages."}
+  ],
+  "tool": {"name": "Fish Audio Drama 3", "use": "An open-weight text-to-speech model where you set tone and emotion word by word with plain stage directions.", "link": ""},
+  "verify": [
+    "Anthropic says daily code merges grew from 2,500 to over 30,000 in five months, mostly written by Claude.",
+    "Anthropic reportedly plans a data centre in Osaka costing about $6.3 billion."
+  ],
+  "entities": [
+    {"name": "Andrej Karpathy", "type": "person", "sector": "Science and research", "url": "", "note": "AI researcher who estimated the global AI usage gap."},
+    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Opened Gemini 4 Argon to developers and subscribers."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Reported strong defences against model copying."},
+    {"name": "Fish Audio", "type": "company", "sector": "Consumer and media", "url": "https://fish.audio", "note": "Released the open Drama 3 voice model."},
+    {"name": "NTT Data", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nttdata.com", "note": "Reported partner for Anthropic's Japan data centre."},
+    {"name": "Liquid AI", "type": "company", "sector": "Frontier models", "url": "https://www.liquid.ai", "note": "Released an efficient on-device reasoning model."}
+  ],
+  "terms": [
+    {"term": "Distillation", "definition": "Training one model to copy the answers of another, often a stronger one.", "audience": "lay"},
+    {"term": "Change management", "definition": "The planned work of helping people and teams adopt a new way of working.", "audience": "decision"},
+    {"term": "Text-to-speech", "definition": "Technology that turns written text into spoken audio.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent adoption gap", "summary": "A small group uses advanced agents while most people barely use AI at all.", "audience": ["decision", "lay"], "entities": ["Andrej Karpathy"]},
+    {"industry": "Policy and geopolitics", "concept": "Model distillation disputes", "summary": "Labs build defences against rivals copying their models.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "AI infrastructure and chips", "concept": "Data-centre power and cost", "summary": "Labs build large overseas data centres with local partners.", "audience": ["decision"], "entities": ["Anthropic", "NTT Data"]}
+  ]
+}

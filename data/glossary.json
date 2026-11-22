@@ -27,6 +27,15 @@
   ]
  },
  {
+  "id": "agent-swarm",
+  "term": "Agent swarm",
+  "definition": "Many AI agents working on parts of one big task at the same time, coordinated by a lead agent.",
+  "audience": "builder",
+  "days": [
+   "2026-10-12"
+  ]
+ },
+ {
   "id": "agentic-payments",
   "term": "Agentic payments",
   "definition": "Purchases that an AI agent completes for a person, using a saved card under limits the person sets.",
@@ -44,6 +53,15 @@
    "2026-10-01",
    "2026-10-20",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "air-gap",
+  "term": "Air gap",
+  "definition": "Keeping a computer or system physically cut off from the internet so it cannot be reached or misused online.",
+  "audience": "lay",
+  "days": [
+   "2026-10-15"
   ]
  },
  {
@@ -119,6 +137,15 @@
   ]
  },
  {
+  "id": "change-management",
+  "term": "Change management",
+  "definition": "The planned work of helping people and teams adopt a new way of working.",
+  "audience": "decision",
+  "days": [
+   "2026-10-14"
+  ]
+ },
+ {
   "id": "clustering",
   "term": "Clustering",
   "definition": "Grouping similar items together automatically, for example sorting thousands of comments into common themes.",
@@ -177,6 +204,15 @@
   ]
  },
  {
+  "id": "critical-infrastructure",
+  "term": "Critical infrastructure",
+  "definition": "Essential systems such as power, water, banking and telecoms that society depends on.",
+  "audience": "lay",
+  "days": [
+   "2026-10-12"
+  ]
+ },
+ {
   "id": "cryptographic-proof",
   "term": "Cryptographic proof",
   "definition": "A mathematical check that confirms something is true, such as which model produced an answer, without revealing the secret details behind it.",
@@ -211,6 +247,7 @@
   "audience": "lay",
   "days": [
    "2026-10-05",
+   "2026-10-14",
    "2026-10-30"
   ]
  },
@@ -264,6 +301,15 @@
    "2026-10-07",
    "2026-10-09",
    "2026-10-28"
+  ]
+ },
+ {
+  "id": "full-duplex-voice",
+  "term": "Full-duplex voice",
+  "definition": "A voice system that can listen and speak at the same time, like a real conversation.",
+  "audience": "builder",
+  "days": [
+   "2026-10-13"
   ]
  },
  {
@@ -492,6 +538,15 @@
   ]
  },
  {
+  "id": "read-only-access",
+  "term": "Read-only access",
+  "definition": "Permission to view information without being able to change it or take actions.",
+  "audience": "lay",
+  "days": [
+   "2026-10-15"
+  ]
+ },
+ {
   "id": "reasoning-trace",
   "term": "Reasoning trace",
   "definition": "The step-by-step notes an AI model writes while working on a problem, which may not fully match what it then does.",
@@ -538,6 +593,15 @@
   ]
  },
  {
+  "id": "repetitive-strain-injury",
+  "term": "Repetitive strain injury",
+  "definition": "Pain or damage caused by doing the same movement many times, common in fast-paced manual work.",
+  "audience": "lay",
+  "days": [
+   "2026-10-13"
+  ]
+ },
+ {
   "id": "return-on-investment",
   "term": "Return on investment",
   "definition": "How much value an organisation gets back compared with what it spent.",
@@ -549,9 +613,10 @@
  {
   "id": "sandbox",
   "term": "Sandbox",
-  "definition": "A closed environment where software can run without being able to affect real systems or data.",
+  "definition": "A closed test environment where software can run without reaching real systems or the internet.",
   "audience": "builder",
   "days": [
+   "2026-10-13",
    "2026-10-22",
    "2026-10-26",
    "2026-11-13"
@@ -584,6 +649,15 @@
   "days": [
    "2026-11-13",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "semantic-search",
+  "term": "Semantic search",
+  "definition": "Searching by meaning, so you can describe what you remember instead of typing exact words.",
+  "audience": "lay",
+  "days": [
+   "2026-10-15"
   ]
  },
  {
@@ -660,6 +734,15 @@
   ]
  },
  {
+  "id": "text-to-speech",
+  "term": "Text-to-speech",
+  "definition": "Technology that turns written text into spoken audio.",
+  "audience": "lay",
+  "days": [
+   "2026-10-14"
+  ]
+ },
+ {
   "id": "third-party-evaluation",
   "term": "Third-party evaluation",
   "definition": "Testing of an AI system by an independent group rather than by the company that built it.",
@@ -711,9 +794,10 @@
  {
   "id": "trust-calibration",
   "term": "Trust calibration",
-  "definition": "Helping people trust an AI system exactly as much as it deserves, no more and no less.",
+  "definition": "Matching how much people rely on a system to how reliable it really is.",
   "audience": "decision",
   "days": [
+   "2026-10-12",
    "2026-11-11",
    "2026-11-19"
   ]

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-15",
+  "question": "Should an AI agent ever be allowed to move our money, and if so, under what limits?",
+  "reflection": "Drawing clear lines around what machines may do with our savings protects trust, and trust is what lets useful tools spread.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Claude Code parallel tabs, DigUp local search, Gemini 4 Argon codi", "link": ""},
+    {"newsletter": "Forward Future", "subject": "AI's Chip Designs Still Have a Few Bugs", "link": "https://briefing.forwardfuture.ai/p/ai-designing-life-smarter-chips-ai-agents-in-banking"}
+  ],
+  "one_line": "Banks and scientists are setting firmer limits on what AI agents may touch, while AI tools for chip design and biology show promise but still make many mistakes.",
+  "top_stories": [
+    {
+      "title": "JPMorgan keeps outside agents out of customer accounts",
+      "what": "JPMorgan Chase says outside AI agents may not log in with customer credentials or act inside retail accounts, though limited read-only data sharing through approved connectors is allowed.",
+      "why": "Banks are setting the first practical rules on agent access to money, a template for consent design in other sectors.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["finance", "agents"]
+    },
+    {
+      "title": "Scientists ask labs to keep cyber-capable AI offline",
+      "what": "An open letter signed by 420 scientists calls for AI models able to carry out cyberattacks to be cut off from the internet by default, with an international body to set containment standards.",
+      "why": "Containment standards could shape how public bodies are allowed to deploy the most capable models.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["safety", "policy"]
+    },
+    {
+      "title": "AI chip design helps but is far from reliable",
+      "what": "A new benchmark from NVIDIA and ChipAgents found the best AI agent solved only about 17% of full chip-design tasks, even though AI is said to have halved typical design cycles.",
+      "why": "A clear example that AI speeds expert work without replacing expert checking, a useful message for any client adopting AI.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["chips", "evaluation"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi banks and the central bank are expanding open banking, so JPMorgan's read-only versus act-on-behalf split is a timely reference for agent access rules."}
+  ],
+  "idea": {
+    "title": "Trust in money-handling agents survey",
+    "pitch": "Survey bank customers on which financial tasks they would let an AI agent do, from viewing balances to paying bills, and what safeguards would change their answer.",
+    "fit": "Banking regulators, consultancy",
+    "first_step": "List eight financial tasks in order of risk and draft one trust question per task."
+  },
+  "idea_kids": {
+    "title": "Piggy bank rules game",
+    "pitch": "Children run a pretend shop with paper money and decide which jobs a helper may do alone and which need a grown-up's yes.",
+    "age": "5 to 9",
+    "first_step": "Make paper coins and six task cards, such as counting coins or buying a toy."
+  },
+  "watchlist": [
+    {"name": "JPMorgan Chase", "sector": "Business and markets", "note": "Setting firm limits on AI agents in customer accounts."},
+    {"name": "ChipAgents", "sector": "AI infrastructure and chips", "note": "Building AI agents for chip design and a benchmark to test them."},
+    {"name": "Google DeepMind", "sector": "Frontier models", "note": "Reports Gemini 4 Argon cut bad code reaching review by 30% internally."}
+  ],
+  "tool": {"name": "DigUp", "use": "A free Mac app that searches your photos, audio and documents by description, fully offline.", "link": ""},
+  "verify": [
+    "Google says Gemini 4 Argon raised AI-written code by 35% and cut bad commits by 30% in its own codebases.",
+    "ChipAgents says AI has shrunk typical chip development from about two years to one."
+  ],
+  "entities": [
+    {"name": "JPMorgan Chase", "type": "company", "sector": "Business and markets", "url": "https://www.jpmorganchase.com", "note": "Blocks outside AI agents from acting in retail accounts."},
+    {"name": "NVIDIA", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Co-released a chip-design benchmark for AI agents."},
+    {"name": "ChipAgents", "type": "company", "sector": "AI infrastructure and chips", "url": "", "note": "Startup building AI agents for chip design."},
+    {"name": "Google DeepMind", "type": "company", "sector": "Frontier models", "url": "https://deepmind.google", "note": "Shared production results for Gemini 4 Argon."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Its model powered the top chip-design agent and Claude Code gained parallel sessions."}
+  ],
+  "terms": [
+    {"term": "Air gap", "definition": "Keeping a computer or system physically cut off from the internet so it cannot be reached or misused online.", "audience": "lay"},
+    {"term": "Read-only access", "definition": "Permission to view information without being able to change it or take actions.", "audience": "lay"},
+    {"term": "Semantic search", "definition": "Searching by meaning, so you can describe what you remember instead of typing exact words.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Agent permissions", "summary": "Banks and others decide which actions agents may take on people's behalf.", "audience": ["decision", "lay"], "entities": ["JPMorgan Chase"]},
+    {"industry": "Safety, security and governance", "concept": "Model containment", "summary": "Scientists urge keeping cyber-capable models offline by default.", "audience": ["decision"], "entities": []},
+    {"industry": "AI infrastructure and chips", "concept": "AI-designed chips", "summary": "AI speeds chip design but still fails most full design tasks.", "audience": ["builder", "decision"], "entities": ["NVIDIA", "ChipAgents", "Anthropic"]}
+  ]
+}
