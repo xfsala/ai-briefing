@@ -1,0 +1,83 @@
+{
+  "date": "2026-07-17",
+  "question": "When a report updates itself with live data every time we open it, how do we know which numbers to trust?",
+  "reflection": "Live, shared views of real data can help teams decide together, as long as people still ask where each number comes from.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Moonshot's 2.8T model decodes 6.3x faster at 1M token context", "link": ""}
+  ],
+  "one_line": "A Chinese lab announced the largest open model yet, while AI tools in the West focused on live, personal dashboards.",
+  "top_stories": [
+    {
+      "title": "Moonshot announces a giant open model",
+      "what": "Moonshot AI introduced Kimi K3, a 2.8 trillion parameter model with a very long memory and a new attention design that it says decodes much faster, with open weights promised within days.",
+      "why": "Very large open models give organisations more options to run strong AI on their own infrastructure.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["open models", "China"]
+    },
+    {
+      "title": "Claude artifacts now show live data",
+      "what": "Anthropic says apps and dashboards built in Claude Code can now fetch fresh data through connectors each time they open, with each viewer seeing only their own data.",
+      "why": "Small internal dashboards for project tracking could be built quickly without a full engineering team.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "dashboards"]
+    },
+    {
+      "title": "Live 3D maps from ordinary video",
+      "what": "A Chinese research team open-sourced LingBot-Map, which builds 3D maps of a space from a normal video stream in close to real time.",
+      "why": "Cheap 3D mapping could support site studies of public spaces, museums and hospitals.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["robotics", "open source"]
+    },
+    {
+      "title": "Video models hit a physics limit",
+      "what": "A new paper argues that video generation models cannot correctly simulate chain reactions, whatever computing power is added.",
+      "why": "It is a reminder not to treat realistic AI video as a reliable picture of how the world works.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["research", "media"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today. Live, per-user dashboards are relevant to government digital services that must show each official only the data they are allowed to see."}
+  ],
+  "idea": {
+    "title": "Live fieldwork tracker",
+    "pitch": "Build a small dashboard that shows survey response counts by region in real time, with access limited by role.",
+    "fit": "Consultancy, government services",
+    "first_step": "List the five numbers a project lead checks every day during fieldwork and where each one is stored."
+  },
+  "idea_kids": {
+    "title": "Map my room",
+    "pitch": "Children walk around a room, measure it with string and steps, and build a cardboard 3D model, then compare it with a photo.",
+    "age": "6 to 10",
+    "first_step": "Prepare a worksheet with a grid and a simple key for doors, windows and furniture."
+  },
+  "watchlist": [
+    {"name": "Moonshot AI", "sector": "Frontier models", "note": "Kimi K3 open weights are due soon; check if the claims hold."},
+    {"name": "Anthropic", "sector": "Agents and automation", "note": "Turning chat outputs into live apps people share."}
+  ],
+  "tool": null,
+  "verify": [
+    "Kimi K3 reportedly beats leading closed models on coding and agent benchmarks.",
+    "The new attention design reportedly decodes 6.3 times faster at one million tokens."
+  ],
+  "entities": [
+    {"name": "Moonshot AI", "type": "company", "sector": "Frontier models", "url": "https://www.moonshot.ai", "note": "Announced the 2.8T Kimi K3 model."},
+    {"name": "Kimi K3", "type": "model", "sector": "Frontier models", "url": "", "note": "Very large open-weight model with a long context."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Added live data connectors to Claude Code artifacts."},
+    {"name": "LingBot-Map", "type": "product", "sector": "Robotics and physical AI", "url": "", "note": "Open model for live 3D mapping from video."}
+  ],
+  "terms": [
+    {"term": "Context window", "definition": "How much text or other input a model can take in and consider at one time.", "audience": "lay"},
+    {"term": "MCP server", "definition": "A connector that lets an AI tool read from or act in another app or data source in a standard way.", "audience": "builder"},
+    {"term": "Mixture of experts", "definition": "A model design where only a few specialised parts are used for each request, which saves computing power.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "AI infrastructure and chips", "concept": "Long-context efficiency", "summary": "New attention designs make very long inputs faster and cheaper.", "audience": ["builder"], "entities": ["Moonshot AI"]},
+    {"industry": "Agents and automation", "concept": "Agent plugin standards", "summary": "Connectors let AI-built apps pull live data for each viewer.", "audience": ["builder", "decision"], "entities": ["Anthropic"]},
+    {"industry": "Robotics and physical AI", "concept": "Live 3D mapping", "summary": "Ordinary cameras can now build 3D maps of spaces as they move.", "audience": ["builder"], "entities": ["LingBot-Map"]}
+  ]
+}

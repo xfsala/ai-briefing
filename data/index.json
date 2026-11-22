@@ -1286,5 +1286,75 @@
   "newsletters": [
    "AlphaSignal"
   ]
+ },
+ {
+  "date": "2026-07-21",
+  "question": "If a team of AI agents can build complex software from a manual alone, what is left for people to plan and check?",
+  "one_line": "Splitting agent work between an expensive planner and cheap workers gave the same quality at a fraction of the cost.",
+  "titles": [
+   "Agents rebuild a database from its manual",
+   "Planner and worker split cuts cost",
+   "A free open-source world monitoring dashboard",
+   "One question can identify a hidden model"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-20",
+  "question": "If an AI can think in ways we cannot see in its answer, how can we check its reasoning?",
+  "one_line": "Small, local tools got much better at reading documents and space, while new research hints that models can reason in hidden ways.",
+  "titles": [
+   "Baidu releases a small model that reads long PDFs",
+   "Phone video to 3D, fully local",
+   "Speed versus cost on a real bug",
+   "Hidden reasoning in filler text"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-19",
+  "question": "Do we always need the most powerful AI, or is a good enough tool often the wiser choice?",
+  "one_line": "Teams are shifting from chasing the smartest model to mixing cheaper open models for routine work with frontier models for hard cases.",
+  "titles": [
+   "Inkling as a practical open choice",
+   "Fewer tokens per task",
+   "Fine-tuning without an ML team",
+   "Open AI research is global"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-17",
+  "question": "When a report updates itself with live data every time we open it, how do we know which numbers to trust?",
+  "one_line": "A Chinese lab announced the largest open model yet, while AI tools in the West focused on live, personal dashboards.",
+  "titles": [
+   "Moonshot announces a giant open model",
+   "Claude artifacts now show live data",
+   "Live 3D maps from ordinary video",
+   "Video models hit a physics limit"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-16",
+  "question": "If strong AI models can run on our own phones, who should decide what they are allowed to do?",
+  "one_line": "Open models are catching up fast: a new multimodal open model, a phone-sized 27B model and AI that attacks other AI to make it safer all arrived on the same day.",
+  "titles": [
+   "Thinking Machines releases its first open model",
+   "OpenAI trains an AI to attack its own models",
+   "A 27B model that fits on a phone",
+   "A large reasoner trained without human labels"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
  }
 ]

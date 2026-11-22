@@ -1,0 +1,83 @@
+{
+  "date": "2026-07-20",
+  "question": "If an AI can think in ways we cannot see in its answer, how can we check its reasoning?",
+  "reflection": "Tools that let us look inside AI systems can help people keep control of important decisions and learn from how machines solve problems.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "LocalAI depth-anything, Baidu Unlimited-OCR 3B, Cline K3 vs Fable", "link": ""}
+  ],
+  "one_line": "Small, local tools got much better at reading documents and space, while new research hints that models can reason in hidden ways.",
+  "top_stories": [
+    {
+      "title": "Baidu releases a small model that reads long PDFs",
+      "what": "Baidu's Unlimited-OCR is a 3B open model that it says reads whole multi-page documents in one pass and keeps tables and equations in order.",
+      "why": "Turning scanned reports and forms into clean data is a common bottleneck in research projects.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["documents", "open source"]
+    },
+    {
+      "title": "Phone video to 3D, fully local",
+      "what": "The LocalAI team released a lightweight tool that turns a phone video into a 3D point cloud on a local machine.",
+      "why": "Low-cost 3D capture could support studies of how people move through buildings and public spaces.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["3D", "on-device"]
+    },
+    {
+      "title": "Speed versus cost on a real bug",
+      "what": "A coding-tool team compared an open model and a closed model on one real bug: the closed one was much faster, the open one much cheaper.",
+      "why": "Choosing a model is a trade-off between time and budget, not a single ranking.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["coding", "cost"]
+    },
+    {
+      "title": "Hidden reasoning in filler text",
+      "what": "Researchers report that adding meaningless dots to a prompt can trigger reasoning inside the model that does not show in its visible answer.",
+      "why": "If models can reason out of sight, explanations they give may not show how they reached a decision.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["interpretability", "research"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "A small, local document reader that runs on one GPU could help digitise Arabic and English archives without sending files abroad, though Arabic quality needs testing."}
+  ],
+  "idea": {
+    "title": "Report digitising pilot",
+    "pitch": "Use a local document-reading model to turn a set of old PDF reports into searchable tables.",
+    "fit": "Culture sector, government services",
+    "first_step": "Pick ten mixed Arabic and English PDF pages and compare the output with a manual transcription."
+  },
+  "idea_kids": {
+    "title": "Show your thinking cards",
+    "pitch": "A puzzle set where children solve simple riddles and then draw each step they took, so they see that the path matters as much as the answer.",
+    "age": "7 to 11",
+    "first_step": "Write eight short riddles and a blank step sheet for each."
+  },
+  "watchlist": [
+    {"name": "Baidu", "sector": "Data and analytics", "note": "Small open models for document reading."},
+    {"name": "Cline", "sector": "Agents and automation", "note": "Publishes practical model comparisons on real coding tasks."}
+  ],
+  "tool": {"name": "Unlimited-OCR", "use": "Reads long PDFs locally and keeps tables and layout.", "link": ""},
+  "verify": [
+    "Unlimited-OCR reportedly scores 93% on a document benchmark, over six points above the previous best.",
+    "Adding dots to prompts reportedly triggers readable hidden reasoning."
+  ],
+  "entities": [
+    {"name": "Baidu", "type": "company", "sector": "Data and analytics", "url": "https://www.baidu.com", "note": "Released the Unlimited-OCR model."},
+    {"name": "LocalAI", "type": "organisation", "sector": "AI infrastructure and chips", "url": "", "note": "Built a local 3D tool from phone video."},
+    {"name": "Cline", "type": "company", "sector": "Agents and automation", "url": "https://cline.bot", "note": "Compared an open and a closed model on a real bug."},
+    {"name": "Kimi K3", "type": "model", "sector": "Frontier models", "url": "", "note": "Open model that was slower but cheaper in the test."}
+  ],
+  "terms": [
+    {"term": "OCR", "definition": "Software that turns images of text, such as scans, into text a computer can edit and search.", "audience": "lay"},
+    {"term": "Interpretability", "definition": "Research into what is happening inside an AI model when it produces an answer.", "audience": "lay"},
+    {"term": "Point cloud", "definition": "A set of many points in 3D space that together show the shape of an object or room.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Data and analytics", "concept": "Document processing for AI", "summary": "Small local models read long documents and keep their structure.", "audience": ["builder", "decision"], "entities": ["Baidu"]},
+    {"industry": "Safety, security and governance", "concept": "Hidden model reasoning", "summary": "Models may reason in ways not visible in their answers.", "audience": ["lay", "decision"], "entities": []},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Open models trade speed for much lower cost on real tasks.", "audience": ["decision"], "entities": ["Kimi K3", "Cline"]}
+  ]
+}

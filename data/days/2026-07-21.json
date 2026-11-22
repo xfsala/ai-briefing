@@ -1,0 +1,82 @@
+{
+  "date": "2026-07-21",
+  "question": "If a team of AI agents can build complex software from a manual alone, what is left for people to plan and check?",
+  "reflection": "When AI takes on the routine building work, people can spend more time on clear goals, careful testing and serving real needs.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "One question fingerprints any LLM, Cursor cut agent costs", "link": ""}
+  ],
+  "one_line": "Splitting agent work between an expensive planner and cheap workers gave the same quality at a fraction of the cost.",
+  "top_stories": [
+    {
+      "title": "Agents rebuild a database from its manual",
+      "what": "Cursor says a group of AI agents rebuilt the SQLite database in a new language using only its documentation, and passed a hidden test suite.",
+      "why": "It shows how far agents can go on long, well-documented projects when the work is split into clear roles.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "coding"]
+    },
+    {
+      "title": "Planner and worker split cuts cost",
+      "what": "In the same test, using a top model only for planning and a cheaper model for writing code gave similar quality with costs varying about fifteen-fold.",
+      "why": "The same planner and worker design can lower the cost of AI-assisted analysis in large projects.",
+      "action": "Try",
+      "audience": ["decision", "builder"],
+      "tags": ["cost", "agents"]
+    },
+    {
+      "title": "A free open-source world monitoring dashboard",
+      "what": "A developer released World Monitor, an open dashboard that combines hundreds of news feeds, map layers and market data with local AI summaries.",
+      "why": "Open situation dashboards make horizon scanning cheaper, but their source quality must be checked.",
+      "action": "Try",
+      "audience": ["decision", "builder"],
+      "tags": ["open source", "monitoring"]
+    },
+    {
+      "title": "One question can identify a hidden model",
+      "what": "Researchers report that a single random-number question can identify which AI model sits behind a service with high accuracy.",
+      "why": "This could help buyers confirm that a vendor really uses the model it claims.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["security", "research"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Open dashboards that track regional news and market signals could support scenario planning for Saudi entities, if paired with trusted Arabic sources."}
+  ],
+  "idea": {
+    "title": "Planner and worker analysis pipeline",
+    "pitch": "Use a strong model to design the coding scheme for open-ended survey answers and a cheaper model to apply it to thousands of responses.",
+    "fit": "Labour-market agency, consultancy",
+    "first_step": "Take 200 open answers from a past survey and compare cost and agreement between a cheap and a strong model."
+  },
+  "idea_kids": {
+    "title": "Build the tower from the instructions",
+    "pitch": "Children work in pairs: one writes building instructions for a block tower, the other builds it only from the paper, then they compare.",
+    "age": "6 to 11",
+    "first_step": "Collect two identical sets of building blocks and a stack of blank instruction sheets."
+  },
+  "watchlist": [
+    {"name": "Cursor", "sector": "Agents and automation", "note": "Publishing detailed data on agent team design and cost."}
+  ],
+  "tool": {"name": "World Monitor", "use": "Open-source dashboard for tracking global news and market signals with local AI.", "link": ""},
+  "verify": [
+    "The agent-built database reportedly passed 100% of a hidden test suite.",
+    "A single number question reportedly identifies the model behind a service with 90% accuracy."
+  ],
+  "entities": [
+    {"name": "Cursor", "type": "company", "sector": "Agents and automation", "url": "https://cursor.com", "note": "Ran the agent team that rebuilt SQLite."},
+    {"name": "SQLite", "type": "product", "sector": "Data and analytics", "url": "https://www.sqlite.org", "note": "Widely used small database rebuilt by agents."},
+    {"name": "World Monitor", "type": "product", "sector": "Data and analytics", "url": "", "note": "Open dashboard of global news and data feeds."},
+    {"name": "Baidu", "type": "company", "sector": "Data and analytics", "url": "https://www.baidu.com", "note": "Its long-document reader kept gaining users."}
+  ],
+  "terms": [
+    {"term": "Agent swarm", "definition": "A group of AI agents that split a large job between them and coordinate their work.", "audience": "lay"},
+    {"term": "Held-out test set", "definition": "Test cases kept hidden while a system is built, so the final check is fair.", "audience": "builder"},
+    {"term": "Model routing", "definition": "Sending each task to the cheapest model that can do it well, and only hard tasks to the most expensive model.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Multi-model agent design", "summary": "A strong planner model directs cheaper worker models.", "audience": ["builder", "decision"], "entities": ["Cursor"]},
+    {"industry": "Frontier models", "concept": "AI-built software", "summary": "Agents build working software from documentation alone.", "audience": ["builder"], "entities": ["Cursor", "SQLite"]},
+    {"industry": "Safety, security and governance", "concept": "Model identity verification", "summary": "Simple tests can reveal which model a service really uses.", "audience": ["decision"], "entities": []}
+  ]
+}

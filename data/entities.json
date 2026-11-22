@@ -143,6 +143,17 @@
   ]
  },
  {
+  "id": "ant-group",
+  "name": "Ant Group",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://www.antgroup.com",
+  "note": "Its Ling team trained a large reasoner without human labels.",
+  "days": [
+   "2026-07-16"
+  ]
+ },
+ {
   "id": "anthropic",
   "name": "Anthropic",
   "type": "company",
@@ -150,6 +161,7 @@
   "url": "https://www.anthropic.com",
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
+   "2026-07-17",
    "2026-08-03",
    "2026-08-06",
    "2026-08-10",
@@ -282,6 +294,18 @@
   ]
  },
  {
+  "id": "baidu",
+  "name": "Baidu",
+  "type": "company",
+  "sector": "Data and analytics",
+  "url": "https://www.baidu.com",
+  "note": "Its long-document reader kept gaining users.",
+  "days": [
+   "2026-07-20",
+   "2026-07-21"
+  ]
+ },
+ {
   "id": "bank-of-america",
   "name": "Bank of America",
   "type": "company",
@@ -361,6 +385,17 @@
   ]
  },
  {
+  "id": "cline",
+  "name": "Cline",
+  "type": "company",
+  "sector": "Agents and automation",
+  "url": "https://cline.bot",
+  "note": "Compared an open and a closed model on a real bug.",
+  "days": [
+   "2026-07-20"
+  ]
+ },
+ {
   "id": "cnbc",
   "name": "CNBC",
   "type": "organisation",
@@ -413,6 +448,7 @@
   "url": "https://cursor.com",
   "note": "AI code editor that has added its own code-hosting service.",
   "days": [
+   "2026-07-21",
    "2026-08-05",
    "2026-08-21",
    "2026-09-01",
@@ -818,6 +854,18 @@
   ]
  },
  {
+  "id": "inkling",
+  "name": "Inkling",
+  "type": "model",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "Open model pitched as a cost-effective workhorse.",
+  "days": [
+   "2026-07-16",
+   "2026-07-19"
+  ]
+ },
+ {
   "id": "irregular",
   "name": "Irregular",
   "type": "company",
@@ -880,6 +928,8 @@
   "url": "",
   "note": "A very large mixture-of-experts model with a long context window.",
   "days": [
+   "2026-07-17",
+   "2026-07-20",
    "2026-08-02"
   ]
  },
@@ -928,6 +978,17 @@
   ]
  },
  {
+  "id": "lingbot-map",
+  "name": "LingBot-Map",
+  "type": "product",
+  "sector": "Robotics and physical AI",
+  "url": "",
+  "note": "Open model for live 3D mapping from video.",
+  "days": [
+   "2026-07-17"
+  ]
+ },
+ {
   "id": "liquid-ai",
   "name": "Liquid AI",
   "type": "company",
@@ -939,6 +1000,17 @@
    "2026-10-14",
    "2026-10-29",
    "2026-11-17"
+  ]
+ },
+ {
+  "id": "localai",
+  "name": "LocalAI",
+  "type": "organisation",
+  "sector": "AI infrastructure and chips",
+  "url": "",
+  "note": "Built a local 3D tool from phone video.",
+  "days": [
+   "2026-07-20"
   ]
  },
  {
@@ -1106,6 +1178,7 @@
   "url": "https://www.moonshot.ai",
   "note": "Chinese lab behind the Kimi assistant.",
   "days": [
+   "2026-07-17",
    "2026-08-02",
    "2026-10-26",
    "2026-10-30",
@@ -1199,6 +1272,7 @@
   "url": "https://openai.com",
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
+   "2026-07-16",
    "2026-08-04",
    "2026-08-07",
    "2026-08-10",
@@ -1388,6 +1462,17 @@
   ]
  },
  {
+  "id": "prismml",
+  "name": "PrismML",
+  "type": "company",
+  "sector": "AI infrastructure and chips",
+  "url": "",
+  "note": "Released the compressed Bonsai 27B model.",
+  "days": [
+   "2026-07-16"
+  ]
+ },
+ {
   "id": "ramp",
   "name": "Ramp",
   "type": "company",
@@ -1546,6 +1631,17 @@
   ]
  },
  {
+  "id": "sqlite",
+  "name": "SQLite",
+  "type": "product",
+  "sector": "Data and analytics",
+  "url": "https://www.sqlite.org",
+  "note": "Widely used small database rebuilt by agents.",
+  "days": [
+   "2026-07-21"
+  ]
+ },
+ {
   "id": "stanford-university",
   "name": "Stanford University",
   "type": "organisation",
@@ -1619,11 +1715,24 @@
   "name": "Thinking Machines Lab",
   "type": "company",
   "sector": "Frontier models",
-  "url": "",
+  "url": "https://thinkingmachines.ai",
   "note": "AI startup reportedly in funding talks.",
   "days": [
+   "2026-07-16",
+   "2026-07-19",
    "2026-08-25",
    "2026-09-04"
+  ]
+ },
+ {
+  "id": "tinker",
+  "name": "Tinker",
+  "type": "product",
+  "sector": "AI infrastructure and chips",
+  "url": "",
+  "note": "Managed fine-tuning platform.",
+  "days": [
+   "2026-07-19"
   ]
  },
  {
@@ -1828,6 +1937,17 @@
   "note": "Runs Wikipedia; reported unauthorised agent activity.",
   "days": [
    "2026-10-07"
+  ]
+ },
+ {
+  "id": "world-monitor",
+  "name": "World Monitor",
+  "type": "product",
+  "sector": "Data and analytics",
+  "url": "",
+  "note": "Open dashboard of global news and data feeds.",
+  "days": [
+   "2026-07-21"
   ]
  },
  {

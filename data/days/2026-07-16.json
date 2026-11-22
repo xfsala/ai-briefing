@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-16",
+  "question": "If strong AI models can run on our own phones, who should decide what they are allowed to do?",
+  "reflection": "When capable tools run close to the people who use them, more communities can build for their own needs while keeping their data at home.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Thinking Machines Inkling, OpenAI GPT-Red Security, PrismML 27B", "link": ""}
+  ],
+  "one_line": "Open models are catching up fast: a new multimodal open model, a phone-sized 27B model and AI that attacks other AI to make it safer all arrived on the same day.",
+  "top_stories": [
+    {
+      "title": "Thinking Machines releases its first open model",
+      "what": "Thinking Machines Lab published Inkling, an open-weight model that handles text, images and audio in one design, with a very long context and a setting to raise or lower how much it reasons.",
+      "why": "A free, modifiable model that understands speech and documents could be run privately for interview and survey analysis.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["open models", "multimodal"]
+    },
+    {
+      "title": "OpenAI trains an AI to attack its own models",
+      "what": "OpenAI says its GPT-Red system learns by playing attacker against defender models and found weaknesses in far more test cases than human testers did.",
+      "why": "Automated attack testing is becoming a normal part of deploying agents, which matters for any client putting AI near real transactions.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["security", "agents"]
+    },
+    {
+      "title": "A 27B model that fits on a phone",
+      "what": "PrismML released Bonsai 27B in very compressed versions, one small enough for a phone, and says it keeps most of the full model's quality.",
+      "why": "Capable offline AI makes private field data collection and analysis more realistic where connectivity or data rules are tight.",
+      "action": "Try",
+      "audience": ["builder", "lay"],
+      "tags": ["on-device", "open models"]
+    },
+    {
+      "title": "A large reasoner trained without human labels",
+      "what": "Ant Group's Ling team reports a one-trillion-parameter reasoning model trained with no human-annotated examples.",
+      "why": "If this holds, the cost of building strong models in other languages and domains could fall.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["research", "open models"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Open models that can run on local servers or phones fit Saudi rules on keeping sensitive data inside the Kingdom, and give local teams something they can adapt to Arabic."}
+  ],
+  "idea": {
+    "title": "Offline interview assistant",
+    "pitch": "Test a phone-sized open model that summarises recorded field interviews without sending any audio to the cloud.",
+    "fit": "Labour-market agency, health research",
+    "first_step": "Run a compressed open model on a test laptop and time how long it takes to summarise a ten-minute sample recording."
+  },
+  "idea_kids": {
+    "title": "Red team and blue team",
+    "pitch": "A table game where one team writes tricky instructions to fool a 'robot' card player and the other team writes rules to stop the tricks.",
+    "age": "9 to 13",
+    "first_step": "Write ten simple robot rules and ten trick cards, then play one round with family."
+  },
+  "watchlist": [
+    {"name": "Thinking Machines Lab", "sector": "Frontier models", "note": "First open model and a fine-tuning service; watch adoption by enterprises."},
+    {"name": "PrismML", "sector": "AI infrastructure and chips", "note": "Pushing large models onto phones through extreme compression."}
+  ],
+  "tool": {"name": "Bonsai 27B", "use": "An open model small enough to test offline on a laptop or phone.", "link": ""},
+  "verify": [
+    "GPT-Red reportedly succeeded in 84% of attack scenarios against 13% for human testers.",
+    "Bonsai 27B reportedly keeps 90% of full quality at under 4 GB."
+  ],
+  "entities": [
+    {"name": "Thinking Machines Lab", "type": "company", "sector": "Frontier models", "url": "https://thinkingmachines.ai", "note": "Released the open-weight Inkling model."},
+    {"name": "Inkling", "type": "model", "sector": "Frontier models", "url": "", "note": "Open multimodal model covering text, images and audio."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Announced the GPT-Red automated attack tester."},
+    {"name": "PrismML", "type": "company", "sector": "AI infrastructure and chips", "url": "", "note": "Released the compressed Bonsai 27B model."},
+    {"name": "Ant Group", "type": "company", "sector": "Frontier models", "url": "https://www.antgroup.com", "note": "Its Ling team trained a large reasoner without human labels."}
+  ],
+  "terms": [
+    {"term": "Open-weight model", "definition": "An AI model whose trained settings are published so anyone can download, run and change it.", "audience": "lay"},
+    {"term": "Red-teaming", "definition": "Deliberately attacking a system to find its weak points before real attackers do.", "audience": "lay"},
+    {"term": "Quantization", "definition": "Storing a model's numbers with less precision so it needs much less memory, usually with a small loss in quality.", "audience": "builder"},
+    {"term": "Prompt injection", "definition": "Hiding instructions inside content an AI reads so that it does something its user did not intend.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "AI infrastructure and chips", "concept": "Open model ecosystems", "summary": "Open models with text, audio and image skills narrow the gap with closed ones.", "audience": ["builder", "decision"], "entities": ["Thinking Machines Lab", "Ant Group"]},
+    {"industry": "Consumer and media", "concept": "On-device AI", "summary": "Large models compressed enough to run on a phone without the cloud.", "audience": ["lay", "builder"], "entities": ["PrismML"]},
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "AI attackers trained to find weaknesses in other AI before release.", "audience": ["decision"], "entities": ["OpenAI"]}
+  ]
+}

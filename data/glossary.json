@@ -75,9 +75,10 @@
  {
   "id": "agent-swarm",
   "term": "Agent swarm",
-  "definition": "A large group of AI agents working on tasks at the same time, sometimes sharing information with each other.",
+  "definition": "A group of AI agents that split a large job between them and coordinate their work.",
   "audience": "lay",
   "days": [
+   "2026-07-21",
    "2026-09-07",
    "2026-10-12"
   ]
@@ -314,9 +315,10 @@
  {
   "id": "context-window",
   "term": "Context window",
-  "definition": "The amount of text an AI model can read and keep in mind at one time.",
+  "definition": "How much text or other input a model can take in and consider at one time.",
   "audience": "lay",
   "days": [
+   "2026-07-17",
    "2026-08-13",
    "2026-08-25",
    "2026-10-01",
@@ -337,9 +339,10 @@
  {
   "id": "cost-per-task",
   "term": "Cost per task",
-  "definition": "What it costs to get one complete job done with an AI model, rather than the price per word.",
+  "definition": "The total cost of getting one job done by an AI, including all the text it generates along the way.",
   "audience": "decision",
   "days": [
+   "2026-07-19",
    "2026-09-13",
    "2026-09-20",
    "2026-10-25",
@@ -525,9 +528,10 @@
  {
   "id": "fine-tuning",
   "term": "Fine-tuning",
-  "definition": "Extra training of an existing model on your own examples so it fits a specific task.",
-  "audience": "builder",
+  "definition": "Training an existing model a little more on your own examples so it fits a specific task.",
+  "audience": "lay",
   "days": [
+   "2026-07-19",
    "2026-08-04",
    "2026-08-12",
    "2026-09-06",
@@ -580,9 +584,10 @@
  {
   "id": "held-out-test-set",
   "term": "Held-out test set",
-  "definition": "Examples kept aside and not used for training, so they give a fair check of whether a change really helps.",
-  "audience": "lay",
+  "definition": "Test cases kept hidden while a system is built, so the final check is fair.",
+  "audience": "builder",
   "days": [
+   "2026-07-21",
    "2026-10-04"
   ]
  },
@@ -607,9 +612,10 @@
  {
   "id": "interpretability",
   "term": "Interpretability",
-  "definition": "Research that tries to understand what is happening inside an AI model when it produces an answer.",
-  "audience": "decision",
+  "definition": "Research into what is happening inside an AI model when it produces an answer.",
+  "audience": "lay",
   "days": [
+   "2026-07-20",
    "2026-08-24"
   ]
  },
@@ -688,9 +694,10 @@
  {
   "id": "mcp-server",
   "term": "MCP server",
-  "definition": "A connector that lets an AI assistant use an outside tool or data source in a standard way.",
+  "definition": "A connector that lets an AI tool read from or act in another app or data source in a standard way.",
   "audience": "builder",
   "days": [
+   "2026-07-17",
    "2026-08-07",
    "2026-08-24",
    "2026-08-28",
@@ -711,9 +718,10 @@
  {
   "id": "mixture-of-experts",
   "term": "Mixture of experts",
-  "definition": "A model design where only a few specialised parts switch on for each piece of input, saving computing power.",
+  "definition": "A model design where only a few specialised parts are used for each request, which saves computing power.",
   "audience": "builder",
   "days": [
+   "2026-07-17",
    "2026-08-02",
    "2026-08-05",
    "2026-08-27",
@@ -734,9 +742,11 @@
  {
   "id": "model-routing",
   "term": "Model routing",
-  "definition": "Sending each request to the cheapest model that can handle it well.",
-  "audience": "builder",
+  "definition": "Sending each task to the cheapest model that can do it well, and only hard tasks to the most expensive model.",
+  "audience": "decision",
   "days": [
+   "2026-07-19",
+   "2026-07-21",
    "2026-10-11"
   ]
  },
@@ -782,9 +792,10 @@
  {
   "id": "ocr",
   "term": "OCR",
-  "definition": "Software that reads text from images, such as scanned pages.",
+  "definition": "Software that turns images of text, such as scans, into text a computer can edit and search.",
   "audience": "lay",
   "days": [
+   "2026-07-20",
    "2026-08-03"
   ]
  },
@@ -800,9 +811,10 @@
  {
   "id": "open-weight-model",
   "term": "Open-weight model",
-  "definition": "An AI model whose trained settings are published so anyone can download and run it.",
+  "definition": "An AI model whose trained settings are published so anyone can download, run and change it.",
   "audience": "lay",
   "days": [
+   "2026-07-16",
    "2026-08-02",
    "2026-08-27",
    "2026-09-07",
@@ -848,6 +860,15 @@
   "audience": "decision",
   "days": [
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "point-cloud",
+  "term": "Point cloud",
+  "definition": "A set of many points in 3D space that together show the shape of an object or room.",
+  "audience": "lay",
+  "days": [
+   "2026-07-20"
   ]
  },
  {
@@ -922,9 +943,10 @@
  {
   "id": "prompt-injection",
   "term": "Prompt injection",
-  "definition": "Hidden instructions placed in content an AI reads, meant to make it do something its user did not want.",
+  "definition": "Hiding instructions inside content an AI reads so that it does something its user did not intend.",
   "audience": "lay",
   "days": [
+   "2026-07-16",
    "2026-08-13",
    "2026-08-16",
    "2026-09-23"
@@ -962,9 +984,10 @@
  {
   "id": "quantization",
   "term": "Quantization",
-  "definition": "Storing a model's numbers with less detail so it uses less memory and runs faster.",
+  "definition": "Storing a model's numbers with less precision so it needs much less memory, usually with a small loss in quality.",
   "audience": "builder",
   "days": [
+   "2026-07-16",
    "2026-08-02"
   ]
  },
@@ -1001,9 +1024,10 @@
  {
   "id": "red-teaming",
   "term": "Red-teaming",
-  "definition": "Deliberately trying to make a system fail or misbehave in order to find its weaknesses.",
-  "audience": "decision",
+  "definition": "Deliberately attacking a system to find its weak points before real attackers do.",
+  "audience": "lay",
   "days": [
+   "2026-07-16",
    "2026-08-17",
    "2026-10-26"
   ]

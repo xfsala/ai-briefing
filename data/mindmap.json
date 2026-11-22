@@ -180,7 +180,8 @@
       "2026-11-08",
       "2026-10-11",
       "2026-09-13",
-      "2026-08-02"
+      "2026-08-02",
+      "2026-07-17"
      ],
      "children": [
       {
@@ -226,7 +227,9 @@
       "2026-08-27",
       "2026-08-11",
       "2026-08-05",
-      "2026-08-02"
+      "2026-08-02",
+      "2026-07-19",
+      "2026-07-16"
      ],
      "children": [
       {
@@ -235,6 +238,10 @@
       },
       {
        "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
+       "name": "Ant Group",
        "kind": "entity"
       },
       {
@@ -271,6 +278,14 @@
       },
       {
        "name": "Nvidia",
+       "kind": "entity"
+      },
+      {
+       "name": "Thinking Machines Lab",
+       "kind": "entity"
+      },
+      {
+       "name": "Tinker",
        "kind": "entity"
       },
       {
@@ -377,11 +392,16 @@
       "decision"
      ],
      "days": [
-      "2026-08-07"
+      "2026-08-07",
+      "2026-07-17"
      ],
      "children": [
       {
        "name": "Amazon",
+       "kind": "entity"
+      },
+      {
+       "name": "Anthropic",
        "kind": "entity"
       },
       {
@@ -641,11 +661,16 @@
       "2026-10-04",
       "2026-09-20",
       "2026-08-18",
-      "2026-08-01"
+      "2026-08-01",
+      "2026-07-21"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Cursor",
        "kind": "entity"
       },
       {
@@ -1005,15 +1030,21 @@
      "kind": "concept",
      "summary": "Capable models that run privately on phones and laptops.",
      "audience": [
+      "builder",
       "decision",
       "lay"
      ],
      "days": [
-      "2026-08-05"
+      "2026-08-05",
+      "2026-07-16"
      ],
      "children": [
       {
        "name": "Liquid AI",
+       "kind": "entity"
+      },
+      {
+       "name": "PrismML",
        "kind": "entity"
       }
      ]
@@ -1075,12 +1106,18 @@
      "kind": "concept",
      "summary": "Turning PDFs and office files into clean text that AI can read.",
      "audience": [
-      "builder"
+      "builder",
+      "decision"
      ],
      "days": [
-      "2026-08-03"
+      "2026-08-03",
+      "2026-07-20"
      ],
      "children": [
+      {
+       "name": "Baidu",
+       "kind": "entity"
+      },
       {
        "name": "Firecrawl",
        "kind": "entity"
@@ -1164,7 +1201,8 @@
       "2026-11-10",
       "2026-09-28",
       "2026-08-18",
-      "2026-08-01"
+      "2026-08-01",
+      "2026-07-21"
      ],
      "children": [
       {
@@ -1172,7 +1210,15 @@
        "kind": "entity"
       },
       {
+       "name": "Cursor",
+       "kind": "entity"
+      },
+      {
        "name": "Greptile",
+       "kind": "entity"
+      },
+      {
+       "name": "SQLite",
        "kind": "entity"
       },
       {
@@ -1232,7 +1278,9 @@
       "2026-08-24",
       "2026-08-17",
       "2026-08-13",
-      "2026-08-03"
+      "2026-08-03",
+      "2026-07-20",
+      "2026-07-19"
      ],
      "children": [
       {
@@ -1240,7 +1288,19 @@
        "kind": "entity"
       },
       {
+       "name": "Cline",
+       "kind": "entity"
+      },
+      {
        "name": "DeepSeek",
+       "kind": "entity"
+      },
+      {
+       "name": "Inkling",
+       "kind": "entity"
+      },
+      {
+       "name": "Kimi K3",
        "kind": "entity"
       },
       {
@@ -1694,6 +1754,23 @@
      ]
     },
     {
+     "name": "Live 3D mapping",
+     "kind": "concept",
+     "summary": "Ordinary cameras can now build 3D maps of spaces as they move.",
+     "audience": [
+      "builder"
+     ],
+     "days": [
+      "2026-07-17"
+     ],
+     "children": [
+      {
+       "name": "LingBot-Map",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Robot cost versus capability",
      "kind": "concept",
      "summary": "Robots can technically do many tasks, but cost keeps most physical work in human hands for now.",
@@ -1778,7 +1855,8 @@
       "2026-09-09",
       "2026-08-24",
       "2026-08-11",
-      "2026-08-10"
+      "2026-08-10",
+      "2026-07-16"
      ],
      "children": [
       {
@@ -2017,6 +2095,19 @@
      ]
     },
     {
+     "name": "Hidden model reasoning",
+     "kind": "concept",
+     "summary": "Models may reason in ways not visible in their answers.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-07-20"
+     ],
+     "children": []
+    },
+    {
      "name": "Human override and shutdown",
      "kind": "concept",
      "summary": "Controls that let people halt AI systems quickly when something goes wrong.",
@@ -2199,7 +2290,8 @@
       "decision"
      ],
      "days": [
-      "2026-11-05"
+      "2026-11-05",
+      "2026-07-21"
      ],
      "children": [
       {
