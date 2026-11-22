@@ -1,5 +1,16 @@
 [
  {
+  "id": "1password",
+  "name": "1Password",
+  "type": "company",
+  "sector": "Security",
+  "url": "https://1password.com",
+  "note": "Password manager that launched agent log-in support.",
+  "days": [
+   "2026-10-23"
+  ]
+ },
+ {
   "id": "alibaba",
   "name": "Alibaba",
   "type": "company",
@@ -7,6 +18,7 @@
   "url": "https://www.alibabagroup.com",
   "note": "Chinese group behind the open Qwen model family.",
   "days": [
+   "2026-10-27",
    "2026-11-09"
   ]
  },
@@ -24,6 +36,10 @@
    "2026-10-20",
    "2026-10-21",
    "2026-10-22",
+   "2026-10-23",
+   "2026-10-25",
+   "2026-10-26",
+   "2026-10-27",
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
@@ -72,6 +88,9 @@
    "2026-10-20",
    "2026-10-21",
    "2026-10-22",
+   "2026-10-23",
+   "2026-10-25",
+   "2026-10-27",
    "2026-11-02",
    "2026-11-03",
    "2026-11-05",
@@ -107,6 +126,17 @@
   "note": "Maker of the Devin coding agent and Devin Bots.",
   "days": [
    "2026-11-19"
+  ]
+ },
+ {
+  "id": "cohere",
+  "name": "Cohere",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "https://cohere.com",
+  "note": "Enterprise AI company that reported a model probing its sandbox.",
+  "days": [
+   "2026-10-27"
   ]
  },
  {
@@ -203,6 +233,9 @@
    "2026-10-20",
    "2026-10-21",
    "2026-10-22",
+   "2026-10-23",
+   "2026-10-26",
+   "2026-10-27",
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
@@ -212,6 +245,17 @@
    "2026-11-10",
    "2026-11-11",
    "2026-11-20"
+  ]
+ },
+ {
+  "id": "gartner",
+  "name": "Gartner",
+  "type": "company",
+  "sector": "Research and advisory",
+  "url": "https://www.gartner.com",
+  "note": "Technology research firm that surveyed leaders on AI returns.",
+  "days": [
+   "2026-10-23"
   ]
  },
  {
@@ -283,6 +327,17 @@
   "note": "AI drug-discovery company spun out of Google DeepMind.",
   "days": [
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "kazakhtelecom",
+  "name": "Kazakhtelecom",
+  "type": "company",
+  "sector": "Telecommunications",
+  "url": "https://telecom.kz",
+  "note": "Kazakh operator deploying NVIDIA AI systems.",
+  "days": [
+   "2026-10-26"
   ]
  },
  {
@@ -375,6 +430,8 @@
   "url": "https://www.microsoft.com",
   "note": "Sells Copilot in Office and is a major Anthropic partner and investor.",
   "days": [
+   "2026-10-26",
+   "2026-10-27",
    "2026-11-17"
   ]
  },
@@ -405,9 +462,10 @@
   "name": "Moonshot AI",
   "type": "company",
   "sector": "Frontier models",
-  "url": "",
+  "url": "https://www.moonshot.ai",
   "note": "Chinese lab behind the Kimi assistant.",
   "days": [
+   "2026-10-26",
    "2026-11-05",
    "2026-11-06"
   ]
@@ -420,6 +478,7 @@
   "url": "https://nousresearch.com",
   "note": "Maker of the open-source Hermes models and the Hermes Enterprise agent.",
   "days": [
+   "2026-10-23",
    "2026-11-09",
    "2026-11-20"
   ]
@@ -433,6 +492,7 @@
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
    "2026-10-22",
+   "2026-10-26",
    "2026-11-06",
    "2026-11-09",
    "2026-11-10",
@@ -455,6 +515,10 @@
    "2026-10-19",
    "2026-10-21",
    "2026-10-22",
+   "2026-10-23",
+   "2026-10-25",
+   "2026-10-26",
+   "2026-10-27",
    "2026-11-03",
    "2026-11-04",
    "2026-11-06",
@@ -533,6 +597,28 @@
   "note": "Indian AI company building nationally hosted models.",
   "days": [
    "2026-11-18"
+  ]
+ },
+ {
+  "id": "scripps-research",
+  "name": "Scripps Research",
+  "type": "organisation",
+  "sector": "Healthcare and life sciences",
+  "url": "https://www.scripps.edu",
+  "note": "US biomedical research institute.",
+  "days": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "shanghai-jiao-tong-university",
+  "name": "Shanghai Jiao Tong University",
+  "type": "organisation",
+  "sector": "Research",
+  "url": "https://en.sjtu.edu.cn",
+  "note": "Chinese university behind the MemoryTax study.",
+  "days": [
+   "2026-10-25"
   ]
  },
  {

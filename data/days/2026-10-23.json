@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-23",
+  "question": "If AI works better in some languages than others, who is left behind, and how do we include them?",
+  "reflection": "Every language that AI learns to serve well opens knowledge and public services to more people.",
+  "sources": [
+    {"newsletter": "Forward Future", "subject": "1,000s of AI agents crack brain data in 32 minutes", "link": "https://briefing.forwardfuture.ai/p/ai-agents-map-brain-disease-hackers-weaponize-ai-meta-s-stock-plan"},
+    {"newsletter": "AlphaSignal", "subject": "Claude Security, Hermes Robot Agent, Meta Byte Models", "link": ""}
+  ],
+  "one_line": "AI quality is uneven across languages and business results are uneven across companies, even as swarms of agents start to speed up real science.",
+  "top_stories": [
+    {
+      "title": "AI translation quality does not follow language size",
+      "what": "A Forward Future test of top models across seven languages found Swedish translated among the best and Hindi among the worst, with speaker numbers having almost no link to quality.",
+      "why": "Organisations serving Arabic speakers cannot assume global models are good enough and should test output quality in their own language and dialects.",
+      "action": "Pitch",
+      "audience": ["decision", "lay"],
+      "tags": ["language", "evaluation"]
+    },
+    {
+      "title": "Thousands of agents scan brain-cell data in half an hour",
+      "what": "OpenAI, PerturbAI and Scripps Research ran thousands of AI agents over data from millions of mouse brain cells and, in 32 minutes, surfaced possible gene links to Alzheimer's and Parkinson's for lab follow-up.",
+      "why": "Large research datasets can be screened far faster, but the leads still need human checking and lab validation before anyone acts on them.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["health", "science"]
+    },
+    {
+      "title": "Few companies see real returns from AI",
+      "what": "A Gartner survey of over 2,000 technology leaders reportedly found only 13% see meaningful returns from AI, while about half expect AI to raise their technology costs.",
+      "why": "The gap between spending and results is often about adoption, habits and process change, which is exactly where behavioural expertise adds value.",
+      "action": "Pitch",
+      "audience": ["decision"],
+      "tags": ["adoption", "business"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Arabic and its dialects need their own quality testing; a Saudi benchmark for public-service language tasks would show where global models fall short."},
+    {"text": "As Saudi entities scale AI spending, measuring real returns, not just deployments, will matter for Vision 2030 programme reporting."}
+  ],
+  "idea": {
+    "title": "Arabic service-language test",
+    "pitch": "Compare how leading AI models handle real Arabic citizen queries, in formal and Saudi dialect forms, scored by native-speaker reviewers.",
+    "fit": "Government digital services, culture sector",
+    "first_step": "Collect 30 anonymised citizen questions in both formal Arabic and dialect and run them through three models."
+  },
+  "watchlist": [
+    {"name": "Scripps Research", "sector": "Healthcare and life sciences", "note": "Partnering on agent-led analysis of brain-cell data."},
+    {"name": "Nous Research", "sector": "Open-source agents", "note": "Its open Hermes agent trained a small robot from a single prompt in a live demo."},
+    {"name": "1Password", "sector": "Security", "note": "Lets agents log in to sites without ever seeing your password."}
+  ],
+  "tool": {"name": "Claude Security", "use": "Continuous scanning of code repositories for vulnerabilities, with automatic tracking of fixes.", "link": "https://www.anthropic.com"},
+  "verify": [
+    "China-aligned hackers reportedly used AI agents to speed up spying on thousands of companies after breaching an IT provider.",
+    "DeepSeek reportedly raised $15 billion days after the US ordered agencies to remove its technology."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Maker of ChatGPT; ran agent swarms over brain-cell data."},
+    {"name": "Scripps Research", "type": "organisation", "sector": "Healthcare and life sciences", "url": "https://www.scripps.edu", "note": "US biomedical research institute."},
+    {"name": "Gartner", "type": "company", "sector": "Research and advisory", "url": "https://www.gartner.com", "note": "Technology research firm that surveyed leaders on AI returns."},
+    {"name": "Nous Research", "type": "company", "sector": "Open-source agents", "url": "https://nousresearch.com", "note": "Maker of the open-source Hermes models and agent."},
+    {"name": "1Password", "type": "company", "sector": "Security", "url": "https://1password.com", "note": "Password manager that launched agent log-in support."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; launched Claude Security."},
+    {"name": "Forward Future", "type": "organisation", "sector": "AI media", "url": "https://www.forwardfuture.ai", "note": "Daily AI briefing by Matthew Berman and Nick Wentz."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "Low-resource language", "definition": "A language with little digital text available for training AI, so models often handle it less well.", "audience": "lay"},
+    {"term": "Return on investment", "definition": "How much value an organisation gets back compared with what it spent.", "audience": "decision"},
+    {"term": "Threat model", "definition": "A written summary of where a system is most likely to be attacked and how.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Consumer and media", "concept": "AI language gaps", "summary": "AI quality varies widely between languages, regardless of how many people speak them.", "audience": ["decision", "lay"], "entities": ["Forward Future"]},
+    {"industry": "Healthcare and life sciences", "concept": "AI drug discovery", "summary": "Agent swarms screening biological data to suggest leads for lab testing.", "audience": ["decision", "lay"], "entities": ["OpenAI", "Scripps Research"]},
+    {"industry": "Work and workforce", "concept": "Workplace AI adoption", "summary": "Most organisations still struggle to turn AI spending into real results.", "audience": ["decision"], "entities": ["Gartner"]},
+    {"industry": "Agents and automation", "concept": "Agent-ready services", "summary": "Services that let agents log in or shop safely on a user's behalf.", "audience": ["builder", "decision"], "entities": ["1Password"]}
+  ]
+}

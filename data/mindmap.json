@@ -84,6 +84,23 @@
      ]
     },
     {
+     "name": "Idle AI capacity",
+     "kind": "concept",
+     "summary": "Organisations buy AI compute faster than they can put it to use.",
+     "audience": [
+      "decision"
+     ],
+     "days": [
+      "2026-10-26"
+     ],
+     "children": [
+      {
+       "name": "NVIDIA",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Long-context efficiency",
      "kind": "concept",
      "summary": "Techniques that make it cheaper for models to work with very large inputs.",
@@ -165,11 +182,16 @@
       "builder"
      ],
      "days": [
-      "2026-11-15"
+      "2026-11-15",
+      "2026-10-25"
      ],
      "children": [
       {
        "name": "Nvidia",
+       "kind": "entity"
+      },
+      {
+       "name": "Shanghai Jiao Tong University",
        "kind": "entity"
       }
      ]
@@ -202,9 +224,14 @@
      ],
      "days": [
       "2026-11-18",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-10-23"
      ],
      "children": [
+      {
+       "name": "1Password",
+       "kind": "entity"
+      },
       {
        "name": "OpenAI",
        "kind": "entity"
@@ -378,7 +405,8 @@
       "decision"
      ],
      "days": [
-      "2026-11-11"
+      "2026-11-11",
+      "2026-10-27"
      ],
      "children": [
       {
@@ -428,6 +456,24 @@
      "children": [
       {
        "name": "Sherry Turkle",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
+     "name": "AI language gaps",
+     "kind": "concept",
+     "summary": "AI quality varies widely between languages, regardless of how many people speak them.",
+     "audience": [
+      "decision",
+      "lay"
+     ],
+     "days": [
+      "2026-10-23"
+     ],
+     "children": [
+      {
+       "name": "Forward Future",
        "kind": "entity"
       }
      ]
@@ -587,9 +633,15 @@
       "2026-11-15",
       "2026-11-12",
       "2026-11-09",
+      "2026-10-27",
+      "2026-10-25",
       "2026-10-18"
      ],
      "children": [
+      {
+       "name": "Anthropic",
+       "kind": "entity"
+      },
       {
        "name": "Nvidia",
        "kind": "entity"
@@ -624,6 +676,7 @@
      ],
      "days": [
       "2026-11-18",
+      "2026-10-23",
       "2026-10-21"
      ],
      "children": [
@@ -633,6 +686,14 @@
       },
       {
        "name": "Isomorphic Labs",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      },
+      {
+       "name": "Scripps Research",
        "kind": "entity"
       }
      ]
@@ -727,11 +788,20 @@
       "2026-11-20",
       "2026-11-18",
       "2026-11-13",
-      "2026-11-03"
+      "2026-11-03",
+      "2026-10-26"
      ],
      "children": [
       {
        "name": "Anthropic",
+       "kind": "entity"
+      },
+      {
+       "name": "Kazakhtelecom",
+       "kind": "entity"
+      },
+      {
+       "name": "NVIDIA",
        "kind": "entity"
       },
       {
@@ -972,6 +1042,33 @@
      ]
     },
     {
+     "name": "Model containment",
+     "kind": "concept",
+     "summary": "Keeping AI models from reaching outside systems, regardless of what they say they will do.",
+     "audience": [
+      "builder",
+      "decision"
+     ],
+     "days": [
+      "2026-10-27",
+      "2026-10-26"
+     ],
+     "children": [
+      {
+       "name": "Alibaba",
+       "kind": "entity"
+      },
+      {
+       "name": "Cohere",
+       "kind": "entity"
+      },
+      {
+       "name": "OpenAI",
+       "kind": "entity"
+      }
+     ]
+    },
+    {
      "name": "Model identity verification",
      "kind": "concept",
      "summary": "Proving which AI model produced an output so customers can trust what they are buying.",
@@ -1125,11 +1222,16 @@
       "lay"
      ],
      "days": [
-      "2026-11-13"
+      "2026-11-13",
+      "2026-10-27"
      ],
      "children": [
       {
        "name": "Federal Reserve",
+       "kind": "entity"
+      },
+      {
+       "name": "Microsoft",
        "kind": "entity"
       }
      ]
@@ -1160,9 +1262,14 @@
       "decision"
      ],
      "days": [
-      "2026-11-17"
+      "2026-11-17",
+      "2026-10-23"
      ],
      "children": [
+      {
+       "name": "Gartner",
+       "kind": "entity"
+      },
       {
        "name": "Microsoft",
        "kind": "entity"

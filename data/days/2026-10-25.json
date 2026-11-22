@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-25",
+  "question": "When we summarise records to save time, what important details might we lose without noticing?",
+  "reflection": "Keeping the original record alongside the summary protects both memory and fairness, for machines and for institutions.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Stop Overengineering AI Agent Memory, New Study Suggests", "link": ""}
+  ],
+  "one_line": "A new study suggests that with strong models, giving an agent the original records often works as well as, or better than, building a costly separate memory system.",
+  "top_stories": [
+    {
+      "title": "Strong models may not need complex memory layers",
+      "what": "A Shanghai Jiao Tong University study compared seven ways agents can recall long conversations and found that structured memory helped a weak model but gave no accuracy gain for stronger ones.",
+      "why": "Teams building AI assistants for long client relationships can start simple and only add memory systems where repeated use justifies the cost.",
+      "action": "Watch",
+      "audience": ["builder", "decision"],
+      "tags": ["agents", "memory"]
+    },
+    {
+      "title": "The model that writes the summary decides the quality",
+      "what": "When a weak model built the memory, even a strong model reading it scored poorly, because details left out at the start could not be recovered later.",
+      "why": "The same lesson applies to human research notes: keep raw transcripts and records, not only coded summaries.",
+      "action": "Try",
+      "audience": ["builder", "lay"],
+      "tags": ["data quality", "research methods"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today. The finding is relevant to any Saudi service planning long-running AI assistants that must remember past citizen interactions."}
+  ],
+  "idea": {
+    "title": "Summary loss audit",
+    "pitch": "Check what an AI summary of case notes or interviews leaves out by asking follow-up questions that only the original record can answer.",
+    "fit": "Hospital, government services, consultancy",
+    "first_step": "Take ten case records, summarise them with AI, and write five detail questions per case to test the summaries."
+  },
+  "watchlist": [
+    {"name": "Shanghai Jiao Tong University", "sector": "Research", "note": "Published the MemoryTax study on the costs of agent memory."}
+  ],
+  "tool": null,
+  "verify": [
+    "In the study, Claude Opus 5.5 with a minimal search harness reportedly answered 99% of questions at well under half the cost of reading the full history; results come from a single test conversation."
+  ],
+  "entities": [
+    {"name": "Shanghai Jiao Tong University", "type": "organisation", "sector": "Research", "url": "https://en.sjtu.edu.cn", "note": "Chinese university behind the MemoryTax study."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Its Claude Opus model scored highest in the memory study."},
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Several of its models were compared in the memory study."},
+    {"name": "AlphaSignal", "type": "organisation", "sector": "AI media", "url": "https://alphasignal.ai", "note": "Daily AI news for developers, founded by Lior Alexander."}
+  ],
+  "terms": [
+    {"term": "Context window", "definition": "The amount of text an AI model can read and consider at one time.", "audience": "lay"},
+    {"term": "Agent memory", "definition": "Ways for an AI agent to store and recall information from earlier sessions, such as saved facts or searchable history.", "audience": "builder"},
+    {"term": "Cost per task", "definition": "The total cost of getting one piece of work done with AI, including every model call involved.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Agent memory management", "summary": "Choosing between raw history, search and extracted facts for long-running agents.", "audience": ["builder"], "entities": ["Shanghai Jiao Tong University"]},
+    {"industry": "Frontier models", "concept": "Falling cost of intelligence", "summary": "Stronger models reduce the need for costly extra engineering around them.", "audience": ["decision"], "entities": ["Anthropic", "OpenAI"]}
+  ]
+}
