@@ -65,9 +65,10 @@
  {
   "id": "agent-skill",
   "term": "Agent skill",
-  "definition": "A packaged set of instructions and tools that teaches an agent to do one kind of task.",
-  "audience": "builder",
+  "definition": "A saved set of steps or instructions an AI agent can reuse for a specific task.",
+  "audience": "lay",
   "days": [
+   "2026-07-22",
    "2026-08-06",
    "2026-08-23"
   ]
@@ -190,9 +191,10 @@
  {
   "id": "audit-trail",
   "term": "Audit trail",
-  "definition": "A record of every action taken, so people can check later what happened and who did it.",
-  "audience": "lay",
+  "definition": "A record of who or what did each action in a system, and when.",
+  "audience": "decision",
   "days": [
+   "2026-07-27",
    "2026-08-14",
    "2026-10-09"
   ]
@@ -200,9 +202,10 @@
  {
   "id": "autoregressive-model",
   "term": "Autoregressive model",
-  "definition": "A model that writes its output one piece at a time, each piece based on what came before.",
+  "definition": "A model that produces output one step at a time, each step based on what came before.",
   "audience": "builder",
   "days": [
+   "2026-07-27",
    "2026-09-27",
    "2026-10-18"
   ]
@@ -213,6 +216,7 @@
   "definition": "A standard test used to compare how well different AI systems perform.",
   "audience": "lay",
   "days": [
+   "2026-07-27",
    "2026-08-03",
    "2026-09-08",
    "2026-09-25"
@@ -286,9 +290,10 @@
  {
   "id": "computer-use",
   "term": "Computer use",
-  "definition": "When an AI controls a computer by clicking and typing like a person.",
+  "definition": "An AI agent controlling a computer screen with clicks and typing, as a person would.",
   "audience": "lay",
   "days": [
+   "2026-07-24",
    "2026-08-14",
    "2026-09-04",
    "2026-10-27"
@@ -541,9 +546,10 @@
  {
   "id": "formal-verification",
   "term": "Formal verification",
-  "definition": "Using a computer to check, step by step, that a proof or program is fully correct.",
-  "audience": "lay",
+  "definition": "Using software to check, step by step, that a proof or program is fully correct.",
+  "audience": "builder",
   "days": [
+   "2026-07-22",
    "2026-08-04",
    "2026-08-11",
    "2026-09-07",
@@ -556,9 +562,10 @@
  {
   "id": "full-duplex-voice",
   "term": "Full-duplex voice",
-  "definition": "A voice system that can listen and speak at the same time, like a person in conversation.",
+  "definition": "A voice system that can listen and speak at the same time, so people can interrupt it naturally.",
   "audience": "lay",
   "days": [
+   "2026-07-24",
    "2026-08-04",
    "2026-10-13"
   ]
@@ -589,6 +596,15 @@
   "days": [
    "2026-07-21",
    "2026-10-04"
+  ]
+ },
+ {
+  "id": "in-context-learning",
+  "term": "In-context learning",
+  "definition": "When a model learns a task from examples given in its input, without changing its trained settings.",
+  "audience": "builder",
+  "days": [
+   "2026-07-26"
   ]
  },
  {
@@ -747,6 +763,7 @@
   "days": [
    "2026-07-19",
    "2026-07-21",
+   "2026-07-23",
    "2026-10-11"
   ]
  },
@@ -783,9 +800,10 @@
  {
   "id": "multimodal-model",
   "term": "Multimodal model",
-  "definition": "An AI model that can work with more than one kind of input, such as text and images.",
+  "definition": "An AI model that works with more than one kind of input or output, such as text, images and sound.",
   "audience": "lay",
   "days": [
+   "2026-07-24",
    "2026-08-24"
   ]
  },
@@ -1013,9 +1031,10 @@
  {
   "id": "recursive-self-improvement",
   "term": "Recursive self-improvement",
-  "definition": "When an AI system helps build a stronger successor, which then speeds up the next round.",
-  "audience": "lay",
+  "definition": "An AI system improving its own methods or code, which then helps it improve further.",
+  "audience": "decision",
   "days": [
+   "2026-07-23",
    "2026-09-11",
    "2026-11-03",
    "2026-11-06"
@@ -1110,6 +1129,7 @@
   "definition": "A closed area on a computer where software can run without reaching the rest of the system.",
   "audience": "lay",
   "days": [
+   "2026-07-22",
    "2026-08-01",
    "2026-08-16",
    "2026-08-19",
@@ -1256,9 +1276,10 @@
  {
   "id": "tabular-foundation-model",
   "term": "Tabular foundation model",
-  "definition": "A pretrained AI model that makes predictions from spreadsheet-style data, using example rows instead of being trained from scratch.",
+  "definition": "An AI model trained to make predictions from tables of rows and columns without being retrained for each new table.",
   "audience": "builder",
   "days": [
+   "2026-07-26",
    "2026-11-01"
   ]
  },
@@ -1357,9 +1378,10 @@
  {
   "id": "vulnerability",
   "term": "Vulnerability",
-  "definition": "A weakness in software that an attacker could use to break in or cause harm.",
+  "definition": "A weakness in software that an attacker could use to cause harm.",
   "audience": "lay",
   "days": [
+   "2026-07-23",
    "2026-10-20",
    "2026-11-06"
   ]
@@ -1405,18 +1427,20 @@
  {
   "id": "zero-day",
   "term": "Zero-day",
-  "definition": "A security flaw that the software maker does not yet know about, so no fix exists.",
+  "definition": "A software weakness that the makers do not yet know about, so there is no fix.",
   "audience": "lay",
   "days": [
+   "2026-07-22",
    "2026-08-11"
   ]
  },
  {
   "id": "zero-shot-forecasting",
   "term": "Zero-shot forecasting",
-  "definition": "Using a ready-made model to forecast new data without first training it on that data.",
+  "definition": "Making predictions on new data without any training on that specific data first.",
   "audience": "builder",
   "days": [
+   "2026-07-26",
    "2026-09-01",
    "2026-11-01"
   ]

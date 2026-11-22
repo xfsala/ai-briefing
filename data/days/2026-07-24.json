@@ -1,0 +1,82 @@
+{
+  "date": "2026-07-24",
+  "question": "If we can give instructions to AI just by speaking, how do we make sure it understood us correctly?",
+  "reflection": "Voice tools can open technology to people who find typing hard, if they are built to confirm what people really mean.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "ChatGPT Voice Agents, Claude Opus Voice Mode, Claude Managed Agents", "link": ""}
+  ],
+  "one_line": "Voice is becoming a way to direct AI agents, not just to chat, as OpenAI and Anthropic both upgraded voice on the same day.",
+  "top_stories": [
+    {
+      "title": "ChatGPT voice can direct agents on desktop",
+      "what": "OpenAI brought voice control to the ChatGPT desktop app, so users can start and steer several agent tasks by speaking while the assistant listens and acts at once.",
+      "why": "Hands-free control could help field staff and people with disabilities use AI tools more easily.",
+      "action": "Try",
+      "audience": ["lay", "decision"],
+      "tags": ["voice", "agents"]
+    },
+    {
+      "title": "Claude voice gets stronger models and tools",
+      "what": "Anthropic says Claude's voice mode can now use its larger models, reach connected apps such as calendar and chat, and supports more languages.",
+      "why": "Voice access to work tools may change how busy managers use AI between meetings.",
+      "action": "Try",
+      "audience": ["lay", "decision"],
+      "tags": ["voice", "productivity"]
+    },
+    {
+      "title": "One model for images, video, audio and robots",
+      "what": "Black Forest Labs released FLUX 3, which it describes as a single model covering image, video, audio and robotics.",
+      "why": "Single models that create many kinds of media make synthetic content cheaper and harder to detect.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["media", "multimodal"]
+    },
+    {
+      "title": "AI helps one person solve old maths problems",
+      "what": "One researcher reportedly used OpenAI's model to solve six open Erdős maths problems in five days.",
+      "why": "AI as a research partner may speed up discovery, but results still need expert checking.",
+      "action": "Watch",
+      "audience": ["lay"],
+      "tags": ["science", "reasoning"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Voice assistants are expanding to more languages; Arabic dialect support will decide how useful they are for Saudi users, so it is worth testing."}
+  ],
+  "idea": {
+    "title": "Voice survey pilot",
+    "pitch": "Test whether a voice-led AI interview gets fuller answers than a typed form for older or less digital respondents.",
+    "fit": "Health, labour market, government services",
+    "first_step": "Write a five-question script and try it by voice and by form with ten volunteers."
+  },
+  "idea_kids": {
+    "title": "Robot listens",
+    "pitch": "One child plays a robot that follows spoken instructions exactly as said, so others learn to give clear, complete directions.",
+    "age": "5 to 10",
+    "first_step": "Set up a small obstacle course and a list of target spots."
+  },
+  "watchlist": [
+    {"name": "Black Forest Labs", "sector": "Consumer and media", "note": "One model for many media types."},
+    {"name": "Liquid AI", "sector": "AI infrastructure and chips", "note": "Faster on-device models for Asian languages."}
+  ],
+  "tool": null,
+  "verify": [
+    "One person reportedly solved six unsolved Erdős problems in five days with AI help."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Added voice control of agents to the ChatGPT desktop app."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Upgraded Claude's voice mode."},
+    {"name": "Black Forest Labs", "type": "company", "sector": "Consumer and media", "url": "https://bfl.ai", "note": "Released FLUX 3."},
+    {"name": "Liquid AI", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.liquid.ai", "note": "Enlarged its tokenizer for faster Asian-language output."}
+  ],
+  "terms": [
+    {"term": "Full-duplex voice", "definition": "A voice system that can listen and speak at the same time, so people can interrupt it naturally.", "audience": "lay"},
+    {"term": "Multimodal model", "definition": "An AI model that works with more than one kind of input or output, such as text, images and sound.", "audience": "lay"},
+    {"term": "Computer use", "definition": "An AI agent controlling a computer screen with clicks and typing, as a person would.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Voice agents", "summary": "Voice becomes a way to start and steer AI agents.", "audience": ["lay", "decision"], "entities": ["OpenAI", "Anthropic"]},
+    {"industry": "Consumer and media", "concept": "AI language gaps", "summary": "Voice and on-device tools add languages unevenly.", "audience": ["decision"], "entities": ["Liquid AI", "Anthropic"]},
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "AI helps individuals solve long-open maths problems.", "audience": ["lay"], "entities": ["OpenAI"]}
+  ]
+}

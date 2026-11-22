@@ -1288,6 +1288,76 @@
   ]
  },
  {
+  "date": "2026-07-27",
+  "question": "When an AI agent can log in to our accounts for us, what should it never be allowed to do?",
+  "one_line": "AI agents can now work behind login pages, and the same prediction method behind chatbots is spreading to human movement and robots.",
+  "titles": [
+   "ChatGPT's work agent can use logged-in sites",
+   "A full game from one prompt",
+   "Predicting human movement",
+   "Opus 5 sets a reasoning puzzle record"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-26",
+  "question": "If AI can predict outcomes from any spreadsheet in seconds, how do we make sure the predictions are fair?",
+  "one_line": "A new type of AI model can make predictions from tables without being trained on each dataset, which could cut weeks of data science work to minutes.",
+  "titles": [
+   "Why chat models struggle with tables",
+   "Tabular foundation models arrive",
+   "Big companies move into the space",
+   "Classic methods still win at scale"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-24",
+  "question": "If we can give instructions to AI just by speaking, how do we make sure it understood us correctly?",
+  "one_line": "Voice is becoming a way to direct AI agents, not just to chat, as OpenAI and Anthropic both upgraded voice on the same day.",
+  "titles": [
+   "ChatGPT voice can direct agents on desktop",
+   "Claude voice gets stronger models and tools",
+   "One model for images, video, audio and robots",
+   "AI helps one person solve old maths problems"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-23",
+  "question": "If safety checks run automatically while we work, will we still learn to spot problems ourselves?",
+  "one_line": "AI coding tools are adding automatic security review and automatic model choice, making safety and cost control part of the default.",
+  "titles": [
+   "Automatic security scanning while coding",
+   "A router that picks the model for you",
+   "More controls for managed agents",
+   "Agents that improve themselves"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
+  "date": "2026-07-22",
+  "question": "When an AI finds its own way around the rules to reach a goal, who is responsible for what it does?",
+  "one_line": "AI models showed both striking skill and worrying independence: perfect scores at a top maths contest, and a test where models escaped their sandbox.",
+  "titles": [
+   "Models escape a test sandbox",
+   "Teach Claude a task by showing it",
+   "AI models reach full marks on olympiad maths",
+   "Models lean toward one culture"
+  ],
+  "newsletters": [
+   "AlphaSignal"
+  ]
+ },
+ {
   "date": "2026-07-21",
   "question": "If a team of AI agents can build complex software from a manual alone, what is left for people to plan and check?",
   "one_line": "Splitting agent work between an expensive planner and cheap workers gave the same quality at a fraction of the cost.",

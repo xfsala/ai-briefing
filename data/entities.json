@@ -162,6 +162,10 @@
   "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
   "days": [
    "2026-07-17",
+   "2026-07-22",
+   "2026-07-23",
+   "2026-07-24",
+   "2026-07-27",
    "2026-08-03",
    "2026-08-06",
    "2026-08-10",
@@ -294,6 +298,17 @@
   ]
  },
  {
+  "id": "axiom-math",
+  "name": "Axiom Math",
+  "type": "company",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Formally verified olympiad proofs.",
+  "days": [
+   "2026-07-22"
+  ]
+ },
+ {
   "id": "baidu",
   "name": "Baidu",
   "type": "company",
@@ -314,6 +329,17 @@
   "note": "Large US bank warning about AI assistants and passwords.",
   "days": [
    "2026-10-28"
+  ]
+ },
+ {
+  "id": "black-forest-labs",
+  "name": "Black Forest Labs",
+  "type": "company",
+  "sector": "Consumer and media",
+  "url": "https://bfl.ai",
+  "note": "Released FLUX 3.",
+  "days": [
+   "2026-07-24"
   ]
  },
  {
@@ -449,6 +475,7 @@
   "note": "AI code editor that has added its own code-hosting service.",
   "days": [
    "2026-07-21",
+   "2026-07-23",
    "2026-08-05",
    "2026-08-21",
    "2026-09-01",
@@ -801,6 +828,17 @@
   ]
  },
  {
+  "id": "google-research",
+  "name": "Google Research",
+  "type": "organisation",
+  "sector": "Data and analytics",
+  "url": "https://research.google",
+  "note": "Released the open TabFM model.",
+  "days": [
+   "2026-07-26"
+  ]
+ },
+ {
   "id": "greptile",
   "name": "Greptile",
   "type": "company",
@@ -841,6 +879,7 @@
   "url": "https://huggingface.co",
   "note": "Open AI platform whose biology team released Carbon-X.",
   "days": [
+   "2026-07-22",
    "2026-08-19",
    "2026-08-27",
    "2026-08-30",
@@ -863,6 +902,17 @@
   "days": [
    "2026-07-16",
    "2026-07-19"
+  ]
+ },
+ {
+  "id": "inria",
+  "name": "Inria",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://www.inria.fr",
+  "note": "Its team built TabICL.",
+  "days": [
+   "2026-07-26"
   ]
  },
  {
@@ -910,6 +960,17 @@
   ]
  },
  {
+  "id": "j-rgen-schmidhuber",
+  "name": "Jürgen Schmidhuber",
+  "type": "person",
+  "sector": "Science and research",
+  "url": "",
+  "note": "Published a survey on self-improving agents.",
+  "days": [
+   "2026-07-23"
+  ]
+ },
+ {
   "id": "kazakhtelecom",
   "name": "Kazakhtelecom",
   "type": "company",
@@ -941,6 +1002,7 @@
   "url": "https://kumo.ai",
   "note": "Builds foundation models for relational databases.",
   "days": [
+   "2026-07-26",
    "2026-11-01"
   ]
  },
@@ -996,6 +1058,7 @@
   "url": "https://www.liquid.ai",
   "note": "Builds small, efficient models, including the d1.2 decision models.",
   "days": [
+   "2026-07-24",
    "2026-08-05",
    "2026-10-14",
    "2026-10-29",
@@ -1120,6 +1183,7 @@
   "url": "https://www.microsoft.com",
   "note": "Sells Copilot in Office and is a major Anthropic partner and investor.",
   "days": [
+   "2026-07-23",
    "2026-08-07",
    "2026-09-23",
    "2026-09-28",
@@ -1179,6 +1243,7 @@
   "note": "Chinese lab behind the Kimi assistant.",
   "days": [
    "2026-07-17",
+   "2026-07-22",
    "2026-08-02",
    "2026-10-26",
    "2026-10-30",
@@ -1216,12 +1281,14 @@
  },
  {
   "id": "nvidia",
-  "name": "NVIDIA",
+  "name": "Nvidia",
   "type": "company",
   "sector": "AI infrastructure and chips",
   "url": "https://www.nvidia.com",
   "note": "Leading AI chipmaker, now under an interim CEO according to Forward Future.",
   "days": [
+   "2026-07-26",
+   "2026-07-27",
    "2026-08-11",
    "2026-08-24",
    "2026-08-26",
@@ -1273,6 +1340,9 @@
   "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
   "days": [
    "2026-07-16",
+   "2026-07-22",
+   "2026-07-24",
+   "2026-07-27",
    "2026-08-04",
    "2026-08-07",
    "2026-08-10",
@@ -1458,6 +1528,7 @@
   "url": "https://priorlabs.ai",
   "note": "Developer of the TabPFN tabular foundation model.",
   "days": [
+   "2026-07-26",
    "2026-11-01"
   ]
  },
@@ -1686,6 +1757,17 @@
   "note": "App database service whose default settings were linked to leaks.",
   "days": [
    "2026-09-28"
+  ]
+ },
+ {
+  "id": "swiss-ai",
+  "name": "Swiss AI",
+  "type": "organisation",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "Released an open multilingual model.",
+  "days": [
+   "2026-07-27"
   ]
  },
  {

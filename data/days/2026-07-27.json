@@ -1,0 +1,83 @@
+{
+  "date": "2026-07-27",
+  "question": "When an AI agent can log in to our accounts for us, what should it never be allowed to do?",
+  "reflection": "Agents that handle tedious online tasks could return time to people for family, learning and community, if clear limits stay in place.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "ChatGPT Work Agent login access, Claude Opus 5 FPS game, Nvidia motion", "link": ""}
+  ],
+  "one_line": "AI agents can now work behind login pages, and the same prediction method behind chatbots is spreading to human movement and robots.",
+  "top_stories": [
+    {
+      "title": "ChatGPT's work agent can use logged-in sites",
+      "what": "OpenAI's ChatGPT Work agent now pauses at login pages, lets the user sign in privately, then continues the task and remembers the login for later.",
+      "why": "Agents that work inside internal tools raise new questions about access rights and audit trails in organisations.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["agents", "security"]
+    },
+    {
+      "title": "A full game from one prompt",
+      "what": "A user reportedly asked Claude Opus 5 for a first-person shooter and got a large working browser game with its own physics and sound, though reviewers rated its look as average.",
+      "why": "Quick interactive prototypes could help test ideas for learning games or public campaigns before investing.",
+      "action": "Watch",
+      "audience": ["builder", "lay"],
+      "tags": ["coding", "creativity"]
+    },
+    {
+      "title": "Predicting human movement",
+      "what": "Nvidia applied the next-step prediction method used in language models to human motion and reports very high accuracy.",
+      "why": "Shared methods across text and movement could speed up robots that work around people.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["robotics", "research"]
+    },
+    {
+      "title": "Opus 5 sets a reasoning puzzle record",
+      "what": "Anthropic's Claude Opus 5 reportedly set a new top score on the ARC-AGI-3 puzzle benchmark, at about 30 percent.",
+      "why": "Progress on puzzles built to resist memorising is a better signal of general reasoning than many older tests.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["benchmarks", "reasoning"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "A Swiss open multilingual model with a long context was released; open multilingual models are worth testing for Arabic public-service content."}
+  ],
+  "idea": {
+    "title": "Agent access policy",
+    "pitch": "Draft a simple policy on which internal systems an AI agent may log in to, what it may change and how its actions are logged.",
+    "fit": "Government digital services, hospital",
+    "first_step": "List the three systems staff most want automated and the risks of an agent acting in each."
+  },
+  "idea_kids": {
+    "title": "Helper rules poster",
+    "pitch": "Children design a poster of rules for a pretend home robot helper: what it may do, what it must ask first and what it must never do.",
+    "age": "6 to 11",
+    "first_step": "Prepare a large sheet with three columns: yes, ask first, never."
+  },
+  "watchlist": [
+    {"name": "Swiss AI", "sector": "Frontier models", "note": "Open multilingual model with a long context."},
+    {"name": "Nvidia", "sector": "Robotics and physical AI", "note": "Using language-model methods for motion."}
+  ],
+  "tool": null,
+  "verify": [
+    "Nvidia's motion model reportedly reaches 99.98% accuracy.",
+    "Claude Opus 5 reportedly scored 30.2% on ARC-AGI-3."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Let its work agent operate behind logins."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Claude Opus 5 built a game and set a puzzle record."},
+    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Released a model that generates human motion."},
+    {"name": "Swiss AI", "type": "organisation", "sector": "Frontier models", "url": "", "note": "Released an open multilingual model."}
+  ],
+  "terms": [
+    {"term": "Benchmark", "definition": "A standard test used to compare how well different AI systems perform.", "audience": "lay"},
+    {"term": "Audit trail", "definition": "A record of who or what did each action in a system, and when.", "audience": "decision"},
+    {"term": "Autoregressive model", "definition": "A model that produces output one step at a time, each step based on what came before.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Agents and automation", "concept": "Browser agents", "summary": "Agents now continue work on sites that need a login.", "audience": ["decision", "lay"], "entities": ["OpenAI"]},
+    {"industry": "Safety, security and governance", "concept": "Agent permissions", "summary": "Saved logins for agents need clear limits and logs.", "audience": ["decision"], "entities": ["OpenAI"]},
+    {"industry": "Robotics and physical AI", "concept": "General models controlling robots", "summary": "Language-model methods extend to human motion.", "audience": ["builder"], "entities": ["Nvidia"]}
+  ]
+}

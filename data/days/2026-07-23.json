@@ -1,0 +1,82 @@
+{
+  "date": "2026-07-23",
+  "question": "If safety checks run automatically while we work, will we still learn to spot problems ourselves?",
+  "reflection": "Built-in checks can protect people from costly mistakes and free them to focus on learning the deeper skills of their craft.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "Anthropic Security Plugin, Cursor Model Router, Claude Agents 500 skills", "link": ""}
+  ],
+  "one_line": "AI coding tools are adding automatic security review and automatic model choice, making safety and cost control part of the default.",
+  "top_stories": [
+    {
+      "title": "Automatic security scanning while coding",
+      "what": "Anthropic released a free beta plugin for Claude Code that scans each edit for risky patterns and has a second model review changes for deeper flaws.",
+      "why": "Small teams building data tools can catch basic security mistakes without a dedicated reviewer.",
+      "action": "Try",
+      "audience": ["builder"],
+      "tags": ["security", "coding"]
+    },
+    {
+      "title": "A router that picks the model for you",
+      "what": "Cursor launched a router that sends simple requests to cheap models and hard ones to top models, and says large teams saved 30 to 50 percent.",
+      "why": "Automatic routing is becoming standard, so budgets for AI tools should be based on cost per result.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["cost", "coding"]
+    },
+    {
+      "title": "More controls for managed agents",
+      "what": "Anthropic added effort levels, up to 500 skills per session and background alerts to its managed agents service.",
+      "why": "Finer control over how hard each agent thinks helps keep multi-step research pipelines affordable.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["agents"]
+    },
+    {
+      "title": "Agents that improve themselves",
+      "what": "A survey by Jürgen Schmidhuber reviews how current AI agents learn to improve their own methods, and Microsoft released a tool that rewrites its own prompts.",
+      "why": "Self-improving systems need clear limits and records of what changed.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["research", "agents"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "No direct Saudi link today. Automatic security review is useful for government digital services that must meet national cybersecurity controls."}
+  ],
+  "idea": {
+    "title": "Secure-by-default data scripts",
+    "pitch": "Add automatic security and data-privacy checks to the scripts used for survey cleaning and dashboards.",
+    "fit": "Consultancy, government digital services",
+    "first_step": "Run a security scan on one existing project folder and list what it flags."
+  },
+  "idea_kids": {
+    "title": "Spot the danger",
+    "pitch": "A picture hunt where children find hidden safety risks in drawings of a kitchen, a park and a classroom, then suggest a fix for each.",
+    "age": "5 to 9",
+    "first_step": "Draw or print three scenes with five hidden risks in each."
+  },
+  "watchlist": [
+    {"name": "Cursor", "sector": "Agents and automation", "note": "Model routing becomes the default in its tool."},
+    {"name": "Anthropic", "sector": "Agents and automation", "note": "Building security and agent controls into its developer tools."}
+  ],
+  "tool": {"name": "Claude Security plugin", "use": "Free beta plugin that flags security issues in code as you write it.", "link": ""},
+  "verify": [
+    "Teams using Cursor Router reportedly saved 30 to 50 percent with no drop in quality."
+  ],
+  "entities": [
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Released a security plugin and agent updates."},
+    {"name": "Cursor", "type": "company", "sector": "Agents and automation", "url": "https://cursor.com", "note": "Launched an automatic model router."},
+    {"name": "Jürgen Schmidhuber", "type": "person", "sector": "Science and research", "url": "", "note": "Published a survey on self-improving agents."},
+    {"name": "Microsoft", "type": "company", "sector": "Frontier models", "url": "https://www.microsoft.com", "note": "Open-sourced a tool that improves its own prompts."}
+  ],
+  "terms": [
+    {"term": "Vulnerability", "definition": "A weakness in software that an attacker could use to cause harm.", "audience": "lay"},
+    {"term": "Model routing", "definition": "Sending each task to the cheapest model that can do it well, and only hard tasks to the most expensive model.", "audience": "decision"},
+    {"term": "Recursive self-improvement", "definition": "An AI system improving its own methods or code, which then helps it improve further.", "audience": "decision"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "AI for cybersecurity", "summary": "Coding tools add automatic layered security review.", "audience": ["builder", "decision"], "entities": ["Anthropic"]},
+    {"industry": "Agents and automation", "concept": "Multi-model agent design", "summary": "Routers and effort levels match each task to the right model.", "audience": ["builder", "decision"], "entities": ["Cursor", "Anthropic"]},
+    {"industry": "Safety, security and governance", "concept": "Recursive self-improvement risk", "summary": "Agents that rewrite their own methods need limits and records.", "audience": ["decision"], "entities": ["Jürgen Schmidhuber", "Microsoft"]}
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2026-07-26",
+  "question": "If AI can predict outcomes from any spreadsheet in seconds, how do we make sure the predictions are fair?",
+  "reflection": "Faster insight from the tables we already hold could help public services respond sooner to the people who need them most.",
+  "sources": [
+    {"newsletter": "AlphaSignal", "subject": "How tabular foundation models solve LLM blind spots", "link": ""}
+  ],
+  "one_line": "A new type of AI model can make predictions from tables without being trained on each dataset, which could cut weeks of data science work to minutes.",
+  "top_stories": [
+    {
+      "title": "Why chat models struggle with tables",
+      "what": "A deep dive explains that language models read text in order and split numbers into fragments, so they handle rows and columns poorly.",
+      "why": "It is a warning against pasting survey spreadsheets into a chatbot and trusting the analysis.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["data", "analytics"]
+    },
+    {
+      "title": "Tabular foundation models arrive",
+      "what": "Models such as Google's TabFM, Prior Labs' TabPFN and Inria's TabICL predict outcomes for new rows using the table itself as the example, with no per-dataset training.",
+      "why": "Fast first-pass predictions could help scope research questions before building a full model.",
+      "action": "Try",
+      "audience": ["builder", "decision"],
+      "tags": ["data", "open source"]
+    },
+    {
+      "title": "Big companies move into the space",
+      "what": "Nvidia bought Kumo, whose model works across linked tables, and Google is reportedly adding TabFM to BigQuery.",
+      "why": "Table prediction may soon sit inside common data warehouses, making it easy to use and easy to misuse.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["business", "data"]
+    },
+    {
+      "title": "Classic methods still win at scale",
+      "what": "The piece notes that once a problem is stable, traditional models such as XGBoost are cheaper and faster for high-volume predictions.",
+      "why": "A two-stage approach, new models to explore and classic ones to run, fits most applied research budgets.",
+      "action": "Watch",
+      "audience": ["builder"],
+      "tags": ["data", "cost"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "Saudi agencies hold large administrative datasets; quick table prediction could speed up policy analysis, but fairness checks on local groups are essential before use."}
+  ],
+  "idea": {
+    "title": "Rapid prediction scoping",
+    "pitch": "Use an open tabular model to give a client a quick first view of which factors predict an outcome, before committing to a full study.",
+    "fit": "Labour market, health, consultancy",
+    "first_step": "Run TabPFN on a public dataset and compare its accuracy with a simple regression."
+  },
+  "idea_kids": {
+    "title": "Guess the pattern table",
+    "pitch": "Children fill a table of classmates' favourite fruits and ages, then try to guess a new classmate's choice from the patterns, and discuss when guesses are unfair.",
+    "age": "8 to 12",
+    "first_step": "Prepare a blank table with four columns and sticker sheets."
+  },
+  "watchlist": [
+    {"name": "Prior Labs", "sector": "Data and analytics", "note": "Early leader in tabular foundation models."},
+    {"name": "Nvidia", "sector": "AI infrastructure and chips", "note": "Bought Kumo to add relational data prediction."}
+  ],
+  "tool": {"name": "TabPFN", "use": "Open-source model that predicts from small tables without per-dataset training.", "link": ""},
+  "verify": [
+    "TabICL reportedly handles up to 500,000 rows and runs up to ten times faster than an earlier rival."
+  ],
+  "entities": [
+    {"name": "Google Research", "type": "organisation", "sector": "Data and analytics", "url": "https://research.google", "note": "Released the open TabFM model."},
+    {"name": "Prior Labs", "type": "company", "sector": "Data and analytics", "url": "https://priorlabs.ai", "note": "Maker of TabPFN."},
+    {"name": "Inria", "type": "organisation", "sector": "Science and research", "url": "https://www.inria.fr", "note": "Its team built TabICL."},
+    {"name": "Nvidia", "type": "company", "sector": "AI infrastructure and chips", "url": "https://www.nvidia.com", "note": "Acquired Kumo for relational prediction."},
+    {"name": "Kumo", "type": "company", "sector": "Data and analytics", "url": "", "note": "Relational foundation model maker, now part of Nvidia."}
+  ],
+  "terms": [
+    {"term": "Tabular foundation model", "definition": "An AI model trained to make predictions from tables of rows and columns without being retrained for each new table.", "audience": "builder"},
+    {"term": "Zero-shot forecasting", "definition": "Making predictions on new data without any training on that specific data first.", "audience": "builder"},
+    {"term": "In-context learning", "definition": "When a model learns a task from examples given in its input, without changing its trained settings.", "audience": "builder"}
+  ],
+  "concepts": [
+    {"industry": "Data and analytics", "concept": "Specialised foundation models", "summary": "Models built for tables predict outcomes without per-dataset training.", "audience": ["builder", "decision"], "entities": ["Google Research", "Prior Labs", "Inria"]},
+    {"industry": "Business and markets", "concept": "AI startup consolidation", "summary": "Large chip and cloud firms buy table-prediction startups.", "audience": ["decision"], "entities": ["Nvidia", "Kumo"]}
+  ]
+}
