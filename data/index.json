@@ -1,5 +1,23 @@
 [
  {
+  "date": "2026-11-24",
+  "question": "If AI starts to improve itself quickly, who should decide when it must slow down?",
+  "one_line": "AI labs are starting to talk openly about shared limits on progress, just as AI shows real signs of doing original science.",
+  "titles": [
+   "OpenAI proposes shared speed limits for frontier AI",
+   "A famous maths problem may have been solved with Claude",
+   "AI is tested on careful scientific judgement",
+   "Drug discovery gets a new AI exam",
+   "Anthropic's listing mostly rewards existing giants"
+  ],
+  "newsletters": [
+   "AlphaSignal",
+   "Forward Future",
+   "Import AI",
+   "The Neuron"
+  ]
+ },
+ {
   "date": "2026-11-20",
   "question": "When every app can do the same clever trick, what makes your work truly valuable?",
   "one_line": "AI features are turning into free buttons inside big platforms, so the lasting value is moving to data, relationships and real-world know-how.",

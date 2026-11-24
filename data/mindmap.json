@@ -864,11 +864,12 @@
     {
      "name": "AI lab IPOs",
      "kind": "concept",
-     "summary": "Frontier AI developers raising money on public stock markets.",
+     "summary": "Public listings of AI labs, with most gains going to big existing investors.",
      "audience": [
       "decision"
      ],
      "days": [
+      "2026-11-24",
       "2026-11-11",
       "2026-10-27",
       "2026-09-30"
@@ -1367,16 +1368,21 @@
     {
      "name": "Domain-specific frontier models",
      "kind": "concept",
-     "summary": "Top labs tune their general models for single professions such as law.",
+     "summary": "Many smaller models tuned to a place, people or problem instead of one giant model.",
      "audience": [
       "builder",
       "decision"
      ],
      "days": [
+      "2026-11-24",
       "2026-09-18",
       "2026-09-04"
      ],
      "children": [
+      {
+       "name": "Noeri",
+       "kind": "entity"
+      },
       {
        "name": "OpenAI",
        "kind": "entity"
@@ -1504,12 +1510,13 @@
     {
      "name": "AI drug discovery",
      "kind": "concept",
-     "summary": "Using AI to design and test drug candidates before lab and human trials.",
+     "summary": "AI is strong at reading chemistry but still weak at choosing which drugs to test.",
      "audience": [
       "decision",
       "lay"
      ],
      "days": [
+      "2026-11-24",
       "2026-11-18",
       "2026-10-28",
       "2026-10-23",
@@ -2255,11 +2262,12 @@
     {
      "name": "Cross-lab safety cooperation",
      "kind": "concept",
-     "summary": "Competing AI labs talk directly about shared safety measures.",
+     "summary": "Leading labs discussing shared limits on how far and how fast AI capability can go.",
      "audience": [
       "decision"
      ],
      "days": [
+      "2026-11-24",
       "2026-09-16"
      ],
      "children": [
@@ -2633,13 +2641,14 @@
     {
      "name": "AI-generated science",
      "kind": "concept",
-     "summary": "AI models producing original proofs and findings that experts must verify.",
+     "summary": "AI contributing original results, from a claimed maths proof to self-run experiments.",
      "audience": [
       "builder",
       "decision",
       "lay"
      ],
      "days": [
+      "2026-11-24",
       "2026-10-28",
       "2026-10-19",
       "2026-10-09",
@@ -2662,6 +2671,10 @@
       },
       {
        "name": "Axiom Math",
+       "kind": "entity"
+      },
+      {
+       "name": "Lawrence Livermore National Laboratory",
        "kind": "entity"
       },
       {

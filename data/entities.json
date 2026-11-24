@@ -160,7 +160,7 @@
   "type": "company",
   "sector": "Frontier models",
   "url": "https://www.anthropic.com",
-  "note": "Maker of Claude; began trading on Nasdaq in November 2026.",
+  "note": "Maker of Claude; newly listed on Nasdaq.",
   "days": [
    "2026-07-06",
    "2026-07-07",
@@ -241,7 +241,8 @@
    "2026-11-15",
    "2026-11-16",
    "2026-11-19",
-   "2026-11-20"
+   "2026-11-20",
+   "2026-11-24"
   ]
  },
  {
@@ -994,9 +995,10 @@
   "type": "company",
   "sector": "Healthcare and life sciences",
   "url": "https://www.isomorphiclabs.com",
-  "note": "AI drug-discovery company spun out of Google DeepMind.",
+  "note": "AI drug discovery company working with Merck.",
   "days": [
-   "2026-11-18"
+   "2026-11-18",
+   "2026-11-24"
   ]
  },
  {
@@ -1103,6 +1105,17 @@
   ]
  },
  {
+  "id": "lawrence-livermore-national-laboratory",
+  "name": "Lawrence Livermore National Laboratory",
+  "type": "organisation",
+  "sector": "Science and research",
+  "url": "https://www.llnl.gov",
+  "note": "US national lab behind a test of AI scientific judgement.",
+  "days": [
+   "2026-11-24"
+  ]
+ },
+ {
   "id": "librechat",
   "name": "LibreChat",
   "type": "product",
@@ -1199,9 +1212,9 @@
   "id": "meta",
   "name": "Meta",
   "type": "company",
-  "sector": "Frontier models",
+  "sector": "Data and analytics",
   "url": "https://about.meta.com",
-  "note": "Its FAIR research lab maintains the FAISS search library.",
+  "note": "Released e-means, a faster way to group documents for search.",
   "days": [
    "2026-08-06",
    "2026-08-10",
@@ -1220,7 +1233,8 @@
    "2026-10-16",
    "2026-10-21",
    "2026-11-09",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-24"
   ]
  },
  {
@@ -1374,6 +1388,17 @@
   ]
  },
  {
+  "id": "noeri",
+  "name": "Noeri",
+  "type": "company",
+  "sector": "Frontier models",
+  "url": "",
+  "note": "Stanford-founded lab building many specialised, always-learning models.",
+  "days": [
+   "2026-11-24"
+  ]
+ },
+ {
   "id": "not-diamond",
   "name": "Not Diamond",
   "type": "company",
@@ -1473,7 +1498,7 @@
   "type": "company",
   "sector": "Frontier models",
   "url": "https://openai.com",
-  "note": "Maker of ChatGPT and the GPT model family, including GPT-Live voice models.",
+  "note": "Proposed shared capability limits and released the MedChemBench test.",
   "days": [
    "2026-07-09",
    "2026-07-10",
@@ -1544,7 +1569,8 @@
    "2026-11-17",
    "2026-11-18",
    "2026-11-19",
-   "2026-11-20"
+   "2026-11-20",
+   "2026-11-24"
   ]
  },
  {

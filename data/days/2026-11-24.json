@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-24",
+  "covers": {"from": "2026-11-21", "to": "2026-11-23"},
+  "sources": [
+    {"newsletter": "The Neuron", "subject": "Anthropic's founders sold nearly $2B", "link": "https://www.theneurondaily.com/p/who-really-wins-from-anthropic-s-ipo"},
+    {"newsletter": "AlphaSignal", "subject": "Meta fixes RAG's huge clustering bottleneck with e-means", "link": ""},
+    {"newsletter": "The Neuron", "subject": "Will OpenAI's rivals sign its AI limits?", "link": "https://www.theneurondaily.com/p/openai-wants-ai-labs-to-agree-on-limits"},
+    {"newsletter": "Forward Future", "subject": "Who decides when AI is moving too fast?", "link": "https://briefing.forwardfuture.ai/p/china-s-ai-funding-crisis-agi-s-future-trump-s-data-center-ban"},
+    {"newsletter": "Import AI", "subject": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark", "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks"},
+    {"newsletter": "AlphaSignal", "subject": "OpenAI MedChemBench: GPT-6 Astra fails drug selection at 50%", "link": ""}
+  ],
+  "question": "If AI starts to improve itself quickly, who should decide when it must slow down?",
+  "reflection": "Progress is safest when the people building powerful tools agree, in the open, on where to stop and check.",
+  "one_line": "AI labs are starting to talk openly about shared limits on progress, just as AI shows real signs of doing original science.",
+  "top_stories": [
+    {
+      "title": "OpenAI proposes shared speed limits for frontier AI",
+      "what": "OpenAI's chief scientist suggested that all leading labs agree on capability levels they will not pass until safety monitoring catches up, measured with a prediction score called perplexity, and OpenAI published its own numbers first.",
+      "why": "Who sets the limits, and whether self-reported numbers can be trusted, is a governance question that public bodies in the region will soon need a view on.",
+      "action": "Watch",
+      "audience": ["decision", "lay"],
+      "tags": ["safety", "governance"]
+    },
+    {
+      "title": "A famous maths problem may have been solved with Claude",
+      "what": "An Anthropic mathematician says he and Claude proved the Riemann hypothesis, and maintainers of the Lean proof-checking system reportedly said they have strong confidence in the machine-checked proof.",
+      "why": "If confirmed, it shows AI can contribute original research, which raises the value of careful human checking and explanation in every field.",
+      "action": "Watch",
+      "audience": ["lay", "decision"],
+      "tags": ["science", "research"]
+    },
+    {
+      "title": "AI is tested on careful scientific judgement",
+      "what": "Lawrence Livermore researchers built a test where AI agents run their own experiments with a possibly broken simulator, and report results with honest error ranges; only the strongest models handled it well.",
+      "why": "Honest uncertainty is exactly what decision makers need from AI, and how people read those ranges is a behavioural-science question.",
+      "action": "Pitch",
+      "audience": ["builder", "decision"],
+      "tags": ["science", "trust"]
+    },
+    {
+      "title": "Drug discovery gets a new AI exam",
+      "what": "OpenAI released MedChemBench, where its best model read chemical structures almost perfectly but picked good drug candidates only about half the time, while big drugmakers say AI is already shortening early research.",
+      "why": "Health clients should see AI as strong at reading and summarising, but still weak at the judgement calls that need expert review.",
+      "action": "Watch",
+      "audience": ["decision", "builder"],
+      "tags": ["health", "benchmarks"]
+    },
+    {
+      "title": "Anthropic's listing mostly rewards existing giants",
+      "what": "Filings show Amazon and Google hold very large stakes in Anthropic and also sell it computing power, while its shares slipped after a strong first day.",
+      "why": "The gains from AI are flowing to a few firms, so questions of fair sharing and worker voice will grow in policy debates.",
+      "action": "Watch",
+      "audience": ["decision"],
+      "tags": ["business", "markets"]
+    }
+  ],
+  "saudi_lens": [
+    {"text": "President Trump said US tech firms could face a large tax for building AI data centres abroad, with no detail yet. Saudi plans that rely on US cloud firms building locally should track this closely."},
+    {"text": "A new Stanford-founded lab, Noeri, argues for many small models tuned to a place or people. That vision suits Arabic-first models trained on local data."}
+  ],
+  "idea": {
+    "title": "Does showing AI uncertainty change decisions?",
+    "pitch": "Run an experiment where officials see the same AI estimate with and without an error range, and measure trust, choices and over-reliance.",
+    "fit": "Health, government services, labour market",
+    "first_step": "Pick one real forecast a client uses and design two versions of how it is shown."
+  },
+  "idea_kids": {
+    "title": "How sure are you?",
+    "pitch": "A card game where children answer guessing questions, then bet tokens on how sure they are, learning that saying 'I am not sure' is a strength.",
+    "age": "9 to 13",
+    "first_step": "Write 30 guessing cards about Saudi geography, animals and everyday numbers."
+  },
+  "watchlist": [
+    {"name": "Noeri", "sector": "Frontier models", "note": "New lab backing many small, specialised models instead of one giant model."},
+    {"name": "Isomorphic Labs", "sector": "Healthcare and life sciences", "note": "New partnership with Merck to design cancer drug candidates with AI."},
+    {"name": "Lawrence Livermore National Laboratory", "sector": "Science and research", "note": "Its new test checks whether AI scientists report honest uncertainty."}
+  ],
+  "tool": {"name": "Faiss e-means", "use": "For teams that run their own document search: rebuilds search indexes much faster, so results stay fresh.", "link": "https://github.com/facebookresearch/faiss"},
+  "verify": [
+    "The Riemann hypothesis proof built with Claude is correct (final checks were still running).",
+    "Novartis says AI cut its early drug research time from about three years to under two.",
+    "AI finished about 41% of freelance-style projects at a professional standard, according to charts shared by Ethan Mollick."
+  ],
+  "entities": [
+    {"name": "OpenAI", "type": "company", "sector": "Frontier models", "url": "https://openai.com", "note": "Proposed shared capability limits and released the MedChemBench test."},
+    {"name": "Anthropic", "type": "company", "sector": "Frontier models", "url": "https://www.anthropic.com", "note": "Maker of Claude; newly listed on Nasdaq."},
+    {"name": "Lawrence Livermore National Laboratory", "type": "organisation", "sector": "Science and research", "url": "https://www.llnl.gov", "note": "US national lab behind a test of AI scientific judgement."},
+    {"name": "Noeri", "type": "company", "sector": "Frontier models", "url": "", "note": "Stanford-founded lab building many specialised, always-learning models."},
+    {"name": "Isomorphic Labs", "type": "company", "sector": "Healthcare and life sciences", "url": "https://www.isomorphiclabs.com", "note": "AI drug discovery company working with Merck."},
+    {"name": "Meta", "type": "company", "sector": "Data and analytics", "url": "https://about.meta.com", "note": "Released e-means, a faster way to group documents for search."}
+  ],
+  "terms": [
+    {"term": "Perplexity", "definition": "A score of how well a model predicts the next word in text it has not seen. Lower means the model is less surprised and usually more capable.", "audience": "builder"},
+    {"term": "Calibrated confidence", "definition": "When a system's stated certainty matches how often it is actually right.", "audience": "decision"},
+    {"term": "Formal verification", "definition": "Checking a proof or program with software that tests every logical step, so errors cannot slip through.", "audience": "lay"}
+  ],
+  "concepts": [
+    {"industry": "Safety, security and governance", "concept": "Cross-lab safety cooperation", "summary": "Leading labs discussing shared limits on how far and how fast AI capability can go.", "audience": ["decision"], "entities": ["OpenAI"]},
+    {"industry": "Science and research", "concept": "AI-generated science", "summary": "AI contributing original results, from a claimed maths proof to self-run experiments.", "audience": ["lay", "decision"], "entities": ["Anthropic", "Lawrence Livermore National Laboratory"]},
+    {"industry": "Healthcare and life sciences", "concept": "AI drug discovery", "summary": "AI is strong at reading chemistry but still weak at choosing which drugs to test.", "audience": ["decision"], "entities": ["OpenAI", "Isomorphic Labs"]},
+    {"industry": "Business and markets", "concept": "AI lab IPOs", "summary": "Public listings of AI labs, with most gains going to big existing investors.", "audience": ["decision"], "entities": ["Anthropic"]},
+    {"industry": "Frontier models", "concept": "Domain-specific frontier models", "summary": "Many smaller models tuned to a place, people or problem instead of one giant model.", "audience": ["decision", "builder"], "entities": ["Noeri"]}
+  ]
+}
